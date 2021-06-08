@@ -1,0 +1,7 @@
+patient
+- from X ICU from patient table.
+- dead or alive from patient table.
+- APACHE ???
+- apache admission diagnosis from the patient table
+- diagnosis (organ system problem) table
+- vital periodic and aperiodic tables

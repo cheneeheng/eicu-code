@@ -320,28 +320,28 @@ eicu-build:
 	@echo '---------------------'
 	@echo ''
 	@sleep 2
-	psql "$(DBSTRING)" -v ON_ERROR_STOP=1 -f postgres_create_tables.sql
+	psql "$(DBSTRING)" -W -v ON_ERROR_STOP=1 -f postgres_create_tables.sql
 	@echo ''
 	@echo '------------------'
 	@echo '-- Loading data --'
 	@echo '------------------'
 	@echo ''
 	@sleep 2
-	psql "$(DBSTRING)" -a -v ON_ERROR_STOP=1 -v datadir=${datadir} -f postgres_load_data.sql
+	psql "$(DBSTRING)" -W -a -v ON_ERROR_STOP=1 -v datadir=${datadir} -f postgres_load_data.sql
 	@echo ''
 	@echo '--------------------'
 	@echo '-- Adding indexes --'
 	@echo '--------------------'
 	@echo ''
 	@sleep 2
-	psql "$(DBSTRING)" -v ON_ERROR_STOP=1 -f postgres_add_indexes.sql
+	psql "$(DBSTRING)" -W -v ON_ERROR_STOP=1 -f postgres_add_indexes.sql
 	@echo ''
 	@echo '----------------'
 	@echo '-- Check data --'
 	@echo '----------------'
 	@echo ''
 	@sleep 2
-	psql "$(DBSTRING)" -v ON_ERROR_STOP=1 -f postgres_checks.sql
+	psql "$(DBSTRING)" -W -v ON_ERROR_STOP=1 -f postgres_checks.sql
 
 eicu-build-gz:
 	@echo ''

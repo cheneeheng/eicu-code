@@ -58,3 +58,9 @@ target/
 
 # OSX file 
 .DS_Store
+
+# LOCAL
+.devcontainer
+.vscode
+db/
+outputs/

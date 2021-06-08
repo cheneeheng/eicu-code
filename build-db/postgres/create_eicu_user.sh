@@ -57,18 +57,18 @@ fi
 # step 1) create user, if needed
 if [ "$DBUSER" != "postgres" ]; then
     # we need to create this user via postgres
-    if $PSQL -U postgres -d postgres -t -c '\du' | cut -d \| -f 1 | grep -qw $DBUSER; then
+    if $PSQL -U postgres -W -d postgres -t -c '\du' | cut -d \| -f 1 | grep -qw $DBUSER; then
       echo "User already exists. Not recreating user."
     else
-      $PSQL -U postgres -d postgres -c "CREATE USER $DBUSER WITH PASSWORD '$DBPASS';"
+      $PSQL -U postgres -W -d postgres -c "CREATE USER $DBUSER WITH PASSWORD '$DBPASS';"
     fi
 fi
 
 if [ "$DBNAME" != "postgres" ]; then
   # drop and recreate the database
-  $PSQL -U postgres -d postgres -c "DROP DATABASE IF EXISTS $DBNAME;"
-  $PSQL -U postgres -d postgres -c "CREATE DATABASE $DBNAME OWNER $DBUSER;"
+  $PSQL -U postgres -W -d postgres -c "DROP DATABASE IF EXISTS $DBNAME;"
+  $PSQL -U postgres -W -d postgres -c "CREATE DATABASE $DBNAME OWNER $DBUSER;"
 fi
 
 # create the schema on the database
-$PSQL -U postgres -d $DBNAME -c "CREATE SCHEMA $DBSCHEMA AUTHORIZATION $DBUSER;"
+$PSQL -U postgres -W -d $DBNAME -c "CREATE SCHEMA $DBSCHEMA AUTHORIZATION $DBUSER;"

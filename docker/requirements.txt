@@ -4,6 +4,8 @@ pillow
 pandas
 openpyxl
 matplotlib
+tqdm
+tables
 
 ipython
 ipykernel

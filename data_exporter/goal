@@ -1,0 +1,35 @@
+patient
+- from X ICU from patient table.
+- dead or alive from patient table.
+- APACHE ???
+- apache admission diagnosis from the patient table
+- diagnosis (organ system problem) table
+- vital periodic and aperiodic tables
+
+--------------------------------------------------------------------
+
+patient
+- cardiac-ish ICUs DONE
+- vitalperiodic and aperiodic 
+- nurse charting
+- lab
+- infusion drug
+- intake/output
+- diagnosis
+- Apache score
+- nurse assessment
+- physical exam
+- respiratoryCare
+- respiratoryCharting
+- treatment
+
+
+look into patients history
+- admission drug
+- admission dx
+- past history
+
+
+nurse care plan for checklist.  
+
+

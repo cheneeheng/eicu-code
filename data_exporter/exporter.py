@@ -1,17 +1,13 @@
 # Import libraries
-from genericpath import exists
-import sys
-import numpy as np
 import pandas as pd
 import psycopg2
 import getpass
-import pdvega
 import time
 import datetime
 import json
 import math
 from tqdm import tqdm
-from multiprocessing import Pool, freeze_support, RLock
+from multiprocessing import Pool, RLock
 import pandas as pd
 from decimal import Decimal
 
@@ -19,31 +15,7 @@ from decimal import Decimal
 from configobj import ConfigObj
 import os
 
-
-# import matplotlib
-# matplotlib.use('TkAgg')
-# import matplotlib.pyplot as plt  # noqa
-
-NUM_PROCESSES = 60
-
-NUM_PATIENTS = 200859
-UNIT_TYPES = "('CCU-CTICU','Cardiac ICU','CSICU','CTICU')"
-TABLE_LIST = [
-    'patient',  # ok
-    'treatment',  # ok
-    'vitalperiodic',  # ok
-    'vitalaperiodic',  # ok
-    'nursecharting',  # Very slow, maybe due to large amount of data?
-    'lab',  # ok
-    'infusiondrug',  # ok
-    'intakeoutput',  # Relatively slow, maybe due to large amount of data?
-    'diagnosis',  # ok
-    'apachepatientresult',  # ok
-    'nurseassessment',  # Very slow, maybe due to large amount of data?
-    'physicalexam',  # Very slow, maybe due to large amount of data?
-    'respiratorycare',  # ok
-    'respiratorycharting'  # Very slow, maybe due to large amount of data?
-]
+from data_exporter.common import *
 
 
 def connect_to_database():
@@ -255,6 +227,7 @@ def parallel_processing(func,
 
 
 def get_single_chunked_dataframe(output_folder):
+    """NOT USED. """
 
     query_schema, conn = connect_to_database()
 
@@ -292,19 +265,14 @@ if __name__ == "__main__":
     # X. data from the patient list.
     # get_multiple_data_and_save(output_folder, patientunitstayid_list, 0)
 
-    chunks = 100
-    start = 77
-    for i in range(start, chunks, 1):
+    for i in range(START, CHUNKS, 1):
 
         def npi(x):
-            return math.ceil(len(x) / chunks)
+            return math.ceil(len(x) / CHUNKS)
 
-        if i == chunks-1:
-            list_i = patientunitstayid_list[i*npi(patientunitstayid_list):]
-        else:
-            list_i = patientunitstayid_list[i*npi(patientunitstayid_list):
-                                            (i+1)*npi(patientunitstayid_list)]
+        list_i = patientunitstayid_list[i*npi(patientunitstayid_list):
+                                        (i+1)*npi(patientunitstayid_list)]
 
-        output_folder = f'outputs/210612/{i}'
+        output_folder = os.path.join(EXPORTER_FOLDER, f'{i}')
         os.makedirs(output_folder, exist_ok=True)
         parallel_processing(get_multiple_data_and_save, output_folder, list_i)

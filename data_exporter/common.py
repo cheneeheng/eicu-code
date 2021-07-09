@@ -1,7 +1,8 @@
 # DATA INFO
 NUM_PATIENTS = 200859
-UNIT_TYPES = "('CCU-CTICU','Cardiac ICU','CSICU','CTICU')"
-TABLE_LIST = [
+UNIT_TYPES = "('CCU-CTICU','Cardiac ICU','CSICU','CTICU')"  # 43540
+# UNIT_TYPES = "('Cardiac ICU')"
+TABLE_LIST_SUBSET = [
     'patient',  # ok
     'treatment',  # ok
     'vitalperiodic',  # ok
@@ -17,15 +18,49 @@ TABLE_LIST = [
     'respiratorycare',  # ok
     'respiratorycharting'  # Very slow, maybe due to large amount of data?
 ]
+TABLE_LIST = [
+    'admissiondrug',
+    'admissiondx',
+    'allergy',
+    'apacheApsVar',
+    'apachePatientResult',
+    'apachePredVar',
+    'carePlanCareProvider',
+    'carePlanEOL',
+    'carePlanGeneral',
+    'carePlanGoal',
+    'carePlanInfectiousDisease',
+    'customLab',
+    'diagnosis',
+    # 'hospital',
+    'infusionDrug',
+    'intakeOutput',
+    'lab',
+    'medication',
+    'microLab',
+    'note',
+    'nurseAssessment',
+    'nurseCare',
+    'nurseCharting',
+    'pastHistory',
+    'patient',
+    'physicalExam',
+    'respiratoryCare',
+    'respiratoryCharting',
+    'treatment',
+    'vitalAperiodic',
+    'vitalPeriodic',
+]
 
 # MULTIPROCESSING
 NUM_PROCESSES = 60
 
 # EXPORTER
 CHUNKS = 100
-START = 88
-EXPORTER_FOLDER = 'outputs/210612'
+START = 80
+EXPORTER_FOLDER = 'outputs/all'
+EXPORTER_SUBSET_FOLDER = 'outputs/json_data/patientsubset_tablesubset'
 
 # VALIDATE
 VALIDATE_INTERVAL = 436
-VALIDATE_FOLDER = 'outputs/json_data/all'
+VALIDATE_FOLDER = 'outputs/all'

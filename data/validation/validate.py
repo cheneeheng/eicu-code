@@ -6,8 +6,8 @@ from tqdm import tqdm
 from multiprocessing import Pool, RLock
 import pandas as pd
 
-from data_exporter.exporter import connect_to_database, get_patient_list
-from data_exporter.common import *
+from data.exporter.exporter import connect_to_database, get_patient_list
+from data.common import *
 
 
 def validate_data(output_folder, patientunitstayid):

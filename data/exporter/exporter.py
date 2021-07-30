@@ -15,7 +15,7 @@ from decimal import Decimal
 from configobj import ConfigObj
 import os
 
-from data_exporter.common import *
+from data.common import *
 
 
 def connect_to_database():

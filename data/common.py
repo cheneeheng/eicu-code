@@ -57,8 +57,8 @@ TABLE_LIST = [
 NUM_PROCESSES = 1
 
 # EXPORTER
-CHUNKS = 100
-START = 80
+CHUNKS = 1
+START = 0
 EXPORTER_FOLDER = 'outputs/all_dummy'
 # EXPORTER_SUBSET_FOLDER = 'outputs/json_data/patientsubset_tablesubset'
 

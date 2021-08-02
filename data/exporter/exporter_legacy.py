@@ -85,4 +85,55 @@ def get_multiple_data_and_save_with_cursor(output_folder,
 
     conn.close()
 
+
+def get_multiple_data_and_save(output_folder,
+                               patientunitstayid_list=[],
+                               pid=0):
+    """
+    Iterates over `patientunitstayid` and saves entries from all tables
+    with the similar id into json.
+    """
+
+    query_schema, conn = connect_to_database()
+
+    pbar = tqdm(patientunitstayid_list, position=pid+1)
+    for patientunitstayid in pbar:
+
+        time.sleep(1)
+        pbar.set_description(f"Processing {patientunitstayid}")
+
+        subset_path = f"{EXPORTER_SUBSET_FOLDER}/{patientunitstayid}.json"
+        with open(subset_path, 'r') as json_file:
+            json_dict_subset = json.load(json_file)
+
+        json_dict = {}
+
+        for table_name in TABLE_LIST:
+
+            if table_name not in TABLE_LIST_SUBSET:
+
+                query = query_schema + """
+                select *
+                from {}
+                where patientunitstayid = {}
+                """.format(table_name, patientunitstayid)
+                df = pd.read_sql_query(query, conn)
+
+                label = df.columns.to_list()
+
+                json_dict[table_name] = {}
+                for label_i in label:
+                    json_dict[table_name][label_i] = df[label_i].tolist()
+
+            else:
+                json_dict[table_name] = json_dict_subset[table_name]
+
+        json_path = f"{output_folder}/{patientunitstayid}.json"
+        with open(json_path, 'w') as json_file:
+            json.dump(json_dict, json_file)
+
+    conn.close()
+
+
+
 '''

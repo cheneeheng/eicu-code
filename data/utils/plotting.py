@@ -4,7 +4,9 @@ import matplotlib.pyplot as plt
 import numpy as np
 import pathlib
 
-def plot_patient_data(patients, entry_group, entry, entry_time, title='', save_path=''):
+
+def plot_patient_data(patients, entry_group, entry, entry_time,
+                      title='', save_path=''):
     x_live = []
     y_live = []
     x_expired = []
@@ -23,27 +25,33 @@ def plot_patient_data(patients, entry_group, entry, entry_time, title='', save_p
     x_live_valid = []
     y_live_valid = []
     for x, y in zip(x_live, y_live):
-        if y == y and y != None and type(y)==float:
+        if y == y and y is not None and type(y) == float:
             x_live_valid.append(x)
             y_live_valid.append(y)
     x_live_valid = np.array(x_live_valid)
     y_live_valid = np.array(y_live_valid)
-    x_live_valid = x_live_valid[np.abs(y_live_valid) < 50*np.median(y_live_valid)]
-    y_live_valid = y_live_valid[np.abs(y_live_valid) < 50*np.median(y_live_valid)]
+    x_live_valid = x_live_valid[np.abs(
+        y_live_valid) < 50*np.median(y_live_valid)]
+    y_live_valid = y_live_valid[np.abs(
+        y_live_valid) < 50*np.median(y_live_valid)]
 
     x_expired_valid = []
     y_expired_valid = []
     for x, y in zip(x_expired, y_expired):
-        if y == y and y != None and type(y)==float:
+        if y == y and y is not None and type(y) == float:
             x_expired_valid.append(x)
             y_expired_valid.append(y)
     x_expired_valid = np.array(x_expired_valid)
     y_expired_valid = np.array(y_expired_valid)
-    # x_expired_valid = x_expired_valid[np.abs(y_expired_valid) < 50*np.median(y_expired_valid)]
-    # y_expired_valid = y_expired_valid[np.abs(y_expired_valid) < 50*np.median(y_expired_valid)]
+    # x_expired_valid = x_expired_valid[np.abs(
+    #     y_expired_valid) < 50*np.median(y_expired_valid)]
+    # y_expired_valid = y_expired_valid[np.abs(
+    #     y_expired_valid) < 50*np.median(y_expired_valid)]
 
-    ax.plot(x_live_valid/60, y_live_valid, marker='.', ms=1, linestyle='None', label='Alive')
-    ax.plot(x_expired_valid/60, y_expired_valid, marker='.', ms=1, linestyle='None', label='Expired')
+    ax.plot(x_live_valid/60, y_live_valid, marker='.',
+            ms=1, linestyle='None', label='Alive')
+    ax.plot(x_expired_valid/60, y_expired_valid, marker='.',
+            ms=1, linestyle='None', label='Expired')
     plt.title(f'{title} Distribution over Time')
     ax.set_xlabel('Time (hour)')
     ax.set_ylabel(title)

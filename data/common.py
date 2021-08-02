@@ -1,6 +1,7 @@
 # DATA INFO
 NUM_PATIENTS = 200859
-UNIT_TYPES = "('CCU-CTICU','Cardiac ICU','CSICU','CTICU')"  # 43540
+UNIT_TYPES = None
+# UNIT_TYPES = "('CCU-CTICU','Cardiac ICU','CSICU','CTICU')"  # 43540
 # UNIT_TYPES = "('Cardiac ICU')"
 TABLE_LIST_SUBSET = [
     'patient',  # ok
@@ -53,14 +54,14 @@ TABLE_LIST = [
 ]
 
 # MULTIPROCESSING
-NUM_PROCESSES = 60
+NUM_PROCESSES = 1
 
 # EXPORTER
 CHUNKS = 100
 START = 80
-EXPORTER_FOLDER = 'outputs/all'
-EXPORTER_SUBSET_FOLDER = 'outputs/json_data/patientsubset_tablesubset'
+EXPORTER_FOLDER = 'outputs/all_dummy'
+# EXPORTER_SUBSET_FOLDER = 'outputs/json_data/patientsubset_tablesubset'
 
 # VALIDATE
 VALIDATE_INTERVAL = 436
-VALIDATE_FOLDER = 'outputs/all'
+VALIDATE_FOLDER = 'outputs/all_dummy'

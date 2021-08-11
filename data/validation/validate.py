@@ -1,10 +1,11 @@
-# Import libraries
+"""Validates the exported json files with data from SQL database. """
+
+import json
 import os
 import pandas as pd
-import json
-from tqdm import tqdm
+
 from multiprocessing import Pool, RLock
-import pandas as pd
+from tqdm import tqdm
 
 from data.exporter.exporter import connect_to_database, get_patient_list
 from data.common import *

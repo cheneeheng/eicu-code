@@ -1,24 +1,24 @@
-# Import libraries
-import pandas as pd
-import psycopg2
-import getpass
-import time
+"""Exports data from SQL database into json files. """
+
 import datetime
+import getpass
 import json
 import math
-from tqdm import tqdm
-from multiprocessing import Pool, RLock
-import pandas as pd
-from decimal import Decimal
-
-# for configuring conection
-from configobj import ConfigObj
 import os
+import pandas as pd
+import psycopg2
+import time
+
+from configobj import ConfigObj
+from decimal import Decimal
+from multiprocessing import Pool, RLock
+from tqdm import tqdm
 
 from data.common import *
 
 
 def connect_to_database():
+    """Connect to the SQL database. """
 
     # Create a database connection using settings from config file
     config = 'db/config.ini'
@@ -81,6 +81,7 @@ def connect_to_database():
 
 
 def get_patient_list():
+    """Get the list of patientid based on `UNIT_TYPES` ."""
 
     print("Getting patient data")
 
@@ -180,15 +181,16 @@ if __name__ == "__main__":
     patientunitstayid_list = get_patient_list()
 
     # 1. data from the patient list.
-    # get_multiple_data_and_save(output_folder, patientunitstayid_list, 0)
+    def npi(x):
+        return math.ceil(len(x) / CHUNKS)
 
-    for i in range(START, CHUNKS, 1):
+    interval = 1
 
-        def npi(x):
-            return math.ceil(len(x) / CHUNKS)
+    for i in range(START, CHUNKS, interval):
 
-        list_i = patientunitstayid_list[i*npi(patientunitstayid_list):
-                                        (i+1)*npi(patientunitstayid_list)]
+        x = npi(patientunitstayid_list) * i
+        y = npi(patientunitstayid_list) * (i + interval)
+        list_i = patientunitstayid_list[x:y]
 
         output_folder = os.path.join(EXPORTER_FOLDER, f'{i}')
         os.makedirs(output_folder, exist_ok=True)

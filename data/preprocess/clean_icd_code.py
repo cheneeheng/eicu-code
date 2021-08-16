@@ -1,8 +1,6 @@
-import os
-import re
 import csv
 
-# pulmonary|respiratory failure|Tracheostomy performed during this admission for ventilatory support
+# pulmonary|respiratory failure|Tracheostomy performed during this admission for ventilatory support  # noqa
 CHECKED_V_CODES = ['V08', 'V62.84', 'V42.7']
 INVALID_CODES = ['31.1']
 
@@ -61,19 +59,20 @@ def structure_icd_codes_for_csv(icd_list: list):
     return icd_list_writeout
 
 
-with open('outputs/icd.txt', newline='') as csvfile:
-    csvreader = csv.reader(csvfile, delimiter=',', quotechar='|')
-    icd9_list, icd10_list = [], []
-    for row in csvreader:
-        icd9, icd10 = separate_icd9_icd10_codes(row)
-        icd9_list += [icd9]
-        icd10_list += [icd10]
-    icd9_list_writeout = structure_icd_codes_for_csv(icd9_list)
-    icd10_list_writeout = structure_icd_codes_for_csv(icd10_list)
+if __name__ == "__main__":
 
+    with open('outputs/icd.txt', newline='') as csvfile:
+        csvreader = csv.reader(csvfile, delimiter=',', quotechar='|')
+        icd9_list, icd10_list = [], []
+        for row in csvreader:
+            icd9, icd10 = separate_icd9_icd10_codes(row)
+            icd9_list += [icd9]
+            icd10_list += [icd10]
+        icd9_list_writeout = structure_icd_codes_for_csv(icd9_list)
+        icd10_list_writeout = structure_icd_codes_for_csv(icd10_list)
 
-with open('outputs/icd.csv', 'w+', newline='') as csvfile:
-    csvwriter = csv.writer(csvfile, delimiter=',',
-                           quotechar='|', quoting=csv.QUOTE_MINIMAL)
-    for i9, i10 in zip(icd9_list_writeout, icd10_list_writeout):
-        csvwriter.writerow(i9 + i10)
+    with open('outputs/icd.csv', 'w+', newline='') as csvfile:
+        csvwriter = csv.writer(csvfile, delimiter=',',
+                               quotechar='|', quoting=csv.QUOTE_MINIMAL)
+        for i9, i10 in zip(icd9_list_writeout, icd10_list_writeout):
+            csvwriter.writerow(i9 + i10)

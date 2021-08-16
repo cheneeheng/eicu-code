@@ -54,3 +54,84 @@ TABLE_LIST = [
     'vitalAperiodic',
     'vitalPeriodic',
 ]
+
+
+""" Preprocessing """
+PREPROCESS_INPUT_FOLDER = 'outputs/all'
+PREPROCESS_OUTPUT_FOLDER = ''
+DATA_MAPPING_TSV_FILE = 'outputs/DatasetOverview - Inputs.tsv'
+
+DEMO_ITEMS = ['patientunitstayid', 'age', 'gender',
+              'apacheadmissiondx', 'unitdischargestatus',
+              'hospitaldischargestatus']
+
+DX_SELECTED = [
+    'Infarction, acute myocardial (MI)',
+    'CABG alone, coronary artery bypass grafting',
+    'CABG with aortic valve replacement',
+    'CHF, congestive heart failure',
+    'Aortic valve replacement (isolated)',
+    'Cardiac arrest (with or without respiratory arrest; for respiratory arrest see Respiratory System)',  # noqa
+    'Arrest, respiratory (without cardiac arrest)',
+    'Angina, unstable (angina interferes w/quality of life or meds are tolerated poorly)',  # noqa
+    'Angina, stable (asymp or stable pattern of symptoms w/meds)',
+    'Rhythm disturbance (atrial, supraventricular)',
+    'Rhythm disturbance (conduction defect)',
+    'Rhythm disturbance (ventricular)',
+    'Cardiovascular medical, other',
+    'Cardiomyopathy',
+    'Mitral valve repair',
+    'Mitral valve replacement',
+    'Shock, cardiogenic',
+    'Cardiovascular surgery, other',
+    'Ablation or mapping of cardiac conduction pathway',
+    'Thrombus, arterial',
+    'Pericardial effusion/tamponade',
+    'Efffusion, pericardial',
+    'Aortic and Mitral valve replacement',
+    'Hypertension, uncontrolled (for cerebrovascular accident-see Neurological System)',  # noqa
+]
+
+# DX_NAME_PATH = [dx.replace(" ", "_").replace(
+#     ',', '').replace('/', '_') for dx in DX_SELECTED]
+
+AGE_RANGES = [str(i) for i in range(0, 90, 10)] + ['> 89']
+
+# TODO : IS THIS THE RIGHT WAY ???
+UNIT_CONVERSION_DICT = {
+    'mcg/min': 1/1000,
+    'mcg/hr': 1/60/1000,
+    'mcg/kg/min': 1/1000,
+    'mcg/kg/hr': 1/60/1000,
+
+    'mg/min': 1/1000,
+    'mg/hr': 1/60/1000,
+    'mg/kg/min': 1/1000,
+    'mg/kg/hr': 1/60/1000,
+
+    'units/min': 1,
+    'units/hr': 1/60,
+
+    'ml/min': 1,
+    'ml/hr': 1/60,
+}
+
+UNIT_ID_DICT = {
+    'mcg/hr': 101,
+    'mcg/kg/hr': 102,
+    'mcg/kg/min': 103,
+    'mcg/min': 104,
+    'mg/hr': 105,
+    'mg/kg/min': 106,
+    'mg/min': 107,
+    'units/hr': 108,
+    'units/min': 109,
+    'ml/hr': 200,
+}
+
+DIAGNOSIS_PRIORITY_DICT = {
+    '': 0,
+    'Primary': 1,
+    'Major': 2,
+    'Other': 3,
+}

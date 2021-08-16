@@ -3,16 +3,11 @@ import json
 import numpy as np
 import pandas as pd
 
-diagnosis_priority_dict = {
-    '': 0,
-    'Primary': 1,
-    'Major': 2,
-    'Other': 3,
-}
 
-
-def load_patient_data_by_id(patient_id):
-    return json.load(open('/media/kai/Shared Space/database-ICU/eICU/all/' + str(patient_id) + '.json'))  # noqa
+def load_patient_data_by_id(patient_json_folder, patient_id):
+    with open(os.path.join(patient_json_folder, str(patient_id) + '.json')) as f:  # noqa
+        json_dict = json.load(f)
+    return json_dict
 
 
 def load_processed_patient_data_by_id(patient_id):
@@ -48,8 +43,7 @@ def select_entry_subset(dictionary,
 
 
 def select_list_subset_with_index(x, idx):
-    arr = np.array(x)
-    return arr[idx].tolist()
+    return np.array(x)[idx].tolist()
 
 
 def valid_data_length(data: list):
@@ -57,7 +51,7 @@ def valid_data_length(data: list):
     return len(data)
 
 
-def convert_lab_data_to_num(d):
+def convert_lab_data_to_num(d: str):
     if d == '':
         return np.nan
     elif '<' in d:
@@ -68,48 +62,6 @@ def convert_lab_data_to_num(d):
         return float(d.replace('%', ''))
     else:
         return float(d)
-
-
-drugrate_unit_dict = {
-    'mcg/min': 1 / 1000,
-    'mcg/hr': 1 / 60 / 1000,
-    'mcg/kg/min': 1 / 1000,
-    'mcg/kg/hr': 1 / 60 / 1000,
-
-    'mg/min': 1 / 1000,
-    'mg/hr': 1 / 60 / 1000,
-    'mg/kg/min': 1 / 1000,
-    'mg/kg/hr': 1 / 60 / 1000,
-
-    'units/min': 1,
-    'units/hr': 1 / 60,
-
-    'ml/min': 1,
-    'ml/hr': 1 / 60,
-}
-
-unitID_dict = {
-    'mcg/hr': 101,
-    'mcg/kg/hr': 102,
-    'mcg/kg/min': 103,
-    'mcg/min': 104,
-    'mg/hr': 105,
-    'mg/kg/min': 106,
-    'mg/min': 107,
-    'units/hr': 108,
-    'units/min': 109,
-    'ml/hr': 200,
-}
-
-
-def unify_drugrate_unit(rate, name, weight):
-    for k in drugrate_unit_dict:
-        if k in name:
-            if weight == '':
-                weight = 1
-            else:
-                weight = float(weight)
-            return float(rate) * weight * drugrate_unit_dict[k], unitID_dict[k]
 
 
 # Check if a measurement/signal exist in patient data during the time window

@@ -13,3 +13,14 @@ ipykernel
 psycopg2
 pdvega
 configobj
+
+icd9cms
+icd10-cm
+
+sent2vec
+sklearn
+
+natsort
+plotly
+seaborn
+joblib

@@ -345,7 +345,8 @@ if __name__ == "__main__":
                     data_table = save_diagnosis_info(**kwargs)
 
         data_table = kwargs['output']
-        # what is this for ???
+        
+        # All previous valid data (non zero) + diagnosis.
         mask = np.logical_or(
             np.logical_and(data_table['UID'] < 7e5, ~pd.isnull(data_table['Value'])),  # noqa
             data_table['UID'] >= 7e5

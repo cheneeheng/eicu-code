@@ -104,10 +104,10 @@ UNIT_CONVERSION_DICT = {
     'mcg/kg/min': 1/1000,
     'mcg/kg/hr': 1/60/1000,
 
-    'mg/min': 1/1000,
-    'mg/hr': 1/60/1000,
-    'mg/kg/min': 1/1000,
-    'mg/kg/hr': 1/60/1000,
+    'mg/min': 1,
+    'mg/hr': 1/60,
+    'mg/kg/min': 1,
+    'mg/kg/hr': 1/60,
 
     'units/min': 1,
     'units/hr': 1/60,

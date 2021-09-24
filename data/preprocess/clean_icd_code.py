@@ -1,4 +1,7 @@
 import csv
+import json
+import os
+from tqdm import tqdm
 
 # pulmonary|respiratory failure|Tracheostomy performed during this admission for ventilatory support  # noqa
 CHECKED_V_CODES = ['V08', 'V62.84', 'V42.7']
@@ -61,18 +64,36 @@ def structure_icd_codes_for_csv(icd_list: list):
 
 if __name__ == "__main__":
 
-    with open('outputs/icd.txt', newline='') as csvfile:
+    # os.remove("data/resource/raw_icd.csv")
+    # with open("data/resource/raw_icd.csv", "a") as f:
+    #     pbar = tqdm(os.listdir("outputs/all"))
+    #     for i in pbar:
+    #         jd = json.load(open("outputs/all" + "/" + i, 'r'))
+    #         for ii in jd['diagnosis']['icd9code']:
+    #             if ii != "":
+    #                 f.write(ii)
+    #                 f.write('\n')
+
+    with open('data/resource/raw_icd.csv', 'r', newline='') as csvfile:
         csvreader = csv.reader(csvfile, delimiter=',', quotechar='|')
         icd9_list, icd10_list = [], []
         for row in csvreader:
             icd9, icd10 = separate_icd9_icd10_codes(row)
-            icd9_list += [icd9]
-            icd10_list += [icd10]
-        icd9_list_writeout = structure_icd_codes_for_csv(icd9_list)
-        icd10_list_writeout = structure_icd_codes_for_csv(icd10_list)
+            icd9_list += icd9
+            icd10_list += icd10
+        # icd9_list_writeout = structure_icd_codes_for_csv(icd9_list)
+        # icd10_list_writeout = structure_icd_codes_for_csv(icd10_list)
+        icd9_list = sorted(set(icd9_list))
+        icd10_list = sorted(set(icd10_list))
 
-    with open('outputs/icd.csv', 'w+', newline='') as csvfile:
+    with open('data/resource/icd9.csv', 'w+', newline='') as csvfile:
         csvwriter = csv.writer(csvfile, delimiter=',',
                                quotechar='|', quoting=csv.QUOTE_MINIMAL)
-        for i9, i10 in zip(icd9_list_writeout, icd10_list_writeout):
-            csvwriter.writerow(i9 + i10)
+        for i in icd9_list:
+            csvwriter.writerow([i])
+
+    with open('data/resource/icd10.csv', 'w+', newline='') as csvfile:
+        csvwriter = csv.writer(csvfile, delimiter=',',
+                               quotechar='|', quoting=csv.QUOTE_MINIMAL)
+        for i in icd10_list:
+            csvwriter.writerow([i])

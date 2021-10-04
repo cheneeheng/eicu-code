@@ -1,12 +1,9 @@
 """Clean up the raw dataset from EICU and generate a structured data output."""
 
-import csv
 import numpy as np
 import pandas as pd
 
-from projects.data_cleaning.common import *
-from projects.data_cleaning.utils.data_io import *
-from projects.data_cleaning.utils.utils import *
+from projects.data_cleaning import *
 
 
 def create_data_table():

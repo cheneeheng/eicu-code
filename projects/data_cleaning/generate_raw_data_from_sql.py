@@ -14,7 +14,7 @@ from decimal import Decimal
 from multiprocessing import Pool, RLock
 from tqdm import tqdm
 
-from projects.data_cleaning.common import *
+from projects.data_cleaning import *
 
 
 def connect_to_database():
@@ -81,17 +81,17 @@ def connect_to_database():
 
 
 def get_patient_list():
-    """Get the list of patientid based on `UNIT_TYPES` ."""
+    """Get the list of patientid based on `UNIT_TYPES_SQL` ."""
 
     print("Getting patient data")
 
     query_schema, conn = connect_to_database()
-    if UNIT_TYPES is not None:
+    if UNIT_TYPES_SQL is not None:
         query = query_schema + """
         select *
         from patient
         where unitType in {}
-        """.format(UNIT_TYPES)
+        """.format(UNIT_TYPES_SQL)
     else:
         query = query_schema + """
         select *

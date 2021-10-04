@@ -2,6 +2,43 @@
 NUM_PROCESSES = 1
 
 
+""" Raw CSV files"""
+RAW_CSV_FOLDER = '/data/physionet.org/files/eicu-crd/2.0'
+CSV_FILE_LIST = [
+    'admissionDrug',
+    'admissionDx',
+    'allergy',
+    'apacheApsVar',
+    'apachePatientResult',
+    'apachePredVar',
+    'carePlanCareProvider',
+    'carePlanEOL',
+    'carePlanGeneral',
+    'carePlanGoal',
+    'carePlanInfectiousDisease',
+    'customLab',
+    'diagnosis',
+    # 'hospital',
+    'infusionDrug',
+    'intakeOutput',
+    'lab',
+    'medication',
+    'microLab',
+    'note',
+    'nurseAssessment',
+    'nurseCare',
+    'nurseCharting',
+    'pastHistory',
+    'patient',
+    'physicalExam',
+    'respiratoryCare',
+    'respiratoryCharting',
+    'treatment',
+    'vitalAperiodic',
+    'vitalPeriodic',
+]
+
+
 """ Exporter """
 CHUNKS = 1
 START = 0
@@ -17,9 +54,10 @@ VALIDATE_FOLDER = 'outputs/all_dummy'
 """ Data Info """
 NUM_PATIENTS = 200859
 
-UNIT_TYPES = None
-# UNIT_TYPES = "('CCU-CTICU','Cardiac ICU','CSICU','CTICU')"  # 43540
-# UNIT_TYPES = "('Cardiac ICU')"
+# UNIT_TYPES_SQL = None
+UNIT_TYPES = ['CCU-CTICU', 'Cardiac ICU', 'CSICU', 'CTICU']  # 43540
+UNIT_TYPES_SQL = "('CCU-CTICU','Cardiac ICU','CSICU','CTICU')"  # 43540
+# UNIT_TYPES_SQL = "('Cardiac ICU')"
 
 TABLE_LIST = [
     'admissiondrug',

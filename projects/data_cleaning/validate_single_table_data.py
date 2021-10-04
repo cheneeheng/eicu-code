@@ -7,7 +7,7 @@ a single table in SQL database.
 import json
 import os
 
-from projects.data_cleaning.common import *
+from projects.data_cleaning import *
 
 
 def testing():

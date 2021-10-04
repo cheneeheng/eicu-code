@@ -7,9 +7,7 @@ import pandas as pd
 from multiprocessing import Pool, RLock
 from tqdm import tqdm
 
-from projects.data_cleaning.export_data_from_sql import connect_to_database
-from projects.data_cleaning.export_data_from_sql import get_patient_list
-from projects.data_cleaning.common import *
+from projects.data_cleaning import *
 
 
 def validate_data(output_folder, patientunitstayid):

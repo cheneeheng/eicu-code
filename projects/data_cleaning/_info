@@ -1,0 +1,74 @@
+GENERAL INFO:
+* 200,859 patient unit encounters for
+* 139,367 unique patients admitted between 2014 and 2015. 
+* 335 units at 208 hospitals located throughout the US.
+
+--------------------------------------------------------------------------------
+LEGEND: 
++ : Unique, only one.
+- : Non-unique, replicate is possible.
+
+--------------------------------------------------------------------------------
+TABLES:
+
+patient
++ uniquepid: ID for each patient.
++ patientunitstayid: ID for patient stay in ICU. This is the key that links to "all the other" tables.
+- patientHealthSystemStayID: ID for patient stay in hospital. Can be the same, entries occured in the same hospitalization. 
+- gender
+- age
+- ethnicity: Asian, Caucasian, African American, Native American, Hispanic, Other/Unknown, NULL.
+- hospitalid: ID that links to the "hospital" table.
+- wardid
+- apacheadmissiondx: maybe linked to "admissiondx" table ???
+- admissionheight: in cm.
+- hospitaladmittime24: Entries should be the same if patientHealthSystemStayID is the same.
+- hospitaladmitoffset: Admission into the ICU X mins after the hospital admission, hence the minus.
+- hospitaladmitsource
+- hospitaldischargeyear
+- hospitaldischargetime24: Entries should be the same if patientHealthSystemStayID is the same.
+- hospitaldischargeoffset: Discharge from the hospital X mins after admission into ICU.
+- hospitaldischargelocation
+- hospitaldischargestatus: Alive, Expired, or NULL.
+- unittype: 
+    * ICU type. 
+    * From website: MICU, Cardiovascular ICU, SDU/Step down, VICU, Neuro ICU, CCU, Virtual ICU, SICU, ICU, CCU-CTICU, Mobile ICU, CTICU, CSICU, Test ICU, Vent ICU, Burn-Trauma ICU.
+    * From code only 8 present: Med-Surg ICU, MICU (Medical ICU), CCU-CTICU, Neuro ICU, Cardiac ICU, SICU (Surgery ICU), CSICU, CTICU.
+    * Of interest: CTICU (Cardiothoracic Intensive Care Unit) + CSICU (Cardiac Surgery Intensive Care Unit) + Cardiac ICU + (Coronary care unit) CCU-CTICU, Med-Surg ICU ???
+- unitadmittime24: Used together with 'hospitaladmittime24' to find 'hospitaladmitoffset'.
+- unitadmitsource
+- unitvisitnumber: The X-th stay at the hospital for multiple same 'patientHealthSystemStayID' entries.
+- unitstaytype
+- admissionweight
+- dischargeweight
+- unitdischargetime24: Used together with 'unitadmittime24' to find 'unitdischargeoffset'.
+- unitdischargeoffset: Discharge from the ICU X mins after admission into ICU.
+- unitdischargelocation
+- unitdischargestatus: Alive, Expired, or NULL.
+
+--------------------------------------------------------------------------------
+GOALS:
+
+patient
+- cardiac-ish ICUs DONE
+- vitalperiodic and aperiodic 
+- nurse charting
+- lab
+- infusion drug
+- intake/output
+- diagnosis
+- Apache score
+- nurse assessment
+- physical exam
+- respiratoryCare
+- respiratoryCharting
+- treatment
+
+look into patients history
+- admission drug
+- admission dx
+- past history
+
+nurse care plan for checklist.  
+
+

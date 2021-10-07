@@ -1,0 +1,1371 @@
+TableID	TableSource	ParamCat	ParamLabel	ParamNameOrigin	ParamNameNew	ParameterNameICU	unit	UID	TableUID	UnitsID	ReasonForChoosingNewName	withinAlertRange	InlierRange	RangeStandard	
+0	patient			patientunitstayid	patientunitstayid			1	000001						
+0	patient			patienthealthsystemstayid	patienthealthsystemstayid			2	000002						
+0	patient			gender	gender			3	000003						
+0	patient			age	age			4	000004						
+0	patient			ethnicity	ethnicity			5	000005						
+0	patient			hospitalid	hospitalid			6	000006						
+0	patient			wardid	wardid			7	000007						
+0	patient			apacheadmissiondx	apacheadmissiondx			8	000008						
+0	patient			admissionheight	admissionheight			9	000009						
+0	patient			hospitaladmittime24	hospitaladmittime24			10	000010						
+0	patient			hospitaladmitoffset	hospitaladmitoffset			11	000011						
+0	patient			hospitaladmitsource	hospitaladmitsource			12	000012						
+0	patient			hospitaldischargeyear	hospitaldischargeyear			13	000013						
+0	patient			hospitaldischargetime24	hospitaldischargetime24			14	000014						
+0	patient			hospitaldischargeoffset	hospitaldischargeoffset			15	000015						
+0	patient			hospitaldischargelocation	hospitaldischargelocation			16	000016						
+0	patient			hospitaldischargestatus	hospitaldischargestatus			17	000017						
+0	patient			unittype	unittype			18	000018						
+0	patient			unitadmittime24	unitadmittime24			19	000019						
+0	patient			unitadmitsource	unitadmitsource			20	000020						
+0	patient			unitvisitnumber	unitvisitnumber			21	000021						
+0	patient			unitstaytype	unitstaytype			22	000022						
+0	patient			admissionweight	admissionweight			23	000023						
+0	patient			dischargeweight	dischargeweight			24	000024						
+0	patient			unitdischargetime24	unitdischargetime24			25	000025						
+0	patient			unitdischargeoffset	unitdischargeoffset			26	000026						
+0	patient			unitdischargelocation	unitdischargelocation			27	000027						
+0	patient			unitdischargestatus	unitdischargestatus			28	000028						
+0	patient			uniquepid	uniquepid			29	000029						
+1	vitalPeriodic			cvp	cvp			1	100001			0-8	-20 - 40	https://www.sciencedirect.com/topics/veterinary-science-and-veterinary-medicine/central-venous-pressure	4-13 (pressure cannot be 0) (its more important to look at trend)
+1	vitalPeriodic			heartrate	heartrate	ECG_HR  (GE_Monitor)	1/min	2	100002			40 - 129	30 - 250	MEWS	50-100
+1	vitalPeriodic			respiration	respiration	RES_imp (GE_Monitor)	1/min	3	100003			8 - 29	2 - 60	https://www.uab.edu/news/research/item/10393-diastolic-blood-pressure-how-low-is-too-low	
+1	vitalPeriodic			sao2	sao2	SpO2_POS  (GE_Monitor)	1/100%	4	100004			91 - 100	80 - 100	NEWS2	90-100
+1	vitalPeriodic			systemicdiastolic	systemicdiastolic	Px_Diastolic  (GE_Monitor)	1/100 mmHg	5	100005			60 - 120	20 - 200	https://www.webmd.com/hypertension-high-blood-pressure/guide/diastolic-and-systolic-blood-pressure-know-your-numbers#1-5;	45-90
+1	vitalPeriodic			systemicmean	systemicmean	Px_Mean  (GE_Monitor)	1/100 mmHg	6	100006						55-80
+1	vitalPeriodic			systemicsystolic	systemicsystolic	Px_Systolic  (GE_Monitor)	1/100 mmHg	7	100007			70 - 200	40 - 300	MEWS	80-130
+2	vitalAperiodic			cardiacinput	cardiacinput			1	200001			2.5 - 4	0 - 40	https://www.lidco.com/education/normal-hemodynamic-parameters/	
+2	vitalAperiodic			cardiacoutput	cardiacoutput	CCO  (GE_Monitor)	ml/min	2	200002			4 - 8	0 - 80	https://www.lidco.com/education/cardiac-output/	normally look at the CO-index  (3-8)
+2	vitalAperiodic			noninvasivediastolic	noninvasivediastolic	NIBP_Diastolic (GE_Monitor)	1/100 mmHg	3	200003			8 - 29	2 - 60	https://www.uab.edu/news/research/item/10393-diastolic-blood-pressure-how-low-is-too-low	same as invasive
+2	vitalAperiodic			noninvasivemean	noninvasivemean	NIBP_Mean (GE_Monitor)	1/100 mmHg	4	200004						same as invasive
+2	vitalAperiodic			noninvasivesystolic	noninvasivesystolic	NIBP_Systolic (GE_Monitor)	1/100 mmHg	5	200005			60 - 120	20 - 200	https://www.webmd.com/hypertension-high-blood-pressure/guide/diastolic-and-systolic-blood-pressure-know-your-numbers#1-5;	same as invasive
+2	vitalAperiodic			pvr	pvr			6	200006			< 250		https://www.lidco.com/education/normal-hemodynamic-parameters/	
+2	vitalAperiodic			pvri	pvri			7	200007			255 - 285		https://www.lidco.com/education/normal-hemodynamic-parameters/	
+2	vitalAperiodic			svr	svr	SVR (GE_Monitor)	dynes*s/m2	8	200008			800 - 1200		https://www.lidco.com/education/normal-hemodynamic-parameters/	700-
+2	vitalAperiodic			svri	svri	SVRI  (GE_Monitor)	dynes*s*m2/cm5)	9	200009			1970 - 2390		https://www.lidco.com/education/normal-hemodynamic-parameters/	
+3	intakeOutput			intaketotal	intaketotal			1	300001						
+3	intakeOutput			outputtotal	outputtotal			2	300002						
+3	intakeOutput			dialysistotal	dialysistotal			3	300003						
+3	intakeOutput			nettotal	nettotal			4	300004		This is the intake output net total				
+3	intakeOutput			bumetanide	bumetanide			5	300005		diuretic therapy: bumetanide				
+3	intakeOutput			bumetanideVolume	bumetanide			5	300005						
+3	intakeOutput			Bumetanide-IN	bumetanide			5	300005						
+3	intakeOutput			bumetanide(NS)-IN	bumetanide			5	300005						
+3	intakeOutput			CL Flush: Non-Tunneled dialysis, Pressure/power in	dialysis			6	300006		?				
+3	intakeOutput			dobutamine	dobutamine			7	300007		contractility: dobutamine				
+3	intakeOutput			Dobutamine	dobutamine			7	300007						
+3	intakeOutput			Volume (ml) Dobutamine	dobutamine			7	300007						
+3	intakeOutput			Volume (mL) Dobutamine	dobutamine			7	300007						
+3	intakeOutput			DOBUTamine	dobutamine			7	300007						
+3	intakeOutput			DOButamine (ml):	dobutamine			7	300007						
+3	intakeOutput			DOBUTAMINE	dobutamine			7	300007						
+3	intakeOutput			Volume (ml) Dopamine	dopamine			8	300008		contractility: dopamine				
+3	intakeOutput			Volume (mL) Dopamine	dopamine			8	300008						
+3	intakeOutput			DOPamine	dopamine			8	300008						
+3	intakeOutput			DOPamine (ml):	dopamine			8	300008						
+3	intakeOutput			DOPAMINE	dopamine			8	300008						
+3	intakeOutput			Dopamine	dopamine			8	300008						
+3	intakeOutput			dopamine	dopamine			8	300008						
+3	intakeOutput			epinephrine	epinephrine			9	300009		contractility: adrenaline/epinephrine				
+3	intakeOutput			Volume (ml) Epinephrine	epinephrine			9	300009						
+3	intakeOutput			EPINEPHrine	epinephrine			9	300009						
+3	intakeOutput			Volume (mL) Epinephrine	epinephrine			9	300009						
+3	intakeOutput			Epinephrine	epinephrine			9	300009						
+3	intakeOutput			EPInephrine (ml):	epinephrine			9	300009						
+3	intakeOutput			Epinephrine (NS)-IN	epinephrine			9	300009						
+3	intakeOutput			EPINEPHRINE	epinephrine			9	300009						
+3	intakeOutput			Esmolol-IN	esmolol			10	300010		anti-arrhythmic therapy				
+3	intakeOutput			Esmolol	esmolol			10	300010						
+3	intakeOutput			Volume (ml) Esmolol	esmolol			10	300010						
+3	intakeOutput			esmolol	esmolol			10	300010						
+3	intakeOutput			ESMOLOL	esmolol			10	300010						
+3	intakeOutput			Volume (mL) Esmolol	esmolol			10	300010						
+3	intakeOutput			furosemide	furosemide			11	300011		diuretic therapy: furosemide				
+3	intakeOutput			Volume (ml) Furosemide	furosemide			11	300011						
+3	intakeOutput			Volume (mL) Furosemide	furosemide			11	300011						
+3	intakeOutput			Volume (mL)-furosemide (LASIX) 160 mg in dextrose 5 % 50 mL IVPB	furosemide			11	300011						
+3	intakeOutput			Volume (mL)-furosemide (LASIX) 120 mg in dextrose 5 % 50 mL IVPB	furosemide			11	300011						
+3	intakeOutput			Volume (mL)-furosemide (LASIX) injection 40 mg	furosemide			11	300011						
+3	intakeOutput			Hemodialysis Intake (mL)	hemodialysisIntake			12	300012		renal replacement therapy				
+3	intakeOutput			HemodialysisOut	hemodialysisOutput			13	300013		renal replacement therapy				
+3	intakeOutput			Volume (ml) Lidocaine	lidocaine			14	300014		anti-arrhythmic therapy				
+3	intakeOutput			lidocaine	lidocaine			14	300014						
+3	intakeOutput			Volume (mL) Lidocaine	lidocaine			14	300014						
+3	intakeOutput			Volume (mL)-dextrose 5 % / sodium chloride 0.45% 1,000 mL with potassium chloride 40 mEq, magnesium sulfate 5 g infusion	magnesium			15	300015		anti-arrhythmic therapy				
+3	intakeOutput			Volume (ml) Magnesium Sulfate	magnesium			15	300015						
+3	intakeOutput			Volume (mL)-magnesium sulfate in 5 % dextrose IVPB 1 g	magnesium			15	300015						
+3	intakeOutput			Volume (mL)-magnesium sulfate in dextrose premix 2 g	magnesium			15	300015						
+3	intakeOutput			Volume (mL)-magnesium sulfate 1 g in dextrose 5% 100 mL IVPB premix	magnesium			15	300015						
+3	intakeOutput			Volume (mL)-magnesium sulfate IVPB 2 g 50 mL	magnesium			15	300015						
+3	intakeOutput			Volume (mL)-dextrose 5 % / sodium chloride 0.45% 1,000 mL with magnesium sulfate 5 g infusion	magnesium			15	300015						
+3	intakeOutput			Magnesium	magnesium			15	300015						
+3	intakeOutput			Volume (mL)-magnesium sulfate in sterile water 2 g IVPB premix	magnesium			15	300015						
+3	intakeOutput			Volume (mL)-magnesium sulfate 2 g in sodium chloride 0.9% IVPB	magnesium			15	300015						
+3	intakeOutput			magnesium	magnesium			15	300015						
+3	intakeOutput			MAGNESIUM	magnesium			15	300015						
+3	intakeOutput			Volume (mL)-magnesium sulfate IVPB 4 g 100 mL	magnesium			15	300015						
+3	intakeOutput			Volume (mL)-lactated ringers 1,000 mL with thiamine 100 mg, folic acid 1 mg, magnesium sulfate 2 g infusion	magnesium			15	300015						
+3	intakeOutput			MAGNESIUM SULFATE	magnesium			15	300015						
+3	intakeOutput			Volume (mL) Magnesium	magnesium			15	300015						
+3	intakeOutput			milrinone	milrinone			16	300016		contractility: milrinone				
+3	intakeOutput			Milrinone	milrinone			16	300016						
+3	intakeOutput			Milrinone-IN	milrinone			16	300016						
+3	intakeOutput			MILrinone (ml):	milrinone			16	300016						
+3	intakeOutput			Volume (mL) Milrinone	milrinone			16	300016						
+3	intakeOutput			Volume (ml) Milrinone	milrinone			16	300016						
+3	intakeOutput			Urine	urine			17	300017		output from: urine, urinary catheter, urethral catheter	>= 0.5 ml/kg/h		MEWS	
+3	intakeOutput			Urinary Catheter Output: Indwelling/Continuous Ure	urine			17	300017						
+3	intakeOutput			URINE CATHETER	urine			17	300017						
+3	intakeOutput			Urine Count	urine			17	300017						
+3	intakeOutput			Urine Occurrence	urine			17	300017						
+3	intakeOutput			Urine, void:	urine			17	300017						
+3	intakeOutput			Output (mL)-Urethral Catheter 16 Fr.	urine			17	300017						
+3	intakeOutput			Output (mL)-Urethral Catheter Non-latex 14 Fr.	urine			17	300017						
+3	intakeOutput			Urine Output (mL)-Urethral Catheter	urine			17	300017						
+3	intakeOutput			Output (mL)-Urethral Catheter Straight-tip 16 Fr.	urine			17	300017						
+3	intakeOutput			Output (mL)-Urethral Catheter	urine			17	300017						
+3	intakeOutput			Output (mL)-Urethral Catheter Temperature probe 16 Fr.	urine			17	300017						
+3	intakeOutput			Output (mL)-Urethral Catheter Non-latex 16 Fr.	urine			17	300017						
+3	intakeOutput			Urinary Catheter Output: Indwelling/Continuous Ext	urine			17	300017						
+3	intakeOutput			Output (mL)-Urethral Catheter Straight-tip 14 Fr.	urine			17	300017						
+3	intakeOutput			Output (mL)-Urethral Catheter Latex 16 Fr.	urine			17	300017						
+3	intakeOutput			Output (mL)-Urinary Catheter Indwelling	urine			17	300017						
+3	intakeOutput			Urinary Catheter Output: Indwelling/Continuous Sup	urine			17	300017						
+3	intakeOutput			Output (mL)-Urethral Catheter 14 Fr.	urine			17	300017						
+3	intakeOutput			Output (mL)-External Urinary Catheter	urine			17	300017						
+3	intakeOutput			SN Urine Output(ml)	urine			17	300017						
+3	intakeOutput			Output (mL)-Urethral Catheter Temperature probe	urine			17	300017						
+3	intakeOutput			Urinary Catheter Output: Straight/Intermittent Ure	urine			17	300017						
+3	intakeOutput			Urine Output (mL)-Urethral Catheter	urine			17	300017						
+3	intakeOutput			Output (mL)-Urethral Catheter Temperature probe 14 Fr.	urine			17	300017						
+3	intakeOutput			Output (mL)-Urethral Catheter Latex 14 Fr.	urine			17	300017						
+3	intakeOutput			Output (mL)-External Urethral Device Condom catheter	urine			17	300017						
+3	intakeOutput			Output (mL)-Urethral Catheter Double-lumen 16 Fr.	urine			17	300017						
+3	intakeOutput			Output (mL)-Urethral Catheter Non-latex	urine			17	300017						
+3	intakeOutput			Output (mL)-Urethral Catheter Double-lumen 14 Fr.	urine			17	300017						
+3	intakeOutput			Output (mL)-Urethral Catheter Straight-tip	urine			17	300017						
+3	intakeOutput			Urinary Catheter Output: Coude Urethral	urine			17	300017						
+3	intakeOutput			Urinary Catheter Output: Urethral	urine			17	300017						
+3	intakeOutput			Output Amt-Urinary Catheter	urine			17	300017						
+3	intakeOutput			Output Amt-Urinary Catheter	urine			17	300017						
+3	intakeOutput			Output (mL)-Urethral Catheter Natalie,RN Non-latex 14 Fr.	urine			17	300017						
+3	intakeOutput			Urinary Catheter Output: Coude Urethral 14 Fr.	urine			17	300017						
+3	intakeOutput			Output (mL)-Urethral Catheter Sarah Burnham, RN and Jordan Perkins, RN Temperature probe 16 Fr.	urine			17	300017						
+3	intakeOutput			Output (mL)-Urethral Catheter Temperature probe 18 Fr.	urine			17	300017						
+3	intakeOutput			Output (mL)-Urethral Catheter James RN Temperature probe	urine			17	300017						
+3	intakeOutput			urine count	urine			17	300017						
+3	intakeOutput			Output (mL)-Urethral Catheter Dr Wrenn	urine			17	300017						
+3	intakeOutput			Output (mL)-Urethral Catheter B Jacobelli, RN Latex;Straight-tip 14 Fr.	urine			17	300017						
+3	intakeOutput			Urinary Catheter Output: Coude Urethral 16 Fr.	urine			17	300017						
+3	intakeOutput			Output (mL)-Urethral Catheter Latex	urine			17	300017						
+3	intakeOutput			Mixed Urine/Stool Volume	urine			17	300017						
+3	intakeOutput			Output (mL)-Urethral Catheter Temperature probe;Non-latex	urine			17	300017						
+3	intakeOutput			Urinary Catheter Output: Coude Urethral 18 Fr.	urine			17	300017						
+3	intakeOutput			Output (mL)-Urethral Catheter dr macdermid Non-latex;Straight-tip 14 Fr.	urine			17	300017						
+3	intakeOutput			Output (mL)-Urethral Catheter Coude 18 Fr.	urine			17	300017						
+3	intakeOutput			Urinary Catheter Output: Condom External	urine			17	300017						
+3	intakeOutput			Output (mL)-Urethral Catheter Double-lumen	urine			17	300017						
+3	intakeOutput			Output (mL)-Urethral Catheter Latex 18 Fr.	urine			17	300017						
+3	intakeOutput			Output (mL)-Urethral Catheter Non-latex;Straight-tip 14 Fr.	urine			17	300017						
+3	intakeOutput			Urinary Catheter Output: Indwelling/Continuous Per	urine			17	300017						
+3	intakeOutput			Suprapubic Urine Output	urine			17	300017						
+3	intakeOutput			Output (mL)-Urethral Catheter Latex;Straight-tip 14 Fr.	urine			17	300017						
+3	intakeOutput			Urinary Catheter Output: Urethral 16 Fr.	urine			17	300017						
+3	intakeOutput			Output (mL)-Urethral Catheter LF, SN Temperature probe	urine			17	300017						
+3	intakeOutput			Urinary Catheter Output: Suprapubic	urine			17	300017						
+3	intakeOutput			Urinary Catheter Output: Nephrostomy L	urine			17	300017						
+3	intakeOutput			Output (mL)-Urethral Catheter Deanna Revis, RN and Rose Cullom, RN Non-latex 14 Fr.	urine			17	300017						
+3	intakeOutput			Urine Output (mL)-Urethral Catheter	urine			17	300017						
+3	intakeOutput			Output (mL)-Urethral Catheter Non-latex;Temperature probe 14 Fr.	urine			17	300017						
+3	intakeOutput			Output (mL)-Urinary Catheter  Indwelling	urine			17	300017						
+3	intakeOutput			Urinary Catheter Output: Nephrostomy R	urine			17	300017						
+3	intakeOutput			Output (mL)-Urethral Catheter Temperature probe;Latex 16 Fr.	urine			17	300017						
+3	intakeOutput			Urinary Catheter Output: Indwelling/Continuous Nep	urine			17	300017						
+3	intakeOutput			Output (mL)-Urethral Catheter 18 Fr.	urine			17	300017						
+3	intakeOutput			Output (mL)-Urethral Catheter K. Hardy RNFA Latex 16 Fr.	urine			17	300017						
+3	intakeOutput			Output (mL)-Urethral Catheter Latex;Temperature probe 14 Fr.	urine			17	300017						
+3	intakeOutput			Output (mL)-Urethral Catheter Latex;Straight-tip 16 Fr.	urine			17	300017						
+3	intakeOutput			OR urine	urine			17	300017						
+3	intakeOutput			incontinent urine	urine			17	300017						
+3	intakeOutput			Output (mL)-Urethral Catheter Teal Curry, RN  Straight-tip	urine			17	300017						
+3	intakeOutput			Urine Incontinence	urine			17	300017						
+3	intakeOutput			urine incontinence	urine			17	300017						
+3	intakeOutput			vasopressin	vasopressin			18	300018		afterload: vasopressin				
+3	intakeOutput			Vasopressin	vasopressin			18	300018						
+3	intakeOutput			Volume (ml) Vasopressin	vasopressin			18	300018						
+3	intakeOutput			Volume (mL) Vasopressin	vasopressin			18	300018						
+3	intakeOutput			VASOPRESSIN	vasopressin			18	300018						
+3	intakeOutput			Vasopressin (NS)-IN	vasopressin			18	300018						
+3	intakeOutput			Vasopressin-IN	vasopressin			18	300018						
+3	intakeOutput			VASopressin (ml):	vasopressin			18	300018						
+4	lab			Base Excess	baseexcess			1	400001		diuretic therapy				
+4	lab			calcium	ca			2	400002		electrolytes				
+4	lab			ionized calcium	caionized			3	400003		Is this the same as ca ? NEED TO CLARIFY				
+4	lab			chloride	cl			4	400004						
+4	lab			Carboxyhemoglobin	cohb			5	400005		hbg-related				
+4	lab			creatinine	cr			6	400006		diuresis parameter				
+4	lab			urinary creatinine	crurine			7	400007						
+4	lab			bedside glucose	glc			8	400008		preload				
+4	lab			glucose	glc			8	400008						
+4	lab			glucose - CSF	glccsf			9	400009						
+4	lab			Hgb	hbg			10	400010		preload				
+4	lab			bicarbonate	hco3			11	400011						
+4	lab			HCO3	hco3			11	400011						
+4	lab			potassium	k			12	400012						
+4	lab			MCH	mch			13	400013		hbg-related				
+4	lab			MCHC	mchc			14	400014		hbg-related				
+4	lab			MCV	mcv			15	400015		hbg-related				
+4	lab			Methemoglobin	methb			16	400016		hbg-related				
+4	lab			magnesium	mg			17	400017						
+4	lab			MPV	mpv			18	400018		hbg-related				
+4	lab			sodium	na			19	400019						
+4	lab			urinary sodium	naurine			20	400020						
+4	lab			Oxyhemoglobin	o2hb			21	400021		hbg-related				
+4	lab			serum osmolality	osm			22	400022		preload				
+4	lab			urinary osmolality	osmurine			23	400023						
+4	lab			paCO2	paco2			24	400024		partial pressure CO2				
+4	lab			paO2	pao2			25	400025		partial pressure O2				
+4	lab			pH	ph			26	400026						
+4	lab			platelets x 1000	plt			27	400027						
+4	lab			RBC	rbc			28	400028						
+4	lab			RDW	rdw			29	400029						
+4	lab			O2 Sat (%)	sao2			30	400030						
+4	lab			BUN	urea			31	400031		diuresis				
+4	lab			24 h urine urea nitrogen	ureaurine			32	400032						
+4	lab			WBC x 1000	wbc			33	400033						
+5	infusionDrug			Amiodarone (ml/hr)	amiodarone			1	500001	200	anti-arrhythmic drugs				
+5	infusionDrug			Amiodarone (mg/min)	amiodarone			1	500001	107					
+5	infusionDrug			Amiodarone (maintenance) 900 mg Dextrose 5% 500 ml (mg/min)	amiodarone			1	500001	107					
+5	infusionDrug			Amiodarone (mg/hr)	amiodarone			1	500001	105					
+5	infusionDrug			Amiodarone (load) 150 mg Dextrose 5% 100 ml (mg/min)	amiodarone			1	500001	107					
+5	infusionDrug			amiodarone (mg/min)	amiodarone			1	500001	107					
+5	infusionDrug			bumetanide(ml/hr)	bumetanide			2	500002	200	loop diuretic drug				
+5	infusionDrug			bumetanide(mg/hr)	bumetanide			2	500002	105					
+5	infusionDrug			bumetanide(Bumex) 10 mg Sodium Chloride 0.9% 100 ml (mg/hr)	bumetanide			2	500002	105					
+5	infusionDrug			Calcium Gluconate IVF Infused (ml/hr)	ca			3	500003	200	electrolyte				
+5	infusionDrug			Calcium (ml/hr)	ca			3	500003	200					
+5	infusionDrug			calcium chloride (ml/hr)	ca			3	500003	200					
+5	infusionDrug			Dobutamine (ml/hr)	dobutamine			4	500004	200	contractility measures				
+5	infusionDrug			Dobutamine (mcg/kg/min)	dobutamine			4	500004	103					
+5	infusionDrug			DOBUTamine STD 500 mg Dextrose 5% 250 ml  Premix (mcg/kg/min)	dobutamine			4	500004	103					
+5	infusionDrug			DOBUTamine MAX 1000 mg Dextrose 5% 250 ml  Premix (mcg/kg/min)	dobutamine			4	500004	103					
+5	infusionDrug			Dobutamine (mcg/kg/hr)	dobutamine			4	500004	102					
+5	infusionDrug			Dopamine (ml/hr)	dopamine			5	500005	200	contractility measures: adrenaline				
+5	infusionDrug			Dopamine (mcg/kg/min)	dopamine			5	500005	103					
+5	infusionDrug			DOPamine STD 400 mg Dextrose 5% 250 ml  Premix (mcg/kg/min)	dopamine			5	500005	103					
+5	infusionDrug			DOPamine MAX 800 mg Dextrose 5% 250 ml  Premix (mcg/kg/min)	dopamine			5	500005	103					
+5	infusionDrug			Dopamine (mcg/min)	dopamine			5	500005	104					
+5	infusionDrug			DOPamine STD 400 mg Dextrose 5% 500 ml  Premix (mcg/kg/min)	dopamine			5	500005	103					
+5	infusionDrug			DOPamine STD 15 mg Dextrose 5% 250 ml  Premix (mcg/kg/min)	dopamine			5	500005	103					
+5	infusionDrug			Epinephrine (ml/hr)	epinephrine			6	500006	200	contractility measures: adrenaline				
+5	infusionDrug			Epinephrine (mcg/min)	epinephrine			6	500006	104					
+5	infusionDrug			Epinephrine (mcg/kg/min)	epinephrine			6	500006	103					
+5	infusionDrug			EPINEPHrine(Adrenalin)STD 4 mg Sodium Chloride 0.9% 250 ml (mcg/min)	epinephrine			6	500006	104					
+5	infusionDrug			EPINEPHrine(Adrenalin)MAX 30 mg Sodium Chloride 0.9% 250 ml (mcg/min)	epinephrine			6	500006	104					
+5	infusionDrug			Epinephrine (mg/kg/min)	epinephrine			6	500006	106					
+5	infusionDrug			EPINEPHrine(Adrenalin)STD 7 mg Sodium Chloride 0.9% 250 ml (mcg/min)	epinephrine			6	500006	104					
+5	infusionDrug			EPINEPHrine(Adrenalin)STD 4 mg Sodium Chloride 0.9% 500 ml (mcg/min)	epinephrine			6	500006	104					
+5	infusionDrug			Esmolol (ml/hr)	esmolol			7	500007	200	anti-arrhythmic drugs				
+5	infusionDrug			Esmolol (mcg/kg/min)	esmolol			7	500007	103					
+5	infusionDrug			Esmolol (Brevibloc) 2500 mg Sodium Chloride 0.9% 250 ml (mcg/kg/min)	esmolol			7	500007	103					
+5	infusionDrug			Furosemide (ml/hr)	furosemide			8	500008	200	loop diuretic				
+5	infusionDrug			Furosemide (mg/hr)	furosemide			8	500008	105					
+5	infusionDrug			Furosemide (Lasix) STD 250 mg Sodium Chloride 0.9% 250 ml (mg/hr)	furosemide			8	500008	105					
+5	infusionDrug			Furosemide (Lasix) MAX 500 mg Sodium Chloride 0.9% 100 ml (mg/hr)	furosemide			8	500008	105					
+5	infusionDrug			Lidocaine (ml/hr)	lidocaine			9	500009	200	anti-arrhythmic drugs				
+5	infusionDrug			Lidocaine (mg/min)	lidocaine			9	500009	107					
+5	infusionDrug			Lidocaine (Xylocaine) STD 2 g Dextrose 5% 500 ml  Premix (mg/min)	lidocaine			9	500009	107					
+5	infusionDrug			Magnesium Sulfate IVF Infused (ml/hr)	mg			10	500010	200	electrolyte				
+5	infusionDrug			Magnesium (mg/hr)	mg			10	500010	105					
+5	infusionDrug			magnesium sulfate (mg/hr)	mg			10	500010	105					
+5	infusionDrug			Magnesium Sulfate (ml/hr)	mg			10	500010	200					
+5	infusionDrug			Volume (mL) Magnesium  (ml/hr)	mg			10	500010	200					
+5	infusionDrug			magnesium (ml/hr)	mg			10	500010	200					
+5	infusionDrug			Milrinone (ml/hr)	milrinone			11	500011	200	contractility measures				
+5	infusionDrug			Milrinone (mcg/kg/min)	milrinone			11	500011	103					
+5	infusionDrug			Milrinone (Primacor) 40 mg Dextrose 5% 200 ml (mcg/kg/min)	milrinone			11	500011	103					
+5	infusionDrug			Milrinone (mcg/kg/hr)	milrinone			11	500011	102					
+5	infusionDrug			0.9% NaCl (ml/hr)	nacl			12	500012	200	electrolyte for Na and Cl ?				
+5	infusionDrug			Normal Saline (ml/hr)	nacl			12	500012	200					
+5	infusionDrug			Normal Saline 0.9% (ml/hr)	nacl			12	500012	200					
+5	infusionDrug			3% Sodium Chloride IVF Infused (ml/hr)	nacl			12	500012	200					
+5	infusionDrug			Normal saline (ml/hr)	nacl			12	500012	200					
+5	infusionDrug			0.9%NSS (ml/hr)	nacl			12	500012	200					
+5	infusionDrug			.9 NSS (ml/hr)	nacl			12	500012	200					
+5	infusionDrug			Volume (mL)-sodium chloride 0.9 % bolus 500 mL (ml/hr)	nacl			12	500012	200					
+5	infusionDrug			normal saline (ml/hr)	nacl			12	500012	200					
+5	infusionDrug			Normal Saline 0.9 (ml/hr)	nacl			12	500012	200					
+5	infusionDrug			Volume (mL)-sodium chloride 0.9 % bolus 1,000 mL (ml/hr)	nacl			12	500012	200					
+5	infusionDrug			SODIUM CHLORIDE 3% (ml/hr)	nacl			12	500012	200					
+5	infusionDrug			0.9% Normal Saline (ml/hr)	nacl			12	500012	200					#isotonic
+5	infusionDrug			0.45% Sodium Chloride (ml/hr)	nacl			12	500012	200					#half-iosotonic
+5	infusionDrug			3% Saline (ml/hr)	nacl			12	500012	200					#hypertonic
+5	infusionDrug			3% NA CL (ml/hr)	nacl			12	500012	200					
+5	infusionDrug			0.9 Normal Saline (ml/hr)	nacl			12	500012	200					NACL are used to control fuid in patient eg to regulate together eith diuretic drugs.
+5	infusionDrug			3% NACL (ml/hr)	nacl			12	500012	200					
+5	infusionDrug			0.9 Sodium Chloride (ml/hr)	nacl			12	500012	200					
+5	infusionDrug			Normal saline 0.9% (ml/hr)	nacl			12	500012	200					
+5	infusionDrug			3% NaCl (ml/hr)	nacl			12	500012	200					
+5	infusionDrug			NaCl 0.9% (ml/hr)	nacl			12	500012	200					
+5	infusionDrug			0.45 Normal Saline (ml/hr)	nacl			12	500012	200					
+5	infusionDrug			0.9% NSS via venous sheath (ml/hr)	nacl			12	500012	200					
+5	infusionDrug			1/2 NSS (ml/hr)	nacl			12	500012	200					
+5	infusionDrug			0.9% NaCl (venous sheath) (ml/hr)	nacl			12	500012	200					
+5	infusionDrug			0.45NaCl (ml/hr)	nacl			12	500012	200					
+5	infusionDrug			normal saline 0.9% (ml/hr)	nacl			12	500012	200					
+5	infusionDrug			3% saline (ml/hr)	nacl			12	500012	200					
+5	infusionDrug			Normal Saline  (ml/hr)	nacl			12	500012	200					
+5	infusionDrug			0.45% Normal Saline (ml/hr)	nacl			12	500012	200					
+5	infusionDrug			NaCl 3% (ml/hr)	nacl			12	500012	200					
+5	infusionDrug			D5.9 Saline (ml/hr)	nacl			12	500012	200					
+5	infusionDrug			3% Nacl (ml/hr)	nacl			12	500012	200					
+5	infusionDrug			Sodium Bicarb IVF Infused (ml/hr)	nahco3			13	500013	200	electrolyte for Na ?				
+5	infusionDrug			sodium bicarb (ml/hr)	nahco3			13	500013	200					
+5	infusionDrug			NaHCO3 (ml/hr)	nahco3			13	500013	200					
+5	infusionDrug			Sodium Bicarb (ml/hr)	nahco3			13	500013	200					
+5	infusionDrug			D5W w 150mEq NaHCO3 (ml/hr)	nahco3			13	500013	200					
+5	infusionDrug			Sodium Bicarb w/ 0.45% NaCl (ml/hr)	nahco3			13	500013	200					
+5	infusionDrug			NaHCO3 150mEq/1L 0.45%NaCl (ml/hr)	nahco3			13	500013	200					
+5	infusionDrug			Sodium Bicarbonate (ml/hr)	nahco3			13	500013	200					
+5	infusionDrug			Na Bicarb (ml/hr)	nahco3			13	500013	200					
+5	infusionDrug			D5NaHCO3 (ml/hr)	nahco3			13	500013	200					
+5	infusionDrug			0.45 NSS/Sodium Bicarbonate 150meq (ml/hr)	nahco3			13	500013	200					
+5	infusionDrug			D5%Na Bicarbonate (ml/hr)	nahco3			13	500013	200					
+5	infusionDrug			D/51/2NS w/150NaHCO3 (ml/hr)	nahco3			13	500013	200					
+5	infusionDrug			Na HCO3 in 0.45% NS (ml/hr)	nahco3			13	500013	200					
+5	infusionDrug			.45NS w/75mEq NaBicarb (ml/hr)	nahco3			13	500013	200					
+5	infusionDrug			0.45% NS w/ 75mEq NaHCO3 (ml/hr)	nahco3			13	500013	200					
+5	infusionDrug			D10 with 150 NaHCO3 (ml/hr)	nahco3			13	500013	200					
+5	infusionDrug			Sodium bicarbonate with Sterile Water (ml/hr)	nahco3			13	500013	200					
+5	infusionDrug			D5/NaBicarb 150mEq (ml/hr)	nahco3			13	500013	200					
+5	infusionDrug			D5 with 150 Na Bicarb (ml/hr)	nahco3			13	500013	200					
+5	infusionDrug			Sodium Bicarbonate 150mEq (ml/hr)	nahco3			13	500013	200					
+5	infusionDrug			NA Bicarb/ NSS (ml/hr)	nahco3			13	500013	200					
+5	infusionDrug			0.45% NaCl + Sodium Bicarbonate (ml/hr)	nahco3			13	500013	200					
+5	infusionDrug			D5. 0.45 NS with150 mEq NaHCO3 (ml/hr)	nahco3			13	500013	200					
+5	infusionDrug			D5 with 150 meq NAHCO3 (ml/hr)	nahco3			13	500013	200					
+5	infusionDrug			0.45 NS/Sodium Bicarbonate 5meq (ml/hr)	nahco3			13	500013	200					
+5	infusionDrug			NaHco3 (ml/hr)	nahco3			13	500013	200					
+5	infusionDrug			Bicarbonate (ml/hr)	nahco3			13	500013	200					
+5	infusionDrug			D5 c 150 MEQ NaHCO3 (ml/hr)	nahco3			13	500013	200					
+5	infusionDrug			D5W w/ 150mEq sodium bicarbonate  (ml/hr)	nahco3			13	500013	200					
+5	infusionDrug			NaBicarb (ml/hr)	nahco3			13	500013	200					
+5	infusionDrug			Norepinephrine (ml/hr)	norepinephrine			14	500014	200	noradrenaline				
+5	infusionDrug			Norepinephrine (mcg/min)	norepinephrine			14	500014	104					
+5	infusionDrug			Norepinephrine (mcg/kg/min)	norepinephrine			14	500014	103					
+5	infusionDrug			norepinephrine Volume (ml) (ml/hr)	norepinephrine			14	500014	200					
+5	infusionDrug			Norepinephrine STD 4 mg Dextrose 5% 250 ml (mcg/min)	norepinephrine			14	500014	104					
+5	infusionDrug			Norepinephrine MAX 32 mg Dextrose 5% 250 ml (mcg/min)	norepinephrine			14	500014	104					
+5	infusionDrug			Norepinephrine (mcg/kg/hr)	norepinephrine			14	500014	102					
+5	infusionDrug			Norepinephrine MAX 32 mg Dextrose 5% 500 ml (mcg/min)	norepinephrine			14	500014	104					
+5	infusionDrug			Norepinephrine STD 8 mg Dextrose 5% 500 ml (mcg/min)	norepinephrine			14	500014	104					
+5	infusionDrug			Norepinephrine STD 4 mg Dextrose 5% 500 ml (mcg/min)	norepinephrine			14	500014	104					
+5	infusionDrug			Norepinephrine STD 32 mg Dextrose 5% 500 ml (mcg/min)	norepinephrine			14	500014	104					
+5	infusionDrug			Norepinephrine STD 32 mg Dextrose 5% 282 ml (mcg/min)	norepinephrine			14	500014	104					
+5	infusionDrug			Norepinephrine (mg/min)	norepinephrine			14	500014	107					
+5	infusionDrug			Norepinephrine (mcg/hr)	norepinephrine			14	500014	101					
+5	infusionDrug			Norepinephrine (mg/hr)	norepinephrine			14	500014	105					
+5	infusionDrug		is important to cardiac patient.	0.45% NS w/40 mEq K (ml/hr)	potassium			15	500015	200					
+5	infusionDrug			D5 1/2NS with 20meq Potassium (ml/hr)	potassium			15	500015	200					
+5	infusionDrug			1/2 NSS + 40K (ml/hr)	potassium			15	500015	200					
+5	infusionDrug			D5 LR with 30meq K (ml/hr)	potassium			15	500015	200					
+5	infusionDrug			D5 + 40K (ml/hr)	potassium			15	500015	200					
+5	infusionDrug			K PHOS RIDER (ml/hr)	potassium			15	500015	200					
+5	infusionDrug			D5.45 with K (ml/hr)	potassium			15	500015	200					
+5	infusionDrug			Vasopressin (units/min)	vasopressin			16	500016	109	afterload measures				
+5	infusionDrug			Vasopressin (ml/hr)	vasopressin			16	500016	200					
+5	infusionDrug			Vasopressin (units/hr)	vasopressin			16	500016	108					
+5	infusionDrug			Vasopressin 40 Units Sodium Chloride 0.9% 100 ml (units/min)	vasopressin			16	500016	109					
+5	infusionDrug			Vasopressin 40 Units Sodium Chloride 0.9% 100 ml (units/hr)	vasopressin			16	500016	108					
+5	infusionDrug			Vasopressin (mcg/min)	vasopressin			16	500016	104					
+5	infusionDrug			Vasopressin 40 Units Sodium Chloride 0.9% 200 ml (units/min)	vasopressin			16	500016	109					
+6	nurseCharting	Invasive	CI	CI	ci			1	600001		cardiac input				
+6	nurseCharting	Vital Signs	CI	CI	ci			1	600001						
+6	nurseCharting	Invasive	CO	CO	co			2	600002		cardiac output				
+6	nurseCharting	Vital Signs	CO	CO	co			2	600002						
+6	nurseCharting	Vital Signs	CVP	CVP	cvp			3	600003		preload: param				
+6	nurseCharting	Other Vital Signs and Infusions	CVP (mmHg)	Value	cvp			3	600003						
+6	nurseCharting	Vital Signs	End Tidal CO2	End Tidal CO2	etco2			4	600004						
+6	nurseCharting	Vital Signs and Infusions	Bedside Glucose	Bedside Glucose	glc			5	600005		preload: param				
+6	nurseCharting	Vital Signs	Heart Rate	Heart Rate	hr			6	600006		heart rate				
+6	nurseCharting	Vital Signs	Invasive BP	Invasive BP Systolic	ibpd			7	600007						
+6	nurseCharting	Vital Signs	Invasive BP	Invasive BP Mean	ibpm			8	600008						
+6	nurseCharting	Vital Signs	Invasive BP	Invasive BP Diastolic	ibps			9	600009		invasive arterial bp				
+6	nurseCharting	Other Vital Signs and Infusions	Arterial Line MAP (mmHg)	Value	map			10	600010		afterload				
+6	nurseCharting	Other Vital Signs and Infusions	MAP (mmHg)	Value	map			10	600010						
+6	nurseCharting	Vital Signs	Non-Invasive BP	Non-Invasive BP Diastolic	nibpd			11	600011						
+6	nurseCharting	Vital Signs	Non-Invasive BP	Non-Invasive BP Mean	nibpm			12	600012						
+6	nurseCharting	Vital Signs	Non-Invasive BP	Non-Invasive BP Systolic	nibps			13	600013						
+6	nurseCharting	Invasive	PA	PA Diastolic	pad			14	600014		Pulmonary artery pressure				
+6	nurseCharting	Vital Signs	PA	PA Diastolic	pad			14	600014						
+6	nurseCharting	Invasive	PA	PA Mean	pam			15	600015						
+6	nurseCharting	Vital Signs	PA	PA Mean	pam			15	600015						
+6	nurseCharting	Invasive	PAOP	PAOP	paop			16	600016		Pulmonary artery occlusion pressure (“wedge pressure” - PAOP)				
+6	nurseCharting	Vital Signs	PAOP	PAOP	paop			16	600016						
+6	nurseCharting	Invasive	PA	PA Systolic	pas			17	600017						
+6	nurseCharting	Vital Signs	PA	PA Systolic	pas			17	600017						
+6	nurseCharting	Invasive	PVR	PVR	pvr			18	600018		afterload				
+6	nurseCharting	Vital Signs	PVR	PVR	pvr			18	600018						
+6	nurseCharting	Invasive	PVRI	PVRI	pvri			19	600019		afterload				
+6	nurseCharting	Vital Signs	PVRI	PVRI	pvri			19	600019						
+6	nurseCharting	Vital Signs	Respiratory Rate	Respiratory Rate	rr			20	600020		breathing rate				
+6	nurseCharting	Other Vital Signs and Infusions	SpO2	Value	spo2			21	600021						
+6	nurseCharting	Vital Signs	O2 Saturation	O2 Saturation	spo2			21	600021						
+6	nurseCharting	Vital Signs	SV	SV	sv			22	600022		stroke volume?				
+6	nurseCharting	Invasive	SV	SV	sv			22	600022						
+6	nurseCharting	SVO2	SVO2	SVO2	svo2			23	600023						
+6	nurseCharting	Vital Signs	SVO2	SVO2	svo2			23	600023						
+6	nurseCharting	Invasive	SVO2	SVO2	svo2			23	600023						
+6	nurseCharting	Invasive	SVR	SVR	svr			24	600024		afterload				
+6	nurseCharting	Vital Signs	SVR	SVR	svr			24	600024						
+6	nurseCharting	Invasive	SVRI	SVRI	svri			25	600025		afterload				
+6	nurseCharting	Vital Signs	SVRI	SVRI	svri			25	600025						
+6	nurseCharting	Vital Signs	Temperature	Temperature (C)	tempc			26	600026		36,3-37,5				
+6	nurseCharting	Vital Signs	Temperature	Temperature (F)	tempf			27	600027						
+7	diagnosis		pulmonary|respiratory failure|acute respiratory failure|due to increased CO2 production	518.81, J96.00				1	700001						
+7	diagnosis		cardiovascular|ventricular disorders|hypertension	401.9, I10				2	700002						
+7	diagnosis		renal|disorder of kidney|acute renal failure	584.9, N17.9				3	700003						
+7	diagnosis		cardiovascular|arrhythmias|atrial fibrillation	427.31, I48.0				4	700004						
+7	diagnosis		pulmonary|pulmonary infections|pneumonia	486, J18.9				5	700005						
+7	diagnosis		cardiovascular|ventricular disorders|congestive heart failure	428.0, I50.9				6	700006						
+7	diagnosis		cardiovascular|cardiac arrest|cardiac arrest|witnessed, < 15 minutes CPR	427.5, I46.9				7	700007						
+7	diagnosis		endocrine|glucose metabolism|hyperglycemia	790.6, R73.9				8	700008						
+7	diagnosis		cardiovascular|shock / hypotension|sepsis	038.9, A41.9				9	700009						
+7	diagnosis		pulmonary|respiratory failure|hypoxemia	799.02, J96.91				10	700010						
+7	diagnosis		pulmonary|disorders of the airways|COPD|severe	491.20, J44.9				11	700011						
+7	diagnosis		cardiovascular|shock / hypotension|hypotension	458.9, I95.9				12	700012						
+7	diagnosis		cardiovascular|chest pain / ASHD|hyperlipidemia	272.4, E78.5				13	700013						
+7	diagnosis		neurologic|altered mental status / pain|change in mental status	780.09, R41.82				14	700014						
+7	diagnosis		renal|disorder of kidney|chronic renal insufficiency	585.9, N18.9				15	700015						
+7	diagnosis		cardiovascular|chest pain / ASHD|acute coronary syndrome|acute myocardial infarction (no ST elevation)	410.71, I21.4				16	700016						
+7	diagnosis		infectious diseases|systemic/other infections|hematological effect of infection|leukocytosis	288.8, D72.829				17	700017						
+7	diagnosis		gastrointestinal|malnutrition|nutritional deficiency	263.9, E46				18	700018						
+7	diagnosis		pulmonary|pleural disorders|pleural effusion|left	511.9, J91.8				19	700019						
+7	diagnosis		gastrointestinal|GI bleeding / PUD|lower GI bleeding	578.9, K92.2				20	700020						
+7	diagnosis		pulmonary|respiratory failure|acute respiratory distress	518.82				21	700021						
+7	diagnosis		renal|disorder of acid base|metabolic acidosis|increased anion gap	276.2, E87.2				22	700022						
+7	diagnosis		cardiovascular|chest pain / ASHD|coronary artery disease|known	414.00, I25.10				23	700023						
+7	diagnosis		cardiovascular|shock / hypotension|cardiogenic shock	785.51, R57.0				24	700024						
+7	diagnosis		cardiovascular|chest pain / ASHD|chest pain	786.50, R07.9				25	700025						
+7	diagnosis		cardiovascular|chest pain / ASHD|acute coronary syndrome|acute myocardial infarction (with ST elevation)	410.90, I21.3				26	700026						
+7	diagnosis		renal|disorder of kidney|ESRD (end stage renal disease)	585.6, N18.6				27	700027						
+7	diagnosis		hematology|platelet disorders|thrombocytopenia	287.5, D69.6				28	700028						
+7	diagnosis		endocrine|thyroid|hypothyroidism	244.9, E03.9				29	700029						
+7	diagnosis		cardiovascular|shock / hypotension|signs and symptoms of sepsis (SIRS)	995.90				30	700030						
+7	diagnosis		cardiovascular|shock / hypotension|septic shock|cultures pending	785.52, R65.21				31	700031						
+7	diagnosis		infectious diseases|GU infections|lower urinary tract infection	595.9, N30.9				32	700032						
+7	diagnosis		infectious diseases|chest/pulmonary infections|pneumonia|aspiration	507.0, J69.0				33	700033						
+7	diagnosis		cardiovascular|shock / hypotension|signs and symptoms of sepsis (SIRS)|due to infectious process with organ dysfunction	995.92, R65.2				34	700034						
+7	diagnosis		cardiovascular|shock / hypotension|sepsis|sepsis with multi-organ dysfunction	995.92, R65.20				35	700035						
+7	diagnosis		cardiovascular|ventricular disorders|acute pulmonary edema	428.1, I50.1				36	700036						
+7	diagnosis		renal|electrolyte imbalance|hypokalemia	276.8, E87.6				37	700037						
+7	diagnosis		cardiovascular|arrhythmias|ventricular tachycardia	427.1, I47.2				38	700038						
+7	diagnosis		pulmonary|disorders of the airways|acute COPD exacerbation	491.21, J44.1				39	700039						
+7	diagnosis		gastrointestinal|hepatic disease|hepatic dysfunction|severe	573.9, K76.9				40	700040						
+7	diagnosis		renal|electrolyte imbalance|hypomagnesemia|due to Etoh abuse	275.2, E83.42				41	700041						
+7	diagnosis		neurologic|seizures|seizures	345.90, R56.9				42	700042						
+7	diagnosis		neurologic|altered mental status / pain|depression|moderate	311, F32.9				43	700043						
+7	diagnosis		renal|electrolyte imbalance|hyperkalemia|moderate ( 5.5 -6.1 meq/dl)	276.7, E87.5				44	700044						
+7	diagnosis		pulmonary|disorders of the airways|obstructive sleep apnea	780.57, G47.33				45	700045						
+7	diagnosis		pulmonary|respiratory failure|acute lung injury	518.81, J80				46	700046						
+7	diagnosis		cardiovascular|arrhythmias|sinus tachycardia	785.0, R00.0				47	700047						
+7	diagnosis		renal|disorder of kidney|chronic kidney disease|Stage 3 (GFR 30-59)	585.3, N18.3				48	700048						
+7	diagnosis		pulmonary|disorders of the airways|asthma / bronchospasm	493.90, J45				49	700049						
+7	diagnosis		infectious diseases|systemic/other infections|fever|etiology unknown	780.6, R50.9				50	700050						
+7	diagnosis		neurologic|altered mental status / pain|agitation	308.2, F43.0				51	700051						
+7	diagnosis		renal|disorder of urinary tract / renal system infection|urinary tract infection	599.0, N39.0				52	700052						
+7	diagnosis		neurologic|altered mental status / pain|encephalopathy	348.30, G93.40				53	700053						
+7	diagnosis		pulmonary|disorders of vasculature|pulmonary embolism	415.19, I26.99				54	700054						
+7	diagnosis		cardiovascular|shock / hypotension|hypovolemia	276.52, E86.1				55	700055						
+7	diagnosis		hematology|bleeding and red blood cell disorders|anemia|anemia of critical illness	285.9, D64.9				56	700056						
+7	diagnosis		hematology|bleeding and red blood cell disorders|anemia|acute blood loss anemia	285.1, D62				57	700057						
+7	diagnosis		neurologic|altered mental status / pain|drug withdrawal syndrome|alcohol	291.81, F10.239				58	700058						
+7	diagnosis		pulmonary|respiratory failure|chronic respiratory failure	518.83, J96.10				59	700059						
+7	diagnosis		neurologic|altered mental status / pain|encephalopathy|metabolic	348.31, G93.41				60	700060						
+7	diagnosis		infectious diseases|systemic/other infections|bacteremia	038.9, R78.81				61	700061						
+7	diagnosis		cardiovascular|valvular disease|valvular stenosis|aortic	424.1, I35.0				62	700062						
+7	diagnosis		gastrointestinal|abdominal/ general|abdominal pain / tenderness	789.00, R10.9				63	700063						
+7	diagnosis		hematology|coagulation disorders|coagulopathy	286.9, D68.9				64	700064						
+7	diagnosis		cardiovascular|chest pain / ASHD|acute coronary syndrome|acute myocardial infarction (with ST elevation)|inferior wall	410.41, I21.19				65	700065						
+7	diagnosis		renal|electrolyte imbalance|hyponatremia	276.1, E87.0, E87.1				66	700066						
+7	diagnosis		gastrointestinal|abdominal/ general|obesity|morbid	278.01, E66.01				67	700067						
+7	diagnosis		gastrointestinal|abdominal/ general|obesity	278.00, E66.9				68	700068						
+7	diagnosis		cardiovascular|chest pain / ASHD|acute coronary syndrome|unstable angina	411.1, I20.0				69	700069						
+7	diagnosis		cardiovascular|arrhythmias|atrial flutter|with variable conduction	427.32, I48.1				70	700070						
+7	diagnosis		pulmonary|respiratory failure|hypercarbia	786.09, J96.92				71	700071						
+7	diagnosis		neurologic|altered mental status / pain|dementia	294.9, F03				72	700072						
+7	diagnosis		renal|fluid imbalance|hypervolemia	276.6, E87.70				73	700073						
+7	diagnosis		renal|electrolyte imbalance|hypernatremia	276.0, E87.0				74	700074						
+7	diagnosis		cardiovascular|pericardial diseases|pericardial tamponade|by echocardiogram	423.9, I31.9				75	700075						
+7	diagnosis		neurologic|disorders of vasculature|stroke	436, I67.8				76	700076						
+7	diagnosis		cardiovascular|valvular disease|valvular insufficiency|mitral valve	424.0, I34.8				77	700077						
+7	diagnosis		infectious diseases|systemic/other infections|septic shock	785.59, R65.21				78	700078						
+7	diagnosis		neurologic|altered mental status / pain|anxiety	300.00, F41.9				79	700079						
+7	diagnosis		hematology|coagulation disorders|coagulopathy|coumadin administration	286.9, D68.32				80	700080						
+7	diagnosis		cardiovascular|chest pain / ASHD|acute coronary syndrome|anterior wall	410.11, I21.09				81	700081						
+7	diagnosis		neurologic|altered mental status / pain|delirium	293.0, F05				82	700082						
+7	diagnosis		renal|electrolyte imbalance|hypophosphatemia	275.3, E83.30				83	700083						
+7	diagnosis		endocrine|glucose metabolism|DKA	250.13, E10.1				84	700084						
+7	diagnosis		gastrointestinal|abdominal/ general|nausea	787.02, R11.0				85	700085						
+7	diagnosis		cardiovascular|diseases of the aorta|aortic dissection|descending thoracic	441.01, I71.01				86	700086						
+7	diagnosis		neurologic|disorders of vasculature|stroke|ischemic stroke	434.91, I63.50				87	700087						
+7	diagnosis		cardiovascular|arrhythmias|AV block|complete heart block	426.0, I44.2				88	700088						
+7	diagnosis		renal|electrolyte imbalance|hyponatremia|severe (< 125 meq/dl)	276.1, E87.1				89	700089						
+7	diagnosis		cardiovascular|vascular disorders|hypertension|hypertensive emergency/urgency	401.0, I10				90	700090						
+7	diagnosis		gastrointestinal|intestinal disease|enteritis|C. difficile colitis	008.45, A04.7				91	700091						
+7	diagnosis		gastrointestinal|esophageal disease|esophagitis|regurgitant	530.11, K21.0				92	700092						
+7	diagnosis		gastrointestinal|abdominal/ general|transaminase elevation	790.4, R74.0				93	700093						
+7	diagnosis		cardiovascular|shock / hypotension|dehydration	276.51, E86.0				94	700094						
+7	diagnosis		pulmonary|respiratory failure|respiratory arrest	799.1, R09.2				95	700095						
+7	diagnosis		gastrointestinal|abdominal/ general|vomiting	787.03, R11.10				96	700096						
+7	diagnosis		gastrointestinal|intestinal disease|diarrhea	787.91, R19.7				97	700097						
+7	diagnosis		pulmonary|disorders of lung parenchyma|atelectasis/collapse	518.0, J98.11				98	700098						
+7	diagnosis		oncology|chest tumors|primary lung cancer	162.9, C34.90				99	700099						
+7	diagnosis		renal|disorder of kidney|chronic kidney disease|Stage 4 (GFR 15-29)	585.4, N18.4				100	700100						
+7	diagnosis		infectious diseases|systemic/other infections|hematological effect of infection|bandemia	288.9, D72.825				101	700101						
+7	diagnosis		cardiovascular|shock / hypotension|sepsis|sepsis with single organ dysfunction- acute respiratory failure	038.9, 518.81, R65.20, J96.0				102	700102						
+7	diagnosis		renal|electrolyte imbalance|hypocalcemia	275.41, E83.51				103	700103						
+7	diagnosis		endocrine|glucose metabolism|hypoglycemia	251.1, E16.2				104	700104						
+7	diagnosis		cardiovascular|arrhythmias|syncope|likely cardiac origin	780.2, R55				105	700105						
+7	diagnosis		cardiovascular|ventricular disorders|cardiomyopathy|dilated|ischemic	425.8, I25.5				106	700106						
+7	diagnosis		gastrointestinal|abdominal/ general|dysphagia	787.2, R13.10				107	700107						
+7	diagnosis		cardiovascular|arrhythmias|SVT	427.0, I47.1				108	700108						
+7	diagnosis		cardiovascular|arrhythmias|bradycardia|symptomatic	427.81, R00.1				109	700109						
+7	diagnosis		cardiovascular|chest pain / ASHD|coronary artery disease|no previous CABG	414.01, I25.10				110	700110						
+7	diagnosis		renal|electrolyte imbalance|hypochloremia	276.9, E87.8				111	700111						
+7	diagnosis		neurologic|disorders of vasculature|cerebral subdural hematoma	432.9, I62.9				112	700112						
+7	diagnosis		neurologic|altered mental status / pain|persistent vegetative state	780.03, R40.3				113	700113						
+7	diagnosis		neurologic|altered mental status / pain|obtundation	780.09, R40.0				114	700114						
+7	diagnosis		cardiovascular|vascular disorders|DVT|left lower extremity	451.2, I80.3				115	700115						
+7	diagnosis		gastrointestinal|hepatic disease|viral hepatitis|hepatitis C	573.1, 070.51, B17.1				116	700116						
+7	diagnosis		cardiovascular|arrhythmias|ventricular fibrillation	427.41, I49.01				117	700117						
+7	diagnosis		gastrointestinal|abdominal/ general|constipation	564.00, K59.00				118	700118						
+7	diagnosis		renal|disorder of kidney|chronic kidney disease|Stage 2 (GFR 60-89)	585.2, N18.2				119	700119						
+7	diagnosis		renal|electrolyte imbalance|hyponatremia|moderate (125 - 135 meq/dl)	E87.1				120	700120						
+7	diagnosis		neurologic|altered mental status / pain|encephalopathy|post-anoxic	348.1, G93.1				121	700121						
+7	diagnosis		gastrointestinal|hepatic disease|hepatic dysfunction|with cirrhosis	571.5, K74.60				122	700122						
+7	diagnosis		renal|abnormality of urine quantity or quality|oliguria	788.5, R34				123	700123						
+7	diagnosis		cardiovascular|infection|endocarditis - native valve|culture pending	421.0, I33.0				124	700124						
+7	diagnosis		infectious diseases|skin, bone and joint infections|cellulitis	682.9, L03.90				125	700125						
+7	diagnosis		cardiovascular|ventricular disorders|low cardiac output state	428.9, I50.9				126	700126						
+7	diagnosis		endocrine|glucose metabolism|diabetes mellitus|Type II|uncontrolled	250.02, E11.65				127	700127						
+7	diagnosis		cardiovascular|shock / hypotension|septic shock|organism identified	785.59, 038.9, 995.92, R65.21				128	700128						
+7	diagnosis		cardiovascular|ventricular disorders|congestive heart failure|systolic	428.20, I50.20				129	700129						
+7	diagnosis		cardiovascular|vascular disorders|DVT|related to vascular catheter	451.9, I80.9				130	700130						
+7	diagnosis		burns/trauma|trauma - CNS|intracranial injury|with subarachnoid hemorrhage	852.00, S06.6				131	700131						
+7	diagnosis		neurologic|altered mental status / pain|schizophrenia	295.90, F20.9				132	700132						
+7	diagnosis		pulmonary|pulmonary infections|pneumonia|community-acquired|bacterial	486, 486, 486, 486, 486, J18.9				133	700133						
+7	diagnosis		neurologic|altered mental status / pain|encephalopathy|hepatic	572.2				134	700134						
+7	diagnosis		endocrine|fluids and electrolytes|hypokalemia	276.8, E87.8				135	700135						
+7	diagnosis		gastrointestinal|abdominal/ general|ascites	789.5, R18.8				136	700136						
+7	diagnosis		cardiovascular|diseases of the aorta|aortic aneurysm|thoracic|ascending	441.2, I71.2				137	700137						
+7	diagnosis		cardiovascular|ventricular disorders|congestive heart failure|systolic|acute on chronic	428.23, I50.23				138	700138						
+7	diagnosis		cardiovascular|vascular disorders|DVT|right upper extremity	451.84, I80.8				139	700139						
+7	diagnosis		neurologic|altered mental status / pain|bipolar disorder	296.80, F31.9				140	700140						
+7	diagnosis		gastrointestinal|intestinal disease|GI obstruction / ileus|small bowel obstruction	560.9, K56.60				141	700141						
+7	diagnosis		renal|disorder of urinary tract / renal system infection|upper urinary tract infection	590.10, N10				142	700142						
+7	diagnosis		burns/trauma|dermatology|pressure sore	707.00, L89.90				143	700143						
+7	diagnosis		hematology|bleeding and red blood cell disorders|anemia|anemia of chronic disease	285.29, D63.8				144	700144						
+7	diagnosis		cardiovascular|shock / hypotension|hypovolemic shock|hemorrhagic	785.59, R57.1, R58				145	700145						
+7	diagnosis		pulmonary|respiratory failure|acute respiratory failure|drug related|residual general anesthesia	518.5, J96.00				146	700146						
+7	diagnosis		cardiovascular|shock / hypotension|hypovolemic shock	785.59, R57.1				147	700147						
+7	diagnosis		cardiovascular|diseases of the aorta|aortic dissection	441.00, I71.00				148	700148						
+7	diagnosis		renal|disorder of kidney|acute renal failure|acute tubular necrosis	584.5, N17.0				149	700149						
+7	diagnosis		cardiovascular|ventricular disorders|congestive heart failure|diastolic	428.30, I50.30				150	700150						
+7	diagnosis		cardiovascular|valvular disease|valvular insufficiency|aortic valve	424.1, I35.1				151	700151						
+7	diagnosis		cardiovascular|valvular disease|valvular insufficiency|tricuspid valve	424.2, I36.8				152	700152						
+7	diagnosis		gastrointestinal|hepatic disease|hepatic dysfunction|with cirrhosis|alcoholic	571.2, K70.3				153	700153						
+7	diagnosis		cardiovascular|arrhythmias|AV block|symptomatic	426.10, I44.30				154	700154						
+7	diagnosis		pulmonary|pulmonary infections|pneumonia|community-acquired|viral	480.9, J12.9				155	700155						
+7	diagnosis		endocrine|glucose metabolism|diabetes mellitus|Type II|controlled	250.00, E11.9				156	700156						
+7	diagnosis		cardiovascular|ventricular disorders|congestive heart failure|combined systolic and diastolic	428.40, I50.40				157	700157						
+7	diagnosis		gastrointestinal|pancreatic disease|pancreatitis|acute	577.0, K85.9				158	700158						
+7	diagnosis		hematology|bleeding and red blood cell disorders|anemia|anemia of renal disease	285.21, D63.1				159	700159						
+7	diagnosis		cardiovascular|ventricular disorders|cardiomyopathy|dilated	I42.0				160	700160						
+7	diagnosis		infectious diseases|skin, bone and joint infections|cellulitis|extremity	682.9, L03.119				161	700161						
+7	diagnosis		cardiovascular|diseases of the aorta|aortic aneurysm	441.9, I71.9				162	700162						
+7	diagnosis		cardiovascular|shock / hypotension|sepsis|sepsis with single organ dysfunction- acute renal failure	038.9, 584.9, R65.20, N17				163	700163						
+7	diagnosis		pulmonary|respiratory failure|acute respiratory failure|due to obstructive lung disease	518.84, J96.00				164	700164						
+7	diagnosis		gastrointestinal|abdominal/ general|nausea|with vomiting	787.01, R11.2				165	700165						
+7	diagnosis		pulmonary|disorders of vasculature|pulmonary hypertension|secondary	416.8, I27.2				166	700166						
+7	diagnosis		gastrointestinal|intestinal disease|GI obstruction / ileus|ileus	560.1, K56.0				167	700167						
+7	diagnosis		infectious diseases|skin, bone and joint infections|wound infection|surgical wound	998.59				168	700168						
+7	diagnosis		pulmonary|disorders of the airways|upper respiratory obstruction	786.00, R06.1				169	700169						
+7	diagnosis		hematology|bleeding and red blood cell disorders|pancytopenia	284.8, D61.9				170	700170						
+7	diagnosis		pulmonary|pleural disorders|empyema	510.9, J86.9				171	700171						
+7	diagnosis		pulmonary|respiratory failure|acute on chronic respiratory failure not due to CHF	518.84, J96.20				172	700172						
+7	diagnosis		cardiovascular|ventricular disorders|congestive heart failure|systolic|acute	428.21, I50.21				173	700173						
+7	diagnosis		cardiovascular|chest pain / ASHD|acute coronary syndrome|myocardial ischemia	411.89, I24.8				174	700174						
+7	diagnosis		neurologic|altered mental status / pain|drug withdrawal syndrome	F19.939				175	700175						
+7	diagnosis		endocrine|adrenal disorders|adrenal insufficiency|unexpected hypotension / pressor requirement	255.4, E27.40				176	700176						
+7	diagnosis		oncology|GU tumors|prostate CA	185, C61				177	700177						
+7	diagnosis		cardiovascular|diseases of the aorta|aortic aneurysm|abdominal	441.4, I71.4				178	700178						
+7	diagnosis		neurologic|altered mental status / pain|coma	780.01, R40.20				179	700179						
+7	diagnosis		infectious diseases|systemic/other infections|HIV positive	V08, Z21				180	700180						
+7	diagnosis		cardiovascular|ventricular disorders|congestive heart failure|diastolic|acute on chronic	428.33, I50.33				181	700181						
+7	diagnosis		cardiovascular|shock / hypotension|shock, etiology unclear	785.50, R57.9				182	700182						
+7	diagnosis		gastrointestinal|GI bleeding / PUD|peptic ulcer disease	533.90, K27.9				183	700183						
+7	diagnosis		cardiovascular|vascular disorders|arterial thromboembolism|right lower extremity	444.22, I74.3				184	700184						
+7	diagnosis		neurologic|misc|Parkinson's disease	332.0, G20				185	700185						
+7	diagnosis		renal|disorder of acid base|metabolic alkalosis|due to diuretics	276.3, E87.3				186	700186						
+7	diagnosis		pulmonary|disorders of lung parenchyma|interstitial lung disease	516.9, J84.9				187	700187						
+7	diagnosis		pulmonary|respiratory failure|Tracheostomy performed during this admission for ventilatory support	31.1				188	700188						
+7	diagnosis		endocrine|pituitary and temperature regulation|central diabetes insipidus|from trauma	253.5, E23.2				189	700189						
+7	diagnosis		renal|electrolyte imbalance|hypercalcemia|due to hyperparathyroidism	275.42, E83.52				190	700190						
+7	diagnosis		pulmonary|disorders of vasculature|pulmonary hemorrhage|due to infectious etiology|pneumonia	786.3, R04.9				191	700191						
+7	diagnosis		neurologic|disorders of the spinal cord and peripheral nervous system|quadriplegia-partial	344.00, G82.50				192	700192						
+7	diagnosis		cardiovascular|ventricular disorders|congestive heart failure|systolic|chronic	428.22, I50.22				193	700193						
+7	diagnosis		cardiovascular|vascular disorders|peripheral vascular ischemia|postoperative	443.9, I73.9				194	700194						
+7	diagnosis		gastrointestinal|hepatic disease|hepatic failure	570, K72.9				195	700195						
+7	diagnosis		renal|abnormality of urine quantity or quality|hematuria	599.7, R31.9				196	700196						
+7	diagnosis		renal|disorder of urinary tract / renal system infection|obstructive uropathy	586, N19				197	700197						
+7	diagnosis		renal|electrolyte imbalance|hypermagnesemia	275.2, E83.41				198	700198						
+7	diagnosis		cardiovascular|valvular disease|valvular stenosis|mitral	394.0, I05.0				199	700199						
+7	diagnosis		oncology|hematologic malignancy|multiple myeloma	203.00, C90.00				200	700200						
+7	diagnosis		pulmonary|disorders of the airways|upper respiratory obstruction|due to obstructive sleep apnea	780.57, G47.30				201	700201						
+7	diagnosis		renal|disorder of kidney|chronic kidney disease|Stage 5 (GFR <14)	585.5, N18.5				202	700202						
+7	diagnosis		hematology|coagulation disorders|coagulopathy|liver failure	286.7, D68.4				203	700203						
+7	diagnosis		cardiovascular|shock / hypotension|sepsis|sepsis with single organ dysfunction- circulatory system failure	038.9, 785.52, R65.21				204	700204						
+7	diagnosis		neurologic|altered mental status / pain|encephalopathy|toxic	349.82, G92				205	700205						
+7	diagnosis		surgery|cardiac surgery|low cardiac output state|due to valvular dysfunction	997.1, I97.89				206	700206						
+7	diagnosis		pulmonary|disorders of lung parenchyma|interstitial lung disease|idiopathic pulmonary fibrosis	516.3, J84.1				207	700207						
+7	diagnosis		hematology|white blood cell disorders|neutropenia|from chemotherapy	288.0, D70.9				208	700208						
+7	diagnosis		oncology|GI tumors|colon CA	153.9, C18.9				209	700209						
+7	diagnosis		oncology|chest tumors|metastatic lung CA	197.0, C78.00				210	700210						
+7	diagnosis		general|immunological diseases|rheumatoid arthritis	714.0, M06.9				211	700211						
+7	diagnosis		gastrointestinal|GI bleeding / PUD|upper GI bleeding|gastric	533.00, K92.2				212	700212						
+7	diagnosis		burns/trauma|trauma - CNS|intracranial injury|with subdural hematoma	852.20, S06.5				213	700213						
+7	diagnosis		pulmonary|trauma|pneumothorax	860.0				214	700214						
+7	diagnosis		infectious diseases|systemic/other infections|bacteremia|skin or wound source	790.7, R78.81				215	700215						
+7	diagnosis		cardiovascular|valvular disease|valvular insufficiency|aortic valve|with stenosis	424.1, I35.2				216	700216						
+7	diagnosis		neurologic|seizures|seizures|status epilepticus	345.3, G40.901				217	700217						
+7	diagnosis		cardiovascular|chest pain / ASHD|acute coronary syndrome|acute myocardial infarction (with ST elevation)|lateral wall	410.51, I21.29				218	700218						
+7	diagnosis		neurologic|disorders of vasculature|TIA	435.9, G45.9				219	700219						
+7	diagnosis		oncology|GI tumors|esophageal CA	192.9, C15.9				220	700220						
+7	diagnosis		pulmonary|pulmonary infections|pneumonia|hospital acquired (not ventilator-associated)|bacterial|staph aureus	482.41, J15.21				221	700221						
+7	diagnosis		cardiovascular|ventricular disorders|congestive heart failure|combined systolic and diastolic|acute on chronic	428.43, I50.43				222	700222						
+7	diagnosis		cardiovascular|shock / hypotension|septic shock|organism identified|gram positive organism	785.59, 038.9, 995.92				223	700223						
+7	diagnosis		gastrointestinal|intestinal disease|viscus perforation|colonic|due to diverticulitis	569.83, K63.1				224	700224						
+7	diagnosis		infectious diseases|systemic/other infections|fungemia	117.9, 790.99, B49				225	700225						
+7	diagnosis		cardiovascular|pericardial diseases|pericarditis	420.90, I30.9				226	700226						
+7	diagnosis		hematology|coagulation disorders|DIC syndrome	286.6, D65				227	700227						
+7	diagnosis		neurologic|seizures|seizures|generalized tonic -clonic	345.10, G40.3				228	700228						
+7	diagnosis		cardiovascular|infection|endocarditis - native valve|staphylococcus aureus	421.0, 041.11, B95.6, I33.0				229	700229						
+7	diagnosis		neurologic|altered mental status / pain|drug withdrawal syndrome|benzodiazepine	292.0, F19.939				230	700230						
+7	diagnosis		gastrointestinal|malnutrition|nutritional deficiency|moderate	263.0, E44.0				231	700231						
+7	diagnosis		cardiovascular|congenital heart disease|congenital heart disease|surgically repaired	746.9, Q24.9				232	700232						
+7	diagnosis		oncology|GU tumors|renal cell CA|left kidney	189.0, C64.9				233	700233						
+7	diagnosis		neurologic|seizures|seizures|new onset	R56.9				234	700234						
+7	diagnosis		gastrointestinal|abdominal/ general|peritonitis|due to bowel perforation	567.9, K65.0				235	700235						
+7	diagnosis		cardiovascular|ventricular disorders|congestive heart failure|diastolic|chronic	428.32, I50.32				236	700236						
+7	diagnosis		renal|disorder of urinary tract / renal system infection|nephrolithiasis	592.0, N20.0				237	700237						
+7	diagnosis		gastrointestinal|GI bleeding / PUD|upper GI bleeding|varices	456.0, I85.01				238	700238						
+7	diagnosis		cardiovascular|chest pain / ASHD|acute coronary syndrome|unstable angina|due to progression of CAD with stent in place	411.1, 414.01, I20.0				239	700239						
+7	diagnosis		cardiovascular|ventricular disorders|congestive heart failure|cor pulmonale	I50.9				240	700240						
+7	diagnosis		burns/trauma|dermatology|rash, non-infectious	692.9, L30.9				241	700241						
+7	diagnosis		toxicology|drug overdose|narcotic overdose|with respiratory depression	T40.60				242	700242						
+7	diagnosis		gastrointestinal|biliary disease|cholecystitis|acute	575.0, K81.0				243	700243						
+7	diagnosis		toxicology|drug overdose|narcotic overdose|with decreased mental status	518.4, E980.2, 965.00, T40.60				244	700244						
+7	diagnosis		neurologic|misc|headache|severe	R51				245	700245						
+7	diagnosis		cardiovascular|valvular disease|valvular stenosis|aortic|with insufficiency	395.2, I06.2				246	700246						
+7	diagnosis		general|immunological diseases|systemic lupus erythematosus	710.0, M32.10				247	700247						
+7	diagnosis		surgery|general surgery postop issues|hemorrhage|internal hemorrhage	998.11, I97.89				248	700248						
+7	diagnosis		neurologic|CNS mass lesions|brain tumor	191.9, C71.9				249	700249						
+7	diagnosis		pulmonary|disorders of the airways|upper respiratory obstruction|due to angioedema	478.8, J39.3				250	700250						
+7	diagnosis		pulmonary|disorders of the airways|hypoxemia	799.02, R09.02				251	700251						
+7	diagnosis		neurologic|seizures|seizures|generalized	345.10, R56.9				252	700252						
+7	diagnosis		surgery|cardiac surgery|hemorrhage|known coagulopathy present	998.11, T88				253	700253						
+7	diagnosis		toxicology|drug overdose|benzodiazepine overdose	969.4, E980.2, T42.4X				254	700254						
+7	diagnosis		hematology|platelet disorders|thrombocytosis	289.9, D47.3				255	700255						
+7	diagnosis		surgery|vascular surgery|hemorrhage|wound hemorrhage	998.11				256	700256						
+7	diagnosis		hematology|bleeding and red blood cell disorders|anemia|iron deficiency anemia secondary to chronic blood	280.0, D50.0				257	700257						
+7	diagnosis		infectious diseases|GI infections|peritonitis	567.21, K65.0				258	700258						
+7	diagnosis		gastrointestinal|abdominal/ general|intra-abdominal abscess	567.22, K65.1				259	700259						
+7	diagnosis		cardiovascular|arrhythmias|bradycardia|junctional	427.89, I49.8				260	700260						
+7	diagnosis		cardiovascular|ventricular disorders|cardiomyopathy|dilated|idiopathic	425.4, I42.8				261	700261						
+7	diagnosis		infectious diseases|skin, bone and joint infections|osteomyelitis	730.20, M86.9				262	700262						
+7	diagnosis		hematology|white blood cell disorders|leukocytosis|neutrophilia	288.8, D72.828				263	700263						
+7	diagnosis		toxicology|drug overdose|ethanol overdose	980.0, E980.2, T51.0				264	700264						
+7	diagnosis		cardiovascular|shock / hypotension|volume depletion, unspecified	276.50, E86.9				265	700265						
+7	diagnosis		neurologic|altered mental status / pain|dementia|Alzheimer's disease	294.10, 331.0, F02.8, G30.9				266	700266						
+7	diagnosis		infectious diseases|systemic/other infections|signs and symptoms of sepsis (SIRS)|due to infectious process without organ dysfunction	995.91, R65				267	700267						
+7	diagnosis		cardiovascular|vascular disorders|hypertension|with heart failure	404.91, I11.0				268	700268						
+7	diagnosis		hematology|oncology and leukemia|myelodysplastic syndrome	238.7, C94.6				269	700269						
+7	diagnosis		toxicology|drug overdose|narcotic overdose	E980.2, 965.00, T40.60				270	700270						
+7	diagnosis		gastrointestinal|intestinal disease|enteritis|colitis, presumed infectious	009.1, A09				271	700271						
+7	diagnosis		neurologic|neuromuscular disorders|motor neuropathy|amyotrophic lateral sclerosis	335.20, G12.21				272	700272						
+7	diagnosis		gastrointestinal|GI bleeding / PUD|upper GI bleeding|gastritis	535.01, K92.2				273	700273						
+7	diagnosis		transplant|s/p kidney transplant|s/p kidney transplant	996.81				274	700274						
+7	diagnosis		burns/trauma|trauma - skeletal|bone fracture(s)|ribs	S22.4				275	700275						
+7	diagnosis		infectious diseases|chest/pulmonary infections|purulent bronchitis	490, J40				276	700276						
+7	diagnosis		cardiovascular|vascular disorders|peripheral vascular ischemia|atherosclerotic thrombo-occlusion	440.20, I70.209				277	700277						
+7	diagnosis		gastrointestinal|esophageal disease|abscess of esophagus	530.10, K20.9				278	700278						
+7	diagnosis		gastrointestinal|abdominal/ general|abdominal pain / tenderness|generalized	789.07, R10.84				279	700279						
+7	diagnosis		cardiovascular|arrhythmias|AV block|second degree	I44.1				280	700280						
+7	diagnosis		surgery|thoracic surgery|pneumothorax	512.1, J95.81				281	700281						
+7	diagnosis		oncology|chest tumors|breast CA|female	174.9, C50.919				282	700282						
+7	diagnosis		neurologic|seizures|seizures|etiology unknown	345.90, G40.9				283	700283						
+7	diagnosis		burns/trauma|trauma - chest|chest wall trauma	807.4				284	700284						
+7	diagnosis		infectious diseases|systemic/other infections|AIDS	042, B20				285	700285						
+7	diagnosis		gastrointestinal|malnutrition|nutritional deficiency|severe	261, E41				286	700286						
+7	diagnosis		infectious diseases|skin, bone and joint infections|necrotizing fasciitis|extremity	728.86, M72.6				287	700287						
+7	diagnosis		cardiovascular|vascular disorders|peripheral vascular ischemia|with claudication	440.21, I70.219				288	700288						
+7	diagnosis		cardiovascular|arrhythmias|ventricular premature beats|without hemodynamic compromise	427.69, I49.3				289	700289						
+7	diagnosis		cardiovascular|shock / hypotension|anaphylactic shock|with upper airway involvement	995.0				290	700290						
+7	diagnosis		neurologic|altered mental status / pain|suicidal ideation	V62.84, R45.851				291	700291						
+7	diagnosis		renal|disorder of acid base|mixed acid base disorder	276.4, E87.4				292	700292						
+7	diagnosis		cardiovascular|ventricular disorders|congestive heart failure|diastolic|acute	428.31, I50.31				293	700293						
+7	diagnosis		neurologic|neuromuscular disorders|motor neuropathy|multiple sclerosis	340, G35				294	700294						
+7	diagnosis		oncology|hematologic malignancy|lymphoproliferative disease|non-Hodgkin's lymphoma	202.80, C85.80				295	700295						
+7	diagnosis		gastrointestinal|biliary disease|cholangitis	576.1, K83.0				296	700296						
+7	diagnosis		cardiovascular|diseases of the aorta|aortic dissection|abdominal	441.02, I71.02				297	700297						
+7	diagnosis		gastrointestinal|GI bleeding / PUD|upper GI bleeding|esophageal	530.82, K22.8				298	700298						
+7	diagnosis		cardiovascular|arrhythmias|bradycardia|sick sinus syndrome	427.81, I49.5				299	700299						
+7	diagnosis		neurologic|trauma - CNS|depressed level of consciousness	780.09, R40.1				300	700300						
+7	diagnosis		hematology|coagulation disorders|hypercoagulable state|heparin induced thrombocytopenia	286.9, D75.82				301	700301						
+7	diagnosis		endocrine|glucose metabolism|diabetes mellitus|Type I|uncontrolled	250.03, E10.65				302	700302						
+7	diagnosis		burns/trauma|dermatology|pressure sore|stage 4	707.00, L89.894				303	700303						
+7	diagnosis		pulmonary|pulmonary infections|lung abscess|bacterial	513.0, J85.2				304	700304						
+7	diagnosis		oncology|hematologic malignancy|leukemia|chronic lymphocytic	204.10, C91.10				305	700305						
+7	diagnosis		renal|disorder of kidney|acute renal failure|due to obstruction	599.60, N17.9				306	700306						
+7	diagnosis		burns/trauma|trauma - skeletal|bone fracture(s)|ribs|closed	807.00, S22.4				307	700307						
+7	diagnosis		cardiovascular|infection|endocarditis - prosthetic valve	996.61, 421.0, I33.0				308	700308						
+7	diagnosis		pulmonary|trauma|pneumomediastinum	518.1, J98.2				309	700309						
+7	diagnosis		cardiovascular|chest pain / ASHD|acute coronary syndrome|acute myocardial infarction (with ST elevation)|inferolateral wall	410.21, I21.19				310	700310						
+7	diagnosis		cardiovascular|chest pain / ASHD|acute coronary syndrome|acute myocardial infarction (no ST elevation)|due to progression of CAD with stent in place	410.71, 414.01, I21.4, I25.10				311	700311						
+7	diagnosis		gastrointestinal|pancreatic disease|pancreatitis|chronic	577.1, K86.1				312	700312						
+7	diagnosis		gastrointestinal|intestinal disease|inflammatory  bowel disease|Crohn's disease	555.9, K50.9				313	700313						
+7	diagnosis		transplant|s/p heart transplant|hemorrhage - heart transplant	996.83, T86.20				314	700314						
+7	diagnosis		pulmonary|disorders of the airways|asthma / bronchospasm|status asthmaticus	493.91, J45.902				315	700315						
+7	diagnosis		pulmonary|pleural disorders|pleural effusion|malignant	197.2, J91.0				316	700316						
+7	diagnosis		hematology|coagulation disorders|hypercoagulable state	286.9, D68.69				317	700317						
+7	diagnosis		pulmonary|pleural disorders|pneumothorax|spontaneous	512.8, J93.1				318	700318						
+7	diagnosis		endocrine|glucose metabolism|DKA|with altered mental status	250.33, E10.11				319	700319						
+7	diagnosis		renal|electrolyte imbalance|hyponatremia|due to renal disease	276.1, E87.0				320	700320						
+7	diagnosis		gastrointestinal|hepatic disease|toxic hepatitis|alcohol related	571.1, K70.1				321	700321						
+7	diagnosis		toxicology|drug overdose|acetaminophen overdose	E980.0, 965.4, T39.1X				322	700322						
+7	diagnosis		neurologic|disorders of vasculature|stroke|hemorrhagic stroke|subarachnoid hemorrhage	430, 430, 430, 430, 430, 430, I60.9				323	700323						
+7	diagnosis		pulmonary|pulmonary infections|pneumonia|community-acquired|bacterial|pneumococcus	481, J13				324	700324						
+7	diagnosis		cardiovascular|arrhythmias|bradycardia|due to drugs	427.89, R00.1				325	700325						
+7	diagnosis		hematology|bleeding and red blood cell disorders|disorders of hemoglobin|sickle cell disease	282.60, D57.1				326	700326						
+7	diagnosis		gastrointestinal|hepatic disease|hepatorenal syndrome	572.4, K76.7				327	700327						
+7	diagnosis		cardiovascular|arrhythmias|AV block|left bundle branch block	426.3, I44.7				328	700328						
+7	diagnosis		hematology|white blood cell disorders|leukocytosis|lymphocytosis	288.8, D72.820				329	700329						
+7	diagnosis		oncology|GU tumors|bladder CA	188.9, C67.9				330	700330						
+7	diagnosis		cardiovascular|chest pain / ASHD|coronary artery disease|of vein graft	414.02, I25.810				331	700331						
+7	diagnosis		pulmonary|disorders of the airways|epistaxis	784.7, R04.0				332	700332						
+7	diagnosis		neurologic|neuromuscular disorders|myopathy|rhabdomyolysis	359.89, G72.89				333	700333						
+7	diagnosis		gastrointestinal|abdominal/ general|wound dehiscence / evisceration	998.32, T81.3				334	700334						
+7	diagnosis		gastrointestinal|hepatic disease|viral hepatitis|hepatitis B	070.30, 573.1, B19.10				335	700335						
+7	diagnosis		gastrointestinal|biliary disease|biliary obstruction|cholelithiasis	574.01, K80.01				336	700336						
+7	diagnosis		transplant|s/p heart transplant|s/p heart transplant	996.83				337	700337						
+7	diagnosis		gastrointestinal|intestinal disease|vascular insufficiency of intestine	557.9, K55.9				338	700338						
+7	diagnosis		cardiovascular|vascular disorders|swollen extremity, etiology unknown|right upper extremity	729.81, M79.89				339	700339						
+7	diagnosis		cardiovascular|vascular disorders|arterial thromboembolism|embolic, atrial fibrillation	444.9, I74.9				340	700340						
+7	diagnosis		cardiovascular|valvular disease|valvular insufficiency|mitral valve|with stenosis	424.0, I05.2				341	700341						
+7	diagnosis		infectious diseases|GI infections|intra-abdominal abscess|intestinal|etiology unclear	569.5				342	700342						
+7	diagnosis		burns/trauma|dermatology|pressure sore|stage 3	707.00, L89.893				343	700343						
+7	diagnosis		neurologic|neuromuscular disorders|motor neuropathy|Guillain-Barre syndrome	357.0, G61.0				344	700344						
+7	diagnosis		oncology|GI tumors|liver CA|CA metastatic to liver	197.7, C78.7				345	700345						
+7	diagnosis		infectious diseases|skin, bone and joint infections|cellulitis|abdomen/pelvis	682.2, L03.90				346	700346						
+7	diagnosis		surgery|infections|vascular catheter infection|vascular catheter infection, tunneled	996.62, T85.7				347	700347						
+7	diagnosis		oncology|GI tumors|pancreatic tumor|pancreatic CA	157.9, C25.9				348	700348						
+7	diagnosis		cardiovascular|chest pain / ASHD|acute coronary syndrome|acute myocardial infarction (with ST elevation)|inferior wall|with conduction disturbance	410.41, 426.9, I21.19, I45.9				349	700349						
+7	diagnosis		infectious diseases|skin, bone and joint infections|septic arthritis	711.00, M00.9				350	700350						
+7	diagnosis		endocrine|fluids and electrolytes|hypokalemia|severe ( < 2.8 meq/dl)	276.7, E87.8				351	700351						
+7	diagnosis		gastrointestinal|abdominal/ general|amylase elevation	790.5, R74.8				352	700352						
+7	diagnosis		gastrointestinal|biliary disease|biliary obstruction|stricture	575.2, K82.0				353	700353						
+7	diagnosis		infectious diseases|GI infections|viral hepatitis|hepatitis C	573.1, 070.30, B17.1				354	700354						
+7	diagnosis		transplant|s/p kidney transplant|rejection - kidney transplant	996.81, T86.11				355	700355						
+7	diagnosis		hematology|oncology and leukemia|leukemia|acute myelogenous	205.00, C92.00				356	700356						
+7	diagnosis		pulmonary|disorders of lung parenchyma|interstitial lung disease|sarcoidosis	135, 517.8, D86.9				357	700357						
+7	diagnosis		cardiovascular|ventricular disorders|acute pulmonary edema|due to hypertension	428.1, 402.91, I11.0, I50.1				358	700358						
+7	diagnosis		pulmonary|pulmonary infections|pneumonia|community-acquired|legionella	482.84, A48.1				359	700359						
+7	diagnosis		burns/trauma|dermatology|pressure sore|stage 2	707.00, L89.892				360	700360						
+7	diagnosis		endocrine|thyroid|hyperthyroidism	242.90, E05.90				361	700361						
+7	diagnosis		hematology|white blood cell disorders|leukocytosis|leukemoid reaction	288.8, D72.823				362	700362						
+7	diagnosis		gastrointestinal|intestinal disease|enteritis|diverticulitis of colon	562.11, K57				363	700363						
+7	diagnosis		toxicology|drug overdose|cocaine overdose	968.5, E980.4, T40.5				364	700364						
+7	diagnosis		cardiovascular|cardiac surgery|mediastinitis	519.2, J98.5				365	700365						
+7	diagnosis		endocrine|pituitary and temperature regulation|hypothermia|not due to cold environment	780.99, R68.0				366	700366						
+7	diagnosis		cardiovascular|arrhythmias|AV block|second degree|Mobitz type 2	426.12, I44.1				367	700367						
+7	diagnosis		cardiovascular|arrhythmias|AV block|first degree	426.11, I44.0				368	700368						
+7	diagnosis		neurologic|misc|headache|migraine	346.00, G43.9				369	700369						
+7	diagnosis		burns/trauma|trauma - skeletal|bone fracture(s)|cervical spine	S12				370	700370						
+7	diagnosis		neurologic|disorders of vasculature|stroke|ischemic stroke|cardioembolic	434.11, I63.40				371	700371						
+7	diagnosis		infectious diseases|chest/pulmonary infections|bronchiectasis	494.1, J47.1				372	700372						
+7	diagnosis		gastrointestinal|GI bleeding / PUD|peptic ulcer disease|gastric	531.90, K25.9				373	700373						
+7	diagnosis		oncology|skin, muscle and skeletal tumors|bone tumors|bony metastasis	198.5, C79.51				374	700374						
+7	diagnosis		toxicology|drug overdose|benzodiazepine overdose|with decreased mental status	E980.2, 969.4, 780.09, T42.4X				375	700375						
+7	diagnosis		oncology|GU tumors|ovarian CA	183.0, C56.9				376	700376						
+7	diagnosis		cardiovascular|ventricular disorders|hypertension|with renal failure	402.91, I11.0				377	700377						
+7	diagnosis		oncology|GU tumors|uterine CA	179, C55				378	700378						
+7	diagnosis		cardiovascular|valvular disease|valvular stenosis|aortic|with angina	I35.0, I20.9				379	700379						
+7	diagnosis		infectious diseases|GI infections|peritonitis|spontaneous bacterial	567.21, K65.2				380	700380						
+7	diagnosis		neurologic|neuromuscular disorders|sensory neuropathy	357.9, G61.9				381	700381						
+7	diagnosis		neurologic|neuromuscular disorders|neuropathy|from diabetes	357.2, E10.42				382	700382						
+7	diagnosis		transplant|s/p heart transplant|rejection - heart transplant|chronic	996.83, T86.21				383	700383						
+7	diagnosis		gastrointestinal|intestinal disease|inflammatory  bowel disease|ulcerative colitis	556.9, K51.9				384	700384						
+7	diagnosis		cardiovascular|arrhythmias|AV block|right bundle branch block	426.4, I45.10				385	700385						
+7	diagnosis		gastrointestinal|biliary disease|cholecystitis|with biliary calculus	574.00, K81.0				386	700386						
+7	diagnosis		cardiovascular|shock / hypotension|sepsis|sepsis with single organ dysfunction- metabolic encephalopathy	038.9, 348.31, R65.20, G93.41				387	700387						
+7	diagnosis		gastrointestinal|abdominal/ general|abdominal pain / tenderness|epigastric	789.06, R10.13				388	700388						
+7	diagnosis		oncology|GI tumors|gastric CA|gastric lymphoma	151.9, C16.9				389	700389						
+7	diagnosis		pulmonary|disorders of lung parenchyma|malignancy|lymphoma	202.82, C85.82				390	700390						
+7	diagnosis		cardiovascular|valvular disease|valvular stenosis|aortic|with syncope	424.1, I35.0, R55				391	700391						
+7	diagnosis		burns/trauma|trauma - chest|lung trauma|left	861.20, S27.30				392	700392						
+7	diagnosis		cardiovascular|ventricular disorders|congestive heart failure|combined systolic and diastolic|chronic	428.42, I50.42				393	700393						
+7	diagnosis		endocrine|glucose metabolism|hyperosmolar nonketotic coma|insulin-requiring	250.23, E13.00				394	700394						
+7	diagnosis		gastrointestinal|esophageal disease|esophageal tear	530.4, K22.3				395	700395						
+7	diagnosis		cardiovascular|ventricular disorders|hypertension|with heart failure and renal failure	404.93, I13.2				396	700396						
+7	diagnosis		neurologic|altered mental status / pain|drug withdrawal syndrome|nicotine	F17.20				397	700397						
+7	diagnosis		endocrine|glucose metabolism|hypoglycemia|from excess exogenous insulin	251.1, E932.3, E16.0, T38.3				398	700398						
+7	diagnosis		neurologic|misc|myoclonus	333.2, G25.3				399	700399						
+7	diagnosis		renal|abnormality of urine quantity or quality|polyuria	788.42, R35.8				400	700400						
+7	diagnosis		cardiovascular|valvular disease|valvular insufficiency|mitral valve|with aortic valve disease	424.0				401	700401						
+7	diagnosis		burns/trauma|trauma - abdomen|hepatic trauma|grade II laceration	864.05				402	700402						
+7	diagnosis		cardiovascular|chest pain / ASHD|acute coronary syndrome|acute myocardial infarction (with ST elevation)|right ventricle	410.81, I21.29				403	700403						
+7	diagnosis		gastrointestinal|pancreatic disease|pancreatitis|with pseudocyst formation	577.2, K86.3				404	700404						
+7	diagnosis		cardiovascular|vascular disorders|arterial thromboembolism|right upper extremity	444.21, I74.2				405	700405						
+7	diagnosis		general|immunological diseases|systemic sclerosis (scleroderma)	710.1, M34.0				406	700406						
+7	diagnosis		infectious diseases|skin, bone and joint infections|osteomyelitis|vertebral	730.28, M46.20				407	700407						
+7	diagnosis		neurologic|disorders of vasculature|stroke|hemorrhagic stroke|hypertensive	431, 431, 431, 431, I61.9				408	700408						
+7	diagnosis		cardiovascular|arrhythmias|AV block|second degree|Mobitz type I	426.13, I44.1				409	700409						
+7	diagnosis		cardiovascular|valvular disease|valvular stenosis|aortic|rheumatic	395.1, I06.1				410	700410						
+7	diagnosis		burns/trauma|trauma - skeletal|bone fracture(s)|cervical spine|closed	805.00, S12				411	700411						
+7	diagnosis		hematology|platelet disorders|TTP	446.6, M31.1				412	700412						
+7	diagnosis		cardiovascular|vascular disorders|traumatic injury to major vessels|r femoral artery	904.0				413	700413						
+7	diagnosis		gastrointestinal|abdominal/ general|abdominal compartment syndrome	M79.A3				414	700414						
+7	diagnosis		gastrointestinal|abdominal/ general|abdominal pain / tenderness|right lower quadrant	789.03, R10.31				415	700415						
+7	diagnosis		infectious diseases|skin, bone and joint infections|cellulitis|chest	682.2, L03.313				416	700416						
+7	diagnosis		gastrointestinal|abdominal/ general|abdominal pain / tenderness|right upper quadrant	789.01, R10.11				417	700417						
+7	diagnosis		burns/trauma|trauma - skeletal|bone fracture(s)|left lower extremity|femur|closed	821.00				418	700418						
+7	diagnosis		cardiovascular|valvular disease|valvular stenosis|mitral|with insufficiency	394.2, I05.2				419	700419						
+7	diagnosis		renal|disorder of kidney|chronic kidney disease|Stage 1 (GFR >90)	585.1, N18.1				420	700420						
+7	diagnosis		burns/trauma|dermatology|rash, infectious|candida dermatitis	112.3, B37.2				421	700421						
+7	diagnosis		surgery|acute cardiac problems|acute coronary syndrome|acute myocardial infarction (no ST elevation)	410.70, I21.4				422	700422						
+7	diagnosis		toxicology|drug overdose|ethanol overdose|with decreased mental status	780.09, 980.0, E980.2, T51.0				423	700423						
+7	diagnosis		cardiovascular|ventricular disorders|congestive heart failure|cor pulmonale|chronic	416.9, I27.9				424	700424						
+7	diagnosis		burns/trauma|trauma- head and neck|facial bone fracture|orbital fracture	802.8				425	700425						
+7	diagnosis		cardiovascular|ventricular disorders|congestive heart failure|combined systolic and diastolic|acute	428.41, I50.41				426	700426						
+7	diagnosis		hematology|platelet disorders|thrombocytopenia|ITP	287.31, D69.3				427	700427						
+7	diagnosis		burns/trauma|dermatology|pressure sore|stage 1	707.00, L89.891				428	700428						
+7	diagnosis		neurologic|neuromuscular disorders|motor neuropathy|polyneuropathy of critical illness	357.82, G62.81				429	700429						
+7	diagnosis		oncology|GI tumors|liver CA|hepatocellular CA	155.0, C22.0				430	700430						
+7	diagnosis		infectious diseases|head and neck infections|oral thrush	112.0, B37.0				431	700431						
+7	diagnosis		gastrointestinal|abdominal/ general|abdominal pain / tenderness|left lower quadrant	789.04, R10.32				432	700432						
+7	diagnosis		cardiovascular|chest pain / ASHD|acute coronary syndrome|inferior wall|with conduction disturbance	I21.19, I45.9				433	700433						
+7	diagnosis		oncology|head and neck tumors|mouth and jaw tumor|oral cavity squamous cell CA	145.9, C06.9				434	700434						
+7	diagnosis		infectious diseases|vascular infections|endocarditis - native valve|other streptococci (including enterococcus)	421.0, 041.09, B95.4, I33.0				435	700435						
+7	diagnosis		neurologic|disorders of the spinal cord and peripheral nervous system|paraplegia-complete	344.1, G82.21				436	700436						
+7	diagnosis		cardiovascular|shock / hypotension|signs and symptoms of sepsis (SIRS)|due to non-infectious process with organ dysfunction	995.94, R65.11				437	700437						
+7	diagnosis		pulmonary|disorders of vasculature|pulmonary hypertension|primary	416.0, I27.0				438	700438						
+7	diagnosis		pulmonary|disorders of lung parenchyma|occupational pulmonary disease|asbestosis	501, J66				439	700439						
+7	diagnosis		infectious diseases|GI infections|enteritis|diverticulitis of colon	562.11, K57.32				440	700440						
+7	diagnosis		gastrointestinal|intestinal disease|GI obstruction / ileus|obstruction of colon|fecal impaction	560.39, K56.41				441	700441						
+7	diagnosis		toxicology|drug overdose|benzodiazepine overdose|with respiratory depression	969.0, 780.39, T42.4X				442	700442						
+7	diagnosis		burns/trauma|trauma - skeletal|rhabdomyolysis	728.89				443	700443						
+7	diagnosis		infectious diseases|chest/pulmonary infections|empyema|bacterial|gram negative rod	041.85, 510.9, B96.89, J86.9				444	700444						
+7	diagnosis		infectious diseases|chest/pulmonary infections|empyema|bacterial|staph aureus	510.9, 041.11, B95.6, J86.9				445	700445						
+7	diagnosis		neurologic|disorders of vasculature|increased intracranial pressure|with reflex hypertension	781.99, G93.5, I15.9				446	700446						
+7	diagnosis		oncology|head and neck tumors|neck tumor|laryngeal CA	161.9, C32.9				447	700447						
+7	diagnosis		burns/trauma|dermatology|rash, infectious	686.9, L08.9				448	700448						
+7	diagnosis		cardiovascular|valvular disease|valvular stenosis|aortic|with mitral valve disease	396.9, I08.9				449	700449						
+7	diagnosis		burns/trauma|trauma - CNS|intracranial injury	854.00, S06.9				450	700450						
+7	diagnosis		oncology|GI tumors|anal CA	154.3, C18.0				451	700451						
+7	diagnosis		neurologic|trauma - CNS|intracranial injury|with intracerebral hemorrhage	851.80, S06.9				452	700452						
+7	diagnosis		toxicology|drug overdose|acetaminophen overdose|dosage unknown	965.4, E980.0, T39.1X				453	700453						
+7	diagnosis		cardiovascular|shock / hypotension|sepsis|sepsis with single organ dysfunction- congestive heart failure	038.9, 428.0, R65.20, I50.9				454	700454						
+7	diagnosis		infectious diseases|head and neck infections|oral herpes	054.2, B00.2				455	700455						
+7	diagnosis		cardiovascular|chest pain / ASHD|acute coronary syndrome|acute myocardial infarction (with ST elevation)|inferoposterior wall	410.31, I21.11				456	700456						
+7	diagnosis		hematology|bleeding and red blood cell disorders|polycythemia|secondary polycythemia	289.0, D75.1				457	700457						
+7	diagnosis		pulmonary|pleural disorders|pneumothorax|spontaneous with tension	512.0, J93.0				458	700458						
+7	diagnosis		burns/trauma|trauma- head and neck|blunt injury to the neck	S10.8				459	700459						
+7	diagnosis		infectious diseases|vascular infections|endocarditis - prosthetic valve|staphylococcus aureus	041.11, 421.0, 996.61, B95.6, I33.0				460	700460						
+7	diagnosis		surgery|respiratory failure|acute respiratory distress	518.82, J96.00				461	700461						
+7	diagnosis		infectious diseases|chest/pulmonary infections|pneumonia|community-acquired|bacterial|H influenzae	482.2, J14				462	700462						
+7	diagnosis		cardiovascular|chest pain / ASHD|coronary artery disease|of LIMA bypass	414.04, I25.810				463	700463						
+7	diagnosis		gastrointestinal|intestinal disease|viscus perforation|gastric	537.9, K31.9				464	700464						
+7	diagnosis		neurologic|seizures|seizures|partial with secondary generalization	G40.1				465	700465						
+7	diagnosis		burns/trauma|trauma - CNS|spinal cord injury|cervical|C5-C7	952.05, S14.1				466	700466						
+7	diagnosis		gastrointestinal|hepatic disease|fulminant hepatic failure	570, K72.0				467	700467						
+7	diagnosis		cardiovascular|vascular disorders|peripheral vascular ischemia|atheroembolic	445.89, I75.89				468	700468						
+7	diagnosis		oncology|head and neck tumors|neck tumor|thyroid tumor|medullary CA	193, C73				469	700469						
+7	diagnosis		burns/trauma|trauma - chest|lung trauma|with pleural effusion|hemothorax	860.2				470	700470						
+7	diagnosis		toxicology|drug overdose|overdose of unknown agent(s)	E980.5, 977.9, T50.90				471	700471						
+7	diagnosis		endocrine|pituitary and temperature regulation|hypothermia|due to cold environment	991.6				472	700472						
+7	diagnosis		hematology|oncology and leukemia|myeloproliferative disorder|chronic myeloproliferative disorder (clinical)	238.7, D47.1				473	700473						
+7	diagnosis		cardiovascular|infection|myocarditis	422.90, I40.9				474	700474						
+7	diagnosis		pulmonary|pleural disorders|empyema|associated with pneumonia	510.9, 486, J86.9				475	700475						
+7	diagnosis		toxicology|drug overdose|tricyclic overdose	E980.3, 969.0, T43.01				476	700476						
+7	diagnosis		cardiovascular|shock / hypotension|signs and symptoms of sepsis (SIRS)|due to non-infectious process without organ dysfunction	995.93, R65.10				477	700477						
+7	diagnosis		cardiovascular|valvular disease|valvular stenosis|tricuspid	424.2, I07.0				478	700478						
+7	diagnosis		gastrointestinal|pancreatic disease|pancreatitis|necrotizing	577.8, K85.9				479	700479						
+7	diagnosis		cardiovascular|valvular disease|myxoma	212.7, D15.1				480	700480						
+7	diagnosis		hematology|oncology and leukemia|lymphoproliferative disease|Hodgkin's disease	201.90, C81.90				481	700481						
+7	diagnosis		toxicology|drug overdose|beta blocker overdose	969.4, E980.2, T44.7X				482	700482						
+7	diagnosis		neurologic|disorders of the spinal cord and peripheral nervous system|spinal cord compression|secondary to disc	336.9, G95.2				483	700483						
+7	diagnosis		toxicology|drug overdose|ethanol overdose|with respiratory depression	T51.0				484	700484						
+7	diagnosis		neurologic|disorders of vasculature|increased intracranial pressure	781.99, G93.5				485	700485						
+7	diagnosis		neurologic|disorders of vasculature|increased intracranial pressure|with herniation syndrome|uncal	348.4, G93.5				486	700486						
+7	diagnosis		burns/trauma|trauma- head and neck|oral injury	873.70, S01.50				487	700487						
+7	diagnosis		burns/trauma|trauma - skeletal|bone fracture(s)|pelvis|closed	808.8				488	700488						
+7	diagnosis		oncology|skin, muscle and skeletal tumors|melanoma	172.9, C43.9				489	700489						
+7	diagnosis		burns/trauma|trauma - abdomen|splenic trauma|grade II laceration	865.00				490	700490						
+7	diagnosis		toxicology|drug overdose|salicylate overdose/toxicity	965.1, E980.2, T39.09				491	700491						
+7	diagnosis		pulmonary|disorders of the airways|bronchitis|chronic	491.9, J42				492	700492						
+7	diagnosis		gastrointestinal|trauma|blunt abdominal trauma	863.80, S36.9				493	700493						
+7	diagnosis		oncology|GU tumors|cervical CA	180.9, C53.9				494	700494						
+7	diagnosis		cardiovascular|infection|endocarditis - native valve|gram positive organism (non-staph/strep)	041.9, 421.0, B96.89, I33.0				495	700495						
+7	diagnosis		cardiovascular|chest pain / ASHD|acute coronary syndrome|acute myocardial infarction (with ST elevation)|posterior wall	410.61, I21.29				496	700496						
+7	diagnosis		cardiovascular|diseases of the aorta|aortic aneurysm|thoraco-abdominal	441.7, I71.6				497	700497						
+7	diagnosis		pulmonary|pulmonary infections|pneumonia|opportunistic|fungal	484.7, 484.7, 484.7, 484.7, J17				498	700498						
+7	diagnosis		renal|disorder of kidney|acute renal failure|due to nephrotoxic agents|radiocontrast dye	584.9, E947.8, N17.9				499	700499						
+7	diagnosis		neurologic|neuromuscular disorders|motor neuropathy|myasthenia gravis	358.00, G70.0				500	700500						
+7	diagnosis		neurologic|altered mental status / pain|dementia|vascular dementia	290.40, F01.5				501	700501						
+7	diagnosis		pulmonary|pulmonary infections|pneumonia|community-acquired|bacterial|gram negative rod	482.83, J15.6				502	700502						
+7	diagnosis		cardiovascular|ventricular disorders|cardiac mural thrombus	429.79, I51.3				503	700503						
+7	diagnosis		gastrointestinal|intestinal disease|vascular insufficiency of intestine|ischemic enterocolitis|acute	557.0, K55.0				504	700504						
+7	diagnosis		cardiovascular|vascular disorders|traumatic injury to major vessels|r carotid artery	900.00				505	700505						
+7	diagnosis		hematology|platelet disorders|platelet dysfunction|due to hemolytic-uremic syndrome	287.1, D69.1				506	700506						
+7	diagnosis		oncology|skin, muscle and skeletal tumors|basal cell CA	173.9, C44.9				507	700507						
+7	diagnosis		pulmonary|disorders of the airways|upper respiratory obstruction|post extubation	786.1, R06.1				508	700508						
+7	diagnosis		infectious diseases|skin, bone and joint infections|wound infection|traumatic wound	L03.90				509	700509						
+7	diagnosis		neurologic|misc|neuropathy|polyneuropathy	357.9, G62.9				510	700510						
+7	diagnosis		neurologic|trauma - CNS|spinal cord injury|paraplegia-partial	344.1, G82.22				511	700511						
+7	diagnosis		surgery|thoracic surgery|hemorrhage|known coagulopathy present	998.11, R58				512	700512						
+7	diagnosis		hematology|coagulation disorders|coagulopathy|acquired anticoagulants	286.5, D68.31				513	700513						
+7	diagnosis		neurologic|CNS mass lesions|brain tumor|metastatic brain tumor	198.3, C79.31				514	700514						
+7	diagnosis		cardiovascular|ventricular disorders|cardiomyopathy|peri-partum|post-partum	648.64, O90.3				515	700515						
+7	diagnosis		gastrointestinal|GI bleeding / PUD|upper GI bleeding|mallory-weiss	530.7, K92.2				516	700516						
+7	diagnosis		hematology|transfusion medicine|transfusion reaction	999.8, T80.9				517	700517						
+7	diagnosis		cardiovascular|arrhythmias|atrial premature beats	427.61, I49.1				518	700518						
+7	diagnosis		burns/trauma|trauma - skeletal|bone fracture(s)|acetabulum|closed	808.0, S32.40				519	700519						
+7	diagnosis		cardiovascular|infection|endocarditis - prosthetic valve|staphylococcus aureus	996.61, 041.11, 421.0, B95.6, I33.0				520	700520						
+7	diagnosis		neurologic|neuromuscular disorders|myopathy|myopathy of critical illness	359.81, G72.81				521	700521						
+7	diagnosis		gastrointestinal|intestinal disease|enteric fistula|rectal|to vagina	619.1, N82.4				522	700522						
+7	diagnosis		pulmonary|pleural disorders|hemothorax|open	860.3, J94.2				523	700523						
+7	diagnosis		hematology|coagulation disorders|hypercoagulable state|factor V leiden mutation	286.9, D68.51				524	700524						
+7	diagnosis		pulmonary|pleural disorders|empyema|associated with lung abscess	513.0, 510.9, J86.9				525	700525						
+7	diagnosis		endocrine|pituitary and temperature regulation|hypopituitarism|due to CNS tumor	253.2, E23.0				526	700526						
+7	diagnosis		infectious diseases|GI infections|intra-abdominal abscess|hepatic	572.0, K75.0				527	700527						
+7	diagnosis		burns/trauma|trauma - skeletal|bone fracture(s)|thoracic spine	S22.00				528	700528						
+7	diagnosis		infectious diseases|GI infections|viral hepatitis	573.1, B17.9				529	700529						
+7	diagnosis		endocrine|thyroid|hyperthyroidism|Grave's disease	242.00, E05.00				530	700530						
+7	diagnosis		gastrointestinal|intestinal disease|acute appendicitis	541, K35.80				531	700531						
+7	diagnosis		infectious diseases|head and neck infections|abscess - head and neck|periodontal	523.3, K05.20				532	700532						
+7	diagnosis		pulmonary|pleural disorders|broncho-pleural fistula	510.0, J86.0				533	700533						
+7	diagnosis		infectious diseases|systemic/other infections|bacteremia|vascular catheter associated	038.9, 996.62				534	700534						
+7	diagnosis		neurologic|neuromuscular disorders|motor neuropathy|myasthenia gravis|with respiratory involvement	358.00				535	700535						
+7	diagnosis		gastrointestinal|abdominal/ general|intra-abdominal abscess|intestinal	569.5, K63.0				536	700536						
+7	diagnosis		burns/trauma|trauma - skeletal|bone fracture(s)|sternum	S22.2				537	700537						
+7	diagnosis		cardiovascular|arrhythmias|digitalis toxicity	972.1, T46.0				538	700538						
+7	diagnosis		burns/trauma|trauma - skeletal|bone fracture(s)|thoracic spine|closed	805.2, S22.00				539	700539						
+7	diagnosis		cardiovascular|valvular disease|valvular insufficiency|with CHF|acute (from endocarditis)	421.9, I33.9				540	700540						
+7	diagnosis		toxicology|drug overdose|digoxin overdose/toxicity|with dysrhythmia	427.9, 972.1, T46.0X				541	700541						
+7	diagnosis		oncology|GI tumors|intestinal CA|lymphoma	152.9, C17.9				542	700542						
+7	diagnosis		infectious diseases|head and neck infections|sinusitis	461.9, J01.90				543	700543						
+7	diagnosis		oncology|GI tumors|abdominal carcinomatosis	197.6, C78.6				544	700544						
+7	diagnosis		endocrine|glucose metabolism|diabetes mellitus|Type I|controlled	250.01, E10.9				545	700545						
+7	diagnosis		neurologic|CNS mass lesions|increased intracranial pressure|from hydrocephalus	G91.9				546	700546						
+7	diagnosis		neurologic|infectious disease of nervous system|meningitis|after trauma to skull base	322.9, G03.9				547	700547						
+7	diagnosis		neurologic|CNS mass lesions|cerebral mass of unknown etiology	784.2				548	700548						
+7	diagnosis		pulmonary|pulmonary infections|pneumonia|opportunistic|fungal|aspergillus	484.6, 117.3, B44.1				549	700549						
+7	diagnosis		cardiovascular|ventricular disorders|cardiomyopathy|dilated|ethanol related	425.5, I42.6				550	700550						
+7	diagnosis		neurologic|CNS mass lesions|spinal cord compression|secondary to metastasis	336.9, G95.9				551	700551						
+7	diagnosis		oncology|GI tumors|colon CA|sigmoid	153.3, C18.7				552	700552						
+7	diagnosis		toxicology|drug overdose|calcium channel blocker overdose	E980.4, 972.9, T46.1X				553	700553						
+7	diagnosis		burns/trauma|trauma - CNS|spinal cord injury|cervical	S14.1				554	700554						
+7	diagnosis		pulmonary|disorders of the airways|bronchitis|acute	466.0, J20.9				555	700555						
+7	diagnosis		pulmonary|pleural disorders|empyema|postoperative	510.9, 998.59, J86.9				556	700556						
+7	diagnosis		cardiovascular|vascular disorders|arterial thromboembolism|associated with HIT	E934.2, 444.9, I74.9, D75.82				557	700557						
+7	diagnosis		gastrointestinal|hepatic disease|hepatic dysfunction|with cirrhosis|cryptogenic	571.5, K74.69				558	700558						
+7	diagnosis		gastrointestinal|GI bleeding / PUD|peptic ulcer disease|duodenal	532.90, K26.9				559	700559						
+7	diagnosis		neurologic|infectious disease of nervous system|encephalitis|viral|CMV	078.5, B25.8				560	700560						
+7	diagnosis		hematology|bleeding and red blood cell disorders|anemia|folate deficiency anemia	284.9, D52.9				561	700561						
+7	diagnosis		cardiovascular|ventricular disorders|cardiomyopathy|dilated|post-myocarditis	425.9, I43				562	700562						
+7	diagnosis		infectious diseases|skin, bone and joint infections|shingles	053.9, B02.9				563	700563						
+7	diagnosis		pulmonary|pleural disorders|hemothorax|closed	860.2, J94.2				564	700564						
+7	diagnosis		burns/trauma|trauma - skeletal|bone fracture(s)|lumbar spine|closed	805.4, S32.00				565	700565						
+7	diagnosis		neurologic|CNS mass lesions|increased intracranial pressure|from cerebral edema	G93.6				566	700566						
+7	diagnosis		oncology|unknown primary|metastatic adenocarcinoma	199.0, C80.0				567	700567						
+7	diagnosis		burns/trauma|dermatology|rash, non-infectious|drug related rash	693.0, L27.0				568	700568						
+7	diagnosis		neurologic|CNS mass lesions|spinal cord compression|secondary to epidural abscess	324.1, 336.9, G06.1				569	700569						
+7	diagnosis		infectious diseases|vascular infections|endocarditis - prosthetic valve|culture pending	421.0, 996.61, I33.0				570	700570						
+7	diagnosis		renal|disorder of kidney|acute renal failure|due to nephrotoxic agents|NSAIDs	584.9, E935.3, N17.9				571	700571						
+7	diagnosis		hematology|bleeding and red blood cell disorders|anemia|vitamin B12 deficiency anemia	281.2, D51.9				572	700572						
+7	diagnosis		hematology|oncology and leukemia|leukemia|chronic myelogenous	205.10, C92.10				573	700573						
+7	diagnosis		cardiovascular|arrhythmias|accelerated idioventricular rhythm	427.9, I49.9				574	700574						
+7	diagnosis		oncology|skin, muscle and skeletal tumors|bone tumors|osteosarcoma	170.9, C41.9				575	700575						
+7	diagnosis		cardiovascular|vascular disorders|superficial thrombophlebitis|right upper extremity	451.82, I80.8				576	700576						
+7	diagnosis		neurologic|neuromuscular disorders|myopathy	359.89, G72.9				577	700577						
+7	diagnosis		gastrointestinal|intestinal disease|GI obstruction / ileus|small bowel obstruction|adhesions	560.81, K56.5				578	700578						
+7	diagnosis		endocrine|thyroid|myxedema coma	421.0, 996.61, E03.5				579	700579						
+7	diagnosis		hematology|white blood cell disorders|eosinophilia	288.3, D72.1				580	700580						
+7	diagnosis		gastrointestinal|abdominal/ general|peritonitis|spontaneous bacterial	567.23, K65.2				581	700581						
+7	diagnosis		oncology|skin, muscle and skeletal tumors|soft tissue sarcoma	171.9, C49.9				582	700582						
+7	diagnosis		burns/trauma|trauma - skeletal|bone fracture(s)|lumbar spine	S32.00				583	700583						
+7	diagnosis		surgery|obstetrics|pre-eclampsia/ eclampsia|severe pre-eclampsia	642.50, O14.10				584	700584						
+7	diagnosis		neurologic|trauma - CNS|intracranial injury|with cerebral contusion	851.00, S06.9				585	700585						
+7	diagnosis		renal|abnormality of urine quantity or quality|pyuria	791.7, R82.99				586	700586						
+7	diagnosis		burns/trauma|trauma - chest|lung trauma|with contusion of lung	861.21				587	700587						
+7	diagnosis		infectious diseases|GU infections|pelvic abscess	567.21, K65.1				588	700588						
+7	diagnosis		neurologic|disorders of vasculature|stroke|hemorrhagic stroke|subarachnoid hemorrhage|with hydrocephalus	430, 331.3, G91.0, I60.9				589	700589						
+7	diagnosis		gastrointestinal|hepatic disease|toxic hepatitis|medication related	573.3, T71.2				590	700590						
+7	diagnosis		pulmonary|disorders of vasculature|pulmonary hemorrhage|procedure related|biopsy	786.3, 998.11				591	700591						
+7	diagnosis		surgery|vascular surgery|surgery-related ischemia|left lower extremities	997.79, T81.7				592	700592						
+7	diagnosis		cardiovascular|valvular disease|valvular insufficiency|mitral valve|rheumatic	424.0, I05.1				593	700593						
+7	diagnosis		hematology|coagulation disorders|hypercoagulable state|antiphospholipid syndrome	286.9, D68.61				594	700594						
+7	diagnosis		infectious diseases|CNS infections|CNS abscess|brain / cerebral	324.0, G06.0				595	700595						
+7	diagnosis		renal|disorder of kidney|acute renal failure|due to nephrotoxic agents|ARBs	584.9, E942.9, N17.9				596	700596						
+7	diagnosis		burns/trauma|trauma- head and neck|facial bone fracture|maxillary fracture	802.4				597	700597						
+7	diagnosis		neurologic|infectious disease of nervous system|encephalitis|etiology undefined	323.9, G04.90				598	700598						
+7	diagnosis		pulmonary|disorders of vasculature|pulmonary hemorrhage|etiology unknown	786.3, T88				599	700599						
+7	diagnosis		hematology|bleeding and red blood cell disorders|anemia|aplastic anemia	284.9, D61.9				600	700600						
+7	diagnosis		gastrointestinal|intestinal disease|GI obstruction / ileus|obstruction of colon|acute dilatation of the colon syndrome	564.7, K59.3				601	700601						
+7	diagnosis		toxicology|drug overdose|barbiturate overdose	E980.1, 967.0, T42.3X				602	700602						
+7	diagnosis		cardiovascular|diseases of the aorta|aortic aneurysm|abdominal|ruptured	441.3, I71.3				603	700603						
+7	diagnosis		toxicology|drug overdose|overdose of unknown agent(s)|with decreased mental status	977.9, E980.5, 780.09, T50.90				604	700604						
+7	diagnosis		gastrointestinal|abdominal/ general|abdominal pain / tenderness|with rebound	789.60, R10.829				605	700605						
+7	diagnosis		infectious diseases|GI infections|rectal/perirectal abscess	K61.1				606	700606						
+7	diagnosis		oncology|GI tumors|cholangiocarcinoma	156.9, C24.9				607	700607						
+7	diagnosis		neurologic|misc|headache|hydrocephalus	R51, G91.9				608	700608						
+7	diagnosis		general|immunological diseases|dermatomyositis	710.3, M33.90				609	700609						
+7	diagnosis		pulmonary|pulmonary infections|empyema|associated with pneumonia	510.9, 486, J86.9, J18.9				610	700610						
+7	diagnosis		gastrointestinal|GI bleeding / PUD|lower GI bleeding|due to A-V malformation	569.85, K55.21				611	700611						
+7	diagnosis		cardiovascular|diseases of the aorta|aortic aneurysm|thoraco-abdominal|ruptured	441.6, I71.5				612	700612						
+7	diagnosis		gastrointestinal|hepatic disease|hepatic dysfunction|with cirrhosis|biliary	571.6, K74.5				613	700613						
+7	diagnosis		toxicology|drug overdose|digoxin overdose/toxicity	972.1, T46.0X				614	700614						
+7	diagnosis		burns/trauma|trauma - CNS|intracranial injury|with intraventricular hemorrhage	853.00, S06.9				615	700615						
+7	diagnosis		gastrointestinal|trauma|splenic trauma	865.00, S36.0				616	700616						
+7	diagnosis		burns/trauma|trauma - abdomen|retroperitoneal trauma|with hemorrhage	S36.89				617	700617						
+7	diagnosis		pulmonary|pulmonary infections|pneumonia|opportunistic|mycobacterial|M avium complex	011.60, A15.0				618	700618						
+7	diagnosis		cardiovascular|vascular disorders|vasculitis|Wegener's granulomatosis	446.4, M31.30				619	700619						
+7	diagnosis		pulmonary|respiratory failure|ARDS|non-pulmonary etiology|related to multiple trauma	518.5, J80				620	700620						
+7	diagnosis		surgery|obstetrics|HELLP syndrome	642.50, O14.20				621	700621						
+7	diagnosis		pulmonary|pulmonary infections|pneumonia|opportunistic|PCP	136.3, B59				622	700622						
+7	diagnosis		burns/trauma|trauma - systemic effects|ARDS	J80				623	700623						
+7	diagnosis		cardiovascular|infection|endocarditis - native valve|coagulase-negative staphylococcus	421.0, 041.19, I33.0				624	700624						
+7	diagnosis		gastrointestinal|abdominal/ general|abdominal pain / tenderness|left upper quadrant	789.02, R10.12				625	700625						
+7	diagnosis		burns/trauma|trauma - abdomen|bowel trauma|with rupture	863.89, S36.50				626	700626						
+7	diagnosis		cardiovascular|pericardial diseases|pericarditis|bacterial	420.99, I30.9				627	700627						
+7	diagnosis		hematology|white blood cell disorders|neutropenia|associated with infectious disease	288.0, D70.3				628	700628						
+7	diagnosis		pulmonary|disorders of lung parenchyma|interstitial lung disease|ILD associated with collagen vascular disease	517.8, J99				629	700629						
+7	diagnosis		burns/trauma|burns|burn injury	946.0				630	700630						
+7	diagnosis		cardiovascular|chest pain / ASHD|acute coronary syndrome|coronary artery spasm	413.1, I20.1				631	700631						
+7	diagnosis		cardiovascular|vascular disorders|vasculitis|temporal arteritis	446.5, M31.6				632	700632						
+7	diagnosis		cardiovascular|ventricular disorders|hypertension|malignant|with altered mental status	437.2, 401.1, I67.4				633	700633						
+7	diagnosis		endocrine|fluids and electrolytes|SIADH	253.6, E22.2				634	700634						
+7	diagnosis		pulmonary|disorders of the airways|asthma / bronchospasm|due to anaphylaxis	493.90, 995.0, J45				635	700635						
+7	diagnosis		cardiovascular|ventricular disorders|acute pulmonary edema|due to malignant hypertension	402.01, 428.1, I50.1, I11.0				636	700636						
+7	diagnosis		surgery|general surgery postop issues|enteric fistula|intestinal	569.81, K63.2				637	700637						
+7	diagnosis		neurologic|disorders of the spinal cord and peripheral nervous system|hemiplegia-partial	342.90, G81.90				638	700638						
+7	diagnosis		neurologic|disorders of vasculature|stroke|hemorrhagic stroke|subarachnoid hemorrhage|from ruptured AV malformation	430, I60.9				639	700639						
+7	diagnosis		toxicology|drug overdose|carbon monoxide overdose	986, E982.1, T58.9				640	700640						
+7	diagnosis		cardiovascular|vascular disorders|arterial thromboembolism|kidney	593.81, N28.0				641	700641						
+7	diagnosis		transplant|s/p lung transplant|s/p lung transplant	996.84				642	700642						
+7	diagnosis		cardiovascular|vascular disorders|traumatic injury to major vessels|thoracic aorta	901.0, S25.0				643	700643						
+7	diagnosis		neurologic|infectious disease of nervous system|encephalitis|systemic lupus erythematosus	323.8, M32.19, G05.3				644	700644						
+7	diagnosis		cardiovascular|ventricular disorders|cardiomyopathy|peri-partum	674.50, O90.3				645	700645						
+7	diagnosis		infectious diseases|head and neck infections|abscess - head and neck|ludwig's angina	478.29, J39.2				646	700646						
+7	diagnosis		toxicology|drug overdose|tricyclic overdose|with respiratory depression	T43.01				647	700647						
+7	diagnosis		burns/trauma|trauma - skeletal|bone fracture(s)|acetabulum	S32.40				648	700648						
+7	diagnosis		pulmonary|pulmonary infections|empyema|fungal	117.9, 510.9, J86.9				649	700649						
+7	diagnosis		infectious diseases|chest/pulmonary infections|SARS	480.8, J12.89				650	700650						
+7	diagnosis		infectious diseases|systemic/other infections|toxic shock syndrome	040.82, A48.3				651	700651						
+7	diagnosis		cardiovascular|arrhythmias|bradycardia|due to inferior wall MI	427.81, 410.41, I21.19, R00.1				652	700652						
+7	diagnosis		pulmonary|trauma|chest wall trauma	959.11				653	700653						
+7	diagnosis		burns/trauma|trauma - skeletal|dislocation|hip|closed	835.00, S73.00				654	700654						
+7	diagnosis		cardiovascular|ventricular disorders|cardiomyopathy|hypertrophic|idiopathic	I42.8				655	700655						
+7	diagnosis		gastrointestinal|abdominal/ general|intra-abdominal abscess|retroperitoneal	567.38, K68.1				656	700656						
+7	diagnosis		cardiovascular|valvular disease|valvular insufficiency|pulmonic valve	I37.1				657	700657						
+7	diagnosis		neurologic|infectious disease of nervous system|meningitis|acute|aseptic	322.0, G03.0				658	700658						
+7	diagnosis		infectious diseases|CNS infections|meningitis|acute|bacterial|pneumococcus	320.1, G00.1				659	700659						
+7	diagnosis		oncology|hematologic malignancy|leukemia|acute lymphocytic	204.00, C91.00				660	700660						
+7	diagnosis		burns/trauma|dermatology|rash, non-infectious|urticaria	708.9, L50.9				661	700661						
+7	diagnosis		pulmonary|pulmonary infections|empyema|associated with lung abscess	513.0, 510.9, J85.2				662	700662						
+7	diagnosis		hematology|white blood cell disorders|lymphopenia	288.8, D72.810				663	700663						
+7	diagnosis		neurologic|trauma - CNS|intracranial injury|no loss of consciousness	854.01				664	700664						
+7	diagnosis		burns/trauma|trauma - chest|cardiac injury - blunt|valvular injury	861.00				665	700665						
+7	diagnosis		infectious diseases|head and neck infections|epiglottitis|with airway compromise	464.31, J05.11				666	700666						
+7	diagnosis		neurologic|misc|neuropathy|polyneuritis	357.89, G61.89				667	700667						
+7	diagnosis		gastrointestinal|intestinal disease|GI obstruction / ileus|obstruction of colon|volvulus	560.2, K56.60				668	700668						
+7	diagnosis		cardiovascular|valvular disease|valvular insufficiency|aortic valve|with mitral valve disease	424.1				669	700669						
+7	diagnosis		pulmonary|disorders of the airways|acute bronchiolitis	466.19, J21.8				670	700670						
+7	diagnosis		transplant|s/p kidney transplant|fever - kidney transplant	996.81, T86.10				671	700671						
+7	diagnosis		endocrine|pituitary and temperature regulation|hyperprolactinemia	253.1, E22.1				672	700672						
+7	diagnosis		pulmonary|disorders of vasculature|pulmonary hemorrhage|due to pulmonary embolus	786.3, 415.19, R04.9, I26				673	700673						
+7	diagnosis		pulmonary|disorders of vasculature|pulmonary hemorrhage|procedure related	786.3, 998.11, T88				674	700674						
+7	diagnosis		gastrointestinal|esophageal disease|foreign body in esophagus	935.1, T18.10				675	700675						
+7	diagnosis		endocrine|thyroid|sick euthyroid syndrome	790.94, E07.81				676	700676						
+7	diagnosis		toxicology|drug overdose|cocaine overdose|with mycocardial infarction	410.90, 968.5, E980.4, I21.3, T40.5				677	700677						
+7	diagnosis		neurologic|misc|neuroleptic malignant syndrome	333.92, G21.0				678	700678						
+7	diagnosis		pulmonary|disorders of the airways|mechanical airway problem|non-mechanical tracheostomy complication	519.09, J95.09				679	700679						
+7	diagnosis		burns/trauma|trauma - abdomen|pellet injury from shotgun blast	863.90				680	700680						
+7	diagnosis		pulmonary|disorders of lung parenchyma|interstitial lung disease|hypersensitivity pneumonitis	495.9, J67.9				681	700681						
+7	diagnosis		neurologic|seizures|seizures|focal	345.50, G40.1				682	700682						
+7	diagnosis		pulmonary|trauma|diaphragmatic injury|left	862.0, S27.80				683	700683						
+7	diagnosis		renal|disorder of acid base|mixed acid base disorder|metabolic acidosis|acute	276.4				684	700684						
+7	diagnosis		burns/trauma|trauma - abdomen|splenic trauma|with hematoma	865.01, S36.0				685	700685						
+7	diagnosis		burns/trauma|trauma - abdomen|splenic trauma|with rupture	865.04, S36.0				686	700686						
+7	diagnosis		burns/trauma|trauma- head and neck|eye injury|bilateral	870.9, S05				687	700687						
+7	diagnosis		endocrine|pituitary and temperature regulation|pituitary adrenal insufficiency	253.4, E23.0				688	700688						
+7	diagnosis		pulmonary|pleural disorders|empyema|fungal	510.9, 117.9, J86.9				689	700689						
+7	diagnosis		oncology|head and neck tumors|neck tumor|oro/hypopharyngeal CA	148.9, C13.9				690	700690						
+7	diagnosis		surgery|vascular surgery|surgery-related ischemia	T81.7				691	700691						
+7	diagnosis		pulmonary|disorders of lung parenchyma|pulmonary vasculitis|SLE	447.6, I77.6				692	700692						
+7	diagnosis		toxicology|drug overdose|narcotic overdose|with pulmonary edema	E980.2, 965.00, 518.4, T40.60				693	700693						
+7	diagnosis		neurologic|trauma - CNS|intracranial injury|with depressed mental status	854.06, S06.9				694	700694						
+7	diagnosis		neurologic|infectious disease of nervous system|CNS abscess|spinal epidural	324.1, G06.1				695	700695						
+7	diagnosis		transplant|s/p bone marrow transplant|graft-versus-host disease  -  bone marrow transplant|moderate	996.85, T86.00				696	700696						
+7	diagnosis		hematology|bleeding and red blood cell disorders|disorders of hemoglobin|thalassemia	282.49, D56.9				697	700697						
+7	diagnosis		infectious diseases|skin, bone and joint infections|cellulitis|head and neck|periorbital	376.01, H05.019				698	700698						
+7	diagnosis		cardiovascular|ventricular disorders|cardiomyopathy|hypertrophic|idiopathic|non-obstructive	425.4, I42.2				699	700699						
+7	diagnosis		infectious diseases|chest/pulmonary infections|pneumonia|community-acquired|bacterial|group A strep	482.31, J15.4				700	700700						
+7	diagnosis		hematology|coagulation disorders|hypercoagulable state|protein S deficiency	286.9, D68.59				701	700701						
+7	diagnosis		cardiovascular|infection|endocarditis - native valve|streptococcus viridans	041.00, 421.0, B95.5, I33.0				702	700702						
+7	diagnosis		neurologic|disorders of vasculature|cerebral epidural hematoma|secondary to trauma	852.40, S06.4				703	700703						
+7	diagnosis		burns/trauma|trauma - skeletal|bone fracture(s)|clavicle	S42.00				704	700704						
+7	diagnosis		infectious diseases|vascular infections|endocarditis - native valve|streptococcus viridans	421.0, 041.00, B95.5, I33.0				705	700705						
+7	diagnosis		burns/trauma|trauma - CNS|intracranial injury|with loss of consciousness of unknown duration	854.06, S06.2				706	700706						
+7	diagnosis		pulmonary|disorders of the airways|upper respiratory obstruction|due to vocal cord paralysis	478.30, J38.00				707	700707						
+7	diagnosis		burns/trauma|trauma - CNS|intracranial injury|loss of consciousness <= 60 mins	854.02, S06.9				708	700708						
+7	diagnosis		pulmonary|pulmonary infections|pneumonia|opportunistic|fungal|coccidiomycosis	484.7, 114.0, B38.0				709	700709						
+7	diagnosis		gastrointestinal|abdominal/ general|abdominal compartment syndrome|post-op	998.9, M79.A3				710	700710						
+7	diagnosis		cardiovascular|pericardial diseases|pericarditis|post-MI	411.0, I24.1				711	700711						
+7	diagnosis		oncology|GI tumors|colon CA|right hemicolon	153.0, C18.3				712	700712						
+7	diagnosis		cardiovascular|infection|endocarditis - prosthetic valve|non-viridans streptococci (including enterococcus)	996.61, 421.0, 041.09, B95.4, I33.0				713	700713						
+7	diagnosis		neurologic|trauma - CNS|spinal cord injury|cervical|C1-C4	952.00, S14.1				714	700714						
+7	diagnosis		burns/trauma|trauma - abdomen|hepatic trauma	864.00, S36.11				715	700715						
+7	diagnosis		cardiovascular|ventricular disorders|cardiac injury, blunt|cardiac tamponade	423.0, I31.4				716	700716						
+7	diagnosis		pulmonary|trauma|lung trauma|with pleural effusion	861.20				717	700717						
+7	diagnosis		transplant|s/p bone marrow transplant|s/p bone marrow transplant	996.85				718	700718						
+7	diagnosis		gastrointestinal|abdominal/ general|pelvic abscess|female patient	614.5, K61.1				719	700719						
+7	diagnosis		neurologic|trauma - CNS|intracranial injury|with concussion	854.09, S06.0				720	700720						
+7	diagnosis		neurologic|neuromuscular disorders|motor neuropathy|post-polio syndrome	138, G14				721	700721						
+7	diagnosis		cardiovascular|arrhythmias|SVT|Wolf-Parkinson-White syndrome	426.7, I45.6				722	700722						
+7	diagnosis		cardiovascular|ventricular disorders|cardiomyopathy|peri-partum|during pregnancy	648.63, O90.3				723	700723						
+7	diagnosis		hematology|platelet disorders|platelet dysfunction|due to Von Willebrand's disease	286.4, D68.0				724	700724						
+7	diagnosis		renal|disorder of kidney|traumatic renal injury	866.00, S37.09				725	700725						
+7	diagnosis		cardiovascular|vascular disorders|traumatic injury to major vessels|r subclavian artery	901.1				726	700726						
+7	diagnosis		infectious diseases|head and neck infections|abscess - head and neck|mastoiditis	383.01, H70.019				727	700727						
+7	diagnosis		surgery|cardiac surgery|sternotomy problems|instability	998.31, T81.3				728	700728						
+7	diagnosis		cardiovascular|ventricular disorders|hypertension|renal artery stenosis	440.1, I70.1				729	700729						
+7	diagnosis		infectious diseases|systemic/other infections|malaria	084.6, B54				730	700730						
+7	diagnosis		surgery|obstetrics|pre-eclampsia/ eclampsia|pre-eclampsia with baseline hypertension	642.40, O14.90				731	700731						
+7	diagnosis		cardiovascular|shock / hypotension|sepsis|sepsis with single organ dysfunction-acute hepatic failure	038.9, 570, R65.20, K72.0				732	700732						
+7	diagnosis		pulmonary|disorders of vasculature|pulmonary hemorrhage|due to vasculitis|Wegener's granulomatosis	786.3, 446.4, M31.30, R04.9				733	700733						
+7	diagnosis		burns/trauma|trauma- head and neck|facial bone fracture|mandibular fracture|bilateral	802.20, S02.60				734	700734						
+7	diagnosis		gastrointestinal|abdominal/ general|pelvic abscess	K65.1				735	700735						
+7	diagnosis		oncology|GU tumors|testicular CA	186.9, C62.90				736	700736						
+7	diagnosis		toxicology|drug overdose|overdose of unknown agent(s)|with respiratory depression	977.9, E980.5, T50.90				737	700737						
+7	diagnosis		renal|disorder of urinary tract / renal system infection|perinephric abscess	590.2, N15.1				738	700738						
+7	diagnosis		general|immunological diseases|amyloidosis	277.3, E85.9				739	700739						
+7	diagnosis		oncology|chest tumors|breast CA|male	175.9, C50.929				740	700740						
+7	diagnosis		gastrointestinal|abdominal/ general|pelvic abscess|male patient	567.21, K61.1				741	700741						
+7	diagnosis		cardiovascular|shock / hypotension|neurogenic shock	785.50, R57.8				742	700742						
+7	diagnosis		transplant|s/p liver transplant|s/p liver transplant	996.82				743	700743						
+7	diagnosis		pulmonary|pulmonary infections|pneumonia|cystic fibrosis	277.02, E84.0				744	700744						
+7	diagnosis		neurologic|infectious disease of nervous system|encephalitis|viral	049.9, A86				745	700745						
+7	diagnosis		hematology|oncology and leukemia|myeloproliferative disorder|myelofibrosis	238.7, D75.81				746	700746						
+7	diagnosis		burns/trauma|trauma - skeletal|bone fracture(s)|left upper extremity|radius|closed	813.80				747	700747						
+7	diagnosis		burns/trauma|trauma- head and neck|open neck injury|open injury to neck-right	874.9, S11.8				748	700748						
+7	diagnosis		infectious diseases|systemic/other infections|fungemia|foley-catheter-related	790.99, 117.9, B49				749	700749						
+7	diagnosis		hematology|bleeding and red blood cell disorders|polycythemia|polycythemia vera	238.4, D45				750	700750						
+7	diagnosis		neurologic|CNS mass lesions|brain tumor|with hydrocephalus	C71.9, G91.4				751	700751						
+7	diagnosis		burns/trauma|trauma - skeletal|bone fracture(s)|clavicle|closed	810.00, S42.00				752	700752						
+7	diagnosis		burns/trauma|trauma - CNS|intracranial injury|with diffuse axonal injury	854.00, G93.5				753	700753						
+7	diagnosis		endocrine|adrenal disorders|hyperaldosteronism	255.10, E26.9				754	700754						
+7	diagnosis		burns/trauma|trauma - CNS|intracranial injury|with concussion	854.09				755	700755						
+7	diagnosis		hematology|transfusion medicine|transfusion reaction|febrile reaction	999.8, R50.84				756	700756						
+7	diagnosis		neurologic|infectious disease of nervous system|encephalitis|viral|West Nile virus	066.41, A92.31				757	700757						
+7	diagnosis		infectious diseases|CNS infections|encephalitis|systemic lupus erythematosus	323.8, M32.19				758	700758						
+7	diagnosis		burns/trauma|trauma - skeletal|bone fracture(s)|left upper extremity|humerus	812.00				759	700759						
+7	diagnosis		neurologic|infectious disease of nervous system|meningitis|acute|bacterial	320.7, 320.7, 320.7, 320.7, 320.7, G00.9				760	700760						
+7	diagnosis		neurologic|disorders of vasculature|stroke|hemorrhagic stroke|subarachnoid hemorrhage|traumatic	852.00				761	700761						
+7	diagnosis		surgery|obstetrics|hemorrhage - postpartum|retained placenta	666.00, O72.0				762	700762						
+7	diagnosis		gastrointestinal|hepatic disease|hepatic infarction	573.4, K76.3				763	700763						
+7	diagnosis		endocrine|thyroid|thyroid storm	242.91, E05.91				764	700764						
+7	diagnosis		neurologic|disorders of vasculature|stroke|ischemic stroke|dissection of cervicocerebral arteries	443.24, I77.74				765	700765						
+7	diagnosis		neurologic|disorders of vasculature|increased intracranial pressure|with reflex bradycardia	781.99, 337.0, G93.5, R00.1				766	700766						
+7	diagnosis		neurologic|infectious disease of nervous system|meningitis|chronic|non-infectious|vasculitis	322.2, G03.1				767	700767						
+7	diagnosis		cardiovascular|shock / hypotension|septic shock|culture negative	785.52, 785.52, R65.21				768	700768						
+7	diagnosis		neurologic|infectious disease of nervous system|encephalitis|viral|herpes	054.3, B00.4				769	700769						
+7	diagnosis		cardiovascular|valvular disease|valvular stenosis|pulmonic	424.3, I37.0				770	700770						
+7	diagnosis		surgery|acute cardiac problems|acute coronary syndrome|acute myocardial infarction (with ST elevation)|inferior wall	410.41, 410.41, I21.19				771	700771						
+7	diagnosis		burns/trauma|trauma - CNS|fracture of skull|vault|closed	800.00				772	700772						
+7	diagnosis		infectious diseases|chest/pulmonary infections|pneumonia|community-acquired|viral|respiratory syncytial	079.6, B97.4				773	700773						
+7	diagnosis		gastrointestinal|intestinal disease|acute appendicitis|with peritonitis	540.0, K35.2				774	700774						
+7	diagnosis		neurologic|disorders of vasculature|cerebral subdural hematoma|secondary to anticoagulation	432.1, I62.1				775	700775						
+7	diagnosis		cardiovascular|ventricular disorders|acute pulmonary edema|post-obstructive	518.4, I50.1				776	700776						
+7	diagnosis		cardiovascular|chest pain / ASHD|acute coronary syndrome|acute myocardial infarction (with ST elevation)|anterior wall|with ventricular septal defect	410.10, I21.09				777	700777						
+7	diagnosis		surgery|cardiac surgery|inappropriate vasodilation / high cardiac output s	998.0, I97.89				778	700778						
+7	diagnosis		burns/trauma|trauma - abdomen|pancreatic trauma	863.84, S36.20				779	700779						
+7	diagnosis		neurologic|neuromuscular disorders|motor neuropathy|chronic inflammatory demyelinating neuropathy	357.81, G61.81				780	700780						
+7	diagnosis		burns/trauma|trauma - CNS|spinal cord injury|thoracic	S24.1				781	700781						
+7	diagnosis		neurologic|disorders of vasculature|stroke|hemorrhagic stroke|hypertensive|internal capsule	431, I61.9				782	700782						
+7	diagnosis		surgery|obstetrics|hemorrhage - postpartum|uterine atony	666.10, O72.1				783	700783						
+7	diagnosis		cardiovascular|valvular disease|valvular insufficiency|aortic valve|rheumatic	424.1, I06.1				784	700784						
+7	diagnosis		gastrointestinal|intestinal disease|diarrhea|bacterial|E. coli O157:H7	008.00, A04.4				785	700785						
+7	diagnosis		pulmonary|trauma|airway trauma|laryngeal|crushing	925.2				786	700786						
+7	diagnosis		burns/trauma|trauma- head and neck|facial bone fracture|nasal fracture|closed	802.0				787	700787						
+7	diagnosis		toxicology|drug overdose|tricyclic overdose|with seizures	969.0, 780.39, T43.01				788	700788						
+7	diagnosis		gastrointestinal|intestinal disease|viscus perforation|gastric|due to ulcer	531.50, K28.1				789	700789						
+7	diagnosis		oncology|CNS tumors|spinal cord tumors	192.9, C72.0				790	700790						
+7	diagnosis		oncology|GI tumors|colon CA|transverse colon	153.1, C18.4				791	700791						
+7	diagnosis		burns/trauma|trauma - skeletal|bone fracture(s)|sacrum	S32.1				792	700792						
+7	diagnosis		hematology|oncology and leukemia|myelodysplastic syndrome|chronic myelomonocytic leukemia	238.7, C93.1				793	700793						
+7	diagnosis		gastrointestinal|abdominal/ general|pelvic abscess|rectal / perirectal	566, K61.1				794	700794						
+7	diagnosis		cardiovascular|infection|endocarditis - prosthetic valve|streptococcus viridans	996.61, 421.0, 041.00, B95.5, I33.0				795	700795						
+7	diagnosis		burns/trauma|trauma - skeletal|bone fracture(s)|sternum|closed	807.2, S22.2				796	700796						
+7	diagnosis		transplant|s/p heart transplant|rejection - heart transplant|acute	T86.21				797	700797						
+7	diagnosis		burns/trauma|trauma - skeletal|bone fracture(s)|right lower extremity|fibula|closed	823.80				798	700798						
+7	diagnosis		cardiovascular|ventricular disorders|congestive heart failure|cor pulmonale|acute	415.0, I26.0				799	700799						
+7	diagnosis		toxicology|drug overdose|barbiturate overdose|with decreased mental status	E980.1, 780.09, 967.0, T42.3X				800	700800						
+7	diagnosis		infectious diseases|CNS infections|meningitis|acute|bacterial|hemophilus influenzae	320.0, G00.0				801	700801						
+7	diagnosis		burns/trauma|trauma - CNS|spinal cord injury|lumbar	952.2, S34.1				802	700802						
+7	diagnosis		pulmonary|disorders of the airways|mechanical airway problem|tracheostomy mechanical complication	519.02, J95.03				803	700803						
+7	diagnosis		cardiovascular|pericardial diseases|pericarditis|mycobacterial	017.90, 420.0, A18.84				804	700804						
+7	diagnosis		infectious diseases|GI infections|intra-abdominal abscess|pancreas	577.0, K65.1				805	700805						
+7	diagnosis		hematology|transfusion medicine|transfusion reaction|transfusion associated acute lung injury (TRALI)	999.8, J95.84				806	700806						
+7	diagnosis		infectious diseases|GI infections|cholecystitis|chronic	575.11, K81.0				807	700807						
+7	diagnosis		general|immunological diseases|sarcoidosis	135, D86.9				808	700808						
+7	diagnosis		surgery|altered mental status / pain|dementia|Alzheimer's disease	331.0, 294.10, F02.8, G30.9				809	700809						
+7	diagnosis		cardiovascular|diseases of the aorta|aortic aneurysm|thoracic|ruptured	441.1, I71.1				810	700810						
+7	diagnosis		burns/trauma|trauma - skeletal|bone fracture(s)|right upper extremity|metacarpal|closed	815.00				811	700811						
+7	diagnosis		surgery|altered mental status / pain|dementia	294.8, F03				812	700812						
+7	diagnosis		endocrine|thyroid|hyperthyroidism|thyrotoxicosis factitia	242.80, E05.40				813	700813						
+7	diagnosis		burns/trauma|trauma - CNS|intracranial injury|no loss of consciousness	854.01, S06.9				814	700814						
+7	diagnosis		burns/trauma|trauma - skeletal|bone fracture(s)|pelvis|open	808.9				815	700815						
+7	diagnosis		infectious diseases|head and neck infections|abscess - head and neck|parapharyngeal|with airway compromise	478.22, J39.0				816	700816						
+7	diagnosis		gastrointestinal|abdominal/ general|wound dehiscence / evisceration|with abscess of wound	998.32				817	700817						
+7	diagnosis		transplant|s/p liver transplant|hepatic dysfunction - liver transplant|jaundice	996.82, T86.40				818	700818						
+7	diagnosis		gastrointestinal|intestinal disease|enteric fistula|intestinal|to bladder	596.1, N32.1				819	700819						
+7	diagnosis		oncology|chest tumors|mediastinal tumor|thymoma|malignant	164.0, C37				820	700820						
+7	diagnosis		cardiovascular|ventricular disorders|cardiac injury, penetrating	861.10				821	700821						
+7	diagnosis		infectious diseases|CNS infections|meningitis|chronic|toxoplasmosis	130.0, B58.2				822	700822						
+7	diagnosis		cardiovascular|vascular disorders|vasculitis|Henoch-Schonlein purpura	287.0, D69.0				823	700823						
+7	diagnosis		cardiovascular|chest pain / ASHD|acute coronary syndrome|acute myocardial infarction (no ST elevation)|due to stent complication	996.72, 410.71, I21.4				824	700824						
+7	diagnosis		transplant|s/p lung transplant|fever - lung transplant	996.84, T86.819				825	700825						
+7	diagnosis		burns/trauma|trauma - abdomen|retroperitoneal trauma	868.04, S36.89				826	700826						
+7	diagnosis		endocrine|thyroid|thyroid storm|Grave's disease	242.01, E05.01				827	700827						
+7	diagnosis		burns/trauma|trauma - abdomen|renal trauma	866.00				828	700828						
+7	diagnosis		burns/trauma|trauma- head and neck|external ear injury	872.00, S00.40				829	700829						
+7	diagnosis		pulmonary|disorders of vasculature|pulmonary arteriovenous fistula|with hypoxemia	417.0, I28.0				830	700830						
+7	diagnosis		cardiovascular|pericardial diseases|pericarditis|viral	420.91, I30.9				831	700831						
+7	diagnosis		surgery|cardiac surgery|neurological dysfunction following CPB|preexistent cerebrovascular disease	997.00, I97.89				832	700832						
+7	diagnosis		hematology|transfusion medicine|transfusion reaction|anaphylactic	999.8, T80.5				833	700833						
+7	diagnosis		neurologic|trauma - CNS|seizures	345.90, R56.1				834	700834						
+7	diagnosis		burns/trauma|trauma - abdomen|mesenteric trauma	863.89, S36.9				835	700835						
+7	diagnosis		infectious diseases|head and neck infections|epiglottitis	464.30, J05.10				836	700836						
+7	diagnosis		cardiovascular|ventricular disorders|cardiomyopathy|hypertrophic|idiopathic|obstructive	425.1, I42.1				837	700837						
+7	diagnosis		burns/trauma|dermatology|Stevens-Johnson syndrome	695.1, L51.1				838	700838						
+7	diagnosis		gastrointestinal|hepatic disease|viral hepatitis|hepatitis A	070.1, 573.1, B15.9				839	700839						
+7	diagnosis		burns/trauma|burns|third degree burn injury	946.3				840	700840						
+7	diagnosis		burns/trauma|trauma - skeletal|bone fracture(s)|right lower extremity|femur|open	821.10				841	700841						
+7	diagnosis		endocrine|thyroid|hyperthyroidism|thyroiditis	245.9, E06.2				842	700842						
+7	diagnosis		infectious diseases|systemic/other infections|toxic shock syndrome|staphylococcus aureus	040.82, 041.11, A48.3, B95.6				843	700843						
+7	diagnosis		infectious diseases|systemic/other infections|toxic shock syndrome|group A streptococcus	041.01, 040.82, A48.3, B95.0				844	700844						
+7	diagnosis		gastrointestinal|intestinal disease|diarrhea|food poisoning	005.9, A05.9				845	700845						
+7	diagnosis		surgery|cardiac surgery|myocardial infarction|graft-related|occlusion	997.1, I21.3				846	700846						
+7	diagnosis		gastrointestinal|transplant|recent liver transplant	V42.7, Z94.4				847	700847						
+7	diagnosis		endocrine|thyroid|hyperthyroidism|toxic multinodular goiter	242.20, E05.20				848	700848						
+7	diagnosis		neurologic|altered mental status / pain|catatonia	295.20, F20.2				849	700849						
+7	diagnosis		surgery|obstetrics|pre-eclampsia/ eclampsia|pregnancy induced hypertension	642.30				850	700850						
+7	diagnosis		endocrine|thyroid|hypothyroidism|hypothalamic	244.8, E03.8				851	700851						
+7	diagnosis		neurologic|misc|headache|hydrocephalus|normal pressure	G91.2				852	700852						
+7	diagnosis		hematology|oncology and leukemia|myeloproliferative disorder|essential thrombocythemia (clinical)	238.7, D47.3				853	700853						
+7	diagnosis		renal|disorder of kidney|acute renal failure|due to nephrotoxic agents|immunosuppressives	584.9, E933.1, N17.9				854	700854						
+7	diagnosis		burns/trauma|trauma - CNS|intracranial injury|with depressed mental status	854.06, S06.0				855	700855						
+7	diagnosis		toxicology|drug overdose|cocaine overdose|with seizures	780.39, 968.5, E980.4, T40.5				856	700856						
+7	diagnosis		burns/trauma|trauma - chest|cardiac injury - blunt|myocardial contusion	861.01				857	700857						
+7	diagnosis		cardiovascular|arrhythmias|AV block|left anterior fascicular block	426.2, I44.4				858	700858						
+7	diagnosis		burns/trauma|trauma - skeletal|bone fracture(s)|ischium	S32.60				859	700859						
+7	diagnosis		hematology|coagulation disorders|superficial migratory thrombophlebitis	453.1, I82.1				860	700860						
+7	diagnosis		cardiovascular|infection|endocarditis - prosthetic valve|gram-negative bacilli	041.85, 421.0, 996.61, B96.89, I33.0				861	700861						
+7	diagnosis		pulmonary|trauma|widened mediastinum|with aortic rupture	I31.2				862	700862						
+7	diagnosis		infectious diseases|chest/pulmonary infections|pneumonia|opportunistic|fungal|coccidiomycosis	114.0, 484.7, B38.0				863	700863						
+7	diagnosis		gastrointestinal|hepatic disease|hepatic coma	572.2, K72.91				864	700864						
+7	diagnosis		burns/trauma|trauma - skeletal|dislocation|ankle	S93.0				865	700865						
+7	diagnosis		toxicology|drug overdose|barbiturate overdose|with respiratory depression	967.0, E980.1, 786.00, T42.3X				866	700866						
+7	diagnosis		burns/trauma|trauma - skeletal|traumatic injury to major vessel(s)|popliteal	904.40, S85.00				867	700867						
+7	diagnosis		infectious diseases|systemic/other infections|fever|drug related	995.2, R50.9				868	700868						
+7	diagnosis		gastrointestinal|intestinal disease|viscus perforation|gastric|due to traumatic injury	863.1				869	700869						
+7	diagnosis		neurologic|CNS mass lesions|increased intracranial pressure|from intraaxial mass	G93.5				870	700870						
+7	diagnosis		neurologic|disorders of vasculature|intracranial venous thrombosis|cavernous sinus	437.6, I67.6				871	700871						
+7	diagnosis		gastrointestinal|intestinal disease|viscus perforation|bladder	596.6, N32.89				872	700872						
+7	diagnosis		burns/trauma|trauma - skeletal|bone fracture(s)|right lower extremity|metatarsal|closed	825.25				873	700873						
+7	diagnosis		infectious diseases|skin, bone and joint infections|infectious dermatitis|pyogenic	686.00, L08.9				874	700874						
+7	diagnosis		hematology|white blood cell disorders|myeloproliferative disorder|lymphoproliferative disease	238.7, D47.9				875	700875						
+7	diagnosis		cardiovascular|arrhythmias|AV block|left posterior fascicular block	426.2, I44.5				876	700876						
+7	diagnosis		gastrointestinal|intestinal disease|enteritis|shigella	004.9, A03.9				877	700877						
+7	diagnosis		surgery|obstetrics|vaginal hemorrhage|abruption	641.20, O45.8X9				878	700878						
+7	diagnosis		neurologic|seizures|seizures|non-epileptic	345.00, R56.9				879	700879						
+7	diagnosis		infectious diseases|GI infections|viral hepatitis|CMV	573.1, 078.5, B25.1				880	700880						
+7	diagnosis		cardiovascular|ventricular disorders|cardiomyopathy|dilated|amyloid	425.7, 277.3, I43, E85.9				881	700881						
+7	diagnosis		infectious diseases|head and neck infections|abscess - head and neck|malignant otitis externa	380.14, H60.20				882	700882						
+7	diagnosis		cardiovascular|infection|endocarditis - prosthetic valve|coagulase-negative staphylococcus	041.19, 421.0, 996.61, B95.7, I33.0				883	700883						
+7	diagnosis		neurologic|neuromuscular disorders|sensory neuropathy|trigeminal neuralgia	350.1, G50.0				884	700884						
+7	diagnosis		hematology|bleeding and red blood cell disorders|anemia|megaloblastic anemia	281.1, D51.9				885	700885						
+7	diagnosis		neurologic|trauma - CNS|intracranial injury|with edema	G93.6, S06.9				886	700886						
+7	diagnosis		oncology|head and neck tumors|eye tumor|melanoma	190.9, C69.90				887	700887						
+7	diagnosis		endocrine|thyroid|thyroid storm|thyrotoxicosis factitia with thyrotoxic crisis	242.81, E05.41				888	700888						
+7	diagnosis		infectious diseases|head and neck infections|endophthalmitis|fungal	360.00, H44.009				889	700889						
+7	diagnosis		burns/trauma|trauma - chest|cardiac injury - penetrating	861.13				890	700890						
+7	diagnosis		burns/trauma|trauma - CNS|intracranial injury|with loss of consciousness 1-24 hours	854.03, S06.9				891	700891						
+7	diagnosis		pulmonary|disorders of the airways|mechanical airway problem|tracheostomy infection	519.01, J95.02				892	700892						
+7	diagnosis		burns/trauma|trauma - CNS|fracture of skull|base|closed	801.00				893	700893						
+7	diagnosis		infectious diseases|GI infections|viral hepatitis|hepatitis B	070.51, 573.1, B19.10				894	700894						
+7	diagnosis		cardiovascular|valvular disease|valvular insufficiency|tricuspid valve|rheumatic	424.2, I07.1				895	700895						
+7	diagnosis		cardiovascular|chest pain / ASHD|acute coronary syndrome|acute myocardial infarction (with ST elevation)|anterior wall|with mitral regurgitation	410.11, 424.0, I21.09, I34.0				896	700896						
+7	diagnosis		surgery|neurosurgical issues|brain edema	348.5, G93.6				897	700897						
+7	diagnosis		endocrine|pituitary and temperature regulation|pituitary Cushing syndrome	253.4, E24.0				898	700898						
+7	diagnosis		pulmonary|trauma|lung trauma|with laceration of lung	861.32				899	700899						
+7	diagnosis		burns/trauma|trauma - skeletal|bone fracture(s)|left lower extremity|tibia	823.00				900	700900						
+7	diagnosis		oncology|GI tumors|colon CA|cecum	153.4, C18.0				901	700901						
+7	diagnosis		endocrine|glucose metabolism|hyperosmolar nonketotic coma|non-insulin requiring	250.22, E11.01				902	700902						
+7	diagnosis		gastrointestinal|intestinal disease|viscus perforation|colonic|procedure related	863.50, S36.50				903	700903						
+7	diagnosis		neurologic|trauma - CNS|spinal cord injury|thoracic|T7-T12	952.15, S24.1				904	700904						
+7	diagnosis		neurologic|infectious disease of nervous system|meningitis|acute|viral	321.2, 047.9, A87.9				905	700905						
+7	diagnosis		pulmonary|pulmonary infections|pneumonia|opportunistic|fungal|histoplasmosis	115.95, 484.7, B39.2				906	700906						
+7	diagnosis		infectious diseases|systemic/other infections|fever|heat stroke	992.0				907	700907						
+7	diagnosis		surgery|obstetrics|amniotic fluid embolism	673.10, O88.119				908	700908						
+7	diagnosis		neurologic|disorders of the spinal cord and peripheral nervous system|subacute combined degeneration of the spinal cord	336.2, G32.0				909	700909						
+7	diagnosis		surgery|acute cardiac problems|acute coronary syndrome|anterior wall|with mitral regurgitation	I21.09, I34.0				910	700910						
+7	diagnosis		pulmonary|disorders of vasculature|pulmonary hemorrhage|due to primary pulmonary hypertension	786.3, 416.0, I27.0, R04.9				911	700911						
+7	diagnosis		cardiovascular|vascular disorders|peripheral vascular ischemia|associated with HIT	443.9, I73.9, D75.82				912	700912						
+7	diagnosis		burns/trauma|trauma - skeletal|dislocation|shoulder	S43.00				913	700913						
+7	diagnosis		transplant|s/p heart transplant|pulmonary hypertension / RV failure - heart transplant	996.83, 415.0, I26.0, T86.20				914	700914						
+7	diagnosis		gastrointestinal|trauma|bowel trauma	S36.50				915	700915						
+7	diagnosis		surgery|acute cardiac problems|acute coronary syndrome|acute myocardial infarction (with ST elevation)|anterior wall|mitral regurgitation	424.0, 410.11, I21.09, I34.0				916	700916						
+7	diagnosis		neurologic|disorders of the spinal cord and peripheral nervous system|tetanus	037, A35				917	700917						
+7	diagnosis		cardiovascular|chest pain / ASHD|coronary artery disease|of other biological bypass graft	414.03, I25.810				918	700918						
+7	diagnosis		renal|disorder of acid base|respiratory acidosis|due to CNS depression|related to drugs or medications	276.2				919	700919						
+7	diagnosis		burns/trauma|trauma - skeletal|bone fracture(s)|right lower extremity|calcaneus|open	825.1				920	700920						
+7	diagnosis		oncology|chest tumors|mediastinal tumor|thymoma|benign	212.6, D15.0				921	700921						
+7	diagnosis		surgery|obstetrics|pre-eclampsia/ eclampsia|eclampsia	642.60, O15.9				922	700922						
+7	diagnosis		surgery|acute cardiac problems|acute coronary syndrome|anterior wall	I21.09				923	700923						
+7	diagnosis		toxicology|drug overdose|tricyclic overdose|with dysrhythmia	E980.4, 968.5, 780.39, T43.01				924	700924						
+7	diagnosis		infectious diseases|head and neck infections|sinusitis|radiographically demonstrated|maxillary	461.0, J01.00				925	700925						
+7	diagnosis		neurologic|neuromuscular disorders|motor neuropathy|steroid-induced motor neuropathy	357.6, E932.0, G62.0				926	700926						
+7	diagnosis		neurologic|CNS mass lesions|increased intracranial pressure|with papilledema	377.01, H47.11				927	700927						
+7	diagnosis		cardiovascular|vascular disorders|vasculitis|Takayasu's arteritis	446.7, M31.4				928	700928						
+7	diagnosis		neurologic|CNS mass lesions|spinal tumor	192.2, C72.0				929	700929						
+7	diagnosis		toxicology|drug overdose|organophosphate toxicity	989.3, E980.7, T60.0				930	700930						
+7	diagnosis		hematology|oncology and leukemia|myelodysplastic syndrome|refractory anemia	238.7, D46.4				931	700931						
+7	diagnosis		neurologic|altered mental status / pain|dementia|prion-associated dementia	294.10, 046.1, A81.00				932	700932						
+7	diagnosis		burns/trauma|trauma - skeletal|dislocation|shoulder|closed	831.00, S43.00				933	700933						
+7	diagnosis		surgery|infections|cholecystitis	575.10, K81.0				934	700934						
+7	diagnosis		burns/trauma|trauma - skeletal|bone fracture(s)|pubis	S32.59				935	700935						
+7	diagnosis		infectious diseases|vascular infections|endocarditis - prosthetic valve|coagulase-negative staphylococcus	421.0, 041.19, 996.61, B95.7, I33.0				936	700936						
+7	diagnosis		neurologic|trauma - CNS|fracture of skull|vault|closed|with intracerebral hemorrhage	800.10				937	700937						
+7	diagnosis		burns/trauma|trauma - CNS|fracture of skull|vault|open	800.50				938	700938						
+7	diagnosis		infectious diseases|systemic/other infections|septic shock|culture negative	785.59, 995.94, R65.21				939	700939						
+7	diagnosis		surgery|cardiac surgery|pleural effusion|empyema	510.9, J91.8				940	700940						
+7	diagnosis		gastrointestinal|intestinal disease|diarrhea|bacterial|campylobacter	008.43, A04.5				941	700941						
+7	diagnosis		burns/trauma|trauma - skeletal|bone fracture(s)|sacrum|closed	805.6, S32.1				942	700942						
+7	diagnosis		burns/trauma|trauma - CNS|spinal cord injury|thoracic|T1-T6	952.10, S24.1				943	700943						
+7	diagnosis		burns/trauma|trauma - skeletal|dislocation|knee|closed	836.50, S83.00				944	700944						
+7	diagnosis		neurologic|disorders of the spinal cord and peripheral nervous system|transverse myelitis	323.9, G04.91				945	700945						
+7	diagnosis		burns/trauma|trauma- head and neck|facial bone fracture|orbital trauma	802.8, S05.1				946	700946						

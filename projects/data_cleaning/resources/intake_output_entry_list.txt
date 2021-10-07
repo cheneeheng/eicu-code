@@ -1,0 +1,1991 @@
+Entry Name$Number of Occurences
+Output (ml)|Urine$725252
+Intake (ml)|Generic Intake (ml)|P.O.$130969
+Weight|Bodyweight (kg)$114461
+Weight|Bodyweight (lb)$114455
+Intake (ml)|Crystalloids (ml)|Continuous infusion meds$89256
+Output (ml)|Urinary Catheter Output: Indwelling/Continuous Ure$83505
+Intake (ml)|Crystalloids (ml)|Crystalloids$80598
+Intake (ml)|Generic Intake (ml)|NS IVF$80569
+Intake (ml)|Crystalloids (ml)|NS $59584
+Intake (ml)|Crystalloids (ml)|Volume (mL)-0.9 % sodium chloride solution$51781
+Intake (ml)|Generic Intake (ml)|Volume (mL)-0.9 %  sodium chloride infusion$50573
+Intake (ml)|Generic Intake (ml)|IVPB$48855
+Output (ml)|Indwelling Catheter Output$44141
+Intake (ml)|Nutrition (ml)|Nutrition Total$40260
+Intake (ml)|Crystalloids (ml)|Volume (mL)-0.45 % sodium chloride solution$37757
+Output (ml)|Stool$35924
+Output (ml)|URINE CATHETER$32572
+Intake (ml)|Generic Intake (ml)|P.O. Intake$31271
+Intake (ml)|Crystalloids (ml)|Other meds$27403
+Intake (ml)|Generic Intake (ml)|Volume (mL) Heparin$20625
+Intake (ml)|Nutrition (ml)|P.O.$20263
+Intake (ml)|Nutrition (ml)|Oral Intake$18050
+Intake (ml)|Generic Intake (ml)|Oral Intake$15867
+Intake (ml)|Generic Intake (ml)|D51/2NS IVF$15420
+Intake (ml)|Generic Intake (ml)|Enteral Formula Volume/Bolus Amt (mL)$15310
+Intake (ml)|Nutrition (ml)|Enteral/Gastric Tube Intake #1$14147
+Intake (ml)|Generic Intake (ml)|Saline Flush (mL)$12619
+Intake (ml)|Crystalloids (ml)|Volume (mL)-dextrose 5 % and 0.45 % sodium chloride with KCl 20 mEq/L infusion$12291
+Intake (ml)|Generic Intake (ml)|Volume (ml) Insulin$11515
+Intake (ml)|Crystalloids (ml)|D5NS $11419
+Intake (ml)|Blood Products (ml)|pRBCs$11409
+Output (ml)|Chest Tube A Amount$10548
+Intake (ml)|Generic Intake (ml)|1/2NS IVF$10444
+Intake (ml)|Crystalloids (ml)|IVPB$10233
+Intake (ml)|Crystalloids (ml)|Volume (mL)-sodium chloride 0.9% infusion$10206
+Intake (ml)|Generic Intake (ml)|Volume (mL) Milrinone $10122
+Intake (ml)|Nutrition (ml)|Oral$9953
+Intake (ml)|Generic Intake (ml)|Volume (ml) Amiodarone$9618
+Intake (ml)|Crystalloids (ml)|propofol$8734
+Intake (ml)|Generic Intake (ml)|Volume (mL) Amiodarone$8676
+Intake (ml)|Generic Intake (ml)|IVPB Volume (ml)$8163
+Intake (ml)|Generic Intake (ml)|D5W$8101
+Intake (ml)|Generic Intake (ml)|TPN$8061
+Intake (ml)|Generic Intake (ml)|Volume (mL) Norepinephrine$8012
+Intake (ml)|Generic Intake (ml)|Volume (mL) Nitroglycerin $7848
+Intake (ml)|Generic Intake (ml)|Volume (mL) Fentanyl$7804
+Intake (ml)|Crystalloids (ml)|insulin regular$7687
+Intake (ml)|Generic Intake (ml)|Volume (ml) Fentanyl$7414
+Intake (ml)|Nutrition (ml)|Volume Infused (mL)$7152
+Intake (ml)|Crystalloids (ml)|norepinephrine$7121
+Output (ml)|Stool Occurrence$6795
+Output (ml)|Chest Tube$6683
+Output (ml)|Voided Amount$6626
+Output (ml)|Actual Patient Fluid Removal$6530
+Intake (ml)|Crystalloids (ml)|D5W $6501
+Intake (ml)|Generic Intake (ml)|Volume (ml) Dopamine$6433
+Intake (ml)|Generic Intake (ml)|I.V.$6391
+Output (ml)|Output Amt-Chest Tube$6146
+Intake (ml)|Crystalloids (ml)|heparin$6099
+Intake (ml)|Crystalloids (ml)|D5 0.45 NS $6058
+Output (ml)|ChestTube Total$5986
+Intake (ml)|Nutrition (ml)|Enteral Promote w/ Fiber$5951
+Intake (ml)|Crystalloids (ml)|LR $5913
+Intake (ml)|Generic Intake (ml)|Flush Total$5833
+Dialysis (ml)|Out$5494
+Intake (ml)|Generic Intake (ml)|Intake (mL)-NG/OG Tube Nasogastric Right nostril$5456
+Intake (ml)|Crystalloids (ml)|Volume (mL)-dextrose 5 % / sodium chloride 0.45% infusion$5413
+Intake (ml)|Generic Intake (ml)|Volume (ml) Furosemide$5384
+Intake (ml)|Generic Intake (ml)|Volume Given (mL)$5342
+Output (ml)|Gastric (NG)$5241
+Intake (ml)|Generic Intake (ml)|Volume (ml) Norepinephrine$5208
+Intake (ml)|Crystalloids (ml)|fentaNYL$5035
+Intake (ml)|Generic Intake (ml)|Volume (ml) Propofol$5029
+Intake (ml)|Generic Intake (ml)|Tube Flush/Meds$5020
+Intake (ml)|Generic Intake (ml)|Enteral Tube Intake: Orogastric Oral$4962
+Intake (ml)|Generic Intake (ml)|Volume (mL) Furosemide$4926
+Intake (ml)|Generic Intake (ml)|Volume (ml) Dexmedetomidine$4885
+Intake (ml)|Generic Intake (ml)|Volume (ml) Phenylephrine$4706
+Intake (ml)|Generic Intake (ml)|#1:$4648
+Intake (ml)|Generic Intake (ml)|NS b IVF$4379
+Intake (ml)|Generic Intake (ml)|Volume (mL) Midazolam$4296
+Intake (ml)|Generic Intake (ml)|Tube Feeding Flush (mL)$4283
+Intake (ml)|Generic Intake (ml)|Volume (ml) Midazolam$4266
+Intake (ml)|Generic Intake (ml)|Volume (ml) Milrinone$4246
+Intake (ml)|Generic Intake (ml)|Volume (ml) Heparin-heparin 25,000 units in dextrose 500 mL infusion$4211
+Intake (ml)|Generic Intake (ml)|Feeding Tube Flush/Water Bolus Amt (mL)$4063
+Intake (ml)|Generic Intake (ml)|Intake (mL)-NG/OG Tube Nasogastric Left nostril$3975
+Intake (ml)|Generic Intake (ml)|Volume Expanders$3942
+Intake (ml)|Generic Intake (ml)|Vascular Flush Amount (mL)$3935
+Intake (ml)|Generic Intake (ml)|Enteral Tube Intake: Nasoduodenal Nostril, R$3930
+Intake (ml)|Generic Intake (ml)|Volume (ml) Heparin$3853
+Output (ml)|Foley cath$3825
+Output (ml)|Chest Tube Output: Mediastinal R Anterior$3805
+Intake (ml)|Nutrition (ml)|Tube Feeding$3778
+Intake (ml)|Generic Intake (ml)|OthrIntakeTotal$3741
+Intake (ml)|Nutrition (ml)|Enteral Nepro$3737
+Intake (ml)|Generic Intake (ml)|Volume (ml) Epinephrine$3707
+Intake (ml)|Generic Intake (ml)|Volume (mL) Diltiazem$3647
+Intake (ml)|Generic Intake (ml)|LR IVF$3566
+Intake (ml)|Generic Intake (ml)|Volume (ml) Dobutamine$3548
+Intake (ml)|Generic Intake (ml)|Intake (mL)-NG/OG Tube Orogastric Center mouth$3402
+Intake (ml)|Crystalloids (ml)|Volume (mL)-lactated ringers infusion$3399
+Output (ml)|Output Amt-Chest Tube A$3331
+Intake (ml)|Generic Intake (ml)|Enteral Tube Intake: Nasoduodenal Nostril, L$3294
+Intake (ml)|Crystalloids (ml)|dexmedetomidine$3276
+Intake (ml)|Nutrition (ml)|TPN$3275
+Intake (ml)|Generic Intake (ml)|% Meal Eaten$3209
+Intake (ml)|Nutrition (ml)|PO fluids$3198
+Output (ml)|CHEST TUBE MEDIASTINAL$3099
+Intake (ml)|Generic Intake (ml)|#2:$3094
+Output (ml)|CRRT Actual Pt Fluid Removed ("C")$3028
+Intake (ml)|Blood Products (ml)|FFP$2982
+Output (ml)|Chest Tube Output: Mediastinal L Anterior$2980
+Intake (ml)|Generic Intake (ml)|Enteral Tube Intake: Gastrostomy tube Abdominal wa$2954
+Intake (ml)|Generic Intake (ml)|Volume (mL) Propofol $2926
+Output (ml)|Tube Feeding Residual Discarded (mL)$2816
+Intake (ml)|Generic Intake (ml)|Vascular 2 Flush Amount (mL)$2803
+Output (ml)|CHEST TUBE PLEURAL$2757
+Intake (ml)|Generic Intake (ml)|NS$2748
+Intake (ml)|Generic Intake (ml)|Formula Volume In         ml$2738
+Intake (ml)|Nutrition (ml)|Enteral Pivot 1.5$2717
+Output (ml)|Chest Tube Output: Mediastinal Anterior$2701
+Output (ml)|Urine Count$2685
+Intake (ml)|Generic Intake (ml)|Volume (mL) Dopamine$2647
+Intake (ml)|Generic Intake (ml)|Volume (ml) Cisatracurium$2636
+Intake (ml)|Generic Intake (ml)|Total Lumen Flushes$2628
+Intake (ml)|Generic Intake (ml)|Per IV Flush: Forearm L 20 gauge$2627
+Intake (ml)|Generic Intake (ml)|Enteral Tube Intake: Nasogastric Nostril, R$2626
+Intake (ml)|Nutrition (ml)|PO Fluids$2606
+Intake (ml)|Generic Intake (ml)|PROPOFOL$2598
+Output (ml)|Urine Occurrence$2593
+Intake (ml)|Generic Intake (ml)|Per IV Flush: Forearm R 20 gauge$2570
+Intake (ml)|Crystalloids (ml)|midazolam$2539
+Intake (ml)|Generic Intake (ml)|Per IV Flush: Antecubital R 20 gauge$2494
+Intake (ml)|Crystalloids (ml)|IV Other$2491
+Intake (ml)|Crystalloids (ml)|Volume (mL)-dextrose 5 % and 0.45% NaCl infusion$2480
+Intake (ml)|Crystalloids (ml)|IV Drips$2469
+Output (ml)|Output Y (ml)-Chest Tube Y - a #1 Right b #2 Left$2443
+Intake (ml)|Nutrition (ml)|Enteral Jevity 1.2$2439
+Intake (ml)|Generic Intake (ml)|D5NS IVF$2409
+Intake (ml)|Crystalloids (ml)|amiodarone$2334
+Intake (ml)|Crystalloids (ml)|0.45 NS $2331
+Intake (ml)|Generic Intake (ml)|Citrate ml/hr$2316
+Intake (ml)|Nutrition (ml)|PO intake$2313
+Intake (ml)|Generic Intake (ml)|Per IV Flush: Antecubital L 20 gauge$2281
+Output (ml)|Chest Tube Output: Pleural R Lateral$2276
+Intake (ml)|Generic Intake (ml)|Electrolyte Other (volume)$2274
+Intake (ml)|Crystalloids (ml)|Volume (mL)-dextrose 5 %-0.9 % sodium chloride infusion$2273
+Intake (ml)|Nutrition (ml)|Enteral nepro$2241
+Intake (ml)|Generic Intake (ml)|Intake (mL)-NG/OG Tube Orogastric Right mouth$2228
+Intake (ml)|Generic Intake (ml)|Volume (ml) Vasopressin$2169
+Output (ml)|Chest Tube Output: Pleural L Lateral$2168
+Output (ml)|CRRT Out$2167
+Intake (ml)|Crystalloids (ml)|Volume (mL)-0.9 % sodium chloride with potassium chloride 20 mEq/L infusion$2166
+Intake (ml)|Generic Intake (ml)|Enteral Tube Intake: Percutaneous endo gastrostomy$2164
+Intake (ml)|Crystalloids (ml)|diltiazem$2153
+Intake (ml)|Crystalloids (ml)|Volume (mL)-dextrose 5 % and 0.9% NaCl infusion$2141
+Intake (ml)|Nutrition (ml)|PO Intake$2055
+Intake (ml)|Crystalloids (ml)|Volume (mL)-dextrose 5 % solution$2040
+Intake (ml)|Generic Intake (ml)|CL Flush: Non-Tunneled IJ R$2021
+Intake (ml)|Generic Intake (ml)|Volume (mL) Cisatracurium$2010
+Intake (ml)|Nutrition (ml)|Enteral Glucerna 1.5$1996
+Intake (ml)|Nutrition (ml)|PO:$1959
+Output (ml)|Output Y (ml)-Chest Tube Y - a #1 Mid b #2 Mid$1925
+Intake (ml)|Generic Intake (ml)|Volume (ml) Morphine$1904
+Output (ml)|Chest Tube Pleural$1880
+Output (ml)|Other$1851
+Intake (ml)|Generic Intake (ml)|Enteral Tube Intake: Nasogastric Nostril, L$1836
+Intake (ml)|Generic Intake (ml)|Volume (ml) Diltiazem$1834
+Output (ml)|Chest Tube Mediastinal$1823
+Intake (ml)|Generic Intake (ml)|#3:$1781
+Intake (ml)|Generic Intake (ml)|Volume (mL)-piperacillin-tazobactam (ZOSYN) IVPB 3.375 g$1776
+Intake (ml)|Generic Intake (ml)|Flush Volume In               ml$1769
+Output (ml)|Chest Tube Output: Pleural L Anterior$1743
+Intake (ml)|Generic Intake (ml)|Volume (ml) Nitroglycerin$1720
+Output (ml)|Output Amt-Jackson Pratt Drain$1710
+Output (ml)|Output Amt-Blake Drain$1702
+Intake (ml)|Generic Intake (ml)|Per IV Flush: Antecubital L 18 gauge$1698
+Intake (ml)|Generic Intake (ml)|Per IV Flush: Antecubital R 18 gauge$1691
+Intake (ml)|Generic Intake (ml)|Volume (mL)-potassium chloride IVPB 20 mEq$1683
+Intake (ml)|Crystalloids (ml)|nitroglycerin$1683
+Output (ml)|Blood Loss$1653
+Intake (ml)|Blood Products (ml)|Platelets$1599
+Intake (ml)|Nutrition (ml)|Enteral meds$1586
+Intake (ml)|Generic Intake (ml)|CO$1586
+Intake (ml)|Generic Intake (ml)|Volume (ml)  Bivalirudin$1580
+Intake (ml)|Crystalloids (ml)|Volume (mL)-dextrose 5 % / sodium chloride 0.45% with KCl 40 mEq infusion$1578
+Intake (ml)|Generic Intake (ml)|Miscellaneous IV Other (volume)$1562
+Intake (ml)|Generic Intake (ml)|Volume (mL)-potassium chloride 10 mEq in 50 mL IVPB$1556
+Intake (ml)|Nutrition (ml)|PO Oral$1510
+Intake (ml)|Nutrition (ml)|PO po$1503
+Intake (ml)|Blood Products (ml)|Volume-Transfuse red blood cells$1502
+Intake (ml)|Colloids (ml)|Colloids Total$1500
+Intake (ml)|Crystalloids (ml)|Volume (mL)-dextrose 5 % / sodium chloride 0.45% 1,000 mL with potassium chloride 40 mEq, magnesium sulfate 5 g infusion$1499
+Intake (ml)|Generic Intake (ml)|CL Flush: Introducer sheath IJ R$1491
+Intake (ml)|Crystalloids (ml)|sorensons$1488
+Output (ml)|Chest Tube B Amount$1464
+Output (ml)|Hemofiltration$1461
+Intake (ml)|Generic Intake (ml)|Vascular 3 Flush Amount (mL)$1460
+Intake (ml)|Crystalloids (ml)|Zosyn$1459
+Intake (ml)|Generic Intake (ml)|Volume (ml) Nitroprusside$1458
+Intake (ml)|Generic Intake (ml)|Misc.$1438
+Intake (ml)|Generic Intake (ml)|Lipids$1428
+Output (ml)|Chest Tube #1$1412
+Intake (ml)|Crystalloids (ml)|Volume (mL)-sodium bicarbonate in D5W premix 150 mEq/1000 mL$1406
+Intake (ml)|Generic Intake (ml)|Volume (mL) Insulin $1403
+Output (ml)|Output Y (ml)-Chest Tube Y - a #1 Right b #2 Mid c #3 Left$1357
+Output (ml)|Chest Tube C Amount$1336
+Intake (ml)|Nutrition (ml)|Enteral Perative$1329
+Intake (ml)|Crystalloids (ml)|Heparin (NS 0.45%)-IN$1328
+Intake (ml)|Generic Intake (ml)|Volume (mL)-metroNIDAZOLE (FLAGYL) IV 500 mg$1309
+Intake (ml)|Crystalloids (ml)|DOPamine$1307
+Intake (ml)|Generic Intake (ml)|Volume (mL)-dextrose 5 % solution$1303
+Intake (ml)|Generic Intake (ml)|CL Flush: Pressure/Power inj Periph. Inserted Cent$1300
+Intake (ml)|Crystalloids (ml)|Volume (mL)-dextrose 5 %-0.45 % sodium chloride infusion$1289
+Intake (ml)|Nutrition (ml)|Tube Feeding:$1266
+Output (ml)|Output Y (ml)-Chest Tube Y - a #1 Mid b #2 Left$1248
+Dialysis (ml)|In$1244
+Intake (ml)|Crystalloids (ml)|phenylephrine$1227
+Output (ml)|Urine, void:$1223
+Output (ml)|Output Amt-Jackson Pratt Drain B$1222
+Intake (ml)|Crystalloids (ml)|sorenson$1220
+Intake (ml)|Generic Intake (ml)|Per IV Flush: Forearm L 18 gauge$1216
+Intake (ml)|Crystalloids (ml)|NS$1207
+Output (ml)|Chest tube #1$1197
+Intake (ml)|Generic Intake (ml)|Volume (mL) Dexmedetomidine$1190
+Intake (ml)|Generic Intake (ml)|Volume Infused  (mL)$1185
+Output (ml)|Output Amt-Chest Tube B$1178
+Intake (ml)|Crystalloids (ml)|Sorenson$1171
+Output (ml)|Chest Tube Output: Mediastinal Anterior, Medial$1168
+Output (ml)|Output Amt-Blake Drain A$1161
+Intake (ml)|Generic Intake (ml)|Volume (mL)-dextrose 5 %-0.45 % sodium chloride infusion$1154
+Intake (ml)|Generic Intake (ml)|D10W$1153
+Intake (ml)|Nutrition (ml)|Enteral Jevity 1.5$1141
+Intake (ml)|Generic Intake (ml)|Volume (mL)-dextrose 10 % infusion$1139
+Output (ml)|Output Y (ml)-Chest Tube Y - a #1 Right Mid b #2 Left Mid$1132
+Intake (ml)|Crystalloids (ml)|NS KVO$1117
+Output (ml)|Emesis$1116
+Intake (ml)|Generic Intake (ml)|HEPARIN$1116
+Intake (ml)|Generic Intake (ml)|Volume (mL) Phenylephrine $1111
+Output (ml)|Output Y (ml)-Chest Tube Y - a #1 Right Lateral b #4 Left Lateral$1108
+Intake (ml)|Crystalloids (ml)|Volume (mL)-dextrose 5 % and 0.9 % sodium chloride with KCl 20 mEq/L$1085
+Intake (ml)|Crystalloids (ml)|CO/Sorenson$1080
+Intake (ml)|Crystalloids (ml)|Volume (mL)-dextrose 10 % infusion$1067
+Intake (ml)|Generic Intake (ml)|Volume (mL) Vasopressin$1063
+Intake (ml)|Generic Intake (ml)|Volume (ml) Magnesium Sulfate$1060
+Intake (ml)|Generic Intake (ml)|Per IV Flush: Upper arm R 20 gauge$1052
+Output (ml)|8 Hr Total Fluid Removed $1035
+Intake (ml)|Generic Intake (ml)|Enteral Tube Intake: Orogastric Oral 16$1028
+Intake (ml)|Generic Intake (ml)|Per IV Flush: Hand R 20 gauge$1025
+Intake (ml)|Generic Intake (ml)|Heparin$1022
+Intake (ml)|Crystalloids (ml)|Sorensons$1022
+Intake (ml)|Nutrition (ml)|PO PO$1019
+Intake (ml)|Generic Intake (ml)|Volume (mL)-ampicillin-sulbactam (UNASYN) 3 g in sodium chloride 0.9 % 100 mL IVPB$1010
+Intake (ml)|Generic Intake (ml)|CL PICC Total Lumen Flushes$1002
+Intake (ml)|Generic Intake (ml)|heparin$1000
+Intake (ml)|Generic Intake (ml)|Per IV Flush: Upper arm L 20 gauge$994
+Output (ml)|Drain 1 Output mL$979
+Output (ml)|Chest Tube Output: Pleural R Anterior$979
+Intake (ml)|Generic Intake (ml)|PRESSURE LINE FLUSH$971
+Output (ml)|Output Amt-Jackson Pratt Drain A$967
+Intake (ml)|Generic Intake (ml)|Volume (mL)-dextrose 5 %-0.9 % sodium chloride infusion$967
+Intake (ml)|Generic Intake (ml)|Per IV Flush: Hand L 20 gauge$966
+Intake (ml)|Crystalloids (ml)|niCARdipine$963
+Intake (ml)|Crystalloids (ml)|vasopressin$948
+Intake (ml)|Crystalloids (ml)|IV Antibiotics$936
+Intake (ml)|Crystalloids (ml)|Sorenson / CO$935
+Intake (ml)|Nutrition (ml)|Enteral pivot 1.5$916
+Intake (ml)|Generic Intake (ml)|Per IV Flush: Forearm R 18 gauge$916
+Intake (ml)|Nutrition (ml)|Enteral Meds$914
+Intake (ml)|Generic Intake (ml)|Levophed$914
+Intake (ml)|Nutrition (ml)|PO  $909
+Output (ml)|Chest Tube #1:$907
+Intake (ml)|Generic Intake (ml)|Volume (mL) Pantoprazole$903
+Intake (ml)|Generic Intake (ml)|#4:$901
+Intake (ml)|Nutrition (ml)|PO cardiac$897
+Intake (ml)|Blood Products (ml)|Volume (ml)-Transfuse - Leukoreduced Packed RBCs$893
+Intake (ml)|Generic Intake (ml)|Volume (mL)-sodium bicarbonate 150 mEq in dextrose 5 % 1,000 mL infusion$884
+Intake (ml)|Crystalloids (ml)|Volume (mL)-antithrombin III (human) (THROMBATE III) 550 Units in STERILE IV DILUENT 11 mL INFUSION syringe$881
+Intake (ml)|Crystalloids (ml)|PANTOPRAZOLE$881
+Intake (ml)|Colloids (ml)|5% Albumin$875
+Intake (ml)|Crystalloids (ml)|Amicar$865
+Output (ml)|Output Y (ml)-Chest Tube Y - a #3 Mid b #4 Mid$856
+Intake (ml)|Crystalloids (ml)|milrinone$854
+Intake (ml)|Generic Intake (ml)|INSULIN$847
+Intake (ml)|Crystalloids (ml)|cisatracurium$846
+Output (ml)|Output (mL)-Urethral Catheter 16 Fr.$845
+Intake (ml)|Crystalloids (ml)|pantoprazole$844
+Intake (ml)|Generic Intake (ml)|Volume (mL)-albumin human 5 % injection 12.5 g$839
+Intake (ml)|Generic Intake (ml)|Volume (mL)-piperacillin-tazobactam (ZOSYN) FOUR HOUR EXTENDED INFUSION IVPB 3.375 g$819
+Output (ml)|Output (mL)-Urethral Catheter Non-latex 14 Fr.$818
+Intake (ml)|Nutrition (ml)|PO oral$817
+Intake (ml)|Generic Intake (ml)|NOREPINEPHRINE$815
+Intake (ml)|Generic Intake (ml)|Volume (ml)  Metoprolol$814
+Intake (ml)|Crystalloids (ml)|bumetanide$814
+Intake (ml)|Crystalloids (ml)|Volume (mL)-sodium chloride 0.9 % 500 mL IV bolus$808
+Output (ml)|Chest Tube Output: Mediastinal R Anterior, Medial$807
+Intake (ml)|Generic Intake (ml)|CL Flush: Coated Catheter IJ R$800
+Intake (ml)|Nutrition (ml)|PO clear liquids$799
+Output (ml)|Surgical Drain, Tube Output: Bulb-closed system Ab$793
+Output (ml)|Chest Tube #2$793
+Intake (ml)|Generic Intake (ml)|Albumin 5%$793
+Intake (ml)|Generic Intake (ml)|Volume (mL)-piperacillin-tazobactam (ZOSYN) 3.375 g in sodium chloride 0.9 % 100 mL FOUR HOUR EXTENDED INFUSION IVPB$783
+Intake (ml)|Crystalloids (ml)|Volume (mL)-albumin human 5 % injection 12.5 g$780
+Intake (ml)|Crystalloids (ml)|D5 LR $772
+Intake (ml)|Generic Intake (ml)|DOPamine (ml):$770
+Intake (ml)|Nutrition (ml)|PO liquids$767
+Output (ml)|Urine Output (mL)-Urethral Catheter $760
+Output (ml)|Output Y (ml)-Chest Tube Y - a #1 Right b #1 Left$758
+Intake (ml)|Generic Intake (ml)|Volume (mL)-0.45 % sodium chloride infusion$758
+Output (ml)|Output Y (ml)-Chest Tube Y - a #1 Right Lateral b #2 Left Lateral$751
+Intake (ml)|Generic Intake (ml)|Insulin$747
+Intake (ml)|Generic Intake (ml)|Amiodarone$747
+Intake (ml)|Generic Intake (ml)|Anticoag/Thrombolytic Other (volume)$746
+Intake (ml)|Generic Intake (ml)|Volume (ml)  Aminocaproic Acid$745
+Intake (ml)|Nutrition (ml)|Enteral Glucerna$737
+Intake (ml)|Nutrition (ml)|Enteral glucerna 1.5$728
+Intake (ml)|Crystalloids (ml)|Volume (mL)-dextrose 5 % infusion$717
+Output (ml)|Output (ml)-Chest Tube #1 Right$714
+Intake (ml)|Generic Intake (ml)|Volume (ml)  Nicardipine$714
+Output (ml)|Output Y (ml)-Chest Tube Y - a #1 Right Lateral b #1 Left Lateral$713
+Output (ml)|NG Tube$707
+Intake (ml)|Generic Intake (ml)|Volume (mL) Dobutamine$695
+Intake (ml)|Crystalloids (ml)|Propofol v2-IN$683
+Output (ml)|Ileostomy$680
+Intake (ml)|Nutrition (ml)|Enteral osmolite 1.5$679
+Output (ml)|Bulb #1$678
+Intake (ml)|Crystalloids (ml)|CV Norepinephrine 8mg V2-IN$677
+Output (ml)|Output (mL)-Urethral Catheter Straight-tip 16 Fr.$675
+Intake (ml)|Crystalloids (ml)|Sorensens$675
+Output (ml)|Chest Tube Output: Mediastinal$671
+Output (ml)|Output (mL)-Urethral Catheter$670
+Output (ml)|Output Amt-Chest Tube C$667
+Intake (ml)|Generic Intake (ml)|Volume (mL)-potassium chloride 10 mEq in 50 mL *CENTRAL LINE* IVPB$666
+Output (ml)|Chest Tube Output: Mediastinal R Medial$663
+Intake (ml)|Nutrition (ml)|Enteral Promote$660
+Intake (ml)|Generic Intake (ml)|Vascular 4 Flush Amount (mL)$656
+Intake (ml)|Generic Intake (ml)|Intake (mL)-Gastrostomy/Enterostomy Percutaneous endoscopic gastrostomy (PEG) LUQ$656
+Intake (ml)|Nutrition (ml)|Enteral OGT meds$652
+Intake (ml)|Crystalloids (ml)|Saline Flush (mL)$651
+Intake (ml)|Crystalloids (ml)|Banana Bag$648
+Intake (ml)|Generic Intake (ml)|FENTANYL$633
+Output (ml)|Output Amt-Blake Drain B$631
+Intake (ml)|Nutrition (ml)|Enteral Glucerna 1.2$627
+Intake (ml)|Generic Intake (ml)|Volume (ml) Alteplase$626
+Intake (ml)|Generic Intake (ml)|Intake (mL)-NG/OG Tube Orogastric Left mouth$626
+Intake (ml)|Generic Intake (ml)|Volume (mL)-albumin human 25 % injection 25 g$625
+Intake (ml)|Generic Intake (ml)|Volume (mL)-ceFAZolin (ANCEF) in sod chl 2 g IVPB premix$624
+Intake (ml)|Nutrition (ml)|Enteral jevity 1.5$617
+Intake (ml)|Crystalloids (ml)|octreotide$613
+Output (ml)|Output (mL)-Urethral Catheter Temperature probe 16 Fr.$612
+Intake (ml)|Generic Intake (ml)|Analgesic Other (Volume)$609
+Intake (ml)|Generic Intake (ml)|Intake (mL)-NG/OG Tube Orogastric$606
+Intake (ml)|Generic Intake (ml)|Volume (ml) Lipids$605
+Intake (ml)|Nutrition (ml)|PO ORAL$603
+Output (ml)|Chest Tube Output: Pleural L Anterior, Lateral$602
+Intake (ml)|Nutrition (ml)|Enteral Osmolite 1.5$600
+Intake (ml)|Generic Intake (ml)|Per IV Flush: Wrist L 20 gauge$597
+Intake (ml)|Nutrition (ml)|Enteral Fibersource$592
+Intake (ml)|Nutrition (ml)|PO FLUIDS$587
+Intake (ml)|Generic Intake (ml)|Per IV Flush: Wrist R 20 gauge$582
+Intake (ml)|Generic Intake (ml)|Pressure Line Flush$580
+Intake (ml)|Generic Intake (ml)|Volume (mL)-magnesium sulfate in 5 % dextrose IVPB 1 g$578
+Output (ml)|Output Y (ml)-Chest Tube Y - a #1 Left b #2 Right$576
+Intake (ml)|Generic Intake (ml)|TUBE FEED FLUSH$576
+Intake (ml)|Generic Intake (ml)|TUBE FDGING FORM$576
+Intake (ml)|Generic Intake (ml)|Amount administered$575
+Output (ml)|Output (ml)-Chest Tube #1 Right Lateral$572
+Intake (ml)|Generic Intake (ml)|Volume (mL)-cefepime (MAXIPIME) 1 g in sodium chloride 0.9 % 100 mL IVPB$569
+Intake (ml)|Nutrition (ml)|PO liqs$564
+Intake (ml)|Generic Intake (ml)|Zosyn$561
+Intake (ml)|Crystalloids (ml)|Volume (mL)-potassium chloride 20 MEQ/50ML IVPB premix 20 mEq$560
+Output (ml)|Chest Tube Mediastinal $559
+Output (ml)|Output Y (ml)-Chest Tube Y - a #1 Right b #2 Mid$558
+Intake (ml)|Generic Intake (ml)|Precedex$556
+Intake (ml)|Generic Intake (ml)|Per IV Flush: Hand L 18 gauge$555
+Intake (ml)|Nutrition (ml)|EnteralTubeFlush$552
+Intake (ml)|Crystalloids (ml)|Amiodarone-IN$549
+Intake (ml)|Crystalloids (ml)|Volume (mL)-ceFAZolin 2,000 mg in sodium chloride 0.9% 100 mL IVPB$543
+Intake (ml)|Nutrition (ml)|Enteral TF$542
+Intake (ml)|Generic Intake (ml)|AMIODARONE$539
+Intake (ml)|Generic Intake (ml)|DEXmedetomidine (ml):$536
+Intake (ml)|Generic Intake (ml)|Volume (mL)-calcium CHLORIDE IVPB premix 1 g$535
+Intake (ml)|Crystalloids (ml)|D5W  w/150 mEq NaHCO3 1000 ml$534
+Intake (ml)|Nutrition (ml)|PO Liquids$533
+Output (ml)|Chest Tube Pleural $528
+Intake (ml)|Nutrition (ml)|Enteral Jevity$525
+Intake (ml)|Generic Intake (ml)|Volume (ml) Lidocaine$524
+Output (ml)|Chest Tube Output: Pleural R$520
+Intake (ml)|Generic Intake (ml)|Volume (mL)-levofloxacin (LEVAQUIN) IVPB 750 mg$517
+Output (ml)|Output (mL)-Urethral Catheter Non-latex 16 Fr.$516
+Intake (ml)|Generic Intake (ml)|Volume (mL)-cefepime (MAXIPIME) 2 g in sodium chloride 0.9 % 100 mL IVPB$512
+Intake (ml)|Generic Intake (ml)|Fentanyl$512
+Intake (ml)|Generic Intake (ml)|Enteral Tube Intake: Nasogastric Nostril, L 16$512
+Output (ml)|Urinary Catheter Output: Indwelling/Continuous Ext$508
+Intake (ml)|Nutrition (ml)|PO Cardiac$506
+Intake (ml)|Generic Intake (ml)|Tube Feeding Flushes (mL)$496
+Intake (ml)|Crystalloids (ml)|Volume (mL)-fat emulsion 20 % infusion$495
+Intake (ml)|Generic Intake (ml)|Intake (mL)-NG/OG Tube Other (Comment) Right nostril$493
+Intake (ml)|Generic Intake (ml)|Enteral Tube Intake: Nasoduodenal Nostril, L 12$492
+Intake (ml)|Crystalloids (ml)|CISATRACURIUM$492
+Intake (ml)|Nutrition (ml)|Enteral flush with meds$490
+Output (ml)|Chest Tube Output: Mediastinal Medial$489
+Output (ml)|Chest Tube Output: Mediastinal L Medial$488
+Intake (ml)|Nutrition (ml)|PO Fluid$486
+Intake (ml)|Crystalloids (ml)|IV Admix$485
+Intake (ml)|Generic Intake (ml)|NS + ADD$483
+Intake (ml)|Crystalloids (ml)|Volume (mL)-antithrombin III (human) (THROMBATE III) 621 Units in STERILE IV DILUENT 11 mL INFUSION syringe$483
+Intake (ml)|Crystalloids (ml)|Volume (mL)-sodium chloride 0.9 % 1,000 mL IV bolus$477
+Intake (ml)|Nutrition (ml)|PO po fluids$475
+Output (ml)|Output (ml)-Chest Tube #1 Mid$471
+Intake (ml)|Nutrition (ml)|Enteral Glucerna 1.5 $469
+Output (ml)|Output Y (ml)-Chest Tube Y - a #2 Right Mid b #2 Left Mid$467
+Intake (ml)|Nutrition (ml)|Enteral$467
+Output (ml)|Output (mL)-Urethral Catheter Straight-tip 14 Fr.$466
+Output (ml)|chest tube$464
+Intake (ml)|Generic Intake (ml)|NS 0.9% Volume$460
+Intake (ml)|Nutrition (ml)|PO Cardiac Diet$458
+Intake (ml)|Generic Intake (ml)|Volume (mL)-meropenem (MERREM) 500 mg in sodium chloride 0.9 % 100 mL IVPB$457
+Output (ml)|Output (ml)-Chest Tube #1 Left$455
+Intake (ml)|Generic Intake (ml)|Milrinone$455
+Intake (ml)|Generic Intake (ml)|Per IV Flush: Hand R 18 gauge$454
+Intake (ml)|Generic Intake (ml)|Neo$454
+Intake (ml)|Generic Intake (ml)|Per IV Flush: Wrist L 18 gauge$452
+Output (ml)|Gastric Tube Output: Orogastric Oral$450
+Intake (ml)|Crystalloids (ml)|Plasmalyte $449
+Output (ml)|Output Y (ml)-Chest Tube Y - a #1 Mid b #2 Left Lateral$448
+Output (ml)|OthrOutputTotal$447
+Intake (ml)|Crystalloids (ml)|Heparin$447
+Intake (ml)|Generic Intake (ml)|Total Amount (mcg)-fentaNYL PCA 50 mcg/mL$446
+Output (ml)|Output Y (ml)-Chest Tube Y - a #1 Right Anterior b #2 Left Anterior$445
+Output (ml)|Output Y (ml)-Chest Tube Y - a #2 Right Mid b #3 Left Mid$440
+Intake (ml)|Crystalloids (ml)|Insulin Drip (NS)-IN$438
+Output (ml)|Output Amt-Pleural Drain$436
+Output (ml)|Chest tube #2$436
+Intake (ml)|Generic Intake (ml)|PROpofol (ml):$436
+Intake (ml)|Nutrition (ml)|Enteral jevity 1.2$433
+Output (ml)|Output (mL)-Urethral Catheter Latex 16 Fr.$431
+Output (ml)|Output (mL)-Urinary Catheter Indwelling$430
+Intake (ml)|Crystalloids (ml)|Volume (mL)-sodium chloride (NORMAL SALINE) 0.9 % bolus 500 mL$429
+Intake (ml)|Crystalloids (ml)|zosyn$428
+Intake (ml)|Generic Intake (ml)|NS c IVF$427
+Intake (ml)|Blood Products (ml)|Volume-Transfuse plasma$427
+Intake (ml)|Generic Intake (ml)|1/2 NS$425
+Output (ml)|Urinary Catheter Output: Indwelling/Continuous Sup$424
+Output (ml)|Rectal Tube$424
+Output (ml)|Colostomy$423
+Output (ml)|Output (mL)-Urethral Catheter 14 Fr.$418
+Intake (ml)|Generic Intake (ml)|CL Flush: IJ R$417
+Intake (ml)|Crystalloids (ml)|ARGATROBAN$417
+Output (ml)|Chest Tube Output: Pleural R Anterior, Lateral$414
+Intake (ml)|Generic Intake (ml)|Volume (mL) Nicardipine$414
+Output (ml)|Liquid Stool$413
+Intake (ml)|Nutrition (ml)|Water via tube:$412
+Intake (ml)|Generic Intake (ml)|Volume Infused (ml)-morphine PCA 5 mg/mL$412
+Intake (ml)|Crystalloids (ml)|Volume (mL)-sodium chloride 0.9 % flush IVPB 500 mL$412
+Output (ml)|Output (ml)-Chest Tube #2 Left$410
+Intake (ml)|Crystalloids (ml)|Sorensons/CO$406
+Output (ml)|Chest Tube Output: Mediastinal L$398
+Intake (ml)|Generic Intake (ml)|Volume (ml) Calcium Chloride$397
+Intake (ml)|Nutrition (ml)|Enteral Jevity 1.2 $395
+Intake (ml)|Crystalloids (ml)|TPN$392
+Output (ml)|Output (mL)-External Urinary Catheter$385
+Intake (ml)|Crystalloids (ml)|morPHINe$383
+Output (ml)|Output Y (ml)-Chest Tube Y - a #1 Right Mid b #1 Left Mid$381
+Intake (ml)|Generic Intake (ml)|Volume Infused (ml)-HYDROmorphone (DILAUDID) 0.4 mg/mL in sodium chloride 0.9% 30 mL PCA infusion$380
+Output (ml)|SN Urine Output(ml)$377
+Intake (ml)|Crystalloids (ml)|lidocaine$377
+Output (ml)|Output (mL)-Urethral Catheter Temperature probe$376
+Intake (ml)|Generic Intake (ml)|Volume (ml) Vecuronium$373
+Intake (ml)|Generic Intake (ml)|Volume (mL)-potassium chloride IVPB 10 mEq 100 mL$373
+Intake (ml)|Generic Intake (ml)|Volume (mL)-0.9 % NaCl with KCl 20 mEq/ L  infusion$373
+Output (ml)|Chest Tube Output: Mediastinal R$371
+Intake (ml)|Generic Intake (ml)|CL Flush: Coated Catheter, Pressure/power inj IJ R$371
+Intake (ml)|Generic Intake (ml)|intake$370
+Intake (ml)|Crystalloids (ml)|Volume (mL)-potassium chloride 20 mEq/100mL IVPB premix$369
+Intake (ml)|Nutrition (ml)|PO fluid$367
+Intake (ml)|Generic Intake (ml)|Per IV Flush: Antecubital R$365
+Intake (ml)|Generic Intake (ml)|NEOsynephrine (ml):$365
+Output (ml)|Urinary Catheter Output: Straight/Intermittent Ure$364
+Intake (ml)|Generic Intake (ml)|RHI$361
+Intake (ml)|Generic Intake (ml)|Neosynephrine$361
+Intake (ml)|Nutrition (ml)|Enteral pivot1.5$358
+Intake (ml)|Generic Intake (ml)|levophed$358
+Output (ml)|CT$353
+Intake (ml)|Generic Intake (ml)|CL Flush: Non-Tunneled, Coated Catheter IJ R 7FR$353
+Output (ml)|Drain 2 Output mL$352
+Intake (ml)|Generic Intake (ml)|Volume (mL)-piperacillin-tazobactam (ZOSYN) IVPB 2.25 g$351
+Intake (ml)|Nutrition (ml)|Enteral tube feed$350
+Intake (ml)|Nutrition (ml)|Enteral Jevity 1.0$349
+Intake (ml)|Generic Intake (ml)|Volume (mL)-piperacillin-tazobactam (ZOSYN) 3.375 g in sodium chloride 0.9 % 100 mL EXTENDED INFUSION IVPB$348
+Intake (ml)|Nutrition (ml)|Other Intake$346
+Intake (ml)|Generic Intake (ml)|Volume (mL)-vancomycin (VANCOCIN) IVPB 1000 mg/200 mL premix$346
+Intake (ml)|Nutrition (ml)|Enteral Pivot 1.5 Goal 65cc/hr$345
+Intake (ml)|Generic Intake (ml)|Volume (mL)-potassium chloride 10 mEq in 100 mL IVPB$344
+Intake (ml)|Crystalloids (ml)|Fentanyl (NS)-IN$344
+Output (ml)|generic$343
+Intake (ml)|Generic Intake (ml)|Propofol$343
+Intake (ml)|Generic Intake (ml)|DOPAMINE$343
+Intake (ml)|Crystalloids (ml)|HEPARIN$343
+Output (ml)|Urine Output (mL)-Urethral Catheter$341
+Output (ml)|Output Y (ml)-Chest Tube Y - a #1 Right Lateral b #2 Mid c #3 Left Lateral$341
+Intake (ml)|Generic Intake (ml)|Volume (mL)-vancomycin in dextrose premix 1 g$339
+Intake (ml)|Crystalloids (ml)|a-line/cvp sorensens$339
+Intake (ml)|Nutrition (ml)|Enteral water w/meds$338
+Intake (ml)|Crystalloids (ml)|CO/Sorensons$338
+Intake (ml)|Generic Intake (ml)|DIPRIVAN$337
+Intake (ml)|Generic Intake (ml)|propofol$336
+Intake (ml)|Crystalloids (ml)|sorenson/co$336
+Intake (ml)|Crystalloids (ml)|DOBUTamine$336
+Intake (ml)|Crystalloids (ml)|Volume (mL)-antithrombin III (human) (THROMBATE III) 540 Units in STERILE IV DILUENT 11 mL INFUSION syringe$334
+Intake (ml)|Crystalloids (ml)|EPINEPHrine$331
+Output (ml)|Output Y (ml)-Chest Tube Y - a #2 Mid b #3 Mid$330
+Intake (ml)|Crystalloids (ml)|Volume (mL)-Calcium gluconate 10 g in 0.9% sodium chloride 250 ml infusion$330
+Output (ml)|Output (mL)-Urethral Catheter Temperature probe 14 Fr.$329
+Intake (ml)|Generic Intake (ml)|Volume (mL)-piperacillin-tazobactam (ZOSYN) 4.5 g in sodium chloride 0.9 % 100 mL IVPB$329
+Output (ml)|Output (mL)-Y Chest Tube 1 and 2 1 Right 36 fr 2 Left Pleural collection system$328
+Intake (ml)|Nutrition (ml)|Enteral Glucerna 1.0$326
+Output (ml)|Surgical Drain, Tube Output: Vacuum-closed system $325
+Output (ml)|Output (mL)-Urethral Catheter Latex 14 Fr.$325
+Intake (ml)|Generic Intake (ml)|NITROGLYCERIN$325
+Intake (ml)|Generic Intake (ml)|Intake (mL)-Gastrostomy/Enterostomy Percutaneous endoscopic gastrostomy (PEG)$325
+Intake (ml)|Generic Intake (ml)|Hemodialysis Intake (mL)$325
+Intake (ml)|Generic Intake (ml)|Cardene$325
+Output (ml)|Chest Tube Output: Pleural L$324
+Intake (ml)|Generic Intake (ml)|Volume (mL)-vancomycin (VANCOCIN) 1,250 mg in dextrose 5 % 250 mL IVPB$324
+Intake (ml)|Crystalloids (ml)|Fentanyl$323
+Intake (ml)|Generic Intake (ml)|Per IV Flush: Forearm R 22 gauge$322
+Intake (ml)|Nutrition (ml)|Enteral NUTREN 1.5$320
+Intake (ml)|Generic Intake (ml)|OGT$320
+Intake (ml)|Crystalloids (ml)|D10W$320
+Output (ml)|Output Y (ml)-Chest Tube Y - a #1 Mid b #1 Left Lateral$318
+Intake (ml)|Generic Intake (ml)|insulin$318
+Intake (ml)|Crystalloids (ml)|Volume (mL)-dextrose 5 % / sodium chloride 0.45% with KCl 20 mEq infusion$318
+Intake (ml)|Crystalloids (ml)|D5 0.45 NS  w/20 mEq KCL$318
+Output (ml)|Output (mL)-Y Chest Tube 1 and 2 1 Right 28 fr 2 Left Pleural collection system$317
+Intake (ml)|Crystalloids (ml)|Sorenson's/CO$316
+Intake (ml)|Generic Intake (ml)|Per IV Flush: Forearm L 22 gauge$314
+Intake (ml)|Generic Intake (ml)|Enteral Tube Intake: Jejunostomy Abdominal wall$313
+Output (ml)|GI Tube 1 Drainage Amount$312
+Intake (ml)|Generic Intake (ml)|CL Flush: Pressure/power inj IJ R$312
+Intake (ml)|Generic Intake (ml)|fentanyl$311
+Intake (ml)|Generic Intake (ml)|SN IV Solution Volume (ml)$311
+Intake (ml)|Generic Intake (ml)|Cardizem$311
+Intake (ml)|Nutrition (ml)|Enteral Peptamen$310
+Intake (ml)|Nutrition (ml)|PO clears$309
+Intake (ml)|Generic Intake (ml)|Intake (mL)-Gastrostomy/Enterostomy Gastrostomy 18 Fr. LUQ$308
+Intake (ml)|Crystalloids (ml)|eptifibatide$308
+Intake (ml)|Generic Intake (ml)|CL Flush: Non-Tunneled IJ R 8fr$307
+Intake (ml)|Crystalloids (ml)|furosemide$307
+Intake (ml)|Crystalloids (ml)|D5 0.45 NS  w/20 mEq KCL 1000 ml$307
+Intake (ml)|Generic Intake (ml)|Intake (mL)-NG/OG Tube Center mouth$305
+Intake (ml)|Crystalloids (ml)|Volume (mL)-piperacillin-tazobactam (ZOSYN) 3.375 g in sodium chloride 0.9 % 100 mL IVPB$304
+Intake (ml)|Generic Intake (ml)|DOButamine (ml):$303
+Intake (ml)|Nutrition (ml)|Enteral jevity1.2$302
+Intake (ml)|Generic Intake (ml)|Other$302
+Intake (ml)|Crystalloids (ml)|Volume (mL)-ceFEPIme (MAXIPIME) 1,000 mg in sodium chloride 0.9 % 100 mL IVPB$301
+Output (ml)|Output (mL)-External Urethral Device Condom catheter$300
+Output (ml)|Surgical Drain, Tube Output: Bulb-closed system Ch$298
+Output (ml)|Chest Tube Output: Pleural L Anterior, Upper$298
+Output (ml)|CHEST TUBE: MEDIASTINAL$298
+Intake (ml)|Generic Intake (ml)|Volume (ml) Pantoprazole$298
+Intake (ml)|Generic Intake (ml)|Versed$296
+Intake (ml)|Generic Intake (ml)|Per IV Flush: Antecubital L$296
+Intake (ml)|Generic Intake (ml)|DEXMEDETOMIDINE$296
+Output (ml)|Output (mL)-Straight Catheter$295
+Intake (ml)|Generic Intake (ml)|LEVOPHED$295
+Output (ml)|Emesis Count$294
+Intake (ml)|Generic Intake (ml)|Volume (mL)-vancomycin (VANCOCIN) 1,500 mg in dextrose 5 % 250 mL IVPB$294
+Intake (ml)|Generic Intake (ml)|CL Flush: Non-Tunneled, Coated Catheter IJ R$294
+Output (ml)|Chest Tube Output: Mediastinal L Anterior, Medial$,292
+Output (ml)|Generic$291
+Intake (ml)|Generic Intake (ml)|amiodarone$291
+Intake (ml)|Generic Intake (ml)|Enteral Tube Intake: Orogastric Oral 16 fr$291
+Intake (ml)|Crystalloids (ml)|argatroban$291
+Intake (ml)|Generic Intake (ml)|Volume (mL) Epinephrine$290
+Intake (ml)|Generic Intake (ml)|Vascular 5 Flush Amount (mL)$289
+Intake (ml)|Nutrition (ml)|Enteral Water flush$288
+Intake (ml)|Generic Intake (ml)|zosyn$288
+Intake (ml)|Crystalloids (ml)|NS  w/20 mEq KCL$288
+Output (ml)|Output Y (ml)-Chest Tube Y - a #1 Mid b #1 Mid$287
+Output (ml)|Chest Tube Output: Mediastinal R Lateral$287
+Output (ml)|CRRT - UF removed$286
+Intake (ml)|Crystalloids (ml)|NS  w/40 mEq KCL 1000 ml$286
+Intake (ml)|Generic Intake (ml)|Per IV Flush: Wrist R 18 gauge$285
+Output (ml)|Chest Tube #3$284
+Intake (ml)|Generic Intake (ml)|IV/IVPB:$284
+Intake (ml)|Nutrition (ml)|Enteral Oxepa$283
+Intake (ml)|Crystalloids (ml)|Volume (mL)-vancomycin (VANCOCIN) 1,000 mg in sodium chloride 0.9 % 250 mL IVPB$283
+Output (ml)|Output Y (ml)-Chest Tube Y - a #1 Right Lateral b #2 Mid$282
+Intake (ml)|Generic Intake (ml)|Intake (mL)-Gastrostomy/Enterostomy Gastrostomy LUQ$282
+Intake (ml)|Nutrition (ml)|PO Clear Liquids$280
+Intake (ml)|Generic Intake (ml)|Enteral Tube Intake: Nasoduodenal Nostril, R 10$280
+Intake (ml)|Generic Intake (ml)|Volume (mL)-cefTRIAXone (ROCEPHIN) 1 g in dextrose 5 % 50 mL IVPB$279
+Output (ml)|Output (mL)-NG/OG Tube Nasogastric Right nostril$278
+Intake (ml)|Nutrition (ml)|Enteral tube feeding$278
+Intake (ml)|Generic Intake (ml)|Per IV Flush: Forearm L$278
+Intake (ml)|Crystalloids (ml)|Volume (mL)-dextrose 5 % / sodium chloride 0.9% infusion$278
+Intake (ml)|Generic Intake (ml)|cardizem$277
+Intake (ml)|Crystalloids (ml)|Volume (mL)-sodium chloride 0.9 % flush IVPB 250 mL$277
+Intake (ml)|Generic Intake (ml)|VERSED$276
+Output (ml)|Output (ml)-Chest Tube #1 Mediastinal$275
+Intake (ml)|Generic Intake (ml)|Volume (mL)-vancomycin in dextrose premix 1,000 mg$273
+Intake (ml)|Generic Intake (ml)|Enteral Tube Intake: Nasoduodenal Nostril, R 12$273
+Output (ml)|Output (mL)-NG/OG Tube Nasogastric Left nostril$272
+Output (ml)|JP Drain Total$272
+Output (ml)|Output (ml)-Chest Tube #2 Left Lateral$271
+Intake (ml)|Generic Intake (ml)|% Snack Eaten$270
+Intake (ml)|Nutrition (ml)|Enteral Osmolite 1.2$269
+Intake (ml)|Generic Intake (ml)|CL Flush: Non-Tunneled Subclavian L$269
+Output (ml)|Balance this Exchange (mL)$268
+Intake (ml)|Generic Intake (ml)|Volume (ml) Argatroban$266
+Output (ml)|L Pleural CT 6/26$265
+Output (ml)|Chest Tube Output: Mediastinal L Anterior, Medial$265
+Intake (ml)|Generic Intake (ml)|Phenylephrine$265
+Intake (ml)|Generic Intake (ml)|Volume (ml) Rocuronium$264
+Intake (ml)|Crystalloids (ml)|Norepinephrine V3-IN$264
+Intake (ml)|Crystalloids (ml)|D10$263
+Intake (ml)|Nutrition (ml)|PO diet$262
+Intake (ml)|Generic Intake (ml)|versed$262
+Output (ml)|NG tube$259
+Intake (ml)|Generic Intake (ml)|Epinephrine$258
+Output (ml)|Output Amt-Wound Vac$257
+Output (ml)|Output (mL)-Urethral Catheter Non-latex$257
+Output (ml)|Output (mL)-Urethral Catheter Double-lumen 16 Fr.$257
+Output (ml)|Output Y (ml)-Chest Tube Y - a #1 Right Lateral$256
+Intake (ml)|Nutrition (ml)|Enteral Flush$256
+Intake (ml)|Generic Intake (ml)|Volume (mL)-cefTRIAXone (ROCEPHIN) 2 g in sodium chloride 0.9 % 100 mL IVPB$255
+Intake (ml)|Generic Intake (ml)|Volume (mL)-albumin human 5 % injection 25 g$255
+Intake (ml)|Generic Intake (ml)|Enteral Tube Intake: Orogastric Oral 16 FR$255
+Intake (ml)|Generic Intake (ml)|Volume (ml) Nicardipine$254
+Intake (ml)|Generic Intake (ml)|Enteral Tube Intake: Jejunostomy Abdominal wall 16$254
+Intake (ml)|Blood Products (ml)|Volume-Transfuse platelet pheresis$253
+Intake (ml)|Nutrition (ml)|Fat emulsion$252
+Intake (ml)|Generic Intake (ml)|CL Flush: Coated Catheter Subclavian R$252
+Output (ml)|Output (ml)-Chest Tube #3 Mediastinal$249
+Intake (ml)|Crystalloids (ml)|NS  w/20 mEq KCL 1000 ml$249
+Output (ml)|Chest Tube Output: Mediastinal Anterior, Lower$248
+Intake (ml)|Crystalloids (ml)|amicar$248
+Intake (ml)|Crystalloids (ml)|CO/Sorensen$247
+Intake (ml)|Generic Intake (ml)|Volume (mL)-meropenem (MERREM) 1 g in sodium chloride 0.9 % 100 mL IVPB$246
+Intake (ml)|Crystalloids (ml)|CO/sorensons$246
+Output (ml)|Output Amt-Jackson Pratt Drain C$245
+Intake (ml)|Generic Intake (ml)|Levo$245
+Intake (ml)|Nutrition (ml)|PO Clears$243
+Intake (ml)|Crystalloids (ml)|Milrinone-IN$243
+Intake (ml)|Generic Intake (ml)|Volume (mL)-ampicillin (OMNIPEN) 2 g in sodium chloride 0.9 % 100 mL IVPB$242
+Output (ml)|Surgical Drain, Tube Output: Bulb-closed system Gr$241
+Intake (ml)|Generic Intake (ml)|Contrast amount$241
+Output (ml)|Output Y (ml)-Chest Tube Y - a #1 Right b #2 Right Anterior$239
+Intake (ml)|Nutrition (ml)|Enteral Promote with Fiber$239
+Intake (ml)|Generic Intake (ml)|Intake (mL)-Gastrostomy/Enterostomy PEG-jejunostomy 20 Fr.$238
+Intake (ml)|Generic Intake (ml)|#5:$238
+Intake (ml)|Generic Intake (ml)|Volume (mL) TPN$237
+Intake (ml)|Generic Intake (ml)|EPInephrine (ml):$237
+Output (ml)|JP #1$236
+Output (ml)|Gastric Tube Output: Nasogastric Nostril, R$236
+Intake (ml)|Crystalloids (ml)|Fentanyl-IN$236
+Output (ml)|Fluid Removed$235
+Output (ml)|Chest Tube Output: Pleural R Posterior, Lateral$234
+Intake (ml)|Generic Intake (ml)|Per IV Flush: Forearm R$233
+Intake (ml)|Generic Intake (ml)|DOBUTAMINE$233
+Intake (ml)|Crystalloids (ml)|0.45 NS  w/20 mEq KCL 1000 ml$233
+Intake (ml)|Generic Intake (ml)|CL Flush: Non-Tunneled dialysis IJ R$231
+Output (ml)|Output (ml)-Chest Tube #3 Right Mid$230
+Output (ml)|Effluent$230
+Intake (ml)|Nutrition (ml)|Enteral TUBE FLUSH$230
+Output (ml)|Chest Tube Output: Pleural L Medial$229
+Intake (ml)|Generic Intake (ml)|EPTIFIBATIDE$229
+Intake (ml)|Crystalloids (ml)|D5NS  w/20 mEq KCL$228
+Intake (ml)|Nutrition (ml)|Enteral Tube Flush$227
+Output (ml)|Output (mL)-Urethral Catheter Double-lumen 14 Fr.$226
+Intake (ml)|Generic Intake (ml)|CL Flush: Coated Catheter Subclavian L$226
+Output (ml)|Output Y (ml)-Chest Tube Y - a #1 Mid b #2 Right$225
+Intake (ml)|Generic Intake (ml)|Volume (mL) Lidocaine$225
+Output (ml)|Output (mL)-Urethral Catheter Straight-tip$224
+Intake (ml)|Nutrition (ml)|PO cardiac diet$224
+Intake (ml)|Generic Intake (ml)|Intake (mL)-Gastrostomy/Enterostomy Gastrostomy 20 Fr. $224
+Intake (ml)|Generic Intake (ml)|Enteral Tube Intake: Nostril, R 10fr$224
+Intake (ml)|Generic Intake (ml)|CL Flush: PICC R$224
+Intake (ml)|Crystalloids (ml)|Volume (mL)-albumin human (SPA) 25 % injection 12.5 g$224
+Intake (ml)|Generic Intake (ml)|Volume (mL)-dextrose 5 % and 0.45 % NaCl with KCl 20 mEq/L infusion$221
+Intake (ml)|Nutrition (ml)|Enteral glucerna$220
+Intake (ml)|Generic Intake (ml)|Per IV Flush: Hand R 22 gauge$220
+Output (ml)|Output (ml)-Chest Tube Left$218
+Output (ml)|CHEST TUBE: PLEURAL$218
+Intake (ml)|Generic Intake (ml)|CL Flush: Non-Tunneled IJ L$218
+Output (ml)|Chest Tube Output: Pleural Anterior$217
+Intake (ml)|Nutrition (ml)|Enteral Tube Feeding$217
+Output (ml)|Output Y (ml)-Chest Tube Y - a #2 Mid;Anterior b #3 Mid;Anterior$216
+Output (ml)|Urinary Catheter Output: Coude Urethral$215
+Intake (ml)|Nutrition (ml)|Enteral Nutren 1.5$215
+Intake (ml)|Generic Intake (ml)|Intake (mL)-Gastrostomy/Enterostomy Percutaneous endoscopic gastrostomy (PEG) 20 Fr. Umbilicus$215
+Intake (ml)|Generic Intake (ml)|Enteral Tube Intake: Nasoduodenal Nostril, R 10F$215
+Intake (ml)|Crystalloids (ml)|Volume (mL)-SODIUM CHLORIDE 0.9 % IV SOLN$214
+Intake (ml)|Nutrition (ml)|PO meds$213
+Intake (ml)|Crystalloids (ml)|Volume (mL)-hydrocortisone sod succ PF (Solu-CORTEF) 250 mg in sodium chloride 0.9 % 250 mL infusion$213
+Output (ml)|G Tube$212
+Intake (ml)|Generic Intake (ml)|LEVophed (ml):$212
+Output (ml)|R Nephrostomy$210
+Intake (ml)|Nutrition (ml)|Enteral perative$210
+Intake (ml)|Generic Intake (ml)|VASO$210
+Output (ml)|L Pleural CT$209
+Output (ml)|L Nephrostomy$209
+Intake (ml)|Nutrition (ml)|Enteral TPN$209
+Intake (ml)|Nutrition (ml)|Enteral feed$208
+Intake (ml)|Generic Intake (ml)|Intake$208
+Intake (ml)|Generic Intake (ml)|Volume (mL)-cefTRIAXone (ROCEPHIN) 1 g in sodium chloride 0.9 % 100 mL IVPB$207
+Intake (ml)|Generic Intake (ml)|Vasopressin$207
+Intake (ml)|Generic Intake (ml)|Dobutrex$207
+Output (ml)|Output Y (ml)-Chest Tube Y - a #1 Mid b #1 Left$206
+Intake (ml)|Nutrition (ml)|Enteral OGT$205
+Intake (ml)|Generic Intake (ml)|sorensen/co$205
+Intake (ml)|Generic Intake (ml)|CL Flush: Coated Catheter IJ R 7F$205
+Output (ml)|Output Y (ml)-Chest Tube Y - a #1 Anterior b #2 Anterior$204
+Intake (ml)|Nutrition (ml)|Enteral free water$204
+Intake (ml)|Generic Intake (ml)|PO$203
+Intake (ml)|Nutrition (ml)|PO cardiac liquids$202
+Intake (ml)|Nutrition (ml)|Enteral tube flush$202
+Intake (ml)|Nutrition (ml)|Enteral Nepro tube feeds$202
+Output (ml)|Urinary Catheter Output: Urethral$201
+Output (ml)|Output Y (ml)-Chest Tube Y - a #1 Mid b #2 Left Anterior$201
+Intake (ml)|Crystalloids (ml)|Volume (mL)-0.9% sodium chloride with potassium chloride 40 mEq/L infusion$201
+Intake (ml)|Crystalloids (ml)|Volume (mL)-antithrombin III (human) (THROMBATE III) 532 Units in STERILE IV DILUENT 11 mL INFUSION syringe$200
+Intake (ml)|Nutrition (ml)|Enteral meds h2o flush$199
+Intake (ml)|Crystalloids (ml)|co/sorenson$199
+Output (ml)|Ultrafiltration$198
+Intake (ml)|Generic Intake (ml)|Per IV Flush: Hand L$198
+Intake (ml)|Crystalloids (ml)|Hypertonic saline 3% $198
+Intake (ml)|Nutrition (ml)|PO cardiac diabetic$197
+Intake (ml)|Generic Intake (ml)|cardizem drip$197
+Intake (ml)|Generic Intake (ml)|CARDIZEM$197
+Intake (ml)|Crystalloids (ml)|Esmolol-IN$197
+Intake (ml)|Generic Intake (ml)|Volume (mL)-vancomycin (VANCOCIN) 1,250 mg in sodium chloride 0.9 % 250 mL IVPB$196
+Intake (ml)|Generic Intake (ml)|DILTIAZEM$196
+Intake (ml)|Crystalloids (ml)|sorensons / C.O.$196
+Output (ml)|Chest Tube Drainage Total$195
+Intake (ml)|Nutrition (ml)|PO Oral intake$195
+Intake (ml)|Generic Intake (ml)|Volume (mL) Lipids$195
+Intake (ml)|Generic Intake (ml)|CO $195
+Intake (ml)|Crystalloids (ml)|Banana bag$195
+Intake (ml)|Generic Intake (ml)|Volume (mL)-magnesium sulfate in dextrose premix 2 g$194
+Intake (ml)|Crystalloids (ml)|Volume (mL)-anticoagulant citrate/dextrose formula A (ACD FORMULA A) infusion$194
+Intake (ml)|Crystalloids (ml)|Volume (mL)-metroNIDAZOLE (FLAGYL) IVPB 500 mg$193
+Output (ml)|Output Amt-Urinary Catheter $192
+Output (ml)|Output (ml)-Chest Tube Left Lateral$192
+Intake (ml)|Generic Intake (ml)|Volume (mL)-Ampicillin-Sulbactam (UNASYN) 3 g in sodium chloride 0.9 % 100 mL IVPB$192
+Intake (ml)|Generic Intake (ml)|Volume (mL) Argatroban$192
+Intake (ml)|Crystalloids (ml)|Volume (mL)-dextrose 5 % 1,000 mL with potassium chloride 20 mEq infusion$191
+Intake (ml)|Crystalloids (ml)|C.O/ sorences$191
+Intake (ml)|Nutrition (ml)|Enteral TF Pivot 1.5 $190
+Intake (ml)|Nutrition (ml)|Enteral OGT flush$190
+Output (ml)|Output (ml)-Chest Tube #1 Left Lateral$189
+Output (ml)|Bulb #2$189
+Intake (ml)|Generic Intake (ml)|D5 1/2NS$189
+Intake (ml)|Crystalloids (ml)|Volume (mL)-albumin human (SPA) 25 % injection 25 g$189
+Output (ml)|Output Y (ml)-Chest Tube Y - a #1 Right b #4 Left$188
+Output (ml)|Output Y (ml)-Chest Tube Y - a #1 Right b #2 Mid Left$188
+Intake (ml)|Generic Intake (ml)|Volume (mL)-piperacillin-tazobactam (ZOSYN) 3.375 g in sodium chloride 0.9 % 100 mL IVPB$188
+Intake (ml)|Generic Intake (ml)|Intake (mL)-NG/OG Tube Right mouth$188
+Output (ml)|Output (mL)-Closed/Suction Drain Left Pleural 19 Fr.$187
+Output (ml)|Emesis Output$187
+Intake (ml)|Generic Intake (ml)|Enteral Tube Intake: Nasogastric Nostril, R 16$187
+Intake (ml)|Generic Intake (ml)|CL Flush: Introducer sheath Subclavian L$187
+Intake (ml)|Nutrition (ml)|PO fluid intake$186
+Intake (ml)|Generic Intake (ml)|Bumetanide Volume $186
+Output (ml)|Chest Tube Output: Pleural R Anterior, Upper$185
+Intake (ml)|Generic Intake (ml)|CL Flush: Subclavian L$185
+Intake (ml)|Generic Intake (ml)|CALCIUM GLUCONAT$185
+Intake (ml)|Crystalloids (ml)|Bumetanide-IN$185
+Output (ml)|Surgical Drain, Tube Output: Bulb-closed system Ne$184
+Intake (ml)|Generic Intake (ml)|Volume (ml) Epoprostenol$184
+Intake (ml)|Generic Intake (ml)|Enteral Tube Intake: Orogastric Oral 16fr$184
+Intake (ml)|Generic Intake (ml)|ACD SOLUTION A$184
+Intake (ml)|Crystalloids (ml)|Volume (mL)-dextrose 5 % 1,000 mL with sodium bicarbonate 100 mEq infusion$184
+Intake (ml)|Crystalloids (ml)|D5W  w/150 mEq NaHCO3$184
+Output (ml)|Output (ml)-Chest Tube Fourth intercostal space;Midaxillary Right$183
+Output (ml)|L pl chest tube$183
+Intake (ml)|Nutrition (ml)|Enteral jev 1.2$183
+Intake (ml)|Crystalloids (ml)|sorenson's/CO$183
+Intake (ml)|Nutrition (ml)|Enteral Nepro $182
+Intake (ml)|Generic Intake (ml)|Volume (mL)-clindamycin (CLEOCIN) IVPB 600 mg$182
+Intake (ml)|Generic Intake (ml)|Volume (mL)-ceFEPIme (MAXIPIME) 1 g in dextrose 5 % 50 mL IVPB$182
+Output (ml)|Output Y (ml)-Chest Tube Y - a #2 Mid b #2 Mid$181
+Output (ml)|Chest Tube Output: R anterior$181
+Intake (ml)|Generic Intake (ml)|VASOPRESSIN$181
+Intake (ml)|Crystalloids (ml)|Volume (mL)-sodium chloride 0.9 % 1,000 mL infusion$181
+Intake (ml)|Crystalloids (ml)|Volume (mL)-dextrose 5 % 1,000 mL with sodium bicarbonate 150 mEq infusion$181
+Intake (ml)|Nutrition (ml)|PO Clear liquids$180
+Intake (ml)|Generic Intake (ml)|NS + KCL$180
+Output (ml)|Output Y (ml)-Chest Tube Y - a #2 Right Mid;Anterior b #3 Left Mid;Anterior$179
+Intake (ml)|Nutrition (ml)|PO Cardiac diet$179
+Intake (ml)|Nutrition (ml)|Enteral TUBE FEEDING$179
+Intake (ml)|Nutrition (ml)|Enteral OGT Flush$179
+Intake (ml)|Nutrition (ml)|Enteral Pivot$178
+Intake (ml)|Crystalloids (ml)|CO / Sorenson$178
+Output (ml)|Output (ml)-Chest Tube #2 Right$177
+Output (ml)|JP$177
+Intake (ml)|Generic Intake (ml)|Volume (mL)-famotidine (PEPCID) IVPB 20 mg$177
+Intake (ml)|Generic Intake (ml)|Per IV Flush: Hand L 22 gauge$176
+Intake (ml)|Generic Intake (ml)|Per IV Flush: Forearm L 16 gauge$176
+Intake (ml)|Generic Intake (ml)|PRECEDEX$176
+Intake (ml)|Generic Intake (ml)|Nitroglycerin$176
+Output (ml)|Output Y (ml)-Chest Tube Y - a #1 Right b #1 Mid c #1 Left$175
+Output (ml)|Chest Tube Output: Pleural R Lateral, Upper$175
+Intake (ml)|Generic Intake (ml)|sorenson/co$175
+Intake (ml)|Crystalloids (ml)|Volume (mL)-dextrose 15 % infusion$175
+Output (ml)|foley$174
+Output (ml)|Output Amt-Urinary Catheter$174
+Intake (ml)|Crystalloids (ml)|Volume (mL)-calcium chloride 100 mEq in sodium chloride 0.9 % 1,000 mL infusion (CRRT with citrate anticoag)$174
+Output (ml)|Output (mL)-NG/OG Tube Orogastric Center mouth$173
+Intake (ml)|Nutrition (ml)|Enteral Osmolite$173
+Intake (ml)|Crystalloids (ml)|Sorenson/CO$173
+Intake (ml)|Nutrition (ml)|PO oral intake$172
+Intake (ml)|Generic Intake (ml)|Volume (mL)-potassium chloride IVPB 20 mEq 100 mL$172
+Output (ml)|SN Wound Drainage Volume(ml)$171
+Intake (ml)|Generic Intake (ml)|Volume (mL)-metroNIDAZOLE (FLAGYL) IVPB 500 mg$171
+Intake (ml)|Crystalloids (ml)|Volume (mL)-magnesium sulfate 1 g in dextrose 5% 100 mL IVPB premix$171
+Intake (ml)|Generic Intake (ml)|Volume (mL)-0.9 % NaCl with KCl 40 mEq / L  infusion$170
+Intake (ml)|Generic Intake (ml)|Primacor$170
+Intake (ml)|Generic Intake (ml)|NTG$170
+Intake (ml)|Crystalloids (ml)|Volume (mL)-albumin human 5 % injection$170
+Intake (ml)|Nutrition (ml)|PO Fluid Intake$169
+Intake (ml)|Generic Intake (ml)|Argatroban$169
+Output (ml)|Chest Tube Output: Mediastinal L Anterior, Lateral$168
+Output (ml)|Output Y (ml)-Chest Tube Y - a #1 Anterior b #2 Left$167
+Output (ml)|Chest Tube Output: L lateral$167
+Output (ml)|Chest Tube Output: L anterior$167
+Output (ml)|Chest Tube E Amount$167
+Intake (ml)|Nutrition (ml)|Enteral Jevity 1cal$167
+Intake (ml)|Generic Intake (ml)|CL Flush: Non-Tunneled, Coated Catheter IJ R 7F$167
+Intake (ml)|Generic Intake (ml)|AHC R FENOLDOPAM Volume$167
+Intake (ml)|Nutrition (ml)|Enteral meds/flushes$166
+Intake (ml)|Crystalloids (ml)|NS TKO$165
+Intake (ml)|Generic Intake (ml)|MIDAZOLAM$164
+Intake (ml)|Generic Intake (ml)|CL Hemo Total Flush$164
+Intake (ml)|Crystalloids (ml)|Volume (mL)-antithrombin III (human) (THROMBATE III) 557 Units in STERILE IV DILUENT 11 mL INFUSION syringe$164
+Output (ml)|Output (mL)-Y Chest Tube 1 and 2 1 Right 36 fr 2 Mid Pleural collection system$163
+Intake (ml)|Generic Intake (ml)|LEVO$163
+Output (ml)|Output (mL)-Y Chest Tube 1 and 2 1 Mid 24 fr 2 Mid Pleural collection system$162
+Intake (ml)|Crystalloids (ml)|Volume (mL)-vancomycin 1,250 mg in sodium chloride 0.9% 250 mL IVPB$162
+Intake (ml)|Crystalloids (ml)|CV Nitroglycerin-IN$162
+Intake (ml)|Generic Intake (ml)|MILrinone (ml):$161
+Output (ml)|Output (mL)-Y Chest Tube 1 and 2 1 Mid 32 fr 2 Left Pleural collection system$160
+Intake (ml)|Nutrition (ml)|Enteral Osmolyte 1.5$160
+Intake (ml)|Nutrition (ml)|Enteral  feed$160
+Intake (ml)|Nutrition (ml)|Enteral TFs$159
+Intake (ml)|Crystalloids (ml)|NS Bolus$159
+Output (ml)|Output (ml)-Chest Tube #2 Mid$158
+Intake (ml)|Nutrition (ml)|PPN/TNA/TPN$158
+Intake (ml)|Nutrition (ml)|PO liquid$158
+Intake (ml)|Generic Intake (ml)|Vascular 6 Flush Amount (mL)$158
+Intake (ml)|Generic Intake (ml)|AMIO$158
+Intake (ml)|Nutrition (ml)|PO intake $157
+Intake (ml)|Generic Intake (ml)|ZOSYN$157
+Intake (ml)|Nutrition (ml)|Enteral Two Cal HN$156
+Intake (ml)|Generic Intake (ml)|Protonix$156
+Output (ml)|Output (mL)-Closed/Suction Drain Mediastinal Other (Comment) 19 Fr.$155
+Output (ml)|JP #2$155
+Output (ml)|Chest Tube Output: R anterior, Mediastinal$155
+Intake (ml)|Generic Intake (ml)|Volume Eptifibatide$155
+Intake (ml)|Generic Intake (ml)|Per IV Flush: Upper arm R 18 gauge$155
+Intake (ml)|Generic Intake (ml)|CL Flush: Non-Tunneled IJ R 8 fr$155
+Intake (ml)|Crystalloids (ml)|nitroprusside$155
+Intake (ml)|Crystalloids (ml)|Lipids$155
+Intake (ml)|Crystalloids (ml)|D5W  w/ mEq NaHCO3$155
+Output (ml)|Output (ml)-Chest Tube #1$154
+Intake (ml)|Nutrition (ml)|PO PO FLUID$154
+Intake (ml)|Generic Intake (ml)|D5 NS$154
+Intake (ml)|Crystalloids (ml)|Volume (mL)-sodium chloride 0.9 % with KCl 20 mEq infusion$154
+Intake (ml)|Generic Intake (ml)|Volume (ml) Isoproterenol$153
+Intake (ml)|Generic Intake (ml)|Enteral Tube Intake: Nasogastric Nostril, R 14$153
+Intake (ml)|Generic Intake (ml)|Volume (mL)-fluconazole (DIFLUCAN) IVPB 200 mg$152
+Intake (ml)|Crystalloids (ml)|HEPARIN DRIP $152
+Output (ml)|chest tube meds$151
+Output (ml)|Chest Tubes Meds$151
+Intake (ml)|Generic Intake (ml)|Volume Tresprostinil $151
+Intake (ml)|Generic Intake (ml)|Enteral Tube Intake: Orogastric Oral 12 Fr.$151
+Intake (ml)|Generic Intake (ml)|CL Flush: Non-Tunneled, Pressure/Power inj Periph.$151
+Intake (ml)|Crystalloids (ml)|NS bolus$151
+Intake (ml)|Generic Intake (ml)|CARDENE$150
+Intake (ml)|Nutrition (ml)|PO regular diet$149
+Intake (ml)|Generic Intake (ml)|Atracurium Volume$149
+Intake (ml)|Nutrition (ml)|Enteral promote$148
+Intake (ml)|Generic Intake (ml)|Per IV Flush: Hand L 16 gauge$148
+Output (ml)|Output (mL)-Y Chest Tube 1 and 2 1 Right 24 fr 2 Left Pleural collection system$147
+Output (ml)|Gastric Tube Output: Nasogastric Nostril, L$147
+Intake (ml)|Generic Intake (ml)|Volume (mL)-vancomycin (VANCOCIN) IVPB 750 mg/150 ml premix$147
+Intake (ml)|Crystalloids (ml)|c/sorenson$147
+Output (ml)|Chest Tube Output: Mediastinal Anterior, Medial, L$146
+Intake (ml)|Nutrition (ml)|PO oral fluids$146
+Intake (ml)|Crystalloids (ml)|Volume (mL)-lactated ringers bolus 500 mL$146
+Intake (ml)|Nutrition (ml)|Enteral w/ meds$145
+Output (ml)|Chest Tube Output: R lateral$144
+Intake (ml)|Generic Intake (ml)|Per IV Flush: Upper arm L 18 gauge$144
+Intake (ml)|Crystalloids (ml)|LR$144
+Output (ml)|chest tubes meds$143
+Output (ml)|Output (ml)-Chest Tube Right Lateral$143
+Intake (ml)|Nutrition (ml)|PO INTAKE$143
+Intake (ml)|Generic Intake (ml)|CL Flush: Introducer sheath IJ L$143
+Intake (ml)|Nutrition (ml)|PO Oral Intake$142
+Intake (ml)|Nutrition (ml)|Enteral Free water$142
+Intake (ml)|Nutrition (ml)|PO PO Fluids$141
+Intake (ml)|Generic Intake (ml)|Volume (mL)-imipenem-cilastatin (PRIMAXIN) 500 mg in sodium chloride 0.9 % 100 mL IVPB$141
+Intake (ml)|Generic Intake (ml)|Per IV Flush: Hand R$141
+Intake (ml)|Generic Intake (ml)|CL Flush: Non-Tunneled IJ R 9fr$141
+Intake (ml)|Generic Intake (ml)|CL Flush: Non-Tunneled IJ $141
+Output (ml)|Output Y (ml)-Chest Tube Y - a #2 Right Anterior b #3 Left Anterior$140
+Intake (ml)|Nutrition (ml)|Enteral Meds/flush$140
+Intake (ml)|Generic Intake (ml)|Volume (mL)-azithromycin (ZITHROMAX) 500 mg in dextrose 5 % 250 mL IVPB$140
+Intake (ml)|Generic Intake (ml)|Enteral Tube Intake: Nasoduodenal Nostril, L 12 Fr$140
+Intake (ml)|Crystalloids (ml)|Volume (mL)-nafcillin (NAFCIL) 2,000 mg in sodium chloride 0.9 % 100 mL IVPB$140
+Output (ml)|Output (ml)-Chest Tube #1 Mediastinal Mid$139
+Output (ml)|Output (mL)-Y Chest Tube 1 and 2 1 Mid 36 fr 2 Left Pleural collection system$139
+Intake (ml)|Generic Intake (ml)|Total Amount (mL)-bupivacaine 0.125-0.9 % premix solution$139
+Intake (ml)|Generic Intake (ml)|Intake (mL)-Gastrostomy/Enterostomy Percutaneous endoscopic gastrostomy (PEG) 24 Fr. LUQ$139
+Intake (ml)|Generic Intake (ml)|CL Flush: Non-Tunneled, Coated Catheter IJ R 7 Fre$139
+Intake (ml)|Generic Intake (ml)|Per IV Flush: Wrist L 16 gauge$138
+Intake (ml)|Crystalloids (ml)|D5W  w/20 mEq KCL$138
+Output (ml)|Output (ml)-Chest Tube Mid$137
+Output (ml)|Chest Tube Output: Mediastinal R Anterior, Lateral$137
+Intake (ml)|Generic Intake (ml)|precedex$137
+Intake (ml)|Generic Intake (ml)|CL Flush: Coated Catheter IJ L$137
+Intake (ml)|Crystalloids (ml)|Volume (mL)-0.45 % sodium chloride with KCl 20 mEq infusion$137
+Intake (ml)|Crystalloids (ml)|Nitroglycerin-IN$137
+Output (ml)|Output (mL)-[REMOVED] Straight Catheter$136
+Output (ml)|Output (mL)-Urethral Catheter Natalie,RN Non-latex 14 Fr.$136
+Output (ml)|Chest tube #2:$136
+Output (ml)|Chest Tube Output: Mediastinal L Anterior, Upper$136
+Intake (ml)|Nutrition (ml)|PO Intake $136
+Output (ml)|R. Pleural CT (OR-7/3)$135
+Intake (ml)|Crystalloids (ml)|Vasopressin (NS)-IN$135
+Intake (ml)|Nutrition (ml)|Enteral Nepro TF$134
+Intake (ml)|Generic Intake (ml)|CL Flush: PICC Brachial L 5f$134
+Intake (ml)|Crystalloids (ml)|Volume (mL)-dextrose 5% with KCL 20 mEq infusion$134
+Intake (ml)|Crystalloids (ml)|Volume (mL)-albumin human 5 % injection 25 g$134
+Output (ml)|Output (ml)-Chest Tube #4 Left$133
+Intake (ml)|Crystalloids (ml)|Volume (mL)-meropenem (MERREM) 500 mg in sodium chloride 0.9 % 100 mL IVPB$133
+Intake (ml)|Generic Intake (ml)|Volume (mL)-vancomycin (VANCOCIN) 1,750 mg in dextrose 5 % 500 mL IVPB$132
+Intake (ml)|Generic Intake (ml)|CL Flush: Non-Tunneled Subclavian R$132
+Intake (ml)|Colloids (ml)|25% Albumin$132
+Output (ml)|Output (mL)-Closed/Suction Drain Right Pleural 19 Fr.$131
+Intake (ml)|Generic Intake (ml)|Volume (mL)-furosemide (LASIX) 160 mg in dextrose 5 % 50 mL IVPB$131
+Intake (ml)|Generic Intake (ml)|D5W + ADD$131
+Output (ml)|Urinary Catheter Output: Coude Urethral 14 Fr.$130
+Output (ml)|Output Y (ml)-Chest Tube Y - a #1 Right Anterior b #2 Mid c #3 Left Anterior$130
+Output (ml)|Output Y (ml)-Chest Tube Y - a #1 Left b #2 Mid c #3 Right$130
+Intake (ml)|Nutrition (ml)|Enteral Free Water$130
+Intake (ml)|Crystalloids (ml)|sorensens$130
+Intake (ml)|Generic Intake (ml)|CL Flush: Non-Tunneled, Pressure/power inj IJ R$129
+Intake (ml)|Crystalloids (ml)|Volume (mL)-sodium chloride 3 % solution$129
+Intake (ml)|Blood Products (ml)|Volume (ml)-Transfuse Cryoprecipitate$129
+Output (ml)|Output Amt-Blake Drain C$128
+Intake (ml)|Nutrition (ml)|Enteral Free H20$128
+Intake (ml)|Generic Intake (ml)|Volume (mL)-albumin human 5 % injection 12.5-25 g$128
+Intake (ml)|Generic Intake (ml)|CL Flush: Non-Tunneled, Coated Catheter IJ R 7FR 1$128
+Output (ml)|Output (mL)-Urethral Catheter Sarah Burnham, RN and Jordan Perkins, RN Temperature probe 16 Fr.$127
+Output (ml)|Output (mL)-NG/OG Tube Orogastric Right mouth$127
+Output (ml)|Left Pleural CT$127
+Output (ml)|L PLEURAL CT$127
+Intake (ml)|Nutrition (ml)|Enteral Pivot 1.5 Goal 45$127
+Intake (ml)|Generic Intake (ml)|Volume (mL)-magnesium sulfate IVPB 2 g 50 mL$127
+Intake (ml)|Generic Intake (ml)|Other In$127
+Output (ml)|MED CT X2$126
+Intake (ml)|Generic Intake (ml)|Per IV Flush: Forearm R 16 gauge$126
+Intake (ml)|Generic Intake (ml)|Dobutamine$126
+Intake (ml)|Crystalloids (ml)|Bumetanide (NS)-IN$126
+Output (ml)|Wound 1 Neg Pressure Vac Drainage Amount$125
+Output (ml)|Output (ml)-Chest Tube #1 Midaxillary Left Lateral$125
+Intake (ml)|Nutrition (ml)|Enteral Vivonex$125
+Output (ml)|Output (mL)-Closed/Suction Drain Left Pleural Other (Comment) 19 Fr.$124
+Intake (ml)|Nutrition (ml)|Enteral jevity 1.5 $124
+Intake (ml)|Generic Intake (ml)|Volume (mL)-ceFAZolin (ANCEF) in d5w 2 g premix$124
+Intake (ml)|Generic Intake (ml)|CL Flush: Non-Tunneled, Coated Catheter IJ R 7fr$124
+Intake (ml)|Crystalloids (ml)|LR  w/40 mEq KCL 1000 ml$124
+Intake (ml)|Crystalloids (ml)|Flush$124
+Output (ml)|Urostomy$123
+Output (ml)|Output Y (ml)-Chest Tube Y - a #1 Left b #2 Right c #3$123
+Output (ml)|Output (ml)-Chest Tube #3 Left Lateral$123
+Intake (ml)|Nutrition (ml)|PO Glucerna 1.0$123
+Intake (ml)|Generic Intake (ml)|J Tube flush/ meds$123
+Output (ml)|Output (mL)-Urethral Catheter Temperature probe 18 Fr.$122
+Intake (ml)|Nutrition (ml)|Enteral  $122
+Intake (ml)|Generic Intake (ml)|Volume (ml) Labetalol$122
+Intake (ml)|Generic Intake (ml)|1/2NS + ADD$122
+Intake (ml)|Crystalloids (ml)|Vasopressin-IN$122
+Output (ml)|left ct 7/4$121
+Output (ml)|Output Amt-Chest Tube D$121
+Output (ml)|Chest Tube D Amount$121
+Intake (ml)|Nutrition (ml)|Enteral fibersource hn$121
+Intake (ml)|Generic Intake (ml)|Per IV Flush: Antecubital L 22 gauge$121
+Intake (ml)|Generic Intake (ml)|Enteral Tube Intake: Nostril, L$121
+Intake (ml)|Crystalloids (ml)|Amio$121
+Output (ml)|Chest tube #3$120
+Intake (ml)|Nutrition (ml)|Enteral Promote with fiber$120
+Intake (ml)|Generic Intake (ml)|Volume (mL)-ceFAZolin (ANCEF) IVPB 2 g/50 mL premix$120
+Intake (ml)|Generic Intake (ml)|Enteral Tube Intake: Nasogastric Nostril, L 16f$120
+Intake (ml)|Crystalloids (ml)|NS  w/40 mEq KCL$120
+Intake (ml)|Nutrition (ml)|Enteral Free H2O$119
+Intake (ml)|Nutrition (ml)|Enteral FLUSH$119
+Intake (ml)|Crystalloids (ml)|Precedex$119
+Output (ml)|Output (ml)-Nephrostomy Left$118
+Output (ml)|Output (mL)-Closed/Suction Drain Midline Abdomen Bulb 10 Fr.$118
+Output (ml)|Output (ml)-Chest Tube #1 Mediastinal Mid;Anterior$117
+Intake (ml)|Nutrition (ml)|TPN w/fat emulsion 20%$117
+Intake (ml)|Nutrition (ml)|Enteral oxepa$117
+Intake (ml)|Generic Intake (ml)|NICARDIPINE$117
+Intake (ml)|Generic Intake (ml)|NEO$117
+Intake (ml)|Generic Intake (ml)|CL Flush: Non-Tunneled, Coated Catheter IJ L 7fr$117
+Intake (ml)|Crystalloids (ml)|Volume (mL)-potassium chloride 20 MEQ/50ML IVPB premix 40 mEq$117
+Intake (ml)|Crystalloids (ml)|Levophed$117
+Output (ml)|Output Y (ml)-Chest Tube Y - a #2 Mid b #2 Mid c #2 Mid$116
+Output (ml)|Output Y (ml)-Chest Tube Y - a #1 Right Mid b #2 Left Lateral$116
+Intake (ml)|Nutrition (ml)|Fat emulsion 20%$116
+Intake (ml)|Generic Intake (ml)|Volume (mL)-piperacillin-tazobactam (ZOSYN) 2.25 g in sodium chloride 0.9 % 100 mL IVPB$116
+Intake (ml)|Crystalloids (ml)|NSS$116
+Intake (ml)|Crystalloids (ml)|Heparin (D5W)-IN$116
+Intake (ml)|Crystalloids (ml)|D5W  w/40 mEq KCL 1000 ml$116
+Output (ml)|Output (mL)-Y Chest Tube 1 and 2 Right Mid 24 fr Left Mid Pleural collection system$115
+Output (ml)|Output (mL)-Y Chest Tube 1 and 2 1 Mid 24 fr 2 Left Pleural collection system$115
+Output (ml)|Output (mL)-Urethral Catheter James RN Temperature probe$115
+Intake (ml)|Nutrition (ml)|Enteral Tube Feed$115
+Intake (ml)|Generic Intake (ml)|Per IV Flush: Upper arm R$115
+Intake (ml)|Generic Intake (ml)|NITroglycerine (ml):$115
+Intake (ml)|Generic Intake (ml)|D20W$115
+Intake (ml)|Generic Intake (ml)|Aminocaproic Acid Volume$115
+Intake (ml)|Crystalloids (ml)|Volume (mL)-cefTRIAXone (ROCEPHIN) 1,000 mg in sodium chloride 0.9 % 100 mL IVPB$115
+Output (ml)|R pl chest tube$114
+Output (ml)|Output Y (ml)-Chest Tube Y - a #1 Anterior;Mid b #2 Anterior;Mid$114
+Output (ml)|Output Y (ml)-Chest Tube Y -  b #2 Right Mid c #3 Left Mid$114
+Output (ml)|Output (ml)-Chest Tube #3 Mid$114
+Intake (ml)|Nutrition (ml)|PO Fluid intake$114
+Intake (ml)|Generic Intake (ml)|Enteral Tube Intake: Nasoduodenal Nostril, R 8 FR$114
+Output (ml)|Output (ml)-Nephrostomy Right$113
+Output (ml)|Output (mL)-Y Chest Tube 3 and 4 3 Mid 32 Fr. 4 Mid 24 Fr. Pleural collection system$113
+Intake (ml)|Nutrition (ml)|PO LIQUIDS$113
+Intake (ml)|Nutrition (ml)|Enteral H20 with meds$113
+Intake (ml)|Generic Intake (ml)|Volume (mL)-lactated ringers infusion$113
+Intake (ml)|Crystalloids (ml)|co/sorensons$113
+Intake (ml)|Crystalloids (ml)|ALTEPLASE$113
+Output (ml)|Output Y (ml)-Chest Tube Y - a #2 Mid b #1 Mid$112
+Output (ml)|Misc. Output$112
+Output (ml)|Foley$112
+Intake (ml)|Nutrition (ml)|PPN$112
+Intake (ml)|Nutrition (ml)|PO FL$112
+Intake (ml)|Generic Intake (ml)|Volume (mL)-meropenem (MERREM) 2 g in sodium chloride 0.9 % 100 mL IVPB$112
+Intake (ml)|Generic Intake (ml)|Per IV Flush: Wrist R 22 gauge$112
+Intake (ml)|Generic Intake (ml)|PROTONIX$112
+Intake (ml)|Crystalloids (ml)|Volume (mL)-aztreonam (AZACTAM) 2,000 mg in sodium chloride 0.9 % 100 mL IVPB$112
+Intake (ml)|Crystalloids (ml)|D5NS  w/20 mEq KCL 1000 ml$112
+Intake (ml)|Blood Products (ml)|Volume (ml)-Transfuse - Cryoprecipitate$112
+Intake (ml)|Nutrition (ml)|PO :$111
+Intake (ml)|Nutrition (ml)|PO  OGT meds$111
+Intake (ml)|Nutrition (ml)|Enteral tube feeds$111
+Intake (ml)|Nutrition (ml)|Enteral Oxepa TF$111
+Intake (ml)|Generic Intake (ml)|Volume (mL)-imipenem-cilastatin (PRIMAXIN) 250 mg in sodium chloride 0.9 % 100 mL IVPB$111
+Intake (ml)|Generic Intake (ml)|NS for Blood Administration$111
+Intake (ml)|Generic Intake (ml)|Enteral Tube Intake: Orogastric$111
+Intake (ml)|Generic Intake (ml)|Enteral Tube Intake: Nasoduodenal Nostril, L 55cm$111
+Intake (ml)|Generic Intake (ml)|CL PICC Total Lumen Flushes 2$111
+Intake (ml)|Generic Intake (ml)|CL Flush: Coated Catheter IJ $111
+Intake (ml)|Crystalloids (ml)|Vanco$111
+Output (ml)|Output (ml)-Chest Tube #1 Midaxillary;Pleural Right$110
+Intake (ml)|Generic Intake (ml)|Volume Infused (ml)-HYDROmorphone (DILAUDID) PCA 1 mg/mL$110
+Intake (ml)|Crystalloids (ml)|Propofol$110
+Intake (ml)|Crystalloids (ml)|Eptifibatide V2-IN$110
+Output (ml)|Output Y (ml)-Chest Tube Y - a #2 Right b #2 Left$109
+Output (ml)|Output Y (ml)-Chest Tube Y - a #1 Right Mid  c #2 Left Mid$109
+Output (ml)|CBI OUTPUT$109
+Intake (ml)|Generic Intake (ml)|CL Flush: Subclavian R$109
+Intake (ml)|Crystalloids (ml)|Volume (mL)-sodium chloride 0.9 % 250 mL IV bolus$109
+Intake (ml)|Crystalloids (ml)|LR  w/60 mEq KCL 1000 ml$109
+Intake (ml)|Crystalloids (ml)|Diltiazem-IN$109
+Output (ml)|chest tubes$108
+Output (ml)|Output Y (ml)-Chest Tube Y - a #1 Right Mid;Anterior b #2 Left Mid;Anterior$108
+Intake (ml)|Nutrition (ml)|Enteral Pivot 1.5 via OG Tube$108
+Intake (ml)|Generic Intake (ml)|Volume (mL)-levETIRAcetam (KEPPRA) 1,000 mg in sodium chloride 0.9 % 100 mL IVPB$108
+Intake (ml)|Generic Intake (ml)|Volume (mL)-azithromycin (ZITHROMAX) 500 mg in sodium chloride 0.9 % 250 mL IVPB$108
+Intake (ml)|Generic Intake (ml)|Per IV Flush: Wrist L 22 gauge$108
+Intake (ml)|Generic Intake (ml)|Enteral Tube Intake: Nasogastric Nostril, L 14$108
+Intake (ml)|Generic Intake (ml)|EPI$108
+Intake (ml)|Generic Intake (ml)|CL Flush: PICC Brachial R$108
+Intake (ml)|Generic Intake (ml)|CL Flush: Introducer sheath IJ R 8 FR$108
+Output (ml)|Chest Tube Output: Mediastinal L Lateral$107
+Intake (ml)|Nutrition (ml)|Enteral flush$107
+Intake (ml)|Generic Intake (ml)|PHENYEPHRINE$107
+Intake (ml)|Generic Intake (ml)|KCL$107
+Output (ml)|meds CT$106
+Output (ml)|Output Y (ml)-Chest Tube Y - a #1 Right Lateral b #4 Left Lateral;Mid$106
+Output (ml)|Output (mL)-Closed/Suction Drain Mediastinal 19 Fr.$106
+Intake (ml)|Generic Intake (ml)|Per IV Flush: Antecubital L 16 gauge$106
+Intake (ml)|Generic Intake (ml)|Dopamine$106
+Intake (ml)|Generic Intake (ml)|D5LR IVF$106
+Intake (ml)|Crystalloids (ml)|K Phos$106
+Intake (ml)|Crystalloids (ml)|Epinephrine (NS)-IN$106
+Output (ml)|urine count$105
+Output (ml)|Output Y (ml)-Chest Tube Y - a #1 Right$105
+Output (ml)|Output (ml)-Chest Tube #1 Midaxillary Right Mid$105
+Output (ml)|Output (mL)-Closed/Suction Drain Anterior Mediastinal Other (Comment) 19 Fr.$105
+Output (ml)|Chest Tube Output: Pleural R Posterior$105
+Intake (ml)|Generic Intake (ml)|D5 1/2NS + KCL$105
+Intake (ml)|Crystalloids (ml)|sorensons/CO$105
+Intake (ml)|Crystalloids (ml)|Volume (mL)-dextrose 5 % / sodium chloride 0.45% 1,000 mL with magnesium sulfate 5 g infusion$105
+Output (ml)|chest tube pleurals$104
+Output (ml)|Surgical Drain, Tube Output: Drainage bag-closed s$104
+Output (ml)|R Pleural CT$104
+Output (ml)|R CT 7/5$104
+Output (ml)|Output Y (ml)-Chest Tube Y - a #1 Anterior b #2 Left Lateral$104
+Output (ml)|Output Y (ml)-Chest Tube Y - Left Lateral Right Lateral$104
+Output (ml)|Output (ml)-Chest Tube #2 Midaxillary Left Mid;Lateral$104
+Output (ml)|Chest tube meds$104
+Intake (ml)|Nutrition (ml)|Enteral Glucerna $104
+Intake (ml)|Generic Intake (ml)|Amio$104
+Intake (ml)|Crystalloids (ml)|fentanyl$104
+Intake (ml)|Crystalloids (ml)|NS Addits $104
+Intake (ml)|Generic Intake (ml)|Volume (mL)-sodium chloride 0.9 % bolus 500 mL$103
+Intake (ml)|Generic Intake (ml)|Volume (mL)-piperacillin-tazobactam (ZOSYN) 4.5 g in sodium chloride 0.9 % 100 mL thirty minute IVPB$103
+Intake (ml)|Generic Intake (ml)|Volume (mL)-ampicillin (OMNIPEN) 2 g in sodium chloride 0.9 % 50 mL IVPB$103
+Intake (ml)|Generic Intake (ml)|Per IV Flush: Antecubital R 16 gauge$103
+Intake (ml)|Crystalloids (ml)|Volume (mL)-dextrose 5 % 1,000 mL with sodium bicarbonate 50 mEq infusion$103
+Output (ml)|Thoracentesis Output$102
+Output (ml)|Output Y (ml)-Chest Tube Y - b #2 Right Mid c #2 Left Mid$102
+Output (ml)|Output (mL)-Urethral Catheter Dr Wrenn$102
+Output (ml)|CT meds$102
+Intake (ml)|Nutrition (ml)|PO liquid intake$102
+Intake (ml)|Nutrition (ml)|Enteral nutren 1.5$102
+Intake (ml)|Generic Intake (ml)|cardene$102
+Intake (ml)|Generic Intake (ml)|Volume (mL)-levETIRAcetam (KEPPRA) 500 mg in sodium chloride 0.9 % 100 mL IVPB$102
+Intake (ml)|Generic Intake (ml)|Pressure Line Flush $102
+Intake (ml)|Generic Intake (ml)|PPN$102
+Intake (ml)|Generic Intake (ml)|Enteral Tube Intake: Nasogastric Nostril, R 16FR$102
+Intake (ml)|Crystalloids (ml)|Volume (mL)-SODIUM CHLORIDE 0.9 % IV SOLN Pyxis Override$102
+Output (ml)|Output Y (ml)-Chest Tube Y - a #1 Right Lateral;Anterior b #4 Left Anterior;Lateral$101
+Output (ml)|Nephrostomy #1$101
+Intake (ml)|Generic Intake (ml)|Volume (mL)-sodium bicarbonate 150 mEq in sterile water 1,000 mL infusion$101
+Intake (ml)|Generic Intake (ml)|Volume (mL)-ceFAZolin (ANCEF) IVPB 1 g/50 mL premix$101
+Intake (ml)|Crystalloids (ml)|NS  w/15 mmol (as PO4) KPO4 250 ml$101
+Output (ml)|Output (mL)-Urethral Catheter B Jacobelli, RN Latex;Straight-tip 14 Fr.$100
+Intake (ml)|Nutrition (ml)|Enteral Pivot 1.5 via GT$100
+Intake (ml)|Crystalloids (ml)|Nicardipine (NS)-IN$100
+Intake (ml)|Crystalloids (ml)|NA Acetate$100
+Output (ml)|Urinary Catheter Output: Coude Urethral 16 Fr.$99
+Output (ml)|Stool Output (mL)-Ileostomy ileostomy$99
+Output (ml)|OGT$99
+Intake (ml)|Generic Intake (ml)|Heparin Drip$99
+Intake (ml)|Generic Intake (ml)|Albumin 25%$99
+Intake (ml)|Crystalloids (ml)|Volume (mL)-sodium chloride (NORMAL SALINE) 0.9 % bolus 1,000 mL$99
+Intake (ml)|Crystalloids (ml)|Volume (mL)-aztreonam (AZACTAM) 1,000 mg in sodium chloride 0.9 % 100 mL IVPB$99
+Intake (ml)|Blood Products (ml)|Blood Products$99
+Intake (ml)|Nutrition (ml)|Enteral  Nepro$98
+Intake (ml)|Generic Intake (ml)|Volume Octreotide$98
+Intake (ml)|Generic Intake (ml)|Per IV Flush: Basilic L 20 gauge$98
+Intake (ml)|Crystalloids (ml)|Volume (mL)-sodium bicarbonate 150 mEq in dextrose 5% 1000 mL infusion$98
+Intake (ml)|Crystalloids (ml)|Volume (mL)-linezolid (ZYVOX) IVPB 600 mg$98
+Intake (ml)|Crystalloids (ml)|Midazolam (NS)-IN$98
+Output (ml)|Output (ml)-Chest Tube #1 Right Mid$97
+Intake (ml)|Nutrition (ml)|Enteral vital high protein$97
+Intake (ml)|Generic Intake (ml)|Volume (mL)-valproate (DEPACON) 500 mg in dextrose 5 % 50 mL IVPB$97
+Intake (ml)|Generic Intake (ml)|Volume (mL)-fluconazole (DIFLUCAN) IVPB 400 mg$97
+Intake (ml)|Generic Intake (ml)|CBI In$97
+Intake (ml)|Generic Intake (ml)|Lactated Ringers Volume$96
+Intake (ml)|Generic Intake (ml)|Epi$96
+Intake (ml)|Generic Intake (ml)|CRRT FLUSH$96
+Intake (ml)|Crystalloids (ml)|D5NS  w/40 mEq KCL 1000 ml$96
+Output (ml)|Surgical Drain, Tube Output: Bulb-closed system Le$95
+Output (ml)|Mediastinal Chest Tubes$95
+Output (ml)|Ileal Conduit$95
+Output (ml)|Chest Tube Output: Pleural L Lateral, Upper$95
+Intake (ml)|Generic Intake (ml)|Lorazepam Volume$95
+Intake (ml)|Generic Intake (ml)|Volume (ml) Octreotide$94
+Intake (ml)|Generic Intake (ml)|EPINEPHRINE$94
+Intake (ml)|Generic Intake (ml)|CL Flush: Non-Tunneled, Coated Catheter, Pressure/$94
+Intake (ml)|Generic Intake (ml)|CL Flush: Non-Tunneled, Coated Catheter Subclavian$94
+Intake (ml)|Generic Intake (ml)|CL Flush: Coated Catheter IJ R 7Fr$94
+Intake (ml)|Blood Products (ml)|Volume-Transfuse cryoprecipitate$94
+Output (ml)|OtherDrainTotal$93
+Output (ml)|GI Tube 2 Drainage Amount$93
+Output (ml)|Drainage Total$93
+Intake (ml)|Generic Intake (ml)|CL Flush: Coated Catheter, Pressure/power inj IJ L$93
+Intake (ml)|Crystalloids (ml)|Volume (mL)-sodium chloride 0.45 % 1,000 mL with sodium bicarbonate 75 mEq infusion$93
+Intake (ml)|Crystalloids (ml)|Volume (mL)-potassium phosphate 15 mmol in dextrose 5 % 250 mL IVPB$93
+Intake (ml)|Crystalloids (ml)|Volume (mL)-ceFEPIme (MAXIPIME) 2,000 mg in sodium chloride 0.9 % 100 mL IVPB$93
+Intake (ml)|Crystalloids (ml)|D5W  w/75 mEq NaHCO3 1000 ml$93
+Output (ml)|SN Total Blood Product Volume(ml)$92
+Output (ml)|Output (ml)-Chest Tube #1 Right Upper$92
+Intake (ml)|Generic Intake (ml)|Volume (mL)-dextrose 5 % and 0.45 % NaCl with KCl 40 mEq/L infusion$92
+Intake (ml)|Generic Intake (ml)|Volume (mL)-cefTAZidime (FORTAZ) 1 g in dextrose 5 % 50 mL IVPB$92
+Intake (ml)|Generic Intake (ml)|CL Flush: PICC Basilic R 5Fr$92
+Output (ml)|CHEST TUBE DRAINAGE TOTAL$91
+Intake (ml)|Nutrition (ml)|Enteral Tube feeding$91
+Intake (ml)|Nutrition (ml)|Enteral Fibersource HN$91
+Intake (ml)|Generic Intake (ml)|neosynephrine$91
+Intake (ml)|Generic Intake (ml)|Volume (mL)-dextrose 5 % 1,000 mL with potassium chloride 40 mEq infusion$91
+Intake (ml)|Generic Intake (ml)|Volume (mL)-0.45 % NaCl with KCl 20 mEq / L infusion$91
+Intake (ml)|Generic Intake (ml)|ARGATROBAN$91
+Intake (ml)|Generic Intake (ml)|Volume (ml) Abciximab$90
+Intake (ml)|Generic Intake (ml)|LR$90
+Output (ml)|Output (mL)-Urethral Catheter Latex$89
+Output (ml)|Nephrostomy Left Output$89
+Output (ml)|Mixed Urine/Stool Volume$89
+Intake (ml)|Generic Intake (ml)|NEOSYNEPHRINE$89
+Intake (ml)|Nutrition (ml)|Enteral Meds/Flush$88
+Intake (ml)|Generic Intake (ml)|Enteral Tube Intake: Nasoduodenal Nostril, L 10$88
+Intake (ml)|Generic Intake (ml)|Volume (ml) Heparin-heparin infusion 2 units/mL in 0.9% sodium chloride (ARTERIAL LINE)$87
+Intake (ml)|Generic Intake (ml)|CL Flush: Non-Tunneled Subclavian L 8fr$87
+Intake (ml)|Generic Intake (ml)|CL Flush: Introducer sheath IJ $87
+Intake (ml)|Crystalloids (ml)|isoproterenol$87
+Intake (ml)|Crystalloids (ml)|Volume (mL)-dextrose 5 % and 0.45 % sodium chloride with KCl 40 mEq/L infusion$87
+Intake (ml)|Crystalloids (ml)|D5 0.45 NS  w/40 mEq KCL$87
+Intake (ml)|Nutrition (ml)|PO po intake$86
+Intake (ml)|Generic Intake (ml)|Volume Infused (ml)-morphine 2 mg/mL in sodium chloride 0.9% 30 mL PCA infusion$86
+Intake (ml)|Generic Intake (ml)|Enteral Tube Intake: Nasoduodenal Nostril, L 10 Fr$86
+Intake (ml)|Generic Intake (ml)|#6:$86
+Intake (ml)|Crystalloids (ml)|Volume (mL)-ALBUMIN HUMAN 5 % IV SOLN Pyxis Override$86
+Intake (ml)|Crystalloids (ml)|Amiodarone$86
+Output (ml)|Output (mL)-Urethral Catheter Temperature probe;Non-latex$85
+Intake (ml)|Nutrition (ml)|TPN with H2 Blocker$85
+Intake (ml)|Generic Intake (ml)|Volume (mL)-piperacillin-tazobactam (ZOSYN) 3.375 g in sodium chloride 0.9 % 100 mL thirty minute IVPB$85
+Intake (ml)|Generic Intake (ml)|Volume (mL)-levofloxacin (LEVAQUIN) IVPB 500 mg$85
+Intake (ml)|Generic Intake (ml)|AMIODORONE DRIP$85
+Intake (ml)|Crystalloids (ml)|Milrinone$85
+Intake (ml)|Crystalloids (ml)|0.45 NS  w/75 mEq NaHCO3 1000 ml$85
+Intake (ml)|Generic Intake (ml)|Intake (mL)-Gastrostomy/Enterostomy Percutaneous endoscopic gastrostomy (PEG) 20 Fr.$84
+Intake (ml)|Generic Intake (ml)|AMIO GTT$84
+Intake (ml)|Crystalloids (ml)|Versed$84
+Intake (ml)|Crystalloids (ml)|Neo$84
+Output (ml)|Bulb #3$83
+Intake (ml)|Generic Intake (ml)|NS d IVF$83
+Output (ml)|Drain 3 Output mL$82
+Intake (ml)|Nutrition (ml)|PO ADA diet$82
+Intake (ml)|Nutrition (ml)|Enteral FLUSH/MEDS$82
+Intake (ml)|Generic Intake (ml)|Volume (mL)-sodium chloride 0.9 % bolus 1,000 mL$82
+Intake (ml)|Generic Intake (ml)|Bivalirudin Volume$82
+Output (ml)|Output (ml)-Chest Tube #3 Right$81
+Intake (ml)|Generic Intake (ml)|po$81
+Intake (ml)|Crystalloids (ml)|Volume (mL)-vancomycin 1,500 mg in sodium chloride 0.9% 250 mL IVPB$81
+Intake (ml)|Crystalloids (ml)|LR  w/40 mEq KCL$81
+Output (ml)|Wound Vac Total$80
+Intake (ml)|Generic Intake (ml)|Volume (ml) Esmolol$80
+Intake (ml)|Generic Intake (ml)|Volume (mL) Acetylcysteine$80
+Intake (ml)|Generic Intake (ml)|Generic$80
+Output (ml)|Wound VAC #1$79
+Output (ml)|Urinary Catheter Output: Coude Urethral 18 Fr.$79
+Output (ml)|CONDOM CATHETER OUTPUT$79
+Intake (ml)|Nutrition (ml)|PO regular$79
+Intake (ml)|Blood Products (ml)|Cryoprecipitate$79
+Output (ml)|HemodialysisOut$78
+Output (ml)|CHEST TUBE$78
+Intake (ml)|Generic Intake (ml)|Volume (mL)-calcium CHLORIDE IVPB premix 2 g$78
+Intake (ml)|Generic Intake (ml)|Volume (mL) Labetalol$78
+Intake (ml)|Generic Intake (ml)|Per IV Flush: Wrist L$78
+Intake (ml)|Generic Intake (ml)|PRBC$78
+Intake (ml)|Generic Intake (ml)|CL Flush: PICC Basilic R 5FR$78
+Intake (ml)|Crystalloids (ml)|Cardene$78
+Output (ml)|Nephrostomy Right Output$77
+Output (ml)|Chest Tube Output: L Anterior$77
+Intake (ml)|Generic Intake (ml)|CL Flush: IJ L$77
+Intake (ml)|Crystalloids (ml)|Vancomycin$77
+Output (ml)|MEDIASTINAL CHEST TUBE$76
+Intake (ml)|Nutrition (ml)|PO po fluid$76
+Intake (ml)|Nutrition (ml)|PO Water$76
+Intake (ml)|Generic Intake (ml)|Vanco$76
+Intake (ml)|Generic Intake (ml)|Magnesium$76
+Intake (ml)|Generic Intake (ml)|D51/4NS IVF$76
+Intake (ml)|Crystalloids (ml)|KPhos$76
+Intake (ml)|Crystalloids (ml)|I.V.$76
+Intake (ml)|Crystalloids (ml)|1/2 NS$76
+Output (ml)|Output (ml)-Chest Tube Right$75
+Output (ml)|Output (mL)-Urethral Catheter dr macdermid Non-latex;Straight-tip 14 Fr.$75
+Output (ml)|JP #3$75
+Intake (ml)|Nutrition (ml)|PO PO Liquids$75
+Intake (ml)|Nutrition (ml)|Enteral Replete$75
+Intake (ml)|Generic Intake (ml)|Volume (mL)-vancomycin (VANCOCIN) 1,500 mg in sodium chloride 0.9 % 500 mL IVPB$75
+Intake (ml)|Generic Intake (ml)|Enteral Tube Intake: Nasoduodenal Nostril, R 10f$75
+Output (ml)|ct$74
+Output (ml)|Gastric Tube Output: Gastrostomy tube Abdominal wa$74
+Intake (ml)|Generic Intake (ml)|amiodorone$74
+Intake (ml)|Generic Intake (ml)|Volume (ml) EPTIFIBATIDE$74
+Intake (ml)|Generic Intake (ml)|Volume (mL)-sodium phosphate 20 mmol in dextrose 5 % 250 mL IVPB$74
+Intake (ml)|Generic Intake (ml)|Volume (mL)-sodium bicarbonate 100 mEq in dextrose 5 % 1,000 mL infusion$74
+Intake (ml)|Crystalloids (ml)|NS  w/30 mmol (as PO4) KPO4 500 ml$74
+Output (ml)|Output (mL)-Urethral Catheter Coude 18 Fr.$73
+Intake (ml)|Nutrition (ml)|PO Regular$73
+Intake (ml)|Nutrition (ml)|Enteral NEPRO$73
+Intake (ml)|Generic Intake (ml)|levo$73
+Intake (ml)|Generic Intake (ml)|Volume (ml)  Argatroban$73
+Intake (ml)|Generic Intake (ml)|Volume (mL)-cefTRIAXone (ROCEPHIN) 2 g in dextrose 5 % 50 mL IVPB$73
+Intake (ml)|Generic Intake (ml)|Volume (mL)-ampicillin-sulbactam (UNASYN) 1.5 g in sodium chloride 0.9 % 100 mL IVPB$73
+Intake (ml)|Generic Intake (ml)|CL Flush: Non-Tunneled, Coated Catheter IJ R 7Fr$73
+Output (ml)|emesis$72
+Output (ml)|Output (ml)-Chest Tube #1 Pleural Left Mid$72
+Intake (ml)|Generic Intake (ml)|Volume (mL)-vancomycin (VANCOCIN) 500 mg in sodium chloride 0.9 % 100 mL IVPB$72
+Intake (ml)|Generic Intake (ml)|Volume (mL)-sodium glycerophosphate (GLYCOPHOS) 20 mmol in sodium chloride 0.9 % 250 mL infusion$72
+Intake (ml)|Generic Intake (ml)|Enteral Tube Intake: Nasogastric Nostril, R 8F$72
+Intake (ml)|Generic Intake (ml)|CL Flush: PICC Basilic R$72
+Intake (ml)|Crystalloids (ml)|Volume (mL)-sodium chloride 0.45 % 1,000 mL with sodium bicarbonate 50 mEq infusion$72
+Intake (ml)|Crystalloids (ml)|Volume (mL)-piperacillin-tazobactam (ZOSYN) in dextrose 5% premix IVPB 3.375 g$72
+Output (ml)|chest tube drainage total$71
+Output (ml)|Output Amt-Pleural Drain B$71
+Output (ml)|Aspiration Fluid Amount$71
+Intake (ml)|Generic Intake (ml)|Volume Infused (ml)-fentaNYL 20 mcg/mL in sodium chloride 0.9% 30 mL PCA infusion$71
+Intake (ml)|Generic Intake (ml)|Per IV Flush: Antecubital R 22 gauge$71
+Intake (ml)|Generic Intake (ml)|FREE WATER$71
+Intake (ml)|Generic Intake (ml)|1/2NS + KCL$71
+Intake (ml)|Crystalloids (ml)|Volume (mL)-sodium bicarbonate 150 mEq in dextrose 5 % 1,000 mL infusion$71
+Intake (ml)|Crystalloids (ml)|D5W$71
+Intake (ml)|Nutrition (ml)|Enteral NGT Meds$70
+Intake (ml)|Generic Intake (ml)|INSULIN DRIP$70
+Intake (ml)|Generic Intake (ml)|Esmolol$70
+Output (ml)|FOLEY$69
+Intake (ml)|Generic Intake (ml)|milrinone$69
+Intake (ml)|Generic Intake (ml)|generic$69
+Intake (ml)|Generic Intake (ml)|Enteral Tube Intake: Orogastric Oral 14$69
+Intake (ml)|Generic Intake (ml)|CL Flush: Chest R$69
+Output (ml)|Chest tube$68
+Intake (ml)|Generic Intake (ml)|Volume (ml) Hydromorphone$68
+Intake (ml)|Generic Intake (ml)|Intake (mL)-NG/OG Tube Left nostril$68
+Intake (ml)|Generic Intake (ml)|% Nutrition Supplement Taken$68
+Output (ml)|Urinary Catheter Output: Condom External$67
+Output (ml)|T Tube$67
+Output (ml)|Blood (non-drain)$67
+Intake (ml)|Generic Intake (ml)|Per IV Flush: Wrist R 16 gauge$67
+Intake (ml)|Generic Intake (ml)|OGT Flush$67
+Intake (ml)|Crystalloids (ml)|Volume (mL)-dextrose 5 % and 0.2 % sodium chloride infusion$67
+Intake (ml)|Crystalloids (ml)|Volume (mL)-ceFAZolin (ANCEF) 1,000 mg in sodium chloride 0.9 % 100 mL IVPB$67
+Intake (ml)|Crystalloids (ml)|Dopamine$67
+Intake (ml)|Generic Intake (ml)|Enteral Tube Intake: Nasoduodenal Nostril, L 14$66
+Intake (ml)|Generic Intake (ml)|CL Flush: Non-Tunneled, Pressure/power inj Subclav$66
+Output (ml)|Output (mL)-Urethral Catheter Double-lumen$65
+Output (ml)|Output (mL)-Lumbar Drain$65
+Intake (ml)|Nutrition (ml)|PO water$65
+Intake (ml)|Nutrition (ml)|Enteral meds flushes$65
+Intake (ml)|Generic Intake (ml)|Norepinephrine$65
+Intake (ml)|Generic Intake (ml)|CL Flush: Non-Tunneled, Coated Catheter IJ R 7F 17$65
+Intake (ml)|Crystalloids (ml)|esmolol$65
+Intake (ml)|Crystalloids (ml)|CARDIZEM$65
+Output (ml)|Wound vac$64
+Output (ml)|NEPHROSTOMY OUTPUT$64
+Intake (ml)|Nutrition (ml)|Nourish/Supplemt$64
+Intake (ml)|Generic Intake (ml)|Per IV Flush: Upper arm L$64
+Intake (ml)|Crystalloids (ml)|Volume (mL)-dextrose 5 % / lactated ringers infusion$64
+Output (ml)|Output (ml)-Chest Tube #1 Pleural Left Lateral$63
+Intake (ml)|Nutrition (ml)|PO Regular Diet$63
+Intake (ml)|Generic Intake (ml)|Volume (mL)-vancomycin (VANCOCIN) 750 mg in dextrose 5 % 250 mL IVPB$63
+Intake (ml)|Generic Intake (ml)|Volume (mL)-ceFAZolin (ANCEF) in sod chl 3 g IVPB premix$63
+Intake (ml)|Generic Intake (ml)|Vancomycin$63
+Intake (ml)|Generic Intake (ml)|CL Flush: Pressure/power inj Subclavian L$63
+Intake (ml)|Crystalloids (ml)|Volume (mL)-piperacillin-tazobactam (ZOSYN) 4.5 g in sodium chloride 0.9 % 100 mL IVPB$63
+Intake (ml)|Crystalloids (ml)|Volume (mL)-ampicillin (OMNIPEN) 2,000 mg in sodium chloride 0.9 % 100 mL IVPB$63
+Output (ml)|Output (ml)-Chest Tube #1 Pleural Left$62
+Intake (ml)|Nutrition (ml)|Enteral Isosource$62
+Intake (ml)|Generic Intake (ml)|Volume (mL)-furosemide (LASIX) 120 mg in dextrose 5 % 50 mL IVPB$62
+Intake (ml)|Generic Intake (ml)|Per IV Flush: Wrist R$62
+Output (ml)|Output (ml)-Chest Tube #2 Right Lateral$61
+Intake (ml)|Nutrition (ml)|Enteral Vital high protein$61
+Intake (ml)|Generic Intake (ml)|D5NS + KCL$61
+Intake (ml)|Crystalloids (ml)|Volume (mL)-dextrose 5 % 1,000 mL with potassium chloride 40 mEq infusion$61
+Intake (ml)|Nutrition (ml)|TPN with insulin$60
+Intake (ml)|Nutrition (ml)|Enteral enteral meds$60
+Intake (ml)|Generic Intake (ml)|Volume (mL)-sodium glycerophosphate (GLYCOPHOS) 10 mmol in sodium chloride 0.9 % 250 mL infusion$60
+Intake (ml)|Generic Intake (ml)|Heparin drip$60
+Intake (ml)|Crystalloids (ml)|Volume (mL)-sodium chloride 0.45 % infusion$60
+Intake (ml)|Crystalloids (ml)|Volume (mL)-levofloxacin (LEVAQUIN) in dextrose 5% premix IVPB 750 mg$60
+Intake (ml)|Crystalloids (ml)|Heparin $60
+Intake (ml)|Nutrition (ml)|Enteral FLUSHES$59
+Intake (ml)|Generic Intake (ml)|Nasogastric Tube - Intake$59
+Intake (ml)|Crystalloids (ml)|Na Acetate 1.26%$59
+Intake (ml)|Crystalloids (ml)|Cardizem$59
+Output (ml)|SN Blood Loss(ml)$58
+Intake (ml)|Generic Intake (ml)|Volume (mL)-levETIRAcetam (KEPPRA) IVPB 500 mg$58
+Intake (ml)|Generic Intake (ml)|NEXIUM$58
+Intake (ml)|Crystalloids (ml)|NS  w/45 mmol (as PO4) KPO4 500 ml$58
+Intake (ml)|Generic Intake (ml)|argatroban$57
+Intake (ml)|Crystalloids (ml)|Volume (mL)-magnesium sulfate in sterile water 2 g IVPB premix$57
+Output (ml)|Straight Cath$56
+Output (ml)|Output (ml)-Chest Tube #1 Left Mid$56
+Output (ml)|Condom Catheter$56
+Intake (ml)|Nutrition (ml)|PO Diabetic Diet$56
+Intake (ml)|Nutrition (ml)|PO 1800 ADA$56
+Intake (ml)|Generic Intake (ml)|vancomycin$56
+Intake (ml)|Generic Intake (ml)|Volume (mL)-levETIRAcetam (KEPPRA) IVPB 1,000 mg$56
+Intake (ml)|Generic Intake (ml)|Enteral Tube Intake: Orogastric Oral 18$56
+Intake (ml)|Crystalloids (ml)|VECURONIUM$56
+Intake (ml)|Crystalloids (ml)|Levo$56
+Intake (ml)|Crystalloids (ml)|D5 0.45 NS  w/20 mEq KCL and 10 mmol (as PO4) KPO4$56
+Output (ml)|Wound/Drain #1$55
+Output (ml)|Right Chest Tube$55
+Intake (ml)|Nutrition (ml)|Enteral FIBERSOURCE HN$55
+Intake (ml)|Generic Intake (ml)|Enteral Tube Intake: Nasoduodenal Nostril, R 8$55
+Intake (ml)|Crystalloids (ml)|protonix$55
+Intake (ml)|Crystalloids (ml)|Volume (mL)-micafungin (MYCAMINE) 100 mg in sodium chloride 0.9 % 100 mL IVPB$55
+Intake (ml)|Crystalloids (ml)|Volume (mL)-ciprofloxacin (CIPRO) 400 mg in dextrose 5% 200 mL IVPB$55
+Output (ml)|Ventriculostomy$54
+Intake (ml)|Nutrition (ml)|PO free water$54
+Intake (ml)|Generic Intake (ml)|heparin drip$54
+Intake (ml)|Generic Intake (ml)|Per IV Flush: Midline Brachial R 20 gauge$54
+Intake (ml)|Generic Intake (ml)|Enteral Tube Intake: Nasogastric Nostril, R 16fr$54
+Intake (ml)|Crystalloids (ml)|Volume (mL)-vancomycin (VANCOCIN) 750 mg in sodium chloride 0.9 % 250 mL IVPB$54
+Intake (ml)|Crystalloids (ml)|Phenylephrine-IN$54
+Intake (ml)|Crystalloids (ml)|Heparin gtt$54
+Intake (ml)|Crystalloids (ml)|D5W  w/60 mEq KCL 1000 ml$54
+Intake (ml)|Crystalloids (ml)|Amiodarone (0.45% NS)-IN$54
+Output (ml)|Output (mL)-Urethral Catheter Latex 18 Fr.$53
+Output (ml)|Gastric Tube Output: Orogastric Oral 16$53
+Intake (ml)|Generic Intake (ml)|Merrem$53
+Intake (ml)|Generic Intake (ml)|Ancef$53
+Intake (ml)|Crystalloids (ml)|Volume (mL)-magnesium sulfate 2 g in sodium chloride 0.9% IVPB$53
+Intake (ml)|Crystalloids (ml)|Insulin$53
+Intake (ml)|Crystalloids (ml)|0.45 NS  w/75 mEq NaHCO3$53
+Output (ml)|Wound drn #1$52
+Intake (ml)|Nutrition (ml)|PO sips$52
+Intake (ml)|Generic Intake (ml)|Volume (mL)-dextrose 5 % with KCl 20 mEq / L  infusion$52
+Intake (ml)|Generic Intake (ml)|Flush:$52
+Intake (ml)|Generic Intake (ml)|Enteral Tube Intake: Orogastric Oral 18fr$52
+Intake (ml)|Generic Intake (ml)|CL Flush: Coated Catheter IJ R 7f$52
+Intake (ml)|Crystalloids (ml)|CBI/Bladder Irr In$52
+Output (ml)|Output (mL)-Urethral Catheter Non-latex;Straight-tip 14 Fr.$51
+Output (ml)|DRAINAGE TOTAL$51
+Output (ml)|CBI/Bladder Irr Out$51
+Intake (ml)|Generic Intake (ml)|Volume (mL)-albumin human 25 % injection 12.5 g$51
+Intake (ml)|Generic Intake (ml)|Per IV Flush: Hand R 16 gauge$51
+Intake (ml)|Generic Intake (ml)|Ofirmev$51
+Intake (ml)|Crystalloids (ml)|Protonix$51
+Output (ml)|Output (ml)-Chest Tube #1 Pleural Right Lateral$50
+Output (ml)|Estimated Blood Loss$50
+Intake (ml)|Nutrition (ml)|PO Meds$50
+Intake (ml)|Nutrition (ml)|Enteral water flushes$50
+Intake (ml)|Nutrition (ml)|Enteral H2O$50
+Intake (ml)|Generic Intake (ml)|protonix$50
+Intake (ml)|Generic Intake (ml)|Volume (mL)-doxycycline (VIBRAMYCIN) 100 mg in dextrose 5 % 250 mL IVPB$50
+Intake (ml)|Generic Intake (ml)|CL Flush: Non-Tunneled Femoral R$50
+Intake (ml)|Crystalloids (ml)|cardizem$50
+Intake (ml)|Crystalloids (ml)|D5 0.45 NS  w/40 mEq KCL 1000 ml$50
+Intake (ml)|Nutrition (ml)|Enteral OG flush$49
+Intake (ml)|Generic Intake (ml)|diprivan$49
+Intake (ml)|Generic Intake (ml)|Volume (mL)-furosemide (LASIX) injection 40 mg$49
+Intake (ml)|Generic Intake (ml)|Volume (mL)-ampicillin-sulbactam (UNASYN) 1.5 g in sodium chloride 0.9 % 50 mL IVPB$49
+Intake (ml)|Generic Intake (ml)|Tube Feeding Intake (mL)-Tube Feeding Intake (mL)$49
+Intake (ml)|Generic Intake (ml)|Per IV Flush: Upper arm R 22 gauge$49
+Intake (ml)|Colloids (ml)|25% Albumin 50 ml$49
+Output (ml)|Hemovac #1$48
+Output (ml)|Gastric Tube Output: Nasogastric Nostril, L 16$48
+Intake (ml)|Blood Products (ml)|Cryo Infused$48
+Output (ml)|Urinary Catheter Output: Indwelling/Continuous Per$47
+Output (ml)|Suprapubic Urine Output$47
+Output (ml)|Output (ml)-Chest Tube #1 Pleural Right$47
+Intake (ml)|Nutrition (ml)|PO PO FLUIDS$47
+Intake (ml)|Nutrition (ml)|Enteral Flushes$47
+Intake (ml)|Generic Intake (ml)|Volume (mL)-dextrose 5 % 1,000 mL with sodium bicarbonate 150 mEq infusion$47
+Intake (ml)|Generic Intake (ml)|Nimbex$47
+Intake (ml)|Generic Intake (ml)|Enteral Tube Intake: Transgastric-Jejunal Abdomina$47
+Intake (ml)|Generic Intake (ml)|CL Flush: Non-Tunneled IJ R 7Fr$47
+Intake (ml)|Generic Intake (ml)|Amiodarone drip$47
+Intake (ml)|Generic Intake (ml)|vasopressin$46
+Intake (ml)|Generic Intake (ml)|Volume (mL)-ciprofloxacin (CIPRO) IVPB 400 mg$46
+Intake (ml)|Generic Intake (ml)|VANCO$46
+Intake (ml)|Crystalloids (ml)|banana bag$46
+Intake (ml)|Crystalloids (ml)|Volume (mL)-cefTRIAXone (ROCEPHIN) 2,000 mg in sodium chloride 0.9 % 100 mL IVPB$46
+Intake (ml)|Crystalloids (ml)|Phenylephrine (NS)-IN$46
+Intake (ml)|Crystalloids (ml)|NS  w/60 mEq KCL 1000 ml$46
+Output (ml)|Urinary Catheter Output: Urethral 16 Fr.$45
+Output (ml)|Output (mL)-Urethral Catheter Latex;Straight-tip 14 Fr.$45
+Output (ml)|Output (mL)-Urethral Catheter LF, SN Temperature probe$45
+Output (ml)|Neo Ostomy #1 Output$45
+Output (ml)|EmesisOccurrence$45
+Intake (ml)|Nutrition (ml)|Enteral free water flush$45
+Intake (ml)|Generic Intake (ml)|Volume (mL)-linezolid (ZYVOX) IVPB 600 mg$45
+Intake (ml)|Generic Intake (ml)|Volume (mL)-levETIRAcetam (KEPPRA) 1,500 mg in sodium chloride 0.9 % 100 mL IVPB$45
+Intake (ml)|Generic Intake (ml)|Volume (mL)-ceFEPIme (MAXIPIME) 2 g in dextrose 5 % 50 mL IVPB$45
+Intake (ml)|Generic Intake (ml)|VASopressin (ml):$45
+Intake (ml)|Generic Intake (ml)|Per IV Flush: Upper arm L 22 gauge$45
+Intake (ml)|Generic Intake (ml)|Diprivan$45
+Intake (ml)|Crystalloids (ml)|LORazePAM$45
+Intake (ml)|Blood Products (ml)|Other Blood Prod$45
+Output (ml)|JP#1$44
+Intake (ml)|Nutrition (ml)|Enteral Free water flush$44
+Intake (ml)|Generic Intake (ml)|merrem$44
+Intake (ml)|Crystalloids (ml)|Volume (mL)-dextrose 5 % / sodium chloride 0.9% with KCl 20 mEq infusion$44
+Intake (ml)|Crystalloids (ml)|NS 1.5%$44
+Output (ml)|Urinary Catheter Output: Suprapubic$43
+Output (ml)|OR EBL$43
+Intake (ml)|Nutrition (ml)|PO clear liq$43
+Intake (ml)|Generic Intake (ml)|VANCOMYCIN$43
+Output (ml)|Output (mL)-Suprapubic Catheter$42
+Output (ml)|CSF$42
+Intake (ml)|Nutrition (ml)|PO PO fluids$42
+Intake (ml)|Generic Intake (ml)|Volume (mL)-aztreonam (AZACTAM) 1 g in dextrose 5 % 50 mL IVPB$42
+Intake (ml)|Generic Intake (ml)|Per IV Flush: Cephalic L 20 gauge$42
+Intake (ml)|Generic Intake (ml)|Enteral Tube Intake: Nasoduodenal Nostril, L 10 F$42
+Intake (ml)|Crystalloids (ml)|insulin$42
+Intake (ml)|Crystalloids (ml)|Volume (mL)-sodium chloride 0.9 % 2,000 mL IV bolus$42
+Output (ml)|R Chest Tube$41
+Output (ml)|JP Drain$41
+Intake (ml)|Nutrition (ml)|PO .$41
+Intake (ml)|Generic Intake (ml)|Volume (mL)-sodium chloride 0.9 % bolus 250 mL$41
+Intake (ml)|Generic Intake (ml)|Volume (mL)-dextrose 5 % and 0.9 % NaCl with KCl 20 mEq/L infusion$41
+Intake (ml)|Generic Intake (ml)|Sedative Other (Volume)$41
+Intake (ml)|Crystalloids (ml)|versed$41
+Intake (ml)|Crystalloids (ml)|D5W  w/20 mEq KCL 1000 ml$41
+Output (ml)|JP DRAIN$40
+Intake (ml)|Nutrition (ml)|Enteral Water flushes$40
+Intake (ml)|Generic Intake (ml)|Volume (mL)-tigecycline (TYGACIL) 50 mg in sodium chloride 0.9 % 100 mL IVPB$40
+Intake (ml)|Generic Intake (ml)|VASSOPRESSIN$40
+Intake (ml)|Generic Intake (ml)|Total Amount (mL)-BUPIVACAINE HCL-NACL 0.125-0.9 % IJ SOLN$40
+Intake (ml)|Generic Intake (ml)|CL Flush: Non-Tunneled dialysis IJ L$40
+Intake (ml)|Crystalloids (ml)|sodium acetate$40
+Intake (ml)|Crystalloids (ml)|NS  w/40 mEq KCL 500 ml$40
+Intake (ml)|Crystalloids (ml)|NS  w/30 mmol (as PO4) KPO4 250 ml$40
+Output (ml)|drainage total$39
+Output (ml)|Urinary Catheter Output: Nephrostomy L$39
+Output (ml)|Output (mL)-Urethral Catheter Deanna Revis, RN and Rose Cullom, RN Non-latex 14 Fr.$39
+Output (ml)|Output (mL)-ICP/Ventriculostomy Ventricular drainage catheter with ICP microsensor Right Frontal region$39
+Output (ml)|NGT$39
+Intake (ml)|Nutrition (ml)|Enteral pivot$39
+Intake (ml)|Nutrition (ml)|Enteral H2O flushes$39
+Intake (ml)|Generic Intake (ml)|Lasix$39
+Intake (ml)|Generic Intake (ml)|ESMOLOL$39
+Intake (ml)|Colloids (ml)|5% Albumin 500 ml$39
+Output (ml)|colostomy$38
+Output (ml)|J Tube$38
+Intake (ml)|Nutrition (ml)|PO diabetic diet$38
+Intake (ml)|Generic Intake (ml)|Volume (mL)-vancomycin (VANCOCIN) 1,500 mg in sodium chloride 0.9 % 250 mL IVPB$38
+Intake (ml)|Crystalloids (ml)|albumin$38
+Intake (ml)|Crystalloids (ml)|Volume (mL)-levETIRAcetam (KepPRA) 500 mg in sodium chloride 0.9 % 100 mL IVPB$38
+Intake (ml)|Blood Products (ml)|PRBC$38
+Output (ml)|JP drain$37
+Output (ml)|Drain,other:$37
+Intake (ml)|Generic Intake (ml)|Per IV Flush: EJ R 18 gauge$37
+Intake (ml)|Generic Intake (ml)|MERREM$37
+Intake (ml)|Generic Intake (ml)|Volume (ml) Naloxone$36
+Intake (ml)|Generic Intake (ml)|Volume (mL)-calcium gluconate 1 g in sodium chloride 0.9 % 100 mL IVPB$36
+Intake (ml)|Generic Intake (ml)|PROTONIX DRIP$36
+Intake (ml)|Generic Intake (ml)|Enteral Tube Intake: Nasogastric Nostril, L 18fr$36
+Intake (ml)|Generic Intake (ml)|CL Flush: Pressure inj IJ R$36
+Intake (ml)|Crystalloids (ml)|levophed$36
+Intake (ml)|Crystalloids (ml)|Volume (mL)-dextrose 5 % and 0.9% sodium chloride 1,000 mL with potassium chloride 40 mEq infusion$36
+Intake (ml)|Crystalloids (ml)|NS  w/45 mmol (as PO4) KPO4 1000 ml$36
+Output (ml)|EBL$35
+Intake (ml)|Generic Intake (ml)|epinephrine$35
+Intake (ml)|Generic Intake (ml)|DIPI$35
+Intake (ml)|Crystalloids (ml)|Volume (mL)-levofloxacin (LEVAQUIN) in dextrose 5% premix IVPB 500 mg$35
+Intake (ml)|Crystalloids (ml)|Volume (mL)-dextrose 5 % and 0.45% sodium chloride 1,000 mL with sodium bicarbonate 50 mEq infusion$35
+Intake (ml)|Crystalloids (ml)|Volume (mL)-ampicillin-sulbactam (UNASYN) 1.5 g in sodium chloride 0.9 % 100 mL IVPB$35
+Intake (ml)|Crystalloids (ml)|Morphine$35
+Intake (ml)|Nutrition (ml)|TPN w/fat emulsion$34
+Intake (ml)|Nutrition (ml)|Enteral water flush$34
+Intake (ml)|Generic Intake (ml)|dopamine$34
+Intake (ml)|Generic Intake (ml)|Volume (mL)-vancomycin (VANCOCIN) 2,000 mg in sodium chloride 0.9 % 500 mL IVPB$34
+Intake (ml)|Generic Intake (ml)|Volume (mL)-fluconazole (DIFLUCAN) IVPB 100 mg$34
+Intake (ml)|Generic Intake (ml)|CL Flush: Non-Tunneled, Coated Catheter IJ L 7FR$34
+Intake (ml)|Crystalloids (ml)|ZOSYN$34
+Intake (ml)|Crystalloids (ml)|Volume (mL)-fluconazole (DIFLUCAN) IVPB 200 mg$34
+Intake (ml)|Crystalloids (ml)|Volume (mL)-antithrombin III (human) (THROMBATE III) 604 Units in STERILE IV DILUENT 11 mL INFUSION syringe$34
+Output (ml)|Gastric Tube Output: Nasogastric Nostril, R 16$33
+Intake (ml)|Nutrition (ml)|PO reg diet$33
+Intake (ml)|Nutrition (ml)|PO Clear liquid$33
+Intake (ml)|Nutrition (ml)|Enteral Tube Feeds$33
+Intake (ml)|Nutrition (ml)|Enteral FWF$33
+Intake (ml)|Generic Intake (ml)|Volume Infused (ml)-fentaNYL PCA 50 mcg/mL$33
+Intake (ml)|Generic Intake (ml)|Volume (mL)-erythromycin (ERYTHROCIN) 250 mg in sodium chloride 0.9 % 100 mL IVPB$33
+Intake (ml)|Generic Intake (ml)|CL Flush: Non-Tunneled IJ R 7fr$33
+Intake (ml)|Crystalloids (ml)|magnesium$33
+Intake (ml)|Crystalloids (ml)|Volume (mL)-meropenem (MERREM) 1 g in sodium chloride 0.9 % 100 mL IVPB$33
+Intake (ml)|Crystalloids (ml)|Esmolol$33
+Intake (ml)|Crystalloids (ml)|D5NS  w/40 mEq KCL$33
+Intake (ml)|Crystalloids (ml)|D5 NS$33
+Output (ml)|Right Nephrostomy$32
+Output (ml)|Intermittent/Straight Cath (mL)$32
+Output (ml)|Hemovac Total$32
+Intake (ml)|Nutrition (ml)|Enteral free H2O$32
+Intake (ml)|Nutrition (ml)|Enteral OGT flush/meds$32
+Intake (ml)|Generic Intake (ml)|Volume (mL)-micafungin 100 mg in sodium chloride 0.9 % 100 mL IVPB$32
+Intake (ml)|Generic Intake (ml)|Volume (mL)-levETIRAcetam (KEPPRA) 750 mg in sodium chloride 0.9 % 100 mL IVPB$32
+Intake (ml)|Generic Intake (ml)|CL Flush: Pressure inj IJ R 7Fr 16cm$32
+Intake (ml)|Generic Intake (ml)|Amicar$32
+Intake (ml)|Crystalloids (ml)|nimbex$32
+Intake (ml)|Crystalloids (ml)|Volume (mL)-dextrose 5 % and 0.45% sodium chloride 1,000 mL with sodium bicarbonate 75 mEq infusion$32
+Intake (ml)|Crystalloids (ml)|Vasopressin$32
+Intake (ml)|Crystalloids (ml)|KCL$32
+Intake (ml)|Crystalloids (ml)|Diltiazem (0.45% NS)-IN$32
+Output (ml)|T-tube$31
+Output (ml)|Output (mL)-Nephrostomy Right 10 Fr.$31
+Output (ml)|24 HR TOTAL OUTPUT  0700-0659$31
+Intake (ml)|Generic Intake (ml)|amiodarone drip$31
+Intake (ml)|Generic Intake (ml)|Volume (mL) Esmolol$31
+Intake (ml)|Generic Intake (ml)|Per IV Flush: Midline Upper arm R 20 gauge$31
+Intake (ml)|Generic Intake (ml)|CL Flush: Coated Catheter IJ R 7FR$31
+Intake (ml)|Crystalloids (ml)|Na Acetate$31
+Intake (ml)|Crystalloids (ml)|NS  w/15 mmol (as PO4) NaPO4 250 ml$31
+Intake (ml)|Crystalloids (ml)|NS  w/ mEq KCL$31
+Intake (ml)|Crystalloids (ml)|Dobutamine$31
+Output (ml)|Left CT$30
+Intake (ml)|Nutrition (ml)|PO sips of clears$30
+Intake (ml)|Nutrition (ml)|PO PO Intake$30
+Intake (ml)|Nutrition (ml)|Enteral Tube feeds$30
+Intake (ml)|Generic Intake (ml)|Volume (mL)-vancomycin (VANCOCIN) 1,750 mg in sodium chloride 0.9 % 500 mL IVPB$30
+Intake (ml)|Generic Intake (ml)|Per IV Flush: Cephalic R 20 gauge$30
+Intake (ml)|Generic Intake (ml)|CL Flush: Pressure/power inj Subclavian R$30
+Intake (ml)|Crystalloids (ml)|Sodium Acetate$30
+Intake (ml)|Crystalloids (ml)|Kphos$30
+Intake (ml)|Crystalloids (ml)|D5 0.45 NS  w/75 mEq NaHCO3 1000 ml$30
+Output (ml)|Chest Tube Output: Pleural L Posterior$29
+Intake (ml)|Nutrition (ml)|Enteral TUBE FEEDS$29
+Intake (ml)|Nutrition (ml)|Enteral PIVOT 1.5$29
+Intake (ml)|Nutrition (ml)|Enteral Novasource Renal$29
+Intake (ml)|Nutrition (ml)|Enteral H2O FLUSH$29
+Intake (ml)|Generic Intake (ml)|Volume (mL)-potassium phosphate 30 mmol in dextrose 5 % 500 mL infusion$29
+Intake (ml)|Generic Intake (ml)|Volume (mL)-clindamycin (CLEOCIN) IVPB 900 mg$29
+Intake (ml)|Crystalloids (ml)|Volume (mL)-azithromycin (ZITHROMAX) 500 mg in sodium chloride 0.9 % 250 mL IVPB$29
+Intake (ml)|Crystalloids (ml)|Volume (mL)-ampicillin-sulbactam (UNASYN) 3 g in sodium chloride 0.9 % 100 mL IVPB$29
+Intake (ml)|Crystalloids (ml)|Sodium Bicarb$29
+Intake (ml)|Crystalloids (ml)|KPHOS$29
+Intake (ml)|Crystalloids (ml)|Epinephrine$29
+Output (ml)|Urine Output (mL)-Urethral Catheter  $28
+Intake (ml)|Generic Intake (ml)|protonix drip$28
+Intake (ml)|Generic Intake (ml)|kcl$28
+Intake (ml)|Generic Intake (ml)|Volume (mL)-calcium GLUCONATE IVPB 1 g$28
+Intake (ml)|Generic Intake (ml)|Insulin drip$28
+Intake (ml)|Crystalloids (ml)|Midazolam-IN$28
+Intake (ml)|Crystalloids (ml)|ABX$28
+Output (ml)|Output (mL)-Urethral Catheter Non-latex;Temperature probe 14 Fr.$27
+Intake (ml)|Nutrition (ml)|PO Regular diet$27
+Intake (ml)|Generic Intake (ml)|Volume (mL)-piperacillin-tazobactam (ZOSYN) thirty minute IVPB 4.5 g$27
+Intake (ml)|Generic Intake (ml)|Volume (mL)-piperacillin-tazobactam (ZOSYN) IVPB 4.5 g$27
+Intake (ml)|Generic Intake (ml)|Volume (mL)-dextrose 5 % and 0.9 % NaCl with KCl 40 mEq/L infusion$27
+Intake (ml)|Generic Intake (ml)|Volume (mL)-aztreonam (AZACTAM) 2 g in dextrose 5 % 50 mL IVPB$27
+Intake (ml)|Generic Intake (ml)|OGT flush$27
+Intake (ml)|Crystalloids (ml)|LR  w/20 mEq KCL 1000 ml$27
+Output (ml)|Output (mL)-Urinary Catheter  Indwelling$26
+Output (ml)|Liquid stool:$26
+Intake (ml)|Nutrition (ml)|Enteral Pivot $26
+Intake (ml)|Nutrition (ml)|Enteral FEED$26
+Intake (ml)|Generic Intake (ml)|levophed drip$26
+Intake (ml)|Generic Intake (ml)|Volume (mL)-sodium phosphate 30 mmol in dextrose 5 % 250 mL infusion$26
+Intake (ml)|Generic Intake (ml)|Volume (mL)-calcium GLUCONATE IVPB premix 2 g$26
+Intake (ml)|Generic Intake (ml)|Volume (mL) Tenecteplase$26
+Intake (ml)|Generic Intake (ml)|D5 1/2 NS Volume$26
+Intake (ml)|Generic Intake (ml)|CL Flush: Tunneled IJ R$26
+Intake (ml)|Generic Intake (ml)|CL Flush: Non-Tunneled, Coated Catheter IJ L$26
+Intake (ml)|Crystalloids (ml)|precedex$26
+Intake (ml)|Crystalloids (ml)|D5NS$26
+Output (ml)|JP#2$25
+Intake (ml)|Nutrition (ml)|TPN:$25
+Intake (ml)|Nutrition (ml)|Enteral Flushes/Meds$25
+Intake (ml)|Generic Intake (ml)|Volume (mL)-vancomycin (VANCOCIN) 750 mg in sodium chloride 0.9 % 150 mL IVPB$25
+Intake (ml)|Generic Intake (ml)|Volume (mL)-sodium phosphate 20 mmol in dextrose 5 % 250 mL infusion$25
+Intake (ml)|Generic Intake (ml)|MAGNESIUM$25
+Intake (ml)|Generic Intake (ml)|Levophed gtt$25
+Intake (ml)|Crystalloids (ml)|vanco$25
+Intake (ml)|Crystalloids (ml)|Volume (mL)-dextrose 5 % in lactated ringers infusion$25
+Intake (ml)|Crystalloids (ml)|Cefepime$25
+Intake (ml)|Generic Intake (ml)|Volume (mL)-Micafungin Sodium 100 mg in sodium chloride 0.9 % 100 mL IVPB$24
+Intake (ml)|Generic Intake (ml)|Enteral Tube Intake: Nasoduodenal Nostril, R 10 fr$24
+Output (ml)|URETERAL STENT$23
+Output (ml)|Surgical Drain, Tube Output: Bulb-closed system Th$23
+Output (ml)|Output (mL)-Nephrostomy Left 10 Fr.$23
+Intake (ml)|Nutrition (ml)|PO OGT Flush$23
+Intake (ml)|Nutrition (ml)|PO Diet$23
+Intake (ml)|Generic Intake (ml)|flagyl$23
+Intake (ml)|Generic Intake (ml)|Volume (mL)-levETIRAcetam (KEPPRA) IVPB 500 mg/100 mL premix$23
+Intake (ml)|Generic Intake (ml)|Heparin gtt$23
+Output (ml)|Wound Vac #1$22
+Output (ml)|Output (ml)-Ostomy - GI Ileostomy RLQ$22
+Output (ml)|Output (mL)-Negative Pressure Wound Therapy Abdomen Mid$22
+Intake (ml)|Nutrition (ml)|Enteral nepro $22
+Intake (ml)|Nutrition (ml)|Enteral flush $22
+Intake (ml)|Generic Intake (ml)|Per IV Flush: Midline Upper arm L 20 gauge$22
+Intake (ml)|Generic Intake (ml)|CL Flush: Tunneled (other than dialysis), Pressure$22
+Intake (ml)|Generic Intake (ml)|CL Flush: Pressure/power inj IJ R 7Fr 16cm$22
+Intake (ml)|Generic Intake (ml)|CL Flush: Chest L$22
+Intake (ml)|Crystalloids (ml)|flagyl$22
+Intake (ml)|Crystalloids (ml)|Phenylephrine$22
+Intake (ml)|Crystalloids (ml)|0.45 NS  w/40 mEq KCL 1000 ml$22
+Intake (ml)|Colloids (ml)|25% Albumin 100 ml$22
+Output (ml)|Straight Catheter Output$21
+Output (ml)|Other Out$21
+Intake (ml)|Generic Intake (ml)|Volume (mL)-sodium chloride 0.9 % 1,000 mL with thiamine 100 mg, folic acid 1 mg, multivitamins adult 10 mL infusion$21
+Intake (ml)|Generic Intake (ml)|Volume (mL)-sodium chloride 0.45 % 1,000 mL with potassium chloride 40 mEq infusion$21
+Intake (ml)|Generic Intake (ml)|Fentanyl drip$21
+Intake (ml)|Generic Intake (ml)|Enteral Tube Intake: Orogastric Oral 16f$21
+Intake (ml)|Generic Intake (ml)|CL Flush: PICC Double$21
+Intake (ml)|Generic Intake (ml)|CL Flush: Non-Tunneled IJ L 7fr$21
+Intake (ml)|Generic Intake (ml)|Amiodarone gtt$21
+Intake (ml)|Crystalloids (ml)|Volume (mL)-sodium chloride 0.45 % with KCl 20 mEq infusion$21
+Intake (ml)|Crystalloids (ml)|Volume (mL)-sodium chloride (NORMAL SALINE) 0.9 % bolus 250 mL$21
+Intake (ml)|Crystalloids (ml)|Volume (mL)-doxycycline (VIBRAMYCIN) 100 mg in sodium chloride 0.9 % 250 mL IVPB$21
+Intake (ml)|Crystalloids (ml)|D5W  w/50 mEq NaHCO3 1000 ml$21
+Output (ml)|Urinary Catheter Output: Nephrostomy R$20
+Output (ml)|Output (mL)-Urethral Catheter Temperature probe;Latex 16 Fr.$20
+Output (ml)|JP1$20
+Output (ml)|JP #4$20
+Output (ml)|Incontinence$20
+Output (ml)|Drain 4 Output mL$20
+Intake (ml)|Nutrition (ml)|Enteral jevity$20
+Intake (ml)|Nutrition (ml)|Enteral Pivot 1.5 $20
+Intake (ml)|Nutrition (ml)|Enteral H20 FLUSH$20
+Intake (ml)|Generic Intake (ml)|magnesium$20
+Intake (ml)|Generic Intake (ml)|Volume (mL)-pantoprazole (PROTONIX) injection 40 mg$20
+Intake (ml)|Generic Intake (ml)|Per IV Flush: EJ L 18 gauge$20
+Intake (ml)|Crystalloids (ml)|Volume (mL)-sodium chloride 0.9 % with KCl 40 mEq infusion$20
+Intake (ml)|Crystalloids (ml)|Volume (mL)-levETIRAcetam (KepPRA) 1,000 mg in sodium chloride 0.9 % 100 mL IVPB$20
+Output (ml)|lumbar drain$19
+Output (ml)|Urinary Catheter Output: Indwelling/Continuous Nep$19
+Output (ml)|Paracentesis$19
+Intake (ml)|Generic Intake (ml)|vanco$19
+Intake (ml)|Generic Intake (ml)|Intake (mL)-[REMOVED] NG/OG Tube Nasogastric Left nostril$19
+Intake (ml)|Generic Intake (ml)|Enteral Tube Intake: Nasoduodenal Nostril, L 10Fr$19
+Intake (ml)|Crystalloids (ml)|vancomycin$19
+Intake (ml)|Crystalloids (ml)|Sodium Phosphate$19
+Intake (ml)|Crystalloids (ml)|D5 1/2NS$19
+Intake (ml)|Crystalloids (ml)|D5 0.2 NS $19
+Output (ml)|jp$18
+Output (ml)|Stool Volume$18
+Output (ml)|Gastric Tube Output: Percutaneous endo gastrostomy$18
+Intake (ml)|Nutrition (ml)|Lipids:$18
+Intake (ml)|Nutrition (ml)|Enteral Water Flush$18
+Intake (ml)|Nutrition (ml)|Enteral Feeds$18
+Intake (ml)|Generic Intake (ml)|Volume (mL)-dextrose 5 % and 0.45 % NaCl with KCl 30 mEq/L infusion$18
+Intake (ml)|Generic Intake (ml)|Protonix gtt$18
+Intake (ml)|Generic Intake (ml)|Per IV Flush: EJ L 20 gauge$18
+Intake (ml)|Generic Intake (ml)|Flagyl$18
+Intake (ml)|Generic Intake (ml)|CL Flush: R$18
+Intake (ml)|Crystalloids (ml)|Volume (mL)-lactated ringers 1,000 mL with potassium chloride 20 mEq infusion$18
+Intake (ml)|Crystalloids (ml)|Volume (mL)-clindamycin 900 mg in sodium chloride 0.9% 50 mL IVPB$18
+Intake (ml)|Crystalloids (ml)|NS + ADD$18
+Intake (ml)|Crystalloids (ml)|Epidural/PCA$18
+Intake (ml)|Crystalloids (ml)|D5NS  w/150 mEq NaHCO3 1000 ml$18
+Intake (ml)|Crystalloids (ml)|0.45 NS  w/100 mEq NaHCO3 1000 ml$18
+Output (ml)|Output Amount-Colostomy $17
+Output (ml)|Output (ml)-Drain Right Abdomen Other (comment)$17
+Output (ml)|Output (mL)-Urethral Catheter 18 Fr.$17
+Output (ml)|JP2$17
+Intake (ml)|Nutrition (ml)|PO Liquid$17
+Intake (ml)|Generic Intake (ml)|Volume (mL)-sodium chloride 0.45 % 1,000 mL infusion$17
+Intake (ml)|Generic Intake (ml)|Volume (mL)-micafungin (MYCAMINE) 100 mg in sodium chloride 0.9 % 100 mL IVPB$17
+Intake (ml)|Generic Intake (ml)|TPN Volume$17
+Intake (ml)|Generic Intake (ml)|Morphine$17
+Intake (ml)|Generic Intake (ml)|Maxipime$17
+Intake (ml)|Generic Intake (ml)|CL Flush: Non-Tunneled dialysis, Pressure/power in$17
+Intake (ml)|Crystalloids (ml)|Nimbex$17
+Intake (ml)|Crystalloids (ml)|NS BOLUS$17
+Intake (ml)|Crystalloids (ml)|Magnesium$17
+Intake (ml)|Crystalloids (ml)|D10NS$17
+Intake (ml)|Crystalloids (ml)|ABICIXIMAB$17
+Intake (ml)|Crystalloids (ml)|1.5% NS$17
+Intake (ml)|Crystalloids (ml)|0.45 NS  w/20 mEq KCL$17
+Intake (ml)|Nutrition (ml)|PO PO intake$16
+Intake (ml)|Nutrition (ml)|Enteral fibersource$16
+Intake (ml)|Nutrition (ml)|Enteral NOVASOURCE RENAL$16
+Intake (ml)|Generic Intake (ml)|Volume (mL)-levETIRAcetam (KEPPRA) 250 mg in sodium chloride 0.9 % 100 mL IVPB$16
+Intake (ml)|Generic Intake (ml)|Volume (mL)-dextrose 5 % and 0.45 % NaCl with KCl 10 mEq/L infusion$16
+Intake (ml)|Generic Intake (ml)|Sandostatin$16
+Intake (ml)|Generic Intake (ml)|CL Hemo Total Flush 2$16
+Intake (ml)|Generic Intake (ml)|CL Flush: PICC Brachial L$16
+Intake (ml)|Generic Intake (ml)|CL Flush: Coated Catheter IJ L 7F$16
+Intake (ml)|Crystalloids (ml)|dobutamine$16
+Intake (ml)|Crystalloids (ml)|cardene$16
+Output (ml)|wound vac$15
+Output (ml)|Output Amt-Jackson Pratt Drain D$15
+Output (ml)|Output Amt-Hemovac Drain$15
+Intake (ml)|Nutrition (ml)|PO po diet$15
+Intake (ml)|Nutrition (ml)|PO WATER$15
+Intake (ml)|Nutrition (ml)|PO Reg$15
+Intake (ml)|Nutrition (ml)|Enteral nutren$15
+Intake (ml)|Nutrition (ml)|Enteral Isosource HN$15
+Intake (ml)|Generic Intake (ml)|keppra$15
+Intake (ml)|Generic Intake (ml)|heparin $15
+Intake (ml)|Generic Intake (ml)|Volume (mL)-magnesium sulfate IVPB 4 g 100 mL$15
+Output (ml)|Wound/Drain #2$14
+Output (ml)|Other Output$14
+Output (ml)|JP 2$14
+Output (ml)|Drains Neuro24H$14
+Intake (ml)|Nutrition (ml)|Enteral MEDS$14
+Intake (ml)|Generic Intake (ml)|Volume (ml) 3% NaCl$14
+Intake (ml)|Generic Intake (ml)|Volume (mL)-potassium phosphate 20 mmol in dextrose 5 % 500 mL infusion$14
+Intake (ml)|Generic Intake (ml)|Volume (mL)-lactated ringers 1,000 mL with potassium chloride 20 mEq infusion$14
+Intake (ml)|Generic Intake (ml)|CBI$14
+Intake (ml)|Crystalloids (ml)|NaPhos$14
+Intake (ml)|Crystalloids (ml)|LR Bolus$14
+Output (ml)|Paracentesis Output$13
+Output (ml)|Output (mL)-Urethral Catheter K. Hardy RNFA Latex 16 Fr.$13
+Output (ml)|JP 1$13
+Intake (ml)|Nutrition (ml)|Enteral flushes$13
+Intake (ml)|Nutrition (ml)|Enteral Vital$13
+Intake (ml)|Generic Intake (ml)|Volume (mL)-levETIRAcetam (KEPPRA) IVPB 1500 mg$13
+Intake (ml)|Generic Intake (ml)|D5NS Volume$13
+Intake (ml)|Crystalloids (ml)|amio$13
+Intake (ml)|Crystalloids (ml)|Volume (mL)-calcium gluconate 2 g in dextrose 5 % 50 mL IVPB$13
+Intake (ml)|Crystalloids (ml)|NS  w/150 mEq NaHCO3 1000 ml$13
+Output (ml)|Output (mL)-Closed/Suction Drain Right Abdomen Bulb$12
+Output (ml)|Nephrostomy$12
+Output (ml)|L chest tube$12
+Intake (ml)|Nutrition (ml)|PO cl liqs$12
+Intake (ml)|Nutrition (ml)|PO Fluids $12
+Intake (ml)|Nutrition (ml)|Enteral WATER FLUSH$12
+Intake (ml)|Nutrition (ml)|Enteral Nutren$12
+Intake (ml)|Nutrition (ml)|Enteral NGT meds$12
+Intake (ml)|Nutrition (ml)|Enteral FREE WATER$12
+Intake (ml)|Generic Intake (ml)|Volume (mL)-sodium chloride 0.9 % 1,000 mL with potassium chloride 20 mEq infusion$12
+Intake (ml)|Generic Intake (ml)|Intake (mL)-[REMOVED] NG/OG Tube Nasogastric Right nostril$12
+Intake (ml)|Generic Intake (ml)|Enteral Tube Intake: Nasogastric Oral$12
+Intake (ml)|Generic Intake (ml)|Enteral Tube Intake: Nasogastric Nostril, R 18$12
+Intake (ml)|Generic Intake (ml)|CL Flush: Non-Tunneled, Coated Catheter IJ R 7fr 1$12
+Intake (ml)|Blood Products (ml)|Cell Saver$12
+Output (ml)|Output (mL)-Urethral Catheter Latex;Temperature probe 14 Fr.$11
+Output (ml)|24 HR TOTAL OUTPUT  0700-0659	Yes$11
+Intake (ml)|Nutrition (ml)|PO ice chips$11
+Intake (ml)|Nutrition (ml)|PO Oral $11
+Intake (ml)|Nutrition (ml)|Enteral flushes/meds$11
+Intake (ml)|Nutrition (ml)|Enteral feeds$11
+Intake (ml)|Nutrition (ml)|Enteral WATER FLUSHES$11
+Intake (ml)|Nutrition (ml)|Enteral Tube feed$11
+Intake (ml)|Nutrition (ml)|Enteral Peptamen AF$11
+Intake (ml)|Nutrition (ml)|Enteral Flush/Meds$11
+Intake (ml)|Nutrition (ml)|Enteral Feeding$11
+Intake (ml)|Nutrition (ml)|Enteral Feed$11
+Intake (ml)|Generic Intake (ml)|TPA$11
+Intake (ml)|Crystalloids (ml)|kphos$11
+Intake (ml)|Crystalloids (ml)|Volume (mL)-lactated ringers 1,000 mL with thiamine 100 mg, folic acid 1 mg, magnesium sulfate 2 g infusion$11
+Intake (ml)|Crystalloids (ml)|Octreotide$11
+Intake (ml)|Crystalloids (ml)|Labetalol (NS)-IN$11
+Intake (ml)|Crystalloids (ml)|LR bolus$11
+Output (ml)|other$10
+Intake (ml)|Nutrition (ml)|PO fluids $10
+Intake (ml)|Nutrition (ml)|PO Renal$10
+Intake (ml)|Nutrition (ml)|Enteral Flush/meds$10
+Intake (ml)|Generic Intake (ml)|SANDOSTATIN$10
+Intake (ml)|Generic Intake (ml)|Intake (mL)-NG/OG Tube Nasogastric$10
+Intake (ml)|Generic Intake (ml)|Enteral Tube Intake: Nasoduodenal Nostril, R 10fr$10
+Intake (ml)|Crystalloids (ml)|levo$10
+Intake (ml)|Crystalloids (ml)|Nicardipine-IN$10
+Output (ml)|Right chest tube$9
+Output (ml)|Output (mL)-Urethral Catheter Latex;Straight-tip 16 Fr.$9
+Output (ml)|OTHER$9
+Output (ml)|Incontinent$9
+Output (ml)|CRRT- UF removed$9
+Intake (ml)|Nutrition (ml)|Enteral H20 Flush$9
+Intake (ml)|Generic Intake (ml)|Volume Infused (ml)-morphine (ASTRAMORPH PF) 100 mcg/mL, bupivacaine PF (SENSORCAINE-MPF) 0.125 % in sodium chloride 0.9 % 100 mL epidural infusion$9
+Intake (ml)|Generic Intake (ml)|NS e IVF$9
+Intake (ml)|Generic Intake (ml)|Keppra$9
+Intake (ml)|Generic Intake (ml)|CL Flush: Non-Tunneled, Coated Catheter IJ R 7FR 3$9
+Intake (ml)|Generic Intake (ml)|CL Flush: Coated Catheter IJ R 8Fr$9
+Intake (ml)|Crystalloids (ml)|Volume (mL)-propofol (DIPRIVAN) IV bolus$9
+Intake (ml)|Crystalloids (ml)|Vaso$9
+Intake (ml)|Crystalloids (ml)|Nicardipine$9
+Output (ml)|incontinent$8
+Output (ml)|Wound Vac$8
+Output (ml)|G-tube$8
+Intake (ml)|Nutrition (ml)|PO clear liquid$8
+Intake (ml)|Nutrition (ml)|Enteral protein powder$8
+Intake (ml)|Generic Intake (ml)|Volume (mL)-potassium phosphate 10 mmol in dextrose 5 % 250 mL infusion$8
+Intake (ml)|Generic Intake (ml)|Volume (mL)-acetaminophen (OFIRMEV) IV 1,000 mg$8
+Intake (ml)|Generic Intake (ml)|KEPPRA$8
+Intake (ml)|Generic Intake (ml)|CL Flush: PICC L$8
+Intake (ml)|Generic Intake (ml)|CL Flush: Coated Catheter, Pressure/power inj Subc$8
+Intake (ml)|Crystalloids (ml)|Volume (mL)-sodium phosphate 15 mmol in dextrose 5 % 250 mL IVPB$8
+Intake (ml)|Crystalloids (ml)|MAGNESIUM SULFATE$8
+Intake (ml)|Crystalloids (ml)|D10 NS$8
+Output (ml)|ileostomy$7
+Output (ml)|Surgical Drain, Tube Output: Bulb-closed system Ba$7
+Output (ml)|OR urine$7
+Intake (ml)|Nutrition (ml)|PO OGT$7
+Intake (ml)|Nutrition (ml)|Enteral Novasource renal$7
+Intake (ml)|Nutrition (ml)|Enteral Jevity 1$7
+Intake (ml)|Nutrition (ml)|Enteral Free water flushes$7
+Intake (ml)|Nutrition (ml)|Enteral Fluids$7
+Intake (ml)|Nutrition (ml)|Enteral FEEDS$7
+Intake (ml)|Generic Intake (ml)|enteral meds$7
+Intake (ml)|Generic Intake (ml)|Volume (mL)-folic acid (FOLVITE) 1 mg in sodium chloride 0.9 % 50 mL IVPB$7
+Intake (ml)|Generic Intake (ml)|Per IV Flush: EJ R 20 gauge$7
+Intake (ml)|Generic Intake (ml)|CL Flush: Pressure/power inj IJ $7
+Intake (ml)|Generic Intake (ml)|CL Flush: Non-Tunneled, Pressure/power inj IJ R 7f$7
+Intake (ml)|Generic Intake (ml)|CL Flush: Coated Catheter IJ R 7.0$7
+Intake (ml)|Crystalloids (ml)|Mannitol$7
+Intake (ml)|Crystalloids (ml)|Abx$7
+Output (ml)|GI Tube Output (mL)-GI Tube$6
+Intake (ml)|Nutrition (ml)|PO Nectar thick$6
+Intake (ml)|Nutrition (ml)|Enteral med flushes$6
+Intake (ml)|Nutrition (ml)|Enteral Vital AF 1.2$6
+Intake (ml)|Nutrition (ml)|Enteral PEG flush/meds$6
+Intake (ml)|Nutrition (ml)|Enteral OG Flush$6
+Intake (ml)|Nutrition (ml)|Enteral NG flush$6
+Intake (ml)|Generic Intake (ml)|Volume (mL)-sodium phosphate 10 mmol in dextrose 5 % 250 mL infusion$6
+Intake (ml)|Generic Intake (ml)|Volume (mL) Lorazepam$6
+Intake (ml)|Generic Intake (ml)|Free Water$6
+Intake (ml)|Generic Intake (ml)|Epidural$6
+Intake (ml)|Generic Intake (ml)|CRRT flush$6
+Intake (ml)|Generic Intake (ml)|CL Flush: Non-Tunneled IJ R 7FR$6
+Intake (ml)|Generic Intake (ml)|CL Flush: Chest$6
+Intake (ml)|Crystalloids (ml)|sodium bicarb$6
+Intake (ml)|Crystalloids (ml)|k phos$6
+Intake (ml)|Crystalloids (ml)|Potassium$6
+Intake (ml)|Crystalloids (ml)|NS  w/30 mmol (as PO4) KPO4$6
+Intake (ml)|Crystalloids (ml)|Keppra$6
+Intake (ml)|Crystalloids (ml)|K phos$6
+Output (ml)|Ventric #1$5
+Output (ml)|Surgical Drain, Tube Output: Closed system Abdomen$5
+Output (ml)|GI Tube Output (mL)-GI Tube Right$5
+Intake (ml)|Nutrition (ml)|PO Diabetic diet$5
+Intake (ml)|Nutrition (ml)|Enteral Meds/Flushes$5
+Intake (ml)|Nutrition (ml)|Enteral H2O flush$5
+Intake (ml)|Generic Intake (ml)|Zozyn$5
+Intake (ml)|Generic Intake (ml)|Volume Infused (ml)-fentaNYL (SUBLIMAZE) 2 mcg/mL - bupivacaine (SENSORCAINE MPF) 0.125% premix epidural infusion$5
+Intake (ml)|Generic Intake (ml)|Per IV Flush: Midline Basilic R 20 gauge$5
+Intake (ml)|Generic Intake (ml)|Per IV Flush: Basilic R 20 gauge$5
+Intake (ml)|Generic Intake (ml)|D5 LR Volume$5
+Intake (ml)|Crystalloids (ml)|Volume (mL)-lactated ringers bolus 1,000 mL$5
+Intake (ml)|Crystalloids (ml)|TPA$5
+Intake (ml)|Crystalloids (ml)|D5W  w/40 mEq KCL$5
+Output (ml)|straight cath$4
+Output (ml)|incontinent urine$4
+Output (ml)|Surgical Drain, Tube Output: Bulb-closed system He$4
+Output (ml)|EVD$4
+Intake (ml)|Nutrition (ml)|Enteral PEG flush$4
+Intake (ml)|Generic Intake (ml)|Volume (mL)-dextrose 5 % in lactated ringers infusion$4
+Intake (ml)|Generic Intake (ml)|Volume (mL)-cefUROXime (ZINACEF) 1.5 g in dextrose 5 % 50 mL IVPB$4
+Intake (ml)|Generic Intake (ml)|Volume (mL)-cefTAZidime (FORTAZ) 2 g in dextrose 5 % 50 mL IVPB$4
+Intake (ml)|Generic Intake (ml)|Volume (mL)-albumin human 25 % solution 25 g$4
+Intake (ml)|Generic Intake (ml)|Levophed drip$4
+Intake (ml)|Generic Intake (ml)|CL Flush: Pressure/power inj IJ L$4
+Intake (ml)|Crystalloids (ml)|vassopressin$4
+Intake (ml)|Crystalloids (ml)|Volume (mL)-clindamycin 600 mg in sodium chloride 0.9% 50 mL IVPB$4
+Intake (ml)|Blood Products (ml)|Mass Transfusion Volume$4
+Output (ml)|Output (mL)-Urethral Catheter Teal Curry, RN  Straight-tip$3
+Output (ml)|JP#3$3
+Intake (ml)|Nutrition (ml)|Enteral flush/meds$3
+Intake (ml)|Nutrition (ml)|Enteral Peptamen $3
+Intake (ml)|Generic Intake (ml)|Volume (mL) Magnesium $3
+Intake (ml)|Generic Intake (ml)|Chemotherapy Other (Volume)$3
+Intake (ml)|Generic Intake (ml)|CL Flush: Non-Tunneled, Coated Catheter IJ R 7 FR$3
+Intake (ml)|Crystalloids (ml)|Volume (mL)-lactated ringers infusion 1,000 mL$3
+Intake (ml)|Crystalloids (ml)|Volume (mL)-dextrose 5 % and 0.2% sodium chloride infusion$3
+Intake (ml)|Crystalloids (ml)|Neosynephrine$3
+Intake (ml)|Crystalloids (ml)|Morphine-IN$3
+Intake (ml)|Crystalloids (ml)|LEVOPHED$3
+Intake (ml)|Crystalloids (ml)|KETAMINE$3
+Intake (ml)|Crystalloids (ml)|DOPAMINE$3
+Intake (ml)|Crystalloids (ml)|D5W  w/100 mEq NaHCO3 1000 ml$3
+Intake (ml)|Crystalloids (ml)|0.45 NS  w/40 mEq KCL$3
+Output (ml)|output variance$2
+Output (ml)|jp drain$2
+Output (ml)|Variance$2
+Output (ml)|Urine Incontinence$2
+Output (ml)|Output Amt-Miscellaneous Drain$2
+Output (ml)|Hemovac #2$2
+Intake (ml)|Nutrition (ml)|PO reg$2
+Intake (ml)|Nutrition (ml)|Enteral novasource renal$2
+Intake (ml)|Nutrition (ml)|Enteral OGT Meds/Flush$2
+Intake (ml)|Nutrition (ml)|Enteral NOVASOURCE$2
+Intake (ml)|Generic Intake (ml)|Volume (mL)-ondansetron (ZOFRAN) 8 mg/NS 50 ml IVPB$2
+Intake (ml)|Generic Intake (ml)|Volume (mL)-dextrose 5 % 1,000 mL with potassium chloride 20 mEq infusion$2
+Intake (ml)|Generic Intake (ml)|Solumedrol$2
+Intake (ml)|Generic Intake (ml)|NIMBEX$2
+Intake (ml)|Generic Intake (ml)|Intake (mL)-NG/OG Tube$2
+Intake (ml)|Crystalloids (ml)|Variance$2
+Intake (ml)|Crystalloids (ml)|Norepinephrine$2
+Intake (ml)|Crystalloids (ml)|Mag$2
+Intake (ml)|Crystalloids (ml)|Intake Variance$2
+Intake (ml)|Crystalloids (ml)|D5.45NS+KCl$2
+Output (ml)|variance$1
+Output (ml)|urine incontinence$1
+Output (ml)|incontinence$1
+Output (ml)|TOTAL OUT$1
+Output (ml)|Straight cath$1
+Output (ml)|Output Variance$1
+Output (ml)|Output Amt-Wound Vac A$1
+Output (ml)|Output Amt-Nasogastric Tube$1
+Output (ml)|Output Amt-Hemovac Drain A$1
+Output (ml)|Lumbar Drain$1
+Output (ml)|EVD Output (ml)-ICP/External Ventricular Drain (EVD) Right$1
+Intake (ml)|Nutrition (ml)|Enteral meds/flush$1
+Intake (ml)|Nutrition (ml)|Enteral feeding$1
+Intake (ml)|Nutrition (ml)|Enteral Protein Powder$1
+Intake (ml)|Nutrition (ml)|Enteral Novasource$1
+Intake (ml)|Nutrition (ml)|Enteral NGT meds/flush$1
+Intake (ml)|Generic Intake (ml)|Volume (mL)-sodium bicarbonate 75 mEq in dextrose 5 % 1,000 mL infusion$1
+Intake (ml)|Generic Intake (ml)|NGT Flush$1
+Intake (ml)|Generic Intake (ml)|Enteral meds$1
+Intake (ml)|Generic Intake (ml)|Enteral Tube Intake: Nasoduodenal Nostril, R 12 fr$1
+Intake (ml)|Generic Intake (ml)|Enteral Tube Intake: Nasoduodenal Nostril, R 10 Fr$1
+Intake (ml)|Generic Intake (ml)|Enteral Tube Intake: Gastrostomy tube$1
+Intake (ml)|Generic Intake (ml)|D5 1/2 NS w/KCl 20mEq Volume$1
+Intake (ml)|Crystalloids (ml)|variance$1
+Intake (ml)|Crystalloids (ml)|mannitol$1
+Intake (ml)|Crystalloids (ml)|Versed $1
+Intake (ml)|Crystalloids (ml)|TOTAL IN$1
+Intake (ml)|Crystalloids (ml)|Intake variance$1
+Intake (ml)|Crystalloids (ml)|INSULIN$1
+Intake (ml)|Crystalloids (ml)|HYDROMORPHONE$1
+Intake (ml)|Crystalloids (ml)|Flagyl$1

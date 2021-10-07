@@ -6,6 +6,8 @@ import pandas as pd
 __all__ = ['load_patient_data_by_id',
            'load_processed_patient_data_by_id',
            'save_csv',
+           'save_tsv',
+           'save_dsv',
            'print_patient_data',
            'select_entry_subset',
            'select_list_subset_with_index',
@@ -28,12 +30,22 @@ def load_processed_patient_data_by_id(patient_id):
     return patient_info, patient_data
 
 
-def save_csv(path, data: pd.DataFrame):
-    save_dir, file_name = os.path.split(path)
-    if not os.path.exists(save_dir):
-        os.mkdir(save_dir)
+def save_tsv(path, data: pd.DataFrame):
+    save_dir, _ = os.path.split(path)
+    os.makedirs(save_dir, exist_ok=True)
     data.to_csv(path, na_rep='', sep='\t', index=False)
-    return 1
+
+
+def save_dsv(path, data: pd.DataFrame):
+    save_dir, _ = os.path.split(path)
+    os.makedirs(save_dir, exist_ok=True)
+    data.to_csv(path, na_rep='', sep='$', index=False)
+
+
+def save_csv(path, data: pd.DataFrame):
+    save_dir, _ = os.path.split(path)
+    os.makedirs(save_dir, exist_ok=True)
+    data.to_csv(path, na_rep='', sep=',', index=False)
 
 
 def print_patient_data(data, max_num=10):
@@ -48,7 +60,8 @@ def select_entry_subset(dictionary,
                         entry='celllabel',
                         entry_name='Urine'):
     subset_idx = np.where(
-        np.array(dictionary[entry_group][entry]) == entry_name)
+        np.array(dictionary[entry_group][entry]).astype(np.str_) ==
+        np.str_(entry_name))
     return subset_idx
 
 

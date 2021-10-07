@@ -1,5 +1,5 @@
 """ Multiprocessing """
-NUM_PROCESSES = 1
+NUM_PROCESSES = 8
 
 
 """ Raw CSV files"""
@@ -94,12 +94,14 @@ TABLE_LIST = [
 ]
 
 
-""" Preprocessing """
-PREPROCESS_INPUT_FOLDER = 'outputs/all'
-PREPROCESS_OUTPUT_FOLDER = ''
-DATA_MAPPING_TSV_FILE = 'projects/data/resource/DatasetOverview - Inputs.tsv'
-ICD9_CSV_FILE = 'projects/data/resource/icd9.csv'
-ICD10_CSV_FILE = 'projects/data/resource/icd10.csv'
+""" Data Cleaning """
+DATA_CLEANING_INPUT_FOLDER = 'outputs/all'
+DATA_CLEANING_OUTPUT_FOLDER = 'outputs/all_structured_dummy'
+
+_RES = 'projects/data_cleaning/resources'
+DATA_MAPPING_TSV_FILE = _RES + '/DatasetOverview - Inputs-icd9code.tsv'
+ICD9_CSV_FILE = _RES + '/icd9.csv'
+ICD10_CSV_FILE = _RES + '/icd10.csv'
 
 DEMO_ITEMS = ['patientunitstayid', 'age', 'gender',
               'apacheadmissiondx', 'unitdischargestatus',

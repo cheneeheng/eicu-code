@@ -65,3 +65,6 @@ target/
 db/
 outputs/
 *sandbox.py
+
+# Numpy saves
+*.npy

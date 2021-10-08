@@ -103,41 +103,8 @@ DATA_MAPPING_TSV_FILE = _RES + '/DatasetOverview - Inputs-icd9code.tsv'
 ICD9_CSV_FILE = _RES + '/icd9.csv'
 ICD10_CSV_FILE = _RES + '/icd10.csv'
 
-DEMO_ITEMS = ['patientunitstayid', 'age', 'gender',
-              'apacheadmissiondx', 'unitdischargestatus',
-              'hospitaldischargestatus']
-
-DX_SELECTED = [
-    'Infarction, acute myocardial (MI)',
-    'CABG alone, coronary artery bypass grafting',
-    'CABG with aortic valve replacement',
-    'CHF, congestive heart failure',
-    'Aortic valve replacement (isolated)',
-    'Cardiac arrest (with or without respiratory arrest; for respiratory arrest see Respiratory System)',  # noqa
-    'Arrest, respiratory (without cardiac arrest)',
-    'Angina, unstable (angina interferes w/quality of life or meds are tolerated poorly)',  # noqa
-    'Angina, stable (asymp or stable pattern of symptoms w/meds)',
-    'Rhythm disturbance (atrial, supraventricular)',
-    'Rhythm disturbance (conduction defect)',
-    'Rhythm disturbance (ventricular)',
-    'Cardiovascular medical, other',
-    'Cardiomyopathy',
-    'Mitral valve repair',
-    'Mitral valve replacement',
-    'Shock, cardiogenic',
-    'Cardiovascular surgery, other',
-    'Ablation or mapping of cardiac conduction pathway',
-    'Thrombus, arterial',
-    'Pericardial effusion/tamponade',
-    'Efffusion, pericardial',
-    'Aortic and Mitral valve replacement',
-    'Hypertension, uncontrolled (for cerebrovascular accident-see Neurological System)',  # noqa
-]
-
 # DX_NAME_PATH = [dx.replace(" ", "_").replace(
 #     ',', '').replace('/', '_') for dx in DX_SELECTED]
-
-AGE_RANGES = [str(i) for i in range(0, 90, 10)] + ['> 89']
 
 UNIT_CONVERSION_DICT = {
     'mcg/min': 1/1000,

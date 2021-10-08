@@ -10,6 +10,8 @@ tables
 ipython
 ipykernel
 
+nbformat
+
 psycopg2
 pdvega
 configobj
@@ -17,10 +19,16 @@ configobj
 icd9cms
 icd10-cm
 
-sent2vec
 sklearn
 
 natsort
 plotly
 seaborn
 joblib
+
+pylint
+pep8
+autopep8
+pycodestyle
+
+cython

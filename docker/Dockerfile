@@ -11,6 +11,8 @@ RUN apt-get install build-essential libevent-pthreads-2.1-6 -y
 ENV TZ=Europe/Berlin
 RUN DEBIAN_FRONTEND="noninteractive" apt-get -y install tzdata
 
+RUN apt-get install ffmpeg libsm6 libxext6  -y
+
 # Keeps Python from generating .pyc files in the container
 ENV PYTHONDONTWRITEBYTECODE=1
 

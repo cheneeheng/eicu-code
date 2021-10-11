@@ -68,12 +68,10 @@ def remove_duplicates_in_data_table(x: dict):
     stacked_arr = np.stack(
         [x['Offset'], x['UID'], x['Value'], x['Unit']]).astype(str)
     stacked_arr = np.unique(stacked_arr, axis=1)
-    _x = create_data_table()
-    _x['Offset'] = stacked_arr[0].astype(_x['Offset'].dtype)
-    _x['UID'] = stacked_arr[1].astype(_x['UID'].dtype)
-    _x['Value'] = stacked_arr[2].astype(_x['Value'].dtype)
-    _x['Unit'] = stacked_arr[3].astype(_x['Unit'].dtype)
-    return _x
+    x['Offset'] = stacked_arr[0].astype(x['Offset'].dtype)
+    x['UID'] = stacked_arr[1].astype(x['UID'].dtype)
+    x['Value'] = stacked_arr[2].astype(x['Value'].dtype)
+    x['Unit'] = stacked_arr[3].astype(x['Unit'].dtype)
 
 
 def remove_null_value_in_data_table(x: dict):
@@ -140,8 +138,8 @@ def save_periodic_aperiodic_vitals(data, data_mapping, table_id, table_dict,
                              unit=['nan'] * len(entry_offset))
 
     remove_null_value_in_data_table(_output)
+    remove_duplicates_in_data_table(_output)
     sort_data_table(_output)
-    _output = remove_duplicates_in_data_table(_output)
     _output = concatenate_data_table(output, _output)
     return _output
 
@@ -168,8 +166,8 @@ def save_intake_output(data, data_mapping, table_id, table_dict, output):
                              unit=['nan'] * len(entry_offset))
 
     remove_null_value_in_data_table(_output1)
+    remove_duplicates_in_data_table(_output1)
     sort_data_table(_output1)
-    _output = remove_duplicates_in_data_table(_output1)
     _output = concatenate_data_table(output, _output1)
 
     # 2. other individual intake-output entries
@@ -190,8 +188,8 @@ def save_intake_output(data, data_mapping, table_id, table_dict, output):
                                  unit=np.nan)
 
     remove_null_value_in_data_table(_output2)
+    remove_duplicates_in_data_table(_output2)
     sort_data_table(_output2)
-    _output = remove_duplicates_in_data_table(_output2)
     _output = concatenate_data_table(output, _output2)
     return _output
 
@@ -219,8 +217,8 @@ def save_lab_results(data, data_mapping, table_id, table_dict, output):
                                  unit='nan')
 
     remove_null_value_in_data_table(_output)
+    remove_duplicates_in_data_table(_output)
     sort_data_table(_output)
-    _output = remove_duplicates_in_data_table(_output)
     _output = concatenate_data_table(output, _output)
     return _output
 
@@ -282,8 +280,8 @@ def save_infusion_drug_info(data, data_mapping, table_id, table_dict, output):
                                  unit=entry_unit)
 
     remove_null_value_in_data_table(_output)
+    remove_duplicates_in_data_table(_output)
     sort_data_table(_output)
-    _output = remove_duplicates_in_data_table(_output)
     _output = concatenate_data_table(output, _output)
     return _output
 
@@ -328,8 +326,8 @@ def save_nurse_charting(data, data_mapping, table_id, table_dict, output):
                              unit=['nan'] * len(entry_offset))
 
     remove_null_value_in_data_table(_output)
+    remove_duplicates_in_data_table(_output)
     sort_data_table(_output)
-    _output = remove_duplicates_in_data_table(_output)
     _output = concatenate_data_table(output, _output)
     return _output
 
@@ -361,8 +359,8 @@ def save_diagnosis_info(data, data_mapping, table_id, table_dict, output):
                              unit='nan')
 
     remove_null_value_in_data_table(_output)
+    remove_duplicates_in_data_table(_output)
     sort_data_table(_output)
-    _output = remove_duplicates_in_data_table(_output)
     _output = concatenate_data_table(output, _output)
     return _output
 
@@ -457,9 +455,9 @@ def parallel_processing(func, table_dict, data_mapping, paid_list=[]):
 
 if __name__ == "__main__":
 
-    if os.path.exists(DATA_CLEANING_OUTPUT_FOLDER):
-        raise ValueError(
-            f"The output folder {DATA_CLEANING_OUTPUT_FOLDER} exists!")
+    # if os.path.exists(DATA_CLEANING_OUTPUT_FOLDER):
+    #     raise ValueError(
+    #         f"The output folder {DATA_CLEANING_OUTPUT_FOLDER} exists!")
 
     # 1. Load data.
     data_mapping = pd.read_csv(DATA_MAPPING_TSV_FILE, sep='\t', header=0)

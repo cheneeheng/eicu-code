@@ -13,7 +13,7 @@ __all__ = ['load_patient_data_by_id',
            'select_list_subset_with_index',
            'valid_data_length',
            'convert_lab_data_to_num',
-           'sig_exist']
+           'sig_data_before_event']
 
 
 def load_patient_data_by_id(patient_json_folder, patient_id):
@@ -89,7 +89,7 @@ def convert_lab_data_to_num(d: str):
 
 # Check if a measurement/signal exist in patient data during the time window
 # before the target diagnosis event
-def sig_exist(sig_uid, data: pd.DataFrame, t_dx, window_size=1440):
+def sig_data_before_event(sig_uid, data: pd.DataFrame, t_dx, window_size=1440):
     # sig_uid: unique ID of signal source (see DatasetOverview)
     # data: preprocessed patient data
     # t_dx: event time of the target diagnosis

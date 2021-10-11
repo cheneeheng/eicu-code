@@ -21,15 +21,13 @@ def sort_dict(dictionary, key):
     return dictionary
 
 
-def calculate_delta(data, timestamp, max_interval=24):
-    delta = []
-    valid_idx = [i for i in range(len(data))
-                 if data[i] is not None and data[i] == data[i]]
-
-    delta += [None] * valid_idx[0]
+def calculate_delta(data, timestamp, max_interval=1):
+    valid_idx = [idx for idx, d_i in enumerate(data)
+                 if d_i is not None and d_i == d_i]
+    delta = [None] * valid_idx[0]
     for i in range(len(valid_idx) - 1):
         interval = valid_idx[i + 1] - valid_idx[i]
-        if interval < max_interval:
+        if interval <= max_interval:
             delta += [(data[valid_idx[i + 1]] -
                        data[valid_idx[i]]) / interval] * interval
         else:

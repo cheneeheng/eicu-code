@@ -96,7 +96,7 @@ TABLE_LIST = [
 
 """ Data Cleaning """
 DATA_CLEANING_INPUT_FOLDER = 'outputs/all'
-DATA_CLEANING_OUTPUT_FOLDER = 'outputs/all_structured_dummy'
+DATA_CLEANING_OUTPUT_FOLDER = 'outputs/all_structured'
 
 _RES = 'projects/data_cleaning/resources'
 DATA_MAPPING_TSV_FILE = _RES + '/DatasetOverview - Inputs-icd9code.tsv'

@@ -34,7 +34,7 @@ def validate_infusion():
 
     data_list = []
 
-    with open('outputs/inspection_infusion.txt', 'w') as file:
+    with open('/data/inspection_infusion.txt', 'w') as file:
 
         counter = 0
 

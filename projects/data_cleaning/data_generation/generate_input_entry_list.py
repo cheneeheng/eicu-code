@@ -17,9 +17,9 @@ def generate_all_inputs():
     jd_dict['nurseCharting'] = []
     jd_dict['diagnosis'] = []
 
-    pbar = tqdm(os.listdir("outputs/all"))
+    pbar = tqdm(os.listdir("/data/all"))
     for i in pbar:
-        jd = json.load(open("outputs/all" + "/" + i, 'r'))
+        jd = json.load(open("/data/all" + "/" + i, 'r'))
         jd_dict['intakeOutput'] += [i.split("|I&O|")[-1]
                                     for i in jd['intakeOutput']['cellpath']]
         jd_dict['lab'] += [i for i in jd['lab']['labname']]
@@ -53,9 +53,9 @@ def generate_intake_output_input():
     jd_dict = {}
     jd_dict['intakeOutput'] = []
 
-    pbar = tqdm(os.listdir("outputs/all"))
+    pbar = tqdm(os.listdir("/data/all"))
     for i in pbar:
-        jd = json.load(open("outputs/all" + "/" + i, 'r'))
+        jd = json.load(open("/data/all" + "/" + i, 'r'))
         jd_dict['intakeOutput'] += [i.split("|I&O|")[-1]
                                     for i in jd['intakeOutput']['cellpath']]
 

@@ -74,9 +74,9 @@ if __name__ == "__main__":
     # 1. Create raw_icd list.
     os.remove(_BASE_PATH + "/raw_icd.csv")
     with open(_BASE_PATH + "/raw_icd.csv", "a") as f:
-        pbar = tqdm(os.listdir("outputs/all"))
+        pbar = tqdm(os.listdir("/data/all"))
         for i in pbar:
-            jd = json.load(open("outputs/all" + "/" + i, 'r'))
+            jd = json.load(open("/data/all" + "/" + i, 'r'))
             for ii in jd['diagnosis']['icd9code']:
                 if ii != "":
                     f.write(ii)

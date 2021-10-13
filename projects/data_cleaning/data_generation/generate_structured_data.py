@@ -1,5 +1,6 @@
 """
-Clean up the raw dataset from EICU and generate 2 structured data output2.
+Clean up the raw dataset from EICU and generate 2 structured data /data.
+
 
 1. Patient info. {'UID', 'Value'}
 - patient data at admission and discharge.
@@ -7,11 +8,22 @@ Clean up the raw dataset from EICU and generate 2 structured data output2.
 2. Patient data. {'UID', 'Value', 'Unit', 'Offset'}
 - patient data during admission.
 - only takes the entries found in `DATA_MAPPING_TSV_FILE`
-* removes entries with NAN or None.
-* removes duplicates.
-* skips diagnosis entries where the name is ''
-* skips infusion entries where the value is ''
-* skips infusion entries where weight is not available.
+- removes entries with NAN or None.
+- removes duplicates.
+- skips diagnosis entries where the name is ''
+- skips infusion entries where the value is ''
+- skips infusion entries where weight is not available.
+
+For (2.) we take the following tables:
+# 5.2. periodic and aperiodic vitals ---------------------------
+# 5.3. intake & output -----------------------------------------
+# 5.4. lab -----------------------------------------------------
+# 5.5. infusion drug -------------------------------------------
+# 5.6. nurse charting ------------------------------------------
+# 5.7. diagnosis -----------------------------------------------
+
+* medication is not used because they represent drugs ordered,
+  and not administered (can be found in infusion drug).
 
 """
 
@@ -25,11 +37,11 @@ from multiprocessing import Pool, RLock
 from projects.data_cleaning import *
 
 
-def create_data_table():
+def create_data_table(dtype=float):
     return {
         'Offset': np.array([], dtype=int),
         'UID': np.array([], dtype=int),
-        'Value': np.array([], dtype=float),
+        'Value': np.array([], dtype=dtype),
         'Unit': np.array([], dtype='<U32'),
     }
 
@@ -80,11 +92,17 @@ def remove_null_value_in_data_table(x: dict):
         x[k] = x[k][non_null_mask]
 
 
-def create_patient_info():
+def create_patient_info(dtype=float):
     return {
         'UID': np.array([], dtype=int),
-        'Value': np.array([], dtype=float),
+        'Value': np.array([], dtype=dtype),
     }
+
+
+def sort_patient_table(x: dict):
+    sorted_ids = np.argsort(x['UID'])
+    for k in x.keys():
+        x[k] = x[k][sorted_ids]
 
 
 def unify_drugrate_unit(drugrate: float, drugname: str, patientweight: float):
@@ -102,7 +120,92 @@ def unify_drugrate_unit(drugrate: float, drugname: str, patientweight: float):
     return drugrate * convert_coeff, unit
 
 
+def get_patient_weights(data, patient_weights):
+    assert isinstance(patient_weights, list)
+
+    if data['patient']['admissionweight'][0] is not None:
+        patient_weights += data['patient']['admissionweight']
+
+    if data['patient']['dischargeweight'][0] is not None:
+        patient_weights += data['patient']['dischargeweight']
+
+    if "flowsheet|Flowsheet Cell Labels|I&O|Weight|Bodyweight (kg)" in \
+            data['intakeOutput']['cellpath']:
+        entry_sub_ids = select_entry_subset(
+            data, 'intakeOutput', 'cellpath',
+            "flowsheet|Flowsheet Cell Labels|I&O|Weight|Bodyweight (kg)")[0]
+        entry_values = select_list_subset_with_index(
+            data['intakeOutput']['cellvaluenumeric'],
+            entry_sub_ids
+        )
+        patient_weights += entry_values
+
+    if "flowsheet|Flowsheet Cell Labels|I&O|Weight|Bodyweight (lb)" in \
+            data['intakeOutput']['cellpath']:
+        entry_sub_ids = select_entry_subset(
+            data, 'intakeOutput', 'cellpath',
+            "flowsheet|Flowsheet Cell Labels|I&O|Weight|Bodyweight (lb)")[0]
+        entry_values = select_list_subset_with_index(
+            data['intakeOutput']['cellvaluenumeric'],
+            entry_sub_ids
+        )
+        patient_weights += [i * 0.453592 for i in entry_values]
+
+    return patient_weights
+
+
+def check_patient_height_weight(check: dict):
+    # sanity check based on the sql in "concepts".
+    assert check['admissionheight'] is not None
+    assert check['admissionweight'] is not None
+
+    weight = check['admissionweight'][1]
+    height = check['admissionheight'][1]
+
+    if check['admissionweight'][1] is not None and \
+            check['admissionheight'][1] is not None:
+
+        if check['admissionweight'][1] >= 100 and \
+                check['admissionheight'][1] > 25 and \
+                check['admissionheight'][1] <= 100 and \
+                abs(check['admissionheight'][1]-check['admissionweight'][1]) >= 20:
+            weight = check['admissionheight'][1]
+            height = check['admissionweight'][1]
+
+        if weight is not None:
+            if weight <= 20:
+                weight = None
+            elif weight > 300:
+                weight = None
+
+        if height is not None:
+            if height <= 0.3:
+                height = None
+            elif height <= 2.5:
+                height *= 100
+            elif height <= 10:
+                height = None
+            elif height <= 25:
+                height *= 10
+            elif height <= 25:
+                height *= 10
+            elif weight is not None:
+                if height <= 100 and abs(height-weight) < 20:
+                    height = None
+            elif height > 250:
+                height = None
+
+    return height, weight
+
+
 def save_patient_info(data, data_mapping, table_id, table_dict, output):
+
+    # sanity check based on the sql in "concepts".
+    check = {
+        "admissionheight": None,
+        "admissionweight": None
+    }
+
     entry_mapping = data_mapping[data_mapping['TableID'] == table_id]
     table_source = table_dict[table_id]
     for _, entry in entry_mapping.iterrows():
@@ -113,8 +216,20 @@ def save_patient_info(data, data_mapping, table_id, table_dict, output):
         else:
             raise ValueError(len(data[table_source][entry_name_eicu]))
 
+        if entry_name_eicu in check.keys():
+            check[entry_name_eicu] = (entry_uid, entry_value)
+            continue
+
         output['UID'] = np.append(output['UID'], entry_uid)
-        output['Value'] = np.append(output['Value'], entry_value)
+        output['Value'] = np.append(output['Value'], str(entry_value))
+
+    height, weight = check_patient_height_weight(check)
+    output['UID'] = np.append(output['UID'], check['admissionheight'][0])
+    output['Value'] = np.append(output['Value'], height)
+    output['UID'] = np.append(output['UID'], check['admissionweight'][0])
+    output['Value'] = np.append(output['Value'], weight)
+
+    sort_patient_table(output)
 
     return output
 
@@ -134,7 +249,7 @@ def save_periodic_aperiodic_vitals(data, data_mapping, table_id, table_dict,
         append_to_data_table(_output,
                              offset=entry_offset,
                              uid=[entry_uid] * len(entry_offset),
-                             value=entry_vals,
+                             value=[str(i) for i in entry_vals],
                              unit=['nan'] * len(entry_offset))
 
     remove_null_value_in_data_table(_output)
@@ -162,7 +277,7 @@ def save_intake_output(data, data_mapping, table_id, table_dict, output):
         append_to_data_table(_output1,
                              offset=entry_offset,
                              uid=[entry_uid] * len(entry_offset),
-                             value=entry_vals,
+                             value=[str(i) for i in entry_vals],
                              unit=['nan'] * len(entry_offset))
 
     remove_null_value_in_data_table(_output1)
@@ -175,16 +290,20 @@ def save_intake_output(data, data_mapping, table_id, table_dict, output):
     uid_dict = {uid_dict.iloc[i, 0]: uid_dict.iloc[i, 1]
                 for i in range(uid_dict.shape[0])}
     _output2 = create_data_table()
-    for i, entry_name_eicu in enumerate(data[table_source]['celllabel']):
+    for i, entry_name_eicu in enumerate(data[table_source]['cellpath']):
         if entry_name_eicu in uid_dict:
             entry_uid = uid_dict[entry_name_eicu]
             entry_offset = data[table_source]['intakeoutputoffset'][i]
             entry_value = data[table_source]['cellvaluenumeric'][i]
 
+            if entry_name_eicu == "flowsheet|Flowsheet Cell Labels|I&O|Weight|Bodyweight (lb)":
+                entry_uid -= 1
+                entry_value *= 0.453592
+
             append_to_data_table(_output2,
                                  offset=entry_offset,
                                  uid=entry_uid,
-                                 value=entry_value,
+                                 value=str(entry_value),
                                  unit=np.nan)
 
     remove_null_value_in_data_table(_output2)
@@ -213,7 +332,7 @@ def save_lab_results(data, data_mapping, table_id, table_dict, output):
             append_to_data_table(_output,
                                  offset=entry_offset,
                                  uid=entry_uid,
-                                 value=entry_value,
+                                 value=str(entry_value),
                                  unit='nan')
 
     remove_null_value_in_data_table(_output)
@@ -235,18 +354,15 @@ def save_infusion_drug_info(data, data_mapping, table_id, table_dict, output):
     valid_len = len([i for i in data[table_source]
                     ['patientweight'] if i != ''])
     if valid_len != entry_len:
-        if (data['patient']['admissionweight'][0] is None) and (
-                data['patient']['dischargeweight'][0] is None):
+        patient_weights = get_patient_weights(data, patient_weights)
+        if len(patient_weights) == 0:
             patient_weights = [-1.0]
             # raise ValueError("No weight available")
-        if data['patient']['admissionweight'][0] is not None:
-            patient_weights += data['patient']['admissionweight']
-        if data['patient']['dischargeweight'][0] is not None:
-            patient_weights += data['patient']['dischargeweight']
         assert None not in patient_weights, patient_weights
         patient_weights = [float(i) for i in patient_weights]
         patient_weights = [sum(patient_weights) / len(patient_weights)]
         patient_weights = patient_weights * len(data[table_source]['drugname'])
+
     else:
         patient_weights = [float(i)
                            for i in data[table_source]['patientweight']]
@@ -276,7 +392,7 @@ def save_infusion_drug_info(data, data_mapping, table_id, table_dict, output):
             append_to_data_table(_output,
                                  offset=entry_offset,
                                  uid=entry_uid,
-                                 value=entry_value,
+                                 value=str(entry_value),
                                  unit=entry_unit)
 
     remove_null_value_in_data_table(_output)
@@ -310,20 +426,24 @@ def save_nurse_charting(data, data_mapping, table_id, table_dict, output):
             )
         ]
 
-        entry_offset = select_list_subset_with_index(
+        entry_offsets = select_list_subset_with_index(
             data[table_source]['nursingchartentryoffset'],
             entry_sub_ids
         )
-        entry_value = select_list_subset_with_index(
+        entry_values = select_list_subset_with_index(
             data[table_source]['nursingchartvalue'],
             entry_sub_ids
         )
 
+        if entry_name_eicu == 'Temperature (F)':
+            entry_uid -= 1
+            entry_value = [(float(e)-32)/1.8 for e in entry_values]
+
         append_to_data_table(_output,
-                             offset=[int(e) for e in entry_offset],
-                             uid=[entry_uid] * len(entry_offset),
-                             value=[float(e) for e in entry_value],
-                             unit=['nan'] * len(entry_offset))
+                             offset=[int(e) for e in entry_offsets],
+                             uid=[entry_uid] * len(entry_offsets),
+                             value=[str(e) for e in entry_values],
+                             unit=['nan'] * len(entry_offsets))
 
     remove_null_value_in_data_table(_output)
     remove_duplicates_in_data_table(_output)
@@ -355,7 +475,7 @@ def save_diagnosis_info(data, data_mapping, table_id, table_dict, output):
         append_to_data_table(_output,
                              offset=entry_offset,
                              uid=entry_uid,
-                             value=entry_value,
+                             value=str(entry_value),
                              unit='nan')
 
     remove_null_value_in_data_table(_output)
@@ -374,8 +494,8 @@ def generate_structured_output(table_dict, data_mapping, paid_list, pid=0):
 
         data = load_patient_data_by_id(DATA_CLEANING_INPUT_FOLDER, paid)
 
-        data_table = create_data_table()
-        patient_info = create_patient_info()
+        data_table = create_data_table(dtype='<U32')
+        patient_info = create_patient_info(dtype='<U32')
 
         # 5. Loop through each data table.
         for table_id in table_dict.keys():

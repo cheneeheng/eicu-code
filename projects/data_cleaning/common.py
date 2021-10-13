@@ -1,5 +1,5 @@
 """ Multiprocessing """
-NUM_PROCESSES = 1
+NUM_PROCESSES = 8
 
 
 """ Raw CSV files"""
@@ -42,13 +42,13 @@ CSV_FILE_LIST = [
 """ Exporter """
 CHUNKS = 1
 START = 0
-EXPORTER_FOLDER = 'outputs/raw_json_data_v1'
-# EXPORTER_SUBSET_FOLDER = 'outputs/json_data/patientsubset_tablesubset'
+EXPORTER_FOLDER = '/data/raw_json_data_v1'
+# EXPORTER_SUBSET_FOLDER = '/data/json_data/patientsubset_tablesubset'
 
 
 """ Validation """
 VALIDATE_INTERVAL = 436
-VALIDATE_FOLDER = 'outputs/raw_json_data_v1'
+VALIDATE_FOLDER = '/data/raw_json_data_v1'
 
 
 """ Data Info """
@@ -95,8 +95,8 @@ TABLE_LIST = [
 
 
 """ Data Cleaning """
-DATA_CLEANING_INPUT_FOLDER = 'outputs/raw_json_data_v1'
-DATA_CLEANING_OUTPUT_FOLDER = 'outputs/structured_json_data_v1'
+DATA_CLEANING_INPUT_FOLDER = '/data/raw_json_data_v1'
+DATA_CLEANING_OUTPUT_FOLDER = '/data/structured_dsv_data_v1'
 
 _RES = 'projects/data_cleaning/resources'
 DATA_MAPPING_TSV_FILE = _RES + '/DatasetOverview - Inputs-icd9code.tsv'

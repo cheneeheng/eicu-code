@@ -48,196 +48,157 @@ TableID	TableSource	ParamCat	ParamLabel	ParamNameOrigin	ParamNameNew	ParameterNa
 3	intakeOutput			outputtotal	outputtotal			2	300002						
 3	intakeOutput			dialysistotal	dialysistotal			3	300003						
 3	intakeOutput			nettotal	nettotal			4	300004		This is the intake output net total				
-3	intakeOutput			flowsheet|Flowsheet Cell Labels|I&O|Intake (ml)|Crystalloids (ml)|bumetanide	Bumetanide			5	300005		diuretic therapy: bumetanide				
-3	intakeOutput			flowsheet|Flowsheet Cell Labels|I&O|Intake (ml)|Generic Intake (ml)|Bumetanide Volume	Bumetanide			5	300005						
-3	intakeOutput			flowsheet|Flowsheet Cell Labels|I&O|Intake (ml)|Crystalloids (ml)|Bumetanide-IN	Bumetanide			5	300005						
-3	intakeOutput			flowsheet|Flowsheet Cell Labels|I&O|Intake (ml)|Crystalloids (ml)|Bumetanide (NS)-IN	Bumetanide			5	300005						
-3	intakeOutput			flowsheet|Flowsheet Cell Labels|I&O|Dialysis (ml)|In	DialysisIn			6	300006						
-3	intakeOutput			flowsheet|Flowsheet Cell Labels|I&O|Intake (ml)|Generic Intake (ml)|Hemodialysis Intake (mL)	DialysisIn			6	300006						
-3	intakeOutput			flowsheet|Flowsheet Cell Labels|I&O|Intake (ml)|Generic Intake (ml)|CL Flush: Non-Tunneled dialysis IJ R	DialysisIn			6	300006						
-3	intakeOutput			flowsheet|Flowsheet Cell Labels|I&O|Intake (ml)|Generic Intake (ml)|CL Flush: Non-Tunneled dialysis IJ L	DialysisIn			6	300006						
-3	intakeOutput			flowsheet|Flowsheet Cell Labels|I&O|Intake (ml)|Generic Intake (ml)|CL Flush: Tunneled (other than dialysis), Pressure	DialysisIn			6	300006						
-3	intakeOutput			flowsheet|Flowsheet Cell Labels|I&O|Intake (ml)|Generic Intake (ml)|CL Flush: Non-Tunneled dialysis, Pressure/power in	DialysisIn			6	300006						
-3	intakeOutput			flowsheet|Flowsheet Cell Labels|I&O|Dialysis (ml)|Out	DialysisOut			7	300007						
-3	intakeOutput			flowsheet|Flowsheet Cell Labels|I&O|Output (ml)|HemodialysisOut	DialysisOut			7	300007						
-3	intakeOutput			flowsheet|Flowsheet Cell Labels|I&O|Intake (ml)|Generic Intake (ml)|Volume (ml) Dobutamine	Dobutamine			8	300008						
-3	intakeOutput			flowsheet|Flowsheet Cell Labels|I&O|Intake (ml)|Generic Intake (ml)|Volume (mL) Dobutamine	Dobutamine			8	300008						
-3	intakeOutput			flowsheet|Flowsheet Cell Labels|I&O|Intake (ml)|Crystalloids (ml)|DOBUTamine	Dobutamine			8	300008						
-3	intakeOutput			flowsheet|Flowsheet Cell Labels|I&O|Intake (ml)|Generic Intake (ml)|DOButamine (ml):	Dobutamine			8	300008						
-3	intakeOutput			flowsheet|Flowsheet Cell Labels|I&O|Intake (ml)|Generic Intake (ml)|DOBUTAMINE	Dobutamine			8	300008						
-3	intakeOutput			flowsheet|Flowsheet Cell Labels|I&O|Intake (ml)|Generic Intake (ml)|Dobutamine	Dobutamine			8	300008						
-3	intakeOutput			flowsheet|Flowsheet Cell Labels|I&O|Intake (ml)|Crystalloids (ml)|Dobutamine	Dobutamine			8	300008						
-3	intakeOutput			flowsheet|Flowsheet Cell Labels|I&O|Intake (ml)|Crystalloids (ml)|dobutamine	Dobutamine			8	300008						
-3	intakeOutput			flowsheet|Flowsheet Cell Labels|I&O|Intake (ml)|Generic Intake (ml)|Volume (ml) Dopamine	Dopamine			9	300009						
-3	intakeOutput			flowsheet|Flowsheet Cell Labels|I&O|Intake (ml)|Generic Intake (ml)|Volume (mL) Dopamine	Dopamine			9	300009						
-3	intakeOutput			flowsheet|Flowsheet Cell Labels|I&O|Intake (ml)|Crystalloids (ml)|DOPamine	Dopamine			9	300009						
-3	intakeOutput			flowsheet|Flowsheet Cell Labels|I&O|Intake (ml)|Generic Intake (ml)|DOPamine (ml):	Dopamine			9	300009						
-3	intakeOutput			flowsheet|Flowsheet Cell Labels|I&O|Intake (ml)|Generic Intake (ml)|DOPAMINE	Dopamine			9	300009						
-3	intakeOutput			flowsheet|Flowsheet Cell Labels|I&O|Intake (ml)|Generic Intake (ml)|Dopamine	Dopamine			9	300009						
-3	intakeOutput			flowsheet|Flowsheet Cell Labels|I&O|Intake (ml)|Crystalloids (ml)|Dopamine	Dopamine			9	300009						
-3	intakeOutput			flowsheet|Flowsheet Cell Labels|I&O|Intake (ml)|Generic Intake (ml)|dopamine	Dopamine			9	300009						
-3	intakeOutput			flowsheet|Flowsheet Cell Labels|I&O|Intake (ml)|Crystalloids (ml)|DOPAMINE	Dopamine			9	300009						
-3	intakeOutput			flowsheet|Flowsheet Cell Labels|I&O|Intake (ml)|Generic Intake (ml)|Volume (ml) Epinephrine	Epinephrine			10	300010						
-3	intakeOutput			flowsheet|Flowsheet Cell Labels|I&O|Intake (ml)|Crystalloids (ml)|EPINEPHrine	Epinephrine			10	300010						
-3	intakeOutput			flowsheet|Flowsheet Cell Labels|I&O|Intake (ml)|Generic Intake (ml)|Volume (mL) Epinephrine	Epinephrine			10	300010						
-3	intakeOutput			flowsheet|Flowsheet Cell Labels|I&O|Intake (ml)|Generic Intake (ml)|Epinephrine	Epinephrine			10	300010						
-3	intakeOutput			flowsheet|Flowsheet Cell Labels|I&O|Intake (ml)|Generic Intake (ml)|EPInephrine (ml):	Epinephrine			10	300010						
-3	intakeOutput			flowsheet|Flowsheet Cell Labels|I&O|Intake (ml)|Crystalloids (ml)|Epinephrine (NS)-IN	Epinephrine			10	300010						
-3	intakeOutput			flowsheet|Flowsheet Cell Labels|I&O|Intake (ml)|Generic Intake (ml)|EPINEPHRINE	Epinephrine			10	300010						
-3	intakeOutput			flowsheet|Flowsheet Cell Labels|I&O|Intake (ml)|Generic Intake (ml)|epinephrine	Epinephrine			10	300010						
-3	intakeOutput			flowsheet|Flowsheet Cell Labels|I&O|Intake (ml)|Crystalloids (ml)|Epinephrine	Epinephrine			10	300010						
-3	intakeOutput			flowsheet|Flowsheet Cell Labels|I&O|Intake (ml)|Crystalloids (ml)|Esmolol-IN	Esmolol			11	300011						
-3	intakeOutput			flowsheet|Flowsheet Cell Labels|I&O|Intake (ml)|Generic Intake (ml)|Volume (ml) Esmolol	Esmolol			11	300011						
-3	intakeOutput			flowsheet|Flowsheet Cell Labels|I&O|Intake (ml)|Generic Intake (ml)|Esmolol	Esmolol			11	300011						
-3	intakeOutput			flowsheet|Flowsheet Cell Labels|I&O|Intake (ml)|Crystalloids (ml)|esmolol	Esmolol			11	300011						
-3	intakeOutput			flowsheet|Flowsheet Cell Labels|I&O|Intake (ml)|Generic Intake (ml)|ESMOLOL	Esmolol			11	300011						
-3	intakeOutput			flowsheet|Flowsheet Cell Labels|I&O|Intake (ml)|Crystalloids (ml)|Esmolol	Esmolol			11	300011						
-3	intakeOutput			flowsheet|Flowsheet Cell Labels|I&O|Intake (ml)|Generic Intake (ml)|Volume (mL) Esmolol	Esmolol			11	300011						
-3	intakeOutput			flowsheet|Flowsheet Cell Labels|I&O|Intake (ml)|Generic Intake (ml)|Volume (ml) Furosemide	Furosemide			12	300012						
-3	intakeOutput			flowsheet|Flowsheet Cell Labels|I&O|Intake (ml)|Generic Intake (ml)|Volume (mL) Furosemide	Furosemide			12	300012						
-3	intakeOutput			flowsheet|Flowsheet Cell Labels|I&O|Intake (ml)|Crystalloids (ml)|furosemide	Furosemide			12	300012						
-3	intakeOutput			flowsheet|Flowsheet Cell Labels|I&O|Intake (ml)|Generic Intake (ml)|Volume (mL)-furosemide (LASIX) 160 mg in dextrose 5 % 50 mL IVPB	Furosemide			12	300012						
-3	intakeOutput			flowsheet|Flowsheet Cell Labels|I&O|Intake (ml)|Generic Intake (ml)|Volume (mL)-furosemide (LASIX) 120 mg in dextrose 5 % 50 mL IVPB	Furosemide			12	300012						
-3	intakeOutput			flowsheet|Flowsheet Cell Labels|I&O|Intake (ml)|Generic Intake (ml)|Volume (mL)-furosemide (LASIX) injection 40 mg	Furosemide			12	300012						
-3	intakeOutput			flowsheet|Flowsheet Cell Labels|I&O|Intake (ml)|Generic Intake (ml)|Volume (ml) Lidocaine	Lidocaine			13	300013						
-3	intakeOutput			flowsheet|Flowsheet Cell Labels|I&O|Intake (ml)|Crystalloids (ml)|lidocaine	Lidocaine			13	300013						
-3	intakeOutput			flowsheet|Flowsheet Cell Labels|I&O|Intake (ml)|Generic Intake (ml)|Volume (mL) Lidocaine	Lidocaine			13	300013						
-3	intakeOutput			flowsheet|Flowsheet Cell Labels|I&O|Intake (ml)|Crystalloids (ml)|Volume (mL)-dextrose 5 % / sodium chloride 0.45% 1,000 mL with potassium chloride 40 mEq, magnesium sulfate 5 g infusion	Magnesium			14	300014						
-3	intakeOutput			flowsheet|Flowsheet Cell Labels|I&O|Intake (ml)|Generic Intake (ml)|Volume (ml) Magnesium Sulfate	Magnesium			14	300014						
-3	intakeOutput			flowsheet|Flowsheet Cell Labels|I&O|Intake (ml)|Generic Intake (ml)|Volume (mL)-magnesium sulfate in 5 % dextrose IVPB 1 g	Magnesium			14	300014						
-3	intakeOutput			flowsheet|Flowsheet Cell Labels|I&O|Intake (ml)|Generic Intake (ml)|Volume (mL)-magnesium sulfate in dextrose premix 2 g	Magnesium			14	300014						
-3	intakeOutput			flowsheet|Flowsheet Cell Labels|I&O|Intake (ml)|Crystalloids (ml)|Volume (mL)-magnesium sulfate 1 g in dextrose 5% 100 mL IVPB premix	Magnesium			14	300014						
-3	intakeOutput			flowsheet|Flowsheet Cell Labels|I&O|Intake (ml)|Generic Intake (ml)|Volume (mL)-magnesium sulfate IVPB 2 g 50 mL	Magnesium			14	300014						
-3	intakeOutput			flowsheet|Flowsheet Cell Labels|I&O|Intake (ml)|Crystalloids (ml)|Volume (mL)-dextrose 5 % / sodium chloride 0.45% 1,000 mL with magnesium sulfate 5 g infusion	Magnesium			14	300014						
-3	intakeOutput			flowsheet|Flowsheet Cell Labels|I&O|Intake (ml)|Generic Intake (ml)|Magnesium	Magnesium			14	300014						
-3	intakeOutput			flowsheet|Flowsheet Cell Labels|I&O|Intake (ml)|Crystalloids (ml)|Volume (mL)-magnesium sulfate in sterile water 2 g IVPB premix	Magnesium			14	300014						
-3	intakeOutput			flowsheet|Flowsheet Cell Labels|I&O|Intake (ml)|Crystalloids (ml)|Volume (mL)-magnesium sulfate 2 g in sodium chloride 0.9% IVPB	Magnesium			14	300014						
-3	intakeOutput			flowsheet|Flowsheet Cell Labels|I&O|Intake (ml)|Crystalloids (ml)|magnesium	Magnesium			14	300014						
-3	intakeOutput			flowsheet|Flowsheet Cell Labels|I&O|Intake (ml)|Generic Intake (ml)|MAGNESIUM	Magnesium			14	300014						
-3	intakeOutput			flowsheet|Flowsheet Cell Labels|I&O|Intake (ml)|Generic Intake (ml)|magnesium	Magnesium			14	300014						
-3	intakeOutput			flowsheet|Flowsheet Cell Labels|I&O|Intake (ml)|Crystalloids (ml)|Magnesium	Magnesium			14	300014						
-3	intakeOutput			flowsheet|Flowsheet Cell Labels|I&O|Intake (ml)|Generic Intake (ml)|Volume (mL)-magnesium sulfate IVPB 4 g 100 mL	Magnesium			14	300014						
-3	intakeOutput			flowsheet|Flowsheet Cell Labels|I&O|Intake (ml)|Crystalloids (ml)|Volume (mL)-lactated ringers 1,000 mL with thiamine 100 mg, folic acid 1 mg, magnesium sulfate 2 g infusion	Magnesium			14	300014						
-3	intakeOutput			flowsheet|Flowsheet Cell Labels|I&O|Intake (ml)|Crystalloids (ml)|MAGNESIUM SULFATE	Magnesium			14	300014						
-3	intakeOutput			flowsheet|Flowsheet Cell Labels|I&O|Intake (ml)|Generic Intake (ml)|Volume (mL) Magnesium	Magnesium			14	300014						
-3	intakeOutput			flowsheet|Flowsheet Cell Labels|I&O|Intake (ml)|Generic Intake (ml)|Volume (mL) Milrinone	Milrinone			15	300015						
-3	intakeOutput			flowsheet|Flowsheet Cell Labels|I&O|Intake (ml)|Generic Intake (ml)|Volume (ml) Milrinone	Milrinone			15	300015						
-3	intakeOutput			flowsheet|Flowsheet Cell Labels|I&O|Intake (ml)|Crystalloids (ml)|milrinone	Milrinone			15	300015						
-3	intakeOutput			flowsheet|Flowsheet Cell Labels|I&O|Intake (ml)|Generic Intake (ml)|Milrinone	Milrinone			15	300015						
-3	intakeOutput			flowsheet|Flowsheet Cell Labels|I&O|Intake (ml)|Crystalloids (ml)|Milrinone-IN	Milrinone			15	300015						
-3	intakeOutput			flowsheet|Flowsheet Cell Labels|I&O|Intake (ml)|Generic Intake (ml)|MILrinone (ml):	Milrinone			15	300015						
-3	intakeOutput			flowsheet|Flowsheet Cell Labels|I&O|Intake (ml)|Crystalloids (ml)|Milrinone	Milrinone			15	300015						
-3	intakeOutput			flowsheet|Flowsheet Cell Labels|I&O|Intake (ml)|Generic Intake (ml)|milrinone	Milrinone			15	300015						
-3	intakeOutput			flowsheet|Flowsheet Cell Labels|I&O|Intake (ml)|Generic Intake (ml)|Volume (mL) Norepinephrine	Norepinephrine			16	300016						
-3	intakeOutput			flowsheet|Flowsheet Cell Labels|I&O|Intake (ml)|Crystalloids (ml)|norepinephrine	Norepinephrine			16	300016						
-3	intakeOutput			flowsheet|Flowsheet Cell Labels|I&O|Intake (ml)|Generic Intake (ml)|Volume (ml) Norepinephrine	Norepinephrine			16	300016						
-3	intakeOutput			flowsheet|Flowsheet Cell Labels|I&O|Intake (ml)|Generic Intake (ml)|NOREPINEPHRINE	Norepinephrine			16	300016						
-3	intakeOutput			flowsheet|Flowsheet Cell Labels|I&O|Intake (ml)|Crystalloids (ml)|CV Norepinephrine 8mg V2-IN	Norepinephrine			16	300016						
-3	intakeOutput			flowsheet|Flowsheet Cell Labels|I&O|Intake (ml)|Crystalloids (ml)|Norepinephrine V3-IN	Norepinephrine			16	300016						
-3	intakeOutput			flowsheet|Flowsheet Cell Labels|I&O|Intake (ml)|Generic Intake (ml)|Norepinephrine	Norepinephrine			16	300016						
-3	intakeOutput			flowsheet|Flowsheet Cell Labels|I&O|Intake (ml)|Crystalloids (ml)|Norepinephrine	Norepinephrine			16	300016						
-3	intakeOutput			flowsheet|Flowsheet Cell Labels|I&O|Output (ml)|Urine	Urine			17	300017						
-3	intakeOutput			flowsheet|Flowsheet Cell Labels|I&O|Output (ml)|Urinary Catheter Output: Indwelling/Continuous Ure	Urine			17	300017						
-3	intakeOutput			flowsheet|Flowsheet Cell Labels|I&O|Output (ml)|URINE CATHETER	Urine			17	300017						
-3	intakeOutput			flowsheet|Flowsheet Cell Labels|I&O|Output (ml)|Foley cath	Urine			17	300017						
-3	intakeOutput			flowsheet|Flowsheet Cell Labels|I&O|Output (ml)|Urine Count	Urine			17	300017						
-3	intakeOutput			flowsheet|Flowsheet Cell Labels|I&O|Output (ml)|Urine Occurrence	Urine			17	300017						
-3	intakeOutput			flowsheet|Flowsheet Cell Labels|I&O|Output (ml)|Urine, void:	Urine			17	300017						
-3	intakeOutput			flowsheet|Flowsheet Cell Labels|I&O|Output (ml)|Output (mL)-Urethral Catheter 16 Fr.	Urine			17	300017						
-3	intakeOutput			flowsheet|Flowsheet Cell Labels|I&O|Output (ml)|Output (mL)-Urethral Catheter Non-latex 14 Fr.	Urine			17	300017						
-3	intakeOutput			flowsheet|Flowsheet Cell Labels|I&O|Output (ml)|Urine Output (mL)-Urethral Catheter	Urine			17	300017						
-3	intakeOutput			flowsheet|Flowsheet Cell Labels|I&O|Output (ml)|Output (mL)-Urethral Catheter Straight-tip 16 Fr.	Urine			17	300017						
-3	intakeOutput			flowsheet|Flowsheet Cell Labels|I&O|Output (ml)|Output (mL)-Urethral Catheter	Urine			17	300017						
-3	intakeOutput			flowsheet|Flowsheet Cell Labels|I&O|Output (ml)|Output (mL)-Urethral Catheter Temperature probe 16 Fr.	Urine			17	300017						
-3	intakeOutput			flowsheet|Flowsheet Cell Labels|I&O|Output (ml)|Output (mL)-Urethral Catheter Non-latex 16 Fr.	Urine			17	300017						
-3	intakeOutput			flowsheet|Flowsheet Cell Labels|I&O|Output (ml)|Urinary Catheter Output: Indwelling/Continuous Ext	Urine			17	300017						
-3	intakeOutput			flowsheet|Flowsheet Cell Labels|I&O|Output (ml)|Output (mL)-Urethral Catheter Straight-tip 14 Fr.	Urine			17	300017						
-3	intakeOutput			flowsheet|Flowsheet Cell Labels|I&O|Output (ml)|Output (mL)-Urethral Catheter Latex 16 Fr.	Urine			17	300017						
-3	intakeOutput			flowsheet|Flowsheet Cell Labels|I&O|Output (ml)|Output (mL)-Urinary Catheter Indwelling	Urine			17	300017						
-3	intakeOutput			flowsheet|Flowsheet Cell Labels|I&O|Output (ml)|Urinary Catheter Output: Indwelling/Continuous Sup	Urine			17	300017						
-3	intakeOutput			flowsheet|Flowsheet Cell Labels|I&O|Output (ml)|Output (mL)-Urethral Catheter 14 Fr.	Urine			17	300017						
-3	intakeOutput			flowsheet|Flowsheet Cell Labels|I&O|Output (ml)|Output (mL)-External Urinary Catheter	Urine			17	300017						
-3	intakeOutput			flowsheet|Flowsheet Cell Labels|I&O|Output (ml)|SN Urine Output(ml)	Urine			17	300017						
-3	intakeOutput			flowsheet|Flowsheet Cell Labels|I&O|Output (ml)|Output (mL)-Urethral Catheter Temperature probe	Urine			17	300017						
-3	intakeOutput			flowsheet|Flowsheet Cell Labels|I&O|Output (ml)|Urinary Catheter Output: Straight/Intermittent Ure	Urine			17	300017						
-3	intakeOutput			flowsheet|Flowsheet Cell Labels|I&O|Output (ml)|Urine Output (mL)-Urethral Catheter	Urine			17	300017						
-3	intakeOutput			flowsheet|Flowsheet Cell Labels|I&O|Output (ml)|Output (mL)-Urethral Catheter Temperature probe 14 Fr.	Urine			17	300017						
-3	intakeOutput			flowsheet|Flowsheet Cell Labels|I&O|Output (ml)|Output (mL)-Urethral Catheter Latex 14 Fr.	Urine			17	300017						
-3	intakeOutput			flowsheet|Flowsheet Cell Labels|I&O|Output (ml)|Output (mL)-External Urethral Device Condom catheter	Urine			17	300017						
-3	intakeOutput			flowsheet|Flowsheet Cell Labels|I&O|Output (ml)|Output (mL)-Straight Catheter	Urine			17	300017						
-3	intakeOutput			flowsheet|Flowsheet Cell Labels|I&O|Output (ml)|Output (mL)-Urethral Catheter Non-latex	Urine			17	300017						
-3	intakeOutput			flowsheet|Flowsheet Cell Labels|I&O|Output (ml)|Output (mL)-Urethral Catheter Double-lumen 16 Fr.	Urine			17	300017						
-3	intakeOutput			flowsheet|Flowsheet Cell Labels|I&O|Output (ml)|Output (mL)-Urethral Catheter Double-lumen 14 Fr.	Urine			17	300017						
-3	intakeOutput			flowsheet|Flowsheet Cell Labels|I&O|Output (ml)|Output (mL)-Urethral Catheter Straight-tip	Urine			17	300017						
-3	intakeOutput			flowsheet|Flowsheet Cell Labels|I&O|Output (ml)|Urinary Catheter Output: Coude Urethral	Urine			17	300017						
-3	intakeOutput			flowsheet|Flowsheet Cell Labels|I&O|Output (ml)|Urinary Catheter Output: Urethral	Urine			17	300017						
-3	intakeOutput			flowsheet|Flowsheet Cell Labels|I&O|Output (ml)|Output Amt-Urinary Catheter	Urine			17	300017						
-3	intakeOutput			flowsheet|Flowsheet Cell Labels|I&O|Output (ml)|foley	Urine			17	300017						
-3	intakeOutput			flowsheet|Flowsheet Cell Labels|I&O|Output (ml)|Output Amt-Urinary Catheter	Urine			17	300017						
-3	intakeOutput			flowsheet|Flowsheet Cell Labels|I&O|Output (ml)|Output (mL)-[REMOVED] Straight Catheter	Urine			17	300017						
-3	intakeOutput			flowsheet|Flowsheet Cell Labels|I&O|Output (ml)|Output (mL)-Urethral Catheter Natalie,RN Non-latex 14 Fr.	Urine			17	300017						
-3	intakeOutput			flowsheet|Flowsheet Cell Labels|I&O|Output (ml)|Urinary Catheter Output: Coude Urethral 14 Fr.	Urine			17	300017						
-3	intakeOutput			flowsheet|Flowsheet Cell Labels|I&O|Output (ml)|Output (mL)-Urethral Catheter Sarah Burnham, RN and Jordan Perkins, RN Temperature probe 16 Fr.	Urine			17	300017						
-3	intakeOutput			flowsheet|Flowsheet Cell Labels|I&O|Output (ml)|Output (mL)-Urethral Catheter Temperature probe 18 Fr.	Urine			17	300017						
-3	intakeOutput			flowsheet|Flowsheet Cell Labels|I&O|Output (ml)|Output (mL)-Urethral Catheter James RN Temperature probe	Urine			17	300017						
-3	intakeOutput			flowsheet|Flowsheet Cell Labels|I&O|Output (ml)|Foley	Urine			17	300017						
-3	intakeOutput			flowsheet|Flowsheet Cell Labels|I&O|Output (ml)|urine count	Urine			17	300017						
-3	intakeOutput			flowsheet|Flowsheet Cell Labels|I&O|Output (ml)|Output (mL)-Urethral Catheter Dr Wrenn	Urine			17	300017						
-3	intakeOutput			flowsheet|Flowsheet Cell Labels|I&O|Output (ml)|Output (mL)-Urethral Catheter B Jacobelli, RN Latex;Straight-tip 14 Fr.	Urine			17	300017						
-3	intakeOutput			flowsheet|Flowsheet Cell Labels|I&O|Output (ml)|Urinary Catheter Output: Coude Urethral 16 Fr.	Urine			17	300017						
-3	intakeOutput			flowsheet|Flowsheet Cell Labels|I&O|Output (ml)|Output (mL)-Urethral Catheter Latex	Urine			17	300017						
-3	intakeOutput			flowsheet|Flowsheet Cell Labels|I&O|Output (ml)|Mixed Urine/Stool Volume	Urine			17	300017						
-3	intakeOutput			flowsheet|Flowsheet Cell Labels|I&O|Output (ml)|Output (mL)-Urethral Catheter Temperature probe;Non-latex	Urine			17	300017						
-3	intakeOutput			flowsheet|Flowsheet Cell Labels|I&O|Output (ml)|Urinary Catheter Output: Coude Urethral 18 Fr.	Urine			17	300017						
-3	intakeOutput			flowsheet|Flowsheet Cell Labels|I&O|Output (ml)|CONDOM CATHETER OUTPUT	Urine			17	300017						
-3	intakeOutput			flowsheet|Flowsheet Cell Labels|I&O|Output (ml)|Output (mL)-Urethral Catheter dr macdermid Non-latex;Straight-tip 14 Fr.	Urine			17	300017						
-3	intakeOutput			flowsheet|Flowsheet Cell Labels|I&O|Output (ml)|Output (mL)-Urethral Catheter Coude 18 Fr.	Urine			17	300017						
-3	intakeOutput			flowsheet|Flowsheet Cell Labels|I&O|Output (ml)|FOLEY	Urine			17	300017						
-3	intakeOutput			flowsheet|Flowsheet Cell Labels|I&O|Output (ml)|Urinary Catheter Output: Condom External	Urine			17	300017						
-3	intakeOutput			flowsheet|Flowsheet Cell Labels|I&O|Output (ml)|Output (mL)-Urethral Catheter Double-lumen	Urine			17	300017						
-3	intakeOutput			flowsheet|Flowsheet Cell Labels|I&O|Output (ml)|Straight Cath	Urine			17	300017						
-3	intakeOutput			flowsheet|Flowsheet Cell Labels|I&O|Output (ml)|Condom Catheter	Urine			17	300017						
-3	intakeOutput			flowsheet|Flowsheet Cell Labels|I&O|Output (ml)|Output (mL)-Urethral Catheter Latex 18 Fr.	Urine			17	300017						
-3	intakeOutput			flowsheet|Flowsheet Cell Labels|I&O|Output (ml)|Output (mL)-Urethral Catheter Non-latex;Straight-tip 14 Fr.	Urine			17	300017						
-3	intakeOutput			flowsheet|Flowsheet Cell Labels|I&O|Output (ml)|Urinary Catheter Output: Indwelling/Continuous Per	Urine			17	300017						
-3	intakeOutput			flowsheet|Flowsheet Cell Labels|I&O|Output (ml)|Suprapubic Urine Output	Urine			17	300017						
-3	intakeOutput			flowsheet|Flowsheet Cell Labels|I&O|Output (ml)|Urinary Catheter Output: Urethral 16 Fr.	Urine			17	300017						
-3	intakeOutput			flowsheet|Flowsheet Cell Labels|I&O|Output (ml)|Output (mL)-Urethral Catheter Latex;Straight-tip 14 Fr.	Urine			17	300017						
-3	intakeOutput			flowsheet|Flowsheet Cell Labels|I&O|Output (ml)|Output (mL)-Urethral Catheter LF, SN Temperature probe	Urine			17	300017						
-3	intakeOutput			flowsheet|Flowsheet Cell Labels|I&O|Output (ml)|Urinary Catheter Output: Suprapubic	Urine			17	300017						
-3	intakeOutput			flowsheet|Flowsheet Cell Labels|I&O|Output (ml)|Urinary Catheter Output: Nephrostomy L	Urine			17	300017						
-3	intakeOutput			flowsheet|Flowsheet Cell Labels|I&O|Output (ml)|Output (mL)-Urethral Catheter Deanna Revis, RN and Rose Cullom, RN Non-latex 14 Fr.	Urine			17	300017						
-3	intakeOutput			flowsheet|Flowsheet Cell Labels|I&O|Output (ml)|Intermittent/Straight Cath (mL)	Urine			17	300017						
-3	intakeOutput			flowsheet|Flowsheet Cell Labels|I&O|Output (ml)|Urine Output (mL)-Urethral Catheter	Urine			17	300017						
-3	intakeOutput			flowsheet|Flowsheet Cell Labels|I&O|Output (ml)|Output (mL)-Urethral Catheter Non-latex;Temperature probe 14 Fr.	Urine			17	300017						
-3	intakeOutput			flowsheet|Flowsheet Cell Labels|I&O|Output (ml)|Output (mL)-Urinary Catheter  Indwelling	Urine			17	300017						
-3	intakeOutput			flowsheet|Flowsheet Cell Labels|I&O|Output (ml)|Straight Catheter Output	Urine			17	300017						
-3	intakeOutput			flowsheet|Flowsheet Cell Labels|I&O|Output (ml)|Urinary Catheter Output: Nephrostomy R	Urine			17	300017						
-3	intakeOutput			flowsheet|Flowsheet Cell Labels|I&O|Output (ml)|Output (mL)-Urethral Catheter Temperature probe;Latex 16 Fr.	Urine			17	300017						
-3	intakeOutput			flowsheet|Flowsheet Cell Labels|I&O|Output (ml)|Urinary Catheter Output: Indwelling/Continuous Nep	Urine			17	300017						
-3	intakeOutput			flowsheet|Flowsheet Cell Labels|I&O|Output (ml)|Output (mL)-Urethral Catheter 18 Fr.	Urine			17	300017						
-3	intakeOutput			flowsheet|Flowsheet Cell Labels|I&O|Output (ml)|Output (mL)-Urethral Catheter K. Hardy RNFA Latex 16 Fr.	Urine			17	300017						
-3	intakeOutput			flowsheet|Flowsheet Cell Labels|I&O|Output (ml)|Output (mL)-Urethral Catheter Latex;Temperature probe 14 Fr.	Urine			17	300017						
-3	intakeOutput			flowsheet|Flowsheet Cell Labels|I&O|Output (ml)|Output (mL)-Urethral Catheter Latex;Straight-tip 16 Fr.	Urine			17	300017						
-3	intakeOutput			flowsheet|Flowsheet Cell Labels|I&O|Output (ml)|OR urine	Urine			17	300017						
-3	intakeOutput			flowsheet|Flowsheet Cell Labels|I&O|Output (ml)|straight cath	Urine			17	300017						
-3	intakeOutput			flowsheet|Flowsheet Cell Labels|I&O|Output (ml)|incontinent urine	Urine			17	300017						
-3	intakeOutput			flowsheet|Flowsheet Cell Labels|I&O|Output (ml)|Output (mL)-Urethral Catheter Teal Curry, RN  Straight-tip	Urine			17	300017						
-3	intakeOutput			flowsheet|Flowsheet Cell Labels|I&O|Output (ml)|Urine Incontinence	Urine			17	300017						
-3	intakeOutput			flowsheet|Flowsheet Cell Labels|I&O|Output (ml)|urine incontinence	Urine			17	300017						
-3	intakeOutput			flowsheet|Flowsheet Cell Labels|I&O|Output (ml)|Straight cath	Urine			17	300017						
-3	intakeOutput			flowsheet|Flowsheet Cell Labels|I&O|Intake (ml)|Generic Intake (ml)|Volume (ml) Vasopressin	Vasopressin			18	300018						
-3	intakeOutput			flowsheet|Flowsheet Cell Labels|I&O|Intake (ml)|Generic Intake (ml)|Volume (mL) Vasopressin	Vasopressin			18	300018						
-3	intakeOutput			flowsheet|Flowsheet Cell Labels|I&O|Intake (ml)|Crystalloids (ml)|vasopressin	Vasopressin			18	300018						
-3	intakeOutput			flowsheet|Flowsheet Cell Labels|I&O|Intake (ml)|Generic Intake (ml)|Vasopressin	Vasopressin			18	300018						
-3	intakeOutput			flowsheet|Flowsheet Cell Labels|I&O|Intake (ml)|Generic Intake (ml)|VASOPRESSIN	Vasopressin			18	300018						
-3	intakeOutput			flowsheet|Flowsheet Cell Labels|I&O|Intake (ml)|Crystalloids (ml)|Vasopressin (NS)-IN	Vasopressin			18	300018						
-3	intakeOutput			flowsheet|Flowsheet Cell Labels|I&O|Intake (ml)|Crystalloids (ml)|Vasopressin-IN	Vasopressin			18	300018						
-3	intakeOutput			flowsheet|Flowsheet Cell Labels|I&O|Intake (ml)|Generic Intake (ml)|vasopressin	Vasopressin			18	300018						
-3	intakeOutput			flowsheet|Flowsheet Cell Labels|I&O|Intake (ml)|Generic Intake (ml)|VASopressin (ml):	Vasopressin			18	300018						
-3	intakeOutput			flowsheet|Flowsheet Cell Labels|I&O|Intake (ml)|Crystalloids (ml)|Vasopressin	Vasopressin			18	300018						
-3	intakeOutput			flowsheet|Flowsheet Cell Labels|I&O|Weight|Bodyweight (kg)	Weight-Kg			19	300019						
-3	intakeOutput			flowsheet|Flowsheet Cell Labels|I&O|Weight|Bodyweight (lb)	Weight-Lb			20	300020						
+3	intakeOutput			bumetanide	bumetanide			5	300005		diuretic therapy: bumetanide				
+3	intakeOutput			bumetanideVolume	bumetanide			5	300005						
+3	intakeOutput			Bumetanide-IN	bumetanide			5	300005						
+3	intakeOutput			bumetanide(NS)-IN	bumetanide			5	300005						
+3	intakeOutput			CL Flush: Non-Tunneled dialysis, Pressure/power in	dialysis			6	300006		?				
+3	intakeOutput			dobutamine	dobutamine			7	300007		contractility: dobutamine				
+3	intakeOutput			Dobutamine	dobutamine			7	300007						
+3	intakeOutput			Volume (ml) Dobutamine	dobutamine			7	300007						
+3	intakeOutput			Volume (mL) Dobutamine	dobutamine			7	300007						
+3	intakeOutput			DOBUTamine	dobutamine			7	300007						
+3	intakeOutput			DOButamine (ml):	dobutamine			7	300007						
+3	intakeOutput			DOBUTAMINE	dobutamine			7	300007						
+3	intakeOutput			Volume (ml) Dopamine	dopamine			8	300008		contractility: dopamine				
+3	intakeOutput			Volume (mL) Dopamine	dopamine			8	300008						
+3	intakeOutput			DOPamine	dopamine			8	300008						
+3	intakeOutput			DOPamine (ml):	dopamine			8	300008						
+3	intakeOutput			DOPAMINE	dopamine			8	300008						
+3	intakeOutput			Dopamine	dopamine			8	300008						
+3	intakeOutput			dopamine	dopamine			8	300008						
+3	intakeOutput			epinephrine	epinephrine			9	300009		contractility: adrenaline/epinephrine				
+3	intakeOutput			Volume (ml) Epinephrine	epinephrine			9	300009						
+3	intakeOutput			EPINEPHrine	epinephrine			9	300009						
+3	intakeOutput			Volume (mL) Epinephrine	epinephrine			9	300009						
+3	intakeOutput			Epinephrine	epinephrine			9	300009						
+3	intakeOutput			EPInephrine (ml):	epinephrine			9	300009						
+3	intakeOutput			Epinephrine (NS)-IN	epinephrine			9	300009						
+3	intakeOutput			EPINEPHRINE	epinephrine			9	300009						
+3	intakeOutput			Esmolol-IN	esmolol			10	300010		anti-arrhythmic therapy				
+3	intakeOutput			Esmolol	esmolol			10	300010						
+3	intakeOutput			Volume (ml) Esmolol	esmolol			10	300010						
+3	intakeOutput			esmolol	esmolol			10	300010						
+3	intakeOutput			ESMOLOL	esmolol			10	300010						
+3	intakeOutput			Volume (mL) Esmolol	esmolol			10	300010						
+3	intakeOutput			furosemide	furosemide			11	300011		diuretic therapy: furosemide				
+3	intakeOutput			Volume (ml) Furosemide	furosemide			11	300011						
+3	intakeOutput			Volume (mL) Furosemide	furosemide			11	300011						
+3	intakeOutput			Volume (mL)-furosemide (LASIX) 160 mg in dextrose 5 % 50 mL IVPB	furosemide			11	300011						
+3	intakeOutput			Volume (mL)-furosemide (LASIX) 120 mg in dextrose 5 % 50 mL IVPB	furosemide			11	300011						
+3	intakeOutput			Volume (mL)-furosemide (LASIX) injection 40 mg	furosemide			11	300011						
+3	intakeOutput			Hemodialysis Intake (mL)	hemodialysisIntake			12	300012		renal replacement therapy				
+3	intakeOutput			HemodialysisOut	hemodialysisOutput			13	300013		renal replacement therapy				
+3	intakeOutput			Volume (ml) Lidocaine	lidocaine			14	300014		anti-arrhythmic therapy				
+3	intakeOutput			lidocaine	lidocaine			14	300014						
+3	intakeOutput			Volume (mL) Lidocaine	lidocaine			14	300014						
+3	intakeOutput			Volume (mL)-dextrose 5 % / sodium chloride 0.45% 1,000 mL with potassium chloride 40 mEq, magnesium sulfate 5 g infusion	magnesium			15	300015		anti-arrhythmic therapy				
+3	intakeOutput			Volume (ml) Magnesium Sulfate	magnesium			15	300015						
+3	intakeOutput			Volume (mL)-magnesium sulfate in 5 % dextrose IVPB 1 g	magnesium			15	300015						
+3	intakeOutput			Volume (mL)-magnesium sulfate in dextrose premix 2 g	magnesium			15	300015						
+3	intakeOutput			Volume (mL)-magnesium sulfate 1 g in dextrose 5% 100 mL IVPB premix	magnesium			15	300015						
+3	intakeOutput			Volume (mL)-magnesium sulfate IVPB 2 g 50 mL	magnesium			15	300015						
+3	intakeOutput			Volume (mL)-dextrose 5 % / sodium chloride 0.45% 1,000 mL with magnesium sulfate 5 g infusion	magnesium			15	300015						
+3	intakeOutput			Magnesium	magnesium			15	300015						
+3	intakeOutput			Volume (mL)-magnesium sulfate in sterile water 2 g IVPB premix	magnesium			15	300015						
+3	intakeOutput			Volume (mL)-magnesium sulfate 2 g in sodium chloride 0.9% IVPB	magnesium			15	300015						
+3	intakeOutput			magnesium	magnesium			15	300015						
+3	intakeOutput			MAGNESIUM	magnesium			15	300015						
+3	intakeOutput			Volume (mL)-magnesium sulfate IVPB 4 g 100 mL	magnesium			15	300015						
+3	intakeOutput			Volume (mL)-lactated ringers 1,000 mL with thiamine 100 mg, folic acid 1 mg, magnesium sulfate 2 g infusion	magnesium			15	300015						
+3	intakeOutput			MAGNESIUM SULFATE	magnesium			15	300015						
+3	intakeOutput			Volume (mL) Magnesium	magnesium			15	300015						
+3	intakeOutput			milrinone	milrinone			16	300016		contractility: milrinone				
+3	intakeOutput			Milrinone	milrinone			16	300016						
+3	intakeOutput			Milrinone-IN	milrinone			16	300016						
+3	intakeOutput			MILrinone (ml):	milrinone			16	300016						
+3	intakeOutput			Volume (mL) Milrinone	milrinone			16	300016						
+3	intakeOutput			Volume (ml) Milrinone	milrinone			16	300016						
+3	intakeOutput			Urine	urine			17	300017		output from: urine, urinary catheter, urethral catheter	>= 0.5 ml/kg/h		MEWS	
+3	intakeOutput			Urinary Catheter Output: Indwelling/Continuous Ure	urine			17	300017						
+3	intakeOutput			URINE CATHETER	urine			17	300017						
+3	intakeOutput			Urine Count	urine			17	300017						
+3	intakeOutput			Urine Occurrence	urine			17	300017						
+3	intakeOutput			Urine, void:	urine			17	300017						
+3	intakeOutput			Output (mL)-Urethral Catheter 16 Fr.	urine			17	300017						
+3	intakeOutput			Output (mL)-Urethral Catheter Non-latex 14 Fr.	urine			17	300017						
+3	intakeOutput			Urine Output (mL)-Urethral Catheter	urine			17	300017						
+3	intakeOutput			Output (mL)-Urethral Catheter Straight-tip 16 Fr.	urine			17	300017						
+3	intakeOutput			Output (mL)-Urethral Catheter	urine			17	300017						
+3	intakeOutput			Output (mL)-Urethral Catheter Temperature probe 16 Fr.	urine			17	300017						
+3	intakeOutput			Output (mL)-Urethral Catheter Non-latex 16 Fr.	urine			17	300017						
+3	intakeOutput			Urinary Catheter Output: Indwelling/Continuous Ext	urine			17	300017						
+3	intakeOutput			Output (mL)-Urethral Catheter Straight-tip 14 Fr.	urine			17	300017						
+3	intakeOutput			Output (mL)-Urethral Catheter Latex 16 Fr.	urine			17	300017						
+3	intakeOutput			Output (mL)-Urinary Catheter Indwelling	urine			17	300017						
+3	intakeOutput			Urinary Catheter Output: Indwelling/Continuous Sup	urine			17	300017						
+3	intakeOutput			Output (mL)-Urethral Catheter 14 Fr.	urine			17	300017						
+3	intakeOutput			Output (mL)-External Urinary Catheter	urine			17	300017						
+3	intakeOutput			SN Urine Output(ml)	urine			17	300017						
+3	intakeOutput			Output (mL)-Urethral Catheter Temperature probe	urine			17	300017						
+3	intakeOutput			Urinary Catheter Output: Straight/Intermittent Ure	urine			17	300017						
+3	intakeOutput			Urine Output (mL)-Urethral Catheter	urine			17	300017						
+3	intakeOutput			Output (mL)-Urethral Catheter Temperature probe 14 Fr.	urine			17	300017						
+3	intakeOutput			Output (mL)-Urethral Catheter Latex 14 Fr.	urine			17	300017						
+3	intakeOutput			Output (mL)-External Urethral Device Condom catheter	urine			17	300017						
+3	intakeOutput			Output (mL)-Urethral Catheter Double-lumen 16 Fr.	urine			17	300017						
+3	intakeOutput			Output (mL)-Urethral Catheter Non-latex	urine			17	300017						
+3	intakeOutput			Output (mL)-Urethral Catheter Double-lumen 14 Fr.	urine			17	300017						
+3	intakeOutput			Output (mL)-Urethral Catheter Straight-tip	urine			17	300017						
+3	intakeOutput			Urinary Catheter Output: Coude Urethral	urine			17	300017						
+3	intakeOutput			Urinary Catheter Output: Urethral	urine			17	300017						
+3	intakeOutput			Output Amt-Urinary Catheter	urine			17	300017						
+3	intakeOutput			Output Amt-Urinary Catheter	urine			17	300017						
+3	intakeOutput			Output (mL)-Urethral Catheter Natalie,RN Non-latex 14 Fr.	urine			17	300017						
+3	intakeOutput			Urinary Catheter Output: Coude Urethral 14 Fr.	urine			17	300017						
+3	intakeOutput			Output (mL)-Urethral Catheter Sarah Burnham, RN and Jordan Perkins, RN Temperature probe 16 Fr.	urine			17	300017						
+3	intakeOutput			Output (mL)-Urethral Catheter Temperature probe 18 Fr.	urine			17	300017						
+3	intakeOutput			Output (mL)-Urethral Catheter James RN Temperature probe	urine			17	300017						
+3	intakeOutput			urine count	urine			17	300017						
+3	intakeOutput			Output (mL)-Urethral Catheter Dr Wrenn	urine			17	300017						
+3	intakeOutput			Output (mL)-Urethral Catheter B Jacobelli, RN Latex;Straight-tip 14 Fr.	urine			17	300017						
+3	intakeOutput			Urinary Catheter Output: Coude Urethral 16 Fr.	urine			17	300017						
+3	intakeOutput			Output (mL)-Urethral Catheter Latex	urine			17	300017						
+3	intakeOutput			Mixed Urine/Stool Volume	urine			17	300017						
+3	intakeOutput			Output (mL)-Urethral Catheter Temperature probe;Non-latex	urine			17	300017						
+3	intakeOutput			Urinary Catheter Output: Coude Urethral 18 Fr.	urine			17	300017						
+3	intakeOutput			Output (mL)-Urethral Catheter dr macdermid Non-latex;Straight-tip 14 Fr.	urine			17	300017						
+3	intakeOutput			Output (mL)-Urethral Catheter Coude 18 Fr.	urine			17	300017						
+3	intakeOutput			Urinary Catheter Output: Condom External	urine			17	300017						
+3	intakeOutput			Output (mL)-Urethral Catheter Double-lumen	urine			17	300017						
+3	intakeOutput			Output (mL)-Urethral Catheter Latex 18 Fr.	urine			17	300017						
+3	intakeOutput			Output (mL)-Urethral Catheter Non-latex;Straight-tip 14 Fr.	urine			17	300017						
+3	intakeOutput			Urinary Catheter Output: Indwelling/Continuous Per	urine			17	300017						
+3	intakeOutput			Suprapubic Urine Output	urine			17	300017						
+3	intakeOutput			Output (mL)-Urethral Catheter Latex;Straight-tip 14 Fr.	urine			17	300017						
+3	intakeOutput			Urinary Catheter Output: Urethral 16 Fr.	urine			17	300017						
+3	intakeOutput			Output (mL)-Urethral Catheter LF, SN Temperature probe	urine			17	300017						
+3	intakeOutput			Urinary Catheter Output: Suprapubic	urine			17	300017						
+3	intakeOutput			Urinary Catheter Output: Nephrostomy L	urine			17	300017						
+3	intakeOutput			Output (mL)-Urethral Catheter Deanna Revis, RN and Rose Cullom, RN Non-latex 14 Fr.	urine			17	300017						
+3	intakeOutput			Urine Output (mL)-Urethral Catheter	urine			17	300017						
+3	intakeOutput			Output (mL)-Urethral Catheter Non-latex;Temperature probe 14 Fr.	urine			17	300017						
+3	intakeOutput			Output (mL)-Urinary Catheter  Indwelling	urine			17	300017						
+3	intakeOutput			Urinary Catheter Output: Nephrostomy R	urine			17	300017						
+3	intakeOutput			Output (mL)-Urethral Catheter Temperature probe;Latex 16 Fr.	urine			17	300017						
+3	intakeOutput			Urinary Catheter Output: Indwelling/Continuous Nep	urine			17	300017						
+3	intakeOutput			Output (mL)-Urethral Catheter 18 Fr.	urine			17	300017						
+3	intakeOutput			Output (mL)-Urethral Catheter K. Hardy RNFA Latex 16 Fr.	urine			17	300017						
+3	intakeOutput			Output (mL)-Urethral Catheter Latex;Temperature probe 14 Fr.	urine			17	300017						
+3	intakeOutput			Output (mL)-Urethral Catheter Latex;Straight-tip 16 Fr.	urine			17	300017						
+3	intakeOutput			OR urine	urine			17	300017						
+3	intakeOutput			incontinent urine	urine			17	300017						
+3	intakeOutput			Output (mL)-Urethral Catheter Teal Curry, RN  Straight-tip	urine			17	300017						
+3	intakeOutput			Urine Incontinence	urine			17	300017						
+3	intakeOutput			urine incontinence	urine			17	300017						
+3	intakeOutput			vasopressin	vasopressin			18	300018		afterload: vasopressin				
+3	intakeOutput			Vasopressin	vasopressin			18	300018						
+3	intakeOutput			Volume (ml) Vasopressin	vasopressin			18	300018						
+3	intakeOutput			Volume (mL) Vasopressin	vasopressin			18	300018						
+3	intakeOutput			VASOPRESSIN	vasopressin			18	300018						
+3	intakeOutput			Vasopressin (NS)-IN	vasopressin			18	300018						
+3	intakeOutput			Vasopressin-IN	vasopressin			18	300018						
+3	intakeOutput			VASopressin (ml):	vasopressin			18	300018						
 4	lab			Base Excess	baseexcess			1	400001		diuretic therapy				
 4	lab			calcium	ca			2	400002		electrolytes				
 4	lab			ionized calcium	caionized			3	400003		Is this the same as ca ? NEED TO CLARIFY				
@@ -429,10 +390,10 @@ TableID	TableSource	ParamCat	ParamLabel	ParamNameOrigin	ParamNameNew	ParameterNa
 6	nurseCharting	Vital Signs and Infusions	Bedside Glucose	Bedside Glucose	glc			5	600005		preload: param				
 6	nurseCharting	Vital Signs	Heart Rate	Heart Rate	hr			6	600006		heart rate				
 6	nurseCharting	Vital Signs	Invasive BP	Invasive BP Systolic	ibpd			7	600007						
-6	nurseCharting	Vital Signs	Invasive BP	Invasive BP Mean	ibpm			8	600008						In Concepts, map and ibpm are the same
+6	nurseCharting	Vital Signs	Invasive BP	Invasive BP Mean	ibpm			8	600008						
 6	nurseCharting	Vital Signs	Invasive BP	Invasive BP Diastolic	ibps			9	600009		invasive arterial bp				
-6	nurseCharting	Other Vital Signs and Infusions	Arterial Line MAP (mmHg)	Value	map			10	600010		afterload				In Concepts, map and ibpm are the same
-6	nurseCharting	Other Vital Signs and Infusions	MAP (mmHg)	Value	map			10	600010						In Concepts, map and ibpm are the same
+6	nurseCharting	Other Vital Signs and Infusions	Arterial Line MAP (mmHg)	Value	map			10	600010		afterload				
+6	nurseCharting	Other Vital Signs and Infusions	MAP (mmHg)	Value	map			10	600010						
 6	nurseCharting	Vital Signs	Non-Invasive BP	Non-Invasive BP Diastolic	nibpd			11	600011						
 6	nurseCharting	Vital Signs	Non-Invasive BP	Non-Invasive BP Mean	nibpm			12	600012						
 6	nurseCharting	Vital Signs	Non-Invasive BP	Non-Invasive BP Systolic	nibps			13	600013						
@@ -449,22 +410,19 @@ TableID	TableSource	ParamCat	ParamLabel	ParamNameOrigin	ParamNameNew	ParameterNa
 6	nurseCharting	Invasive	PVRI	PVRI	pvri			19	600019		afterload				
 6	nurseCharting	Vital Signs	PVRI	PVRI	pvri			19	600019						
 6	nurseCharting	Vital Signs	Respiratory Rate	Respiratory Rate	rr			20	600020		breathing rate				
-6	nurseCharting	Vital Signs	O2 L/%	O2 L/%	o2flow			21	600021						
-6	nurseCharting	Vital Signs	O2 Admin Device	O2 Admin Device	o2device			22	600022						
-6	nurseCharting	Other Vital Signs and Infusions	SpO2	Value	spo2			23	600023						
-6	nurseCharting	Vital Signs	O2 Saturation	O2 Saturation	spo2			23	600023						
-6	nurseCharting	Vital Signs	SV	SV	sv			24	600024		stroke volume?				
-6	nurseCharting	Invasive	SV	SV	sv			24	600024						
-6	nurseCharting	SVO2	SVO2	SVO2	svo2			25	600025						
-6	nurseCharting	Vital Signs	SVO2	SVO2	svo2			25	600025						
-6	nurseCharting	Invasive	SVO2	SVO2	svo2			25	600025						
-6	nurseCharting	Invasive	SVR	SVR	svr			26	600026		afterload				
-6	nurseCharting	Vital Signs	SVR	SVR	svr			26	600026						
-6	nurseCharting	Invasive	SVRI	SVRI	svri			27	600027		afterload				
-6	nurseCharting	Vital Signs	SVRI	SVRI	svri			27	600027						
-6	nurseCharting	Vital Signs	Temperature	Temperature (C)	tempc			28	600028		36,3-37,5				
-6	nurseCharting	Vital Signs	Temperature	Temperature (F)	tempf			29	600029						
-6	nurseCharting	Vital Signs	Temperature	Temperature Location	temploc			30	600030						
+6	nurseCharting	Other Vital Signs and Infusions	SpO2	Value	spo2			21	600021						
+6	nurseCharting	Vital Signs	O2 Saturation	O2 Saturation	spo2			21	600021						
+6	nurseCharting	Vital Signs	SV	SV	sv			22	600022		stroke volume?				
+6	nurseCharting	Invasive	SV	SV	sv			22	600022						
+6	nurseCharting	SVO2	SVO2	SVO2	svo2			23	600023						
+6	nurseCharting	Vital Signs	SVO2	SVO2	svo2			23	600023						
+6	nurseCharting	Invasive	SVO2	SVO2	svo2			23	600023						
+6	nurseCharting	Invasive	SVR	SVR	svr			24	600024		afterload				
+6	nurseCharting	Vital Signs	SVR	SVR	svr			24	600024						
+6	nurseCharting	Invasive	SVRI	SVRI	svri			25	600025		afterload				
+6	nurseCharting	Vital Signs	SVRI	SVRI	svri			25	600025						
+6	nurseCharting	Vital Signs	Temperature	Temperature (C)	tempc			26	600026		36,3-37,5				
+6	nurseCharting	Vital Signs	Temperature	Temperature (F)	tempf			27	600027						
 7	diagnosis		pulmonary|respiratory failure|acute respiratory failure|due to increased CO2 production	518.81, J96.00				1	700001						
 7	diagnosis		cardiovascular|ventricular disorders|hypertension	401.9, I10				2	700002						
 7	diagnosis		renal|disorder of kidney|acute renal failure	584.9, N17.9				3	700003						

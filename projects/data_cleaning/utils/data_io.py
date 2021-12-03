@@ -83,14 +83,18 @@ def valid_data_length(data: list):
 def convert_lab_data_to_num(d: str):
     if d == '':
         return None
-    elif '<' in d:
-        return float(d.replace('<', ''))
-    elif '>' in d:
-        return float(d.replace('>', ''))
-    elif '%' in d:
-        return float(d.replace('%', ''))
+    elif d == ' .':
+        return None
     else:
-        return float(d)
+        return float(d.replace('<', '').replace('>', '').replace('%', ''))
+    # elif '<' in d:
+    #     return float(d.replace('<', ''))
+    # elif '>' in d:
+    #     return float(d.replace('>', ''))
+    # elif '%' in d:
+    #     return float(d.replace('%', ''))
+    # else:
+    #     return float(d)
 
 
 # Check if a measurement/signal exist in patient data during the time window

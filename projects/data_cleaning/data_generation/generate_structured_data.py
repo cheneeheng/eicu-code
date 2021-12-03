@@ -385,7 +385,7 @@ def save_infusion_drug_info(data, data_mapping, table_id, table_dict, output):
             # unify drugrate unit to: mg/min, units/min, ml/min
             entry_value, entry_unit = unify_drugrate_unit(
                 drugname=entry_name_eicu,
-                drugrate=float(entry_value),
+                drugrate=-1.0 if entry_value == 'OFF' else float(entry_value),
                 patientweight=entry_weight
             )
 
@@ -466,17 +466,18 @@ def save_diagnosis_info(data, data_mapping, table_id, table_dict, output):
     entry_values = data[table_source]['diagnosispriority']
 
     _output = create_data_table()
-    for entry_offset, entry_name, entry_value in zip(
+    for entry_offset, entry_name_eicu, entry_value in zip(
             entry_offsets, entry_names, entry_values):
-        if entry_name == '':
+        if entry_name_eicu == '':
             continue
-        entry_uid = uid_dict[entry_name]
-        entry_value = DIAGNOSIS_PRIORITY_DICT[entry_value]
-        append_to_data_table(_output,
-                             offset=entry_offset,
-                             uid=entry_uid,
-                             value=entry_value,
-                             unit=None)
+        if entry_name_eicu in uid_dict:
+            entry_uid = uid_dict[entry_name_eicu]
+            entry_value = DIAGNOSIS_PRIORITY_DICT[entry_value]
+            append_to_data_table(_output,
+                                offset=entry_offset,
+                                uid=entry_uid,
+                                value=entry_value,
+                                unit=None)
 
     remove_null_value_in_data_table(_output)
     remove_duplicates_in_data_table(_output)
@@ -485,7 +486,8 @@ def save_diagnosis_info(data, data_mapping, table_id, table_dict, output):
     return _output
 
 
-def generate_structured_output(table_dict, data_mapping, paid_list, pid=0):
+def generate_structured_output(output_folder, table_dict, data_mapping,
+                               paid_list, pid=0):
 
     pbar = tqdm(paid_list, position=pid+1)
     for paid in pbar:
@@ -542,13 +544,13 @@ def generate_structured_output(table_dict, data_mapping, paid_list, pid=0):
         df_info = pd.DataFrame(patient_info)
         df_data = pd.DataFrame(data_table)
 
-        save_dir_info = os.path.join(DATA_CLEANING_OUTPUT_FOLDER, 'info_')
-        save_dir_data = os.path.join(DATA_CLEANING_OUTPUT_FOLDER, 'data_')
-        save_dsv(save_dir_info+str(paid)+'.dsv', df_info)
-        save_dsv(save_dir_data+str(paid)+'.dsv', df_data)
+        save_dir_info = os.path.join(output_folder, 'info_')+str(paid)+'.dsv'
+        save_dir_data = os.path.join(output_folder, 'data_')+str(paid)+'.dsv'
+        save_dsv(save_dir_info, df_info)
+        save_dsv(save_dir_data, df_data)
 
 
-def parallel_processing(func, table_dict, data_mapping, paid_list=[]):
+def parallel_processing(func, output_folder, table_dict, data_mapping, paid_list=[]):
 
     def npi(x):
         return math.ceil(len(x) / NUM_PROCESSES)
@@ -556,7 +558,8 @@ def parallel_processing(func, table_dict, data_mapping, paid_list=[]):
     num_id_per_process = npi(paid_list)
 
     argument_list = [
-        (table_dict,
+        (output_folder,
+         table_dict,
          data_mapping,
          paid_list[pid*num_id_per_process:
                    (pid+1)*num_id_per_process],
@@ -592,5 +595,21 @@ if __name__ == "__main__":
 
     # 3. Save patient data in .CSV file
     # generate_structured_output(paid_list, table_dict, data_mapping)
-    parallel_processing(generate_structured_output,
-                        table_dict, data_mapping, paid_list)
+    def npi(x):
+        return math.ceil(len(x) / CHUNKS)
+
+    interval = 1
+
+    for i in range(START, CHUNKS, interval):
+
+        x = npi(paid_list) * i
+        y = npi(paid_list) * (i + interval)
+        list_i = paid_list[x:y]
+
+        output_folder = os.path.join(DATA_CLEANING_OUTPUT_FOLDER, f'{i}')
+        os.makedirs(output_folder, exist_ok=True)
+
+        parallel_processing(generate_structured_output, output_folder,
+                            table_dict, data_mapping, list_i)
+
+        print("Finished chunk {}/{}".format(i+1, CHUNKS))

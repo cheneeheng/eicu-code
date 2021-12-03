@@ -177,7 +177,11 @@ def get_multiple_data_and_save(output_folder,
                 label_i: df_i[label_i].tolist() for label_i in label
             }
 
-    for patientunitstayid in patientunitstayid_list:
+    pbar = tqdm(patientunitstayid_list, position=pid+1)
+    for patientunitstayid in pbar:
+        time.sleep(1)
+        pbar.set_description(f"Saving {patientunitstayid}")
+
         json_path = f"{output_folder}/{patientunitstayid}.json"
         with open(json_path, 'w') as json_file:
             json.dump(json_dict[patientunitstayid], json_file)

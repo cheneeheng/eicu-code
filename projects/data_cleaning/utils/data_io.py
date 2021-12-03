@@ -82,7 +82,7 @@ def valid_data_length(data: list):
 
 def convert_lab_data_to_num(d: str):
     if d == '':
-        return np.nan
+        return None
     elif '<' in d:
         return float(d.replace('<', ''))
     elif '>' in d:

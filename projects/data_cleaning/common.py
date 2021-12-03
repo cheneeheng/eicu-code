@@ -40,7 +40,7 @@ CSV_FILE_LIST = [
 
 
 """ Exporter """
-CHUNKS = 1
+CHUNKS = 100
 START = 0
 EXPORTER_FOLDER = '/data/raw_json_data_v1'
 # EXPORTER_SUBSET_FOLDER = '/data/json_data/patientsubset_tablesubset'

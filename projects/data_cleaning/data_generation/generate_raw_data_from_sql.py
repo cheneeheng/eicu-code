@@ -11,6 +11,7 @@ import time
 
 from configobj import ConfigObj
 from multiprocessing import Pool, RLock
+from projects.data_cleaning.common import CHUNKS
 from tqdm import tqdm
 
 from projects.data_cleaning import *
@@ -107,6 +108,46 @@ def get_patient_list():
     return patientunitstayid_list
 
 
+# def get_multiple_data_and_save(output_folder,
+#                                patientunitstayid_list=[],
+#                                pid=0):
+#     """
+#     Iterates over `patientunitstayid` and saves entries from all tables
+#     with the similar id into json.
+#     """
+
+#     query_schema, conn = connect_to_database()
+
+#     pbar = tqdm(patientunitstayid_list, position=pid+1)
+#     for patientunitstayid in pbar:
+
+#         time.sleep(1)
+#         pbar.set_description(f"Processing {patientunitstayid}")
+
+#         json_dict = {}
+
+#         for table_name in TABLE_LIST:
+
+#             query = query_schema + """
+#             select *
+#             from {}
+#             where patientunitstayid = {}
+#             """.format(table_name, patientunitstayid)
+#             df = pd.read_sql_query(query, conn)
+
+#             label = df.columns.to_list()
+
+#             json_dict[table_name] = {}
+#             for label_i in label:
+#                 json_dict[table_name][label_i] = df[label_i].tolist()
+
+#         json_path = f"{output_folder}/{patientunitstayid}.json"
+#         with open(json_path, 'w') as json_file:
+#             json.dump(json_dict, json_file)
+
+#     conn.close()
+
+
 def get_multiple_data_and_save(output_folder,
                                patientunitstayid_list=[],
                                pid=0):
@@ -117,32 +158,29 @@ def get_multiple_data_and_save(output_folder,
 
     query_schema, conn = connect_to_database()
 
-    pbar = tqdm(patientunitstayid_list, position=pid+1)
-    for patientunitstayid in pbar:
+    json_dict = {i:{} for i in patientunitstayid_list}
 
-        time.sleep(1)
-        pbar.set_description(f"Processing {patientunitstayid}")
+    for table_name in TABLE_LIST:
 
-        json_dict = {}
+        query = query_schema + """
+        select *
+        from {}
+        where patientunitstayid in {}
+        """.format(table_name, tuple(patientunitstayid_list))
+        df = pd.read_sql_query(query, conn)
 
-        for table_name in TABLE_LIST:
+        label = df.columns.to_list()
+        
+        for patientunitstayid in patientunitstayid_list:
+            df_i = df[df['patientunitstayid'] == patientunitstayid]
+            json_dict[patientunitstayid][table_name] = {
+                label_i: df_i[label_i].tolist() for label_i in label
+            }
 
-            query = query_schema + """
-            select *
-            from {}
-            where patientunitstayid = {}
-            """.format(table_name, patientunitstayid)
-            df = pd.read_sql_query(query, conn)
-
-            label = df.columns.to_list()
-
-            json_dict[table_name] = {}
-            for label_i in label:
-                json_dict[table_name][label_i] = df[label_i].tolist()
-
+    for patientunitstayid in patientunitstayid_list:
         json_path = f"{output_folder}/{patientunitstayid}.json"
         with open(json_path, 'w') as json_file:
-            json.dump(json_dict, json_file)
+            json.dump(json_dict[patientunitstayid], json_file)
 
     conn.close()
 
@@ -194,3 +232,4 @@ if __name__ == "__main__":
         output_folder = os.path.join(EXPORTER_FOLDER, f'{i}')
         os.makedirs(output_folder, exist_ok=True)
         parallel_processing(get_multiple_data_and_save, output_folder, list_i)
+        print("Finished chunk {}/{}".format(i+1, CHUNKS))

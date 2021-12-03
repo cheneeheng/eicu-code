@@ -107,7 +107,7 @@ def sort_patient_table(x: dict):
 
 def unify_drugrate_unit(drugrate: float, drugname: str, patientweight: float):
     convert_coeff = 1
-    unit = np.nan
+    unit = None
     for k in UNIT_CONVERSION_DICT:
         if k in drugname:
             unit = k
@@ -249,8 +249,8 @@ def save_periodic_aperiodic_vitals(data, data_mapping, table_id, table_dict,
         append_to_data_table(_output,
                              offset=entry_offset,
                              uid=[entry_uid] * len(entry_offset),
-                             value=[str(i) for i in entry_vals],
-                             unit=['nan'] * len(entry_offset))
+                             value=entry_vals,
+                             unit=[None] * len(entry_offset))
 
     remove_null_value_in_data_table(_output)
     remove_duplicates_in_data_table(_output)
@@ -277,8 +277,8 @@ def save_intake_output(data, data_mapping, table_id, table_dict, output):
         append_to_data_table(_output1,
                              offset=entry_offset,
                              uid=[entry_uid] * len(entry_offset),
-                             value=[str(i) for i in entry_vals],
-                             unit=['nan'] * len(entry_offset))
+                             value=entry_vals,
+                             unit=[None] * len(entry_offset))
 
     remove_null_value_in_data_table(_output1)
     remove_duplicates_in_data_table(_output1)
@@ -303,8 +303,8 @@ def save_intake_output(data, data_mapping, table_id, table_dict, output):
             append_to_data_table(_output2,
                                  offset=entry_offset,
                                  uid=entry_uid,
-                                 value=str(entry_value),
-                                 unit=np.nan)
+                                 value=entry_value,
+                                 unit=None)
 
     remove_null_value_in_data_table(_output2)
     remove_duplicates_in_data_table(_output2)
@@ -332,8 +332,8 @@ def save_lab_results(data, data_mapping, table_id, table_dict, output):
             append_to_data_table(_output,
                                  offset=entry_offset,
                                  uid=entry_uid,
-                                 value=str(entry_value),
-                                 unit='nan')
+                                 value=entry_value,
+                                 unit=None)
 
     remove_null_value_in_data_table(_output)
     remove_duplicates_in_data_table(_output)
@@ -392,7 +392,7 @@ def save_infusion_drug_info(data, data_mapping, table_id, table_dict, output):
             append_to_data_table(_output,
                                  offset=entry_offset,
                                  uid=entry_uid,
-                                 value=str(entry_value),
+                                 value=entry_value,
                                  unit=entry_unit)
 
     remove_null_value_in_data_table(_output)
@@ -437,13 +437,13 @@ def save_nurse_charting(data, data_mapping, table_id, table_dict, output):
 
         if entry_name_eicu == 'Temperature (F)':
             entry_uid -= 1
-            entry_value = [(float(e)-32)/1.8 for e in entry_values]
+            entry_values = [(float(e)-32)/1.8 for e in entry_values]
 
         append_to_data_table(_output,
                              offset=[int(e) for e in entry_offsets],
                              uid=[entry_uid] * len(entry_offsets),
-                             value=[str(e) for e in entry_values],
-                             unit=['nan'] * len(entry_offsets))
+                             value=entry_values,
+                             unit=[None] * len(entry_offsets))
 
     remove_null_value_in_data_table(_output)
     remove_duplicates_in_data_table(_output)
@@ -475,8 +475,8 @@ def save_diagnosis_info(data, data_mapping, table_id, table_dict, output):
         append_to_data_table(_output,
                              offset=entry_offset,
                              uid=entry_uid,
-                             value=str(entry_value),
-                             unit='nan')
+                             value=entry_value,
+                             unit=None)
 
     remove_null_value_in_data_table(_output)
     remove_duplicates_in_data_table(_output)
@@ -494,8 +494,8 @@ def generate_structured_output(table_dict, data_mapping, paid_list, pid=0):
 
         data = load_patient_data_by_id(DATA_CLEANING_INPUT_FOLDER, paid)
 
-        data_table = create_data_table(dtype='<U32')
-        patient_info = create_patient_info(dtype='<U32')
+        data_table = create_data_table(dtype=int)
+        patient_info = create_patient_info(dtype=int)
 
         # 5. Loop through each data table.
         for table_id in table_dict.keys():

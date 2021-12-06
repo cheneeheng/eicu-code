@@ -236,4 +236,4 @@ if __name__ == "__main__":
         output_folder = os.path.join(EXPORTER_FOLDER, f'{i}')
         os.makedirs(output_folder, exist_ok=True)
         parallel_processing(get_multiple_data_and_save, output_folder, list_i)
-        print("Finished chunk {}/{}".format(i+1, CHUNKS))
+        print("Finished chunk {}/{}\n\n".format(i+1, CHUNKS))

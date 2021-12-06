@@ -383,9 +383,21 @@ def save_infusion_drug_info(data, data_mapping, table_id, table_dict, output):
             if entry_weight < 0.0:
                 continue
             # unify drugrate unit to: mg/min, units/min, ml/min
+            entry_value = entry_value.replace('\\.br\\', '')
+            entry_value = entry_value.replace('mcg/min', '')
+            if entry_value == 'OFF':
+                dr = -1.0
+            elif entry_value == 'UD':
+                dr = -2.0
+            elif entry_value == 'Date\\Time Correction':
+                dr = -3.0
+            elif entry_value == 'Documentation undone':
+                dr = -4.0
+            else:
+                dr = float(entry_value)
             entry_value, entry_unit = unify_drugrate_unit(
                 drugname=entry_name_eicu,
-                drugrate=-1.0 if entry_value == 'OFF' else float(entry_value),
+                drugrate=dr,
                 patientweight=entry_weight
             )
 
@@ -584,8 +596,8 @@ if __name__ == "__main__":
 
     # 1. Load data.
     data_mapping = pd.read_csv(DATA_MAPPING_TSV_FILE, sep='\t', header=0)
-    paid_list = [int(i.split('.')[0])
-                 for i in os.listdir(DATA_CLEANING_INPUT_FOLDER)]
+    paid_list = sorted([int(i.split('.')[0])
+                        for i in os.listdir(DATA_CLEANING_INPUT_FOLDER)])
 
     # 2. UID for data table.
     table_dict = data_mapping[['TableID', 'TableSource']]
@@ -608,8 +620,7 @@ if __name__ == "__main__":
 
         output_folder = os.path.join(DATA_CLEANING_OUTPUT_FOLDER, f'{i}')
         os.makedirs(output_folder, exist_ok=True)
-
+        
         parallel_processing(generate_structured_output, output_folder,
                             table_dict, data_mapping, list_i)
-
-        print("Finished chunk {}/{}".format(i+1, CHUNKS))
+        print("Finished chunk {}/{}\n\n".format(i+1, CHUNKS))
